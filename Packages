@@ -6,7 +6,7 @@ Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-1+debug
+Version: 1.0.0
 Installed-Size: 204
 Filename: debs/com.catchmind.afreecatv++_1.0.0-1+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatv++.html
