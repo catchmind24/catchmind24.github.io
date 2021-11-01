@@ -106,6 +106,24 @@ SHA1: 0c9d429bf0794e3ed74d88ecbff44345580765f8
 SHA256: a4efe964a629299db7f537bb249fd9013c003dd55cd5359486ccf517a8b991e2
 SHA521: 86fe89ccb8403cf0f852bbfaf3818f60aa32048c0d508665ac7172e9c8fbe5a543c8a63ca29f14400914f7914449953983e80428d5c96f1a2155d7220a14825d
 
+Package: com.catchmind.everysing++
+Name: everysing++
+Author: Catchmind
+Description: All songs are free
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.everysing++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.everysing++.html
+Size: 4448
+MD5sum: bb0a17fc8e40714ae45f98f8ac69ecc2
+SHA1: b72075f4df752a9ed19719a9c88809500ea7a3a5
+SHA256: defbddfb4c295ba0b94796d3507361da96003bee7641504c95a70c7616a4efcb
+SHA521: 85662165bc1babfb9b2a848437594ee6b370957be1d07392b94cfac4d58955d14bfc594c7a49feff76a4bd5f32e4ab80eb5a1aff6e282511c60fd380432ed14d
+
 Package: com.catchmind.findship++
 Name: FindShip++
 Author: Catchmind
