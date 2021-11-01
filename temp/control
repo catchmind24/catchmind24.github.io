@@ -1,0 +1,10 @@
+Package: com.catchmind.afreecatv++
+Name: AfreecaTV++
+Author: Catchmind
+Description: No video ads on AfreecaTV
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 204
