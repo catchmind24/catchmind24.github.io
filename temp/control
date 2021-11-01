@@ -1,10 +1,10 @@
-Package: com.catchmind.afreecatvadult
-Name: AfreecaTV Bypass Adult Certification
+Package: com.catchmind.clarity++
+Name: Clarity++
 Author: Catchmind
-Description: Bypass Adult Certification
+Description: Pro subscription
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-2+debug
+Version: 1.0.0-1+debug
 Installed-Size: 200

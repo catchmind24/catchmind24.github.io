@@ -6,7 +6,7 @@ Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0
+Version: 1.0.0-1+debug
 Installed-Size: 204
 Filename: debs/com.catchmind.afreecatv++_1.0.0-1+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatv++.html
@@ -24,7 +24,7 @@ Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0
+Version: 1.0.0-2+debug
 Installed-Size: 200
 Filename: debs/com.catchmind.afreecatvadult_1.0.0-2+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatvadult.html
@@ -33,4 +33,22 @@ MD5sum: e6dff926c1cfc68313498c51f59eb5e8
 SHA1: 25a3526edacf2dd5dfb47f0b983b5c773a9aa3c0
 SHA256: 35474597f8210a215cda96eb02c373879efa2d3c3928412b70e85e6b4e06b2ef
 SHA521: 056879f0caeba8d2d49fdb88e96818a7c5d3e1d49826b04c98a3fa9fc35ba50eac686651d2b8ce32fd2aba0af0a6ddc36efd613669ed91cca99718f64a34aeb0
+
+Package: com.catchmind.clarity++
+Name: Clarity++
+Author: Catchmind
+Description: Pro subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.clarity++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.clarity++.html
+Size: 4628
+MD5sum: 65c550a1f4031b68e6845c598407cdcb
+SHA1: e08b709e1443f93ed6730299635c6487ae65a4f4
+SHA256: 26542f2386309fb1c14f9e82d939959135e830fd615256645a1506fd71717fba
+SHA521: faedf85df8210f80da0a2144ddd9a870c872b479b5ae87bf70c82f31337752ff06e4a797762031a3281b6a9a85a3c873e89be741ce18280602c860a8c04f3811
 
