@@ -16,3 +16,21 @@ SHA1: 0047be6f169740f4e56d90aaf9ae203903c23428
 SHA256: 49b3a8542eb46f06cc912082326411df5dc47e2a57a278b22761bd4ac0ee5e40
 SHA521: 95f7066e426e43b1fbc5d33518b4aba99c761bc6da2680b30b21221ad8820bb495dab5b3cee6cbdc679035e547cdfd17b09ce7d330f22c874e661ead982a1a79
 
+Package: com.catchmind.afreecatvadult
+Name: AfreecaTV Bypass Adult Certification
+Author: poke931103
+Description: Bypass Adult Certification
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 200
+Filename: debs/com.catchmind.afreecatvadult_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatvadult.html
+Size: 5072
+MD5sum: c8c592aecfe106f94dbaef759d3fb693
+SHA1: 09e95ee5f11367bba41f0765f61815eda59c8b46
+SHA256: 0c12796221b1e4ef8ecedcd16b906704842b1fb8137085e966104394ed761946
+SHA521: 577053d823115c2c7a3565f9c5a818e9f14373157aec134fd6dabc43c8abc2014e259f51450d3cd91cc4e2edc752a0f07cadace34683e753fe9617baafcf9cc8
+

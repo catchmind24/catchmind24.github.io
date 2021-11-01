@@ -1,10 +1,10 @@
-Package: com.catchmind.afreecatv++
-Name: AfreecaTV++
-Author: Catchmind
-Description: No video ads on AfreecaTV
+Package: com.catchmind.afreecatvadult
+Name: AfreecaTV Bypass Adult Certification
+Author: poke931103
+Description: Bypass Adult Certification
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
 Version: 1.0.0-1+debug
-Installed-Size: 204
+Installed-Size: 200
