@@ -1,7 +1,7 @@
-Package: com.catchmind.clarity++
-Name: Clarity++
+Package: com.catchmind.spotvnow++
+Name: SPOTV NOW++
 Author: Catchmind
-Description: Pro subscription
+Description: Remove preroll video ads
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm

@@ -1,3 +1,21 @@
+Package: com.catchmind.adguard++
+Name: AdGuard++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.adguard++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.adguard++.html
+Size: 4480
+MD5sum: ef4aa7fcbfa180c18b305292d00c9f20
+SHA1: 9e688ec7908d5fe608613b498cdeabf40c399a9a
+SHA256: 7d7cdc751e7cdad38de093343e886f53f3e99a0ac83ca90507aaeed293da37d3
+SHA521: dcdb7ef94c410710c0a33a7932d809fc0714778eb5f2628a83e2bed931fc4a2a00b1748a74703782e037a444762bf6b8bde424c8a9849986241ab4c6416c1300
+
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: Catchmind
@@ -9,7 +27,7 @@ Section: Tweaks
 Version: 1.0.0-1+debug
 Installed-Size: 204
 Filename: debs/com.catchmind.afreecatv++_1.0.0-1+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatv++.html
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
 Size: 5200
 MD5sum: 8ddfa93679e424ad6e16ba5c5f95e3ef
 SHA1: 0047be6f169740f4e56d90aaf9ae203903c23428
@@ -27,7 +45,7 @@ Section: Tweaks
 Version: 1.0.0-2+debug
 Installed-Size: 200
 Filename: debs/com.catchmind.afreecatvadult_1.0.0-2+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.afreecatvadult.html
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvadult.html
 Size: 5062
 MD5sum: e6dff926c1cfc68313498c51f59eb5e8
 SHA1: 25a3526edacf2dd5dfb47f0b983b5c773a9aa3c0
@@ -45,10 +63,100 @@ Section: Tweaks
 Version: 1.0.0-1+debug
 Installed-Size: 200
 Filename: debs/com.catchmind.clarity++_1.0.0-1+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/repo/depictions/com.catchmind.clarity++.html
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.clarity++.html
 Size: 4628
 MD5sum: 65c550a1f4031b68e6845c598407cdcb
 SHA1: e08b709e1443f93ed6730299635c6487ae65a4f4
 SHA256: 26542f2386309fb1c14f9e82d939959135e830fd615256645a1506fd71717fba
 SHA521: faedf85df8210f80da0a2144ddd9a870c872b479b5ae87bf70c82f31337752ff06e4a797762031a3281b6a9a85a3c873e89be741ce18280602c860a8c04f3811
+
+Package: com.catchmind.decibelx++
+Name: Decibel X++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.decibelx++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.decibelx++.html
+Size: 4486
+MD5sum: 5fdcac2d100296015b7c35a95c2efb38
+SHA1: 5bf3bc7804d0cc158b3dbe65053126081ca4e970
+SHA256: e9a4fa0afe9743e253b914eed4c172cf447e86d67e94c383f0cfac0756be45e5
+SHA521: 9fb162d20face56450b3da0642082655d736b2cec0ce9d87384f49577b49e85f5c45e86efa1a5ab20f1d081ff8bf2883ca98d3d3952f7ab411f363a37e1497f3
+
+Package: com.catchmind.easyvoca++
+Name: 이지보카++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.easyvoca++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.easyvoca++.html
+Size: 4500
+MD5sum: d2af239e8290948038ac271d4efa1f7d
+SHA1: 0c9d429bf0794e3ed74d88ecbff44345580765f8
+SHA256: a4efe964a629299db7f537bb249fd9013c003dd55cd5359486ccf517a8b991e2
+SHA521: 86fe89ccb8403cf0f852bbfaf3818f60aa32048c0d508665ac7172e9c8fbe5a543c8a63ca29f14400914f7914449953983e80428d5c96f1a2155d7220a14825d
+
+Package: com.catchmind.findship++
+Name: FindShip++
+Author: Catchmind
+Description: All items purchased
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-2+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.findship++_1.0.0-2+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.findship++.html
+Size: 4760
+MD5sum: 06d786352056c35616497f7f7da04eb5
+SHA1: 191e8e493b62dfe9d983107f9fb16edaac6da63b
+SHA256: 7abbfbeb619d24655a04be904f6b9e8c878b710c9bb99ea3d6f77d4175033b87
+SHA521: 024a4b424755aa37227925fc53708450c557fa41542355365affc247e817c8017a0e9c846b8265435d63bb704473b911bc1ead2500bffe92c5d6d7c8a9378d17
+
+Package: com.catchmind.logoshop++
+Name: Logo Shop++
+Author: Catchmind
+Description: Pro subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.logoshop++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.logoshop++.html
+Size: 4810
+MD5sum: 7a779ea021ced8524577e38c79f380ce
+SHA1: 52b4909439751226311956b7895812ab967f015b
+SHA256: a39659c7630c25e4e92ece56cebc43a4330fdefc4beb3a912d1e7a8089b304bb
+SHA521: 8d4f27586116327fe2d1d26a8ccf4cc0373280b67260b04c4aad0b38a6eb2a6c8c8f5fb3d4a024d8f7ccb7ee0f2672f62986f15b060e5a4f5787c5f418db7c8e
+
+Package: com.catchmind.spotvnow++
+Name: SPOTV NOW++
+Author: Catchmind
+Description: Remove preroll video ads
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.spotvnow++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.spotvnow++.html
+Size: 4512
+MD5sum: 466f8b5bd50011a5ad09db63e148b4b2
+SHA1: 996532e98458630572a4ed5c2d9ac624cd16366d
+SHA256: e8bfd2ef0635f7a1a4ea7cfb56096abadacdabdfa1b7214df48787c0830c1d7b
+SHA521: c84ae59c258cd8790a1f2855ffea9ef771ab6e881c656e0e751d1d764df7ee878f6b8f11699dfcdeaa9375d5552b3dccd516a03f834865c306dc12a1356d7d85
 
