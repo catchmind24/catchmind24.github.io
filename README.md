@@ -1,1 +1,1 @@
-https://catchmind24.github.io/repo/
+https://catchmind24.github.io/
