@@ -160,6 +160,24 @@ SHA1: 52b4909439751226311956b7895812ab967f015b
 SHA256: a39659c7630c25e4e92ece56cebc43a4330fdefc4beb3a912d1e7a8089b304bb
 SHA521: 8d4f27586116327fe2d1d26a8ccf4cc0373280b67260b04c4aad0b38a6eb2a6c8c8f5fb3d4a024d8f7ccb7ee0f2672f62986f15b060e5a4f5787c5f418db7c8e
 
+Package: com.catchmind.picsart++
+Name: PicsArt++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.picsart++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
+Size: 4448
+MD5sum: a2927153695d5420a9ae3f4d91b7e7c6
+SHA1: e25d686ab62d8ac023446ac244d0d9b2508d3eeb
+SHA256: 49d92c0036188395ff47bf1972e5b83d17a33c075ec32dc6ced28ed980666c1d
+SHA521: 207cfc31587931ca9c4b41126c54e71bf8c123eaf4f3c38a944544a7af4ca4c0ec70ff176ff98dac0d2b8d1b6e67a32b318a8fe337a982d659ca67520ad18266
+
 Package: com.catchmind.spotvnow++
 Name: SPOTV NOW++
 Author: Catchmind
