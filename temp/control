@@ -1,10 +1,10 @@
 Package: com.catchmind.stepsapp++
 Name: StepsApp++
 Author: Catchmind
-Description: 
+Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-1+debug
+Version: 1.0.0-2+debug
 Installed-Size: 200

@@ -163,20 +163,20 @@ SHA521: 8d4f27586116327fe2d1d26a8ccf4cc0373280b67260b04c4aad0b38a6eb2a6c8c8f5fb3
 Package: com.catchmind.motivation++
 Name: Motivation++
 Author: Catchmind
-Description: 
+Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-1+debug
+Version: 1.0.0-2+debug
 Installed-Size: 200
-Filename: debs/com.catchmind.motivation++_1.0.0-1+debug_iphoneos-arm.deb
+Filename: debs/com.catchmind.motivation++_1.0.0-2+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.motivation++.html
-Size: 4436
-MD5sum: 527e588f9e2ef1ede51b2f0758c8e001
-SHA1: 4482b1cf05837fe39f99c8e8481770c1d1abad39
-SHA256: 1d43aa6b2d4946fc53a0114cac1e4a6371fda29662f1b25ddcb5eaff25f5e06d
-SHA521: 063d0831db45c7457466b3a1c93b1e01c0b34bb12a8cb7e35e6f2a3cb649723b6879a9410b43f8c2211539bbd9e5a37a0e4473a93e857ae8dfdefe3ddd439dd6
+Size: 4446
+MD5sum: ff875961a05b70497048e633184e159c
+SHA1: 93065ceb6b65c3e1f0096a43b9546281160406de
+SHA256: 578497ddfd2126eda1d076edf86edc8359a317432faadaaf3c255fb536a20897
+SHA521: 4f1dfcbceb8f076684db960ac5518f8c782cb65c5a460aeea909b68767583c2301b278a2739ca222951c523ae796764b7285c1bf6dc518f5dc0f6780ba2b3ca9
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -217,18 +217,18 @@ SHA521: c84ae59c258cd8790a1f2855ffea9ef771ab6e881c656e0e751d1d764df7ee878f6b8f11
 Package: com.catchmind.stepsapp++
 Name: StepsApp++
 Author: Catchmind
-Description: 
+Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-1+debug
+Version: 1.0.0-2+debug
 Installed-Size: 200
-Filename: debs/com.catchmind.stepsapp++_1.0.0-1+debug_iphoneos-arm.deb
+Filename: debs/com.catchmind.stepsapp++_1.0.0-2+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.stepsapp++.html
-Size: 4450
-MD5sum: 89b6ce64693d35a09575b0715f026f33
-SHA1: 9253b3102763ee9e3ad74a0f145e8d733f85eda1
-SHA256: 7fb1fa8e62e90e2ac5e2c6ba58cf50fadcd1dbcdb9bce22ba7835844530fb845
-SHA521: 6c0d59c0e567eccac3e0bcc283ff37c0058b6fa433f397a1b48b78db7ccf0f8681b46c9541eeb4b18560df0df986441f0c9cf1d598d5137cef4dd114b067f835
+Size: 4460
+MD5sum: 03a3256d90d75226cab7ed6bd4830547
+SHA1: d13ca8d0f63085012cd475ca4e52bb6bd4f2b25e
+SHA256: 725ee1716b14b66e6ca853e9955313739dbffec8af6f76fdd5e2e354f23d13d9
+SHA521: 0d0fb4b760c255c2c6dadc8e3120517a06bb94ac4d6446ee154fc4f01445226dcd4acd9fdcf976a3afde9dc918c18a9571a63908df9960fea6ed782d8c44e5ea
 
