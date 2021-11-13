@@ -214,6 +214,24 @@ SHA1: e25d686ab62d8ac023446ac244d0d9b2508d3eeb
 SHA256: 49d92c0036188395ff47bf1972e5b83d17a33c075ec32dc6ced28ed980666c1d
 SHA521: 207cfc31587931ca9c4b41126c54e71bf8c123eaf4f3c38a944544a7af4ca4c0ec70ff176ff98dac0d2b8d1b6e67a32b318a8fe337a982d659ca67520ad18266
 
+Package: com.catchmind.psexpress++
+Name: PS Express++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.psexpress++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.psexpress++.html
+Size: 4478
+MD5sum: f15c7d07b25b15451100ff3b1c56e6e2
+SHA1: 3fe77ee38b24770a25980f71a6e1991907df7d76
+SHA256: cae87491b55006d0e806719f825d07e7d732ffb50e8e4c6dbcf8ef4a27ae2cd2
+SHA521: ca8ffed106f7effb66adf58019271e0f26de199539079420aab69d9dcb17167928485546c7e9757820d1d7dc7bfd93d74d7cc6525ecae49757faebd4a10d6394
+
 Package: com.catchmind.spotvnow++
 Name: SPOTV NOW++
 Author: Catchmind
