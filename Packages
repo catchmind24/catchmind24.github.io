@@ -52,6 +52,24 @@ SHA1: 540b2934ed187deef28bc5b50c21054e842347d7
 SHA256: ba24e48abdf4675d566711d84ef3f6cff90eb5d8d646fd3dda7641a651f5ae3c
 SHA521: 536d4973456eb085b487bdfc16ec1d4f282d0ad470814988f29e047d94339ee0a2c92025afb06c1652b604cb4cd5a82977f265da44a6a0293aa9b091c9db21c1
 
+Package: com.catchmind.calm++
+Name: Calm++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 204
+Filename: debs/com.catchmind.calm++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.calm++.html
+Size: 5384
+MD5sum: 5470c07d314ab302cf64ad3f1dc22fd6
+SHA1: dae664593ab71e44ae445101efd116d034c4945a
+SHA256: 81aac76ec4a1f4521246bdef847af5fc44f036e698dc29d55e9e83aad0d33aac
+SHA521: 51ec284430e1463a27bc02dfa49a4527a188c0e4e6d9ff35e2494e21b6f5ea302e829c475efe503b013945993f301dc52669da1c328d38c7e32bf73e658d3034
+
 Package: com.catchmind.clarity++
 Name: Clarity++
 Author: Catchmind
