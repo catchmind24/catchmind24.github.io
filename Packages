@@ -160,6 +160,24 @@ SHA1: 52b4909439751226311956b7895812ab967f015b
 SHA256: a39659c7630c25e4e92ece56cebc43a4330fdefc4beb3a912d1e7a8089b304bb
 SHA521: 8d4f27586116327fe2d1d26a8ccf4cc0373280b67260b04c4aad0b38a6eb2a6c8c8f5fb3d4a024d8f7ccb7ee0f2672f62986f15b060e5a4f5787c5f418db7c8e
 
+Package: com.catchmind.motivation++
+Name: Motivation++
+Author: Catchmind
+Description: 
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.motivation++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.motivation++.html
+Size: 4436
+MD5sum: 527e588f9e2ef1ede51b2f0758c8e001
+SHA1: 4482b1cf05837fe39f99c8e8481770c1d1abad39
+SHA256: 1d43aa6b2d4946fc53a0114cac1e4a6371fda29662f1b25ddcb5eaff25f5e06d
+SHA521: 063d0831db45c7457466b3a1c93b1e01c0b34bb12a8cb7e35e6f2a3cb649723b6879a9410b43f8c2211539bbd9e5a37a0e4473a93e857ae8dfdefe3ddd439dd6
+
 Package: com.catchmind.picsart++
 Name: PicsArt++
 Author: Catchmind
@@ -195,4 +213,22 @@ MD5sum: 466f8b5bd50011a5ad09db63e148b4b2
 SHA1: 996532e98458630572a4ed5c2d9ac624cd16366d
 SHA256: e8bfd2ef0635f7a1a4ea7cfb56096abadacdabdfa1b7214df48787c0830c1d7b
 SHA521: c84ae59c258cd8790a1f2855ffea9ef771ab6e881c656e0e751d1d764df7ee878f6b8f11699dfcdeaa9375d5552b3dccd516a03f834865c306dc12a1356d7d85
+
+Package: com.catchmind.stepsapp++
+Name: StepsApp++
+Author: Catchmind
+Description: 
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0-1+debug
+Installed-Size: 200
+Filename: debs/com.catchmind.stepsapp++_1.0.0-1+debug_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.stepsapp++.html
+Size: 4450
+MD5sum: 89b6ce64693d35a09575b0715f026f33
+SHA1: 9253b3102763ee9e3ad74a0f145e8d733f85eda1
+SHA256: 7fb1fa8e62e90e2ac5e2c6ba58cf50fadcd1dbcdb9bce22ba7835844530fb845
+SHA521: 6c0d59c0e567eccac3e0bcc283ff37c0058b6fa433f397a1b48b78db7ccf0f8681b46c9541eeb4b18560df0df986441f0c9cf1d598d5137cef4dd114b067f835
 

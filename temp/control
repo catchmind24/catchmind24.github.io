@@ -1,7 +1,7 @@
-Package: com.catchmind.spotvnow++
-Name: SPOTV NOW++
+Package: com.catchmind.stepsapp++
+Name: StepsApp++
 Author: Catchmind
-Description: Remove preroll video ads
+Description: 
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
