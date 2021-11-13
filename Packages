@@ -127,20 +127,20 @@ SHA521: 85662165bc1babfb9b2a848437594ee6b370957be1d07392b94cfac4d58955d14bfc594c
 Package: com.catchmind.findship++
 Name: FindShip++
 Author: Catchmind
-Description: All items purchased
+Description: All items are purchased
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0-2+debug
+Version: 1.0.0-3+debug
 Installed-Size: 200
-Filename: debs/com.catchmind.findship++_1.0.0-2+debug_iphoneos-arm.deb
+Filename: debs/com.catchmind.findship++_1.0.0-3+debug_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.findship++.html
-Size: 4760
-MD5sum: 06d786352056c35616497f7f7da04eb5
-SHA1: 191e8e493b62dfe9d983107f9fb16edaac6da63b
-SHA256: 7abbfbeb619d24655a04be904f6b9e8c878b710c9bb99ea3d6f77d4175033b87
-SHA521: 024a4b424755aa37227925fc53708450c557fa41542355365affc247e817c8017a0e9c846b8265435d63bb704473b911bc1ead2500bffe92c5d6d7c8a9378d17
+Size: 4758
+MD5sum: 2402a7cb7e33d44a568738ae0273c572
+SHA1: af6e8040c760c12e799712c58d29137b964a5ff2
+SHA256: d4bc64937f02d59c5fc0dcb0f876b08a52801f4c1c7b42570a30445c8525c1ac
+SHA521: 9a7f92b1cd8c685975df99d902ae0e3609fca920fad3d96b26b76d13d21b92da4b844869af35d82d56528a19aef48c04027789aaf1888a8462201c5f5c2e53c1
 
 Package: com.catchmind.logoshop++
 Name: Logo Shop++
