@@ -178,6 +178,24 @@ SHA1: 52b4909439751226311956b7895812ab967f015b
 SHA256: a39659c7630c25e4e92ece56cebc43a4330fdefc4beb3a912d1e7a8089b304bb
 SHA521: 8d4f27586116327fe2d1d26a8ccf4cc0373280b67260b04c4aad0b38a6eb2a6c8c8f5fb3d4a024d8f7ccb7ee0f2672f62986f15b060e5a4f5787c5f418db7c8e
 
+Package: com.catchmind.mixgram
+Name: Mixgram++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.mixgram_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.mixgram.html
+Size: 3592
+MD5sum: 4319ad8e7e235a99d0c3efe3ad403ee2
+SHA1: 492afcadb28de4be064bc6c4904dea42327859d9
+SHA256: 941bd1d0f9c32f0f81b368904d187a20b43755fd4f1c0fff6e48c7cead197816
+SHA521: ad02645de9510500a2da1c2f2b92d6232134022e068b835de9bbcbc4919be5acb25b2dd725ac075e9dd97ff24d4acaa73ad7e1a2bfbf1b808e92ffbf0adcd9d9
+
 Package: com.catchmind.motivation++
 Name: Motivation++
 Author: Catchmind
@@ -213,6 +231,24 @@ MD5sum: a2927153695d5420a9ae3f4d91b7e7c6
 SHA1: e25d686ab62d8ac023446ac244d0d9b2508d3eeb
 SHA256: 49d92c0036188395ff47bf1972e5b83d17a33c075ec32dc6ced28ed980666c1d
 SHA521: 207cfc31587931ca9c4b41126c54e71bf8c123eaf4f3c38a944544a7af4ca4c0ec70ff176ff98dac0d2b8d1b6e67a32b318a8fe337a982d659ca67520ad18266
+
+Package: com.catchmind.premiererush
+Name: Premiere Rush++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.premiererush_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.premiererush.html
+Size: 3724
+MD5sum: 295423d334d8222a890dde5f765845bc
+SHA1: 5a6e8946fa365b7be7c63642177c1fcc387c764a
+SHA256: bf39aacf174658a117f6d7f765df9a48a8c939c4fc9da47163a3ae0dc55ff284
+SHA521: 46561bad6a7080c7296906868df4c00a7163f666cdcefa582e5be7d7230354e60ad4c8a49db9d34a9deedfcc3d913f817a2d5533bab29cb1bf7071bf8766b76a
 
 Package: com.catchmind.psexpress++
 Name: PS Express++
