@@ -52,6 +52,24 @@ SHA1: 540b2934ed187deef28bc5b50c21054e842347d7
 SHA256: ba24e48abdf4675d566711d84ef3f6cff90eb5d8d646fd3dda7641a651f5ae3c
 SHA521: 536d4973456eb085b487bdfc16ec1d4f282d0ad470814988f29e047d94339ee0a2c92025afb06c1652b604cb4cd5a82977f265da44a6a0293aa9b091c9db21c1
 
+Package: com.catchmind.bear
+Name: Bear++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.bear_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.bear.html
+Size: 3334
+MD5sum: 1bd229bdaa32e54a628e6f173d296a41
+SHA1: d5331686f68f18cc075510380430f2641badce8d
+SHA256: b4c7f4fa8843d804ceefdc7106c35ee202056acc63b1f12afa71610863cf1d91
+SHA521: 7a33c96bb467498e879ccfec2615fdb612e2e4f71e914f82e1035e92d8ccb59c06b27b86834e56cc31d27247c0293f9f483d2cc5b4da191919036033a46587f0
+
 Package: com.catchmind.calm++
 Name: Calm++
 Author: Catchmind
