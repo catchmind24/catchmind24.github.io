@@ -52,6 +52,24 @@ SHA1: 540b2934ed187deef28bc5b50c21054e842347d7
 SHA256: ba24e48abdf4675d566711d84ef3f6cff90eb5d8d646fd3dda7641a651f5ae3c
 SHA521: 536d4973456eb085b487bdfc16ec1d4f282d0ad470814988f29e047d94339ee0a2c92025afb06c1652b604cb4cd5a82977f265da44a6a0293aa9b091c9db21c1
 
+Package: com.catchmind.artleap
+Name: Artleap++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.artleap_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.artleap.html
+Size: 4108
+MD5sum: 8af1a495cecbf99647a4e8be752e6a30
+SHA1: b700fb870d4a83bbb3fd6df6b6a775e808a81094
+SHA256: 8f8847e8382c970d67e09348fecad7647a8435678dce6c96f3fde76115f6ffb7
+SHA521: fbe48da7bf74514febcac8eeba8b6a6b9652d509b8a6eb4b2d594006e57f3a9c0232cdf9a37af3bfe76ac7e95c487e44f0e81b3946ab88dd1ed6b6a1d6b6e7a0
+
 Package: com.catchmind.bear
 Name: Bear++
 Author: Catchmind
@@ -178,6 +196,24 @@ SHA1: af6e8040c760c12e799712c58d29137b964a5ff2
 SHA256: d4bc64937f02d59c5fc0dcb0f876b08a52801f4c1c7b42570a30445c8525c1ac
 SHA521: 9a7f92b1cd8c685975df99d902ae0e3609fca920fad3d96b26b76d13d21b92da4b844869af35d82d56528a19aef48c04027789aaf1888a8462201c5f5c2e53c1
 
+Package: com.catchmind.lightleap
+Name: Lightleap++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.lightleap_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.lightleap.html
+Size: 4308
+MD5sum: 72a1e128e2cf6548fce17ca4a68f1bed
+SHA1: e1741ca1626479aaba21e2b19d510b7337780957
+SHA256: 731219f3bdacac28a0f679e2f819a451fe6c1fc59ab97e4295d56653e82e55b3
+SHA521: 29464e5577dd97558a267df4ef1b2d08b62c3d163b633148c77b87722e0a06d62d9a609d7787fb55aec4116c038f40de95d56716e443b1f2c5b3267a0ca58c7e
+
 Package: com.catchmind.logoshop++
 Name: Logo Shop++
 Author: Catchmind
@@ -231,6 +267,24 @@ MD5sum: ff875961a05b70497048e633184e159c
 SHA1: 93065ceb6b65c3e1f0096a43b9546281160406de
 SHA256: 578497ddfd2126eda1d076edf86edc8359a317432faadaaf3c255fb536a20897
 SHA521: 4f1dfcbceb8f076684db960ac5518f8c782cb65c5a460aeea909b68767583c2301b278a2739ca222951c523ae796764b7285c1bf6dc518f5dc0f6780ba2b3ca9
+
+Package: com.catchmind.photoleap
+Name: Photoleap++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.photoleap_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.photoleap.html
+Size: 4548
+MD5sum: b86aaa175c3de5288c75cebb614fa444
+SHA1: 9475ca0ba9778510a481f759d356ad1b3a28c912
+SHA256: 9d40a66688c51285cbf169fc9d293eabdd1c52b2a84236506b4d101020489bd1
+SHA521: 921d3e1e63744bed56583acbbcd7174aa3a0ba417479b30638372dfdc7d77f67242ca3767f6b1f3923a522a433269ded3268f5d83ea2afefa29af45ab1425cc0
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -321,4 +375,22 @@ MD5sum: 03a3256d90d75226cab7ed6bd4830547
 SHA1: d13ca8d0f63085012cd475ca4e52bb6bd4f2b25e
 SHA256: 725ee1716b14b66e6ca853e9955313739dbffec8af6f76fdd5e2e354f23d13d9
 SHA521: 0d0fb4b760c255c2c6dadc8e3120517a06bb94ac4d6446ee154fc4f01445226dcd4acd9fdcf976a3afde9dc918c18a9571a63908df9960fea6ed782d8c44e5ea
+
+Package: com.catchmind.videoleap
+Name: Videoleap++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
+Filename: debs/com.catchmind.videoleap_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.videoleap.html
+Size: 4442
+MD5sum: ab4c259f20bf119a47b2930f8d105f8d
+SHA1: 99f30921e302d490b8c710ee28af2cf9e32ac37f
+SHA256: f703723dd9554dfae93ec8645b3368f7948ccac127aa9285e77121f1c246d8fc
+SHA521: e5df59b90fc6a94cbcfc789f0107885205c7a43ffdfadced9525de2f8074a26f99164030ab999e3029a7811ee5c868883e2316c7ab10bdbf2c9cb6cebeb38ea3
 

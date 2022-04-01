@@ -1,5 +1,5 @@
-Package: com.catchmind.artleap
-Name: Artleap++
+Package: com.catchmind.videoleap
+Name: Videoleap++
 Author: Catchmind
 Description: Premium subscription
 Depends: mobilesubstrate
