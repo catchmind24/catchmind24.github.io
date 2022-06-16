@@ -253,21 +253,20 @@ SHA521: ad02645de9510500a2da1c2f2b92d6232134022e068b835de9bbcbc4919be5acb25b2dd7
 Package: com.catchmind.motivation
 Name: Motivation++
 Author: Catchmind <musicinfacebook@gmail.com>
-Description: Unlock premium contents
-Tested in 4.2.2
+Description: Unlock premium contents (Tested in 4.2.2)
 Depends: mobilesubstrate
 Maintainer: Catchmind <musicinfacebook@gmail.com>
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 2.0.0
+Version: 1.0.1
 Installed-Size: 264
-Filename: debs/com.catchmind.motivation_2.0.0_iphoneos-arm.deb
+Filename: debs/com.catchmind.motivation_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.motivation.html
 Size: 4202
-MD5sum: 779fcef21a29e3a32067afa80584f090
-SHA1: 5c39ec5f403cacee91aac84c437a22cdde70ae72
-SHA256: 5ee67f013f91158d391cd6c6c609ea806ef3feb93ae5519af54ecfba9afd818f
-SHA521: 361fa47cf828789e42e5941e73d8d08da23e6108a4355d96e898ddb3eb23210dbf2742c2eb878c58896733618b5e57c90c74e86859150d656d7cde37e550facf
+MD5sum: f1605e7f1f0335fe254635534b9be532
+SHA1: 4b810a12b2138a0b026f3b8ebd9171aaf5bcdec2
+SHA256: 06648d3d4dfb32ddc2d7e20613b5a215600ec5052cab9eb873c6b19f295c7b2d
+SHA521: a4a56b346062ca498eacee9e45d49f9d13deb17733f28ce31141c240ee15e191a9da248399d110e7163c9d86c4acbf97c183e61157ba43552e0e505d0f4d04ac
 
 Package: com.catchmind.photoleap
 Name: Photoleap++
