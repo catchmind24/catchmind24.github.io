@@ -1,8 +1,8 @@
-Origin: Catchmind Repo
-Label: Catchmind Repo
+Origin: catchmind Repo
+Label: catchmind Repo
 Suite: stable
 Version: 1.0
-Codename: Catchmind
+Codename: catchmind
 Architectures: iphoneos-arm
 Components: main
 Description: 
