@@ -1,0 +1,10 @@
+Package: com.catchmind.videoleap
+Name: Videoleap++
+Author: Catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: Catchmind
+Architecture: iphoneos-arm
+Section: Tweaks
+Version: 1.0.0
+Installed-Size: 264
