@@ -34,24 +34,6 @@ SHA1: 7ce2742a9393abd68d35a2265549383e6450899e
 SHA256: acb4854b2d8282c35be969da23ecddb8361e6156bcf683ebd28df0edf8caa1b1
 SHA521: bc3621cc162b51d68d272d7350e6e2f46a94103af5ea561fd4b420e5fa4977d6320308743fae34112e7ccb2d358ac7bcabd9cb8721769a8265c3e8eb6077ef7b
 
-Package: com.catchmind.afreecatvadult
-Name: AfreecaTV Bypass Adult Certification
-Author: Catchmind
-Description: Bypass adult certification
-Depends: mobilesubstrate
-Maintainer: Catchmind
-Architecture: iphoneos-arm
-Section: Tweaks
-Version: 1.0.0-3+debug
-Installed-Size: 200
-Filename: debs/com.catchmind.afreecatvadult_1.0.0-3+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvadult.html
-Size: 5068
-MD5sum: e0bbce98a240c851852f2430cb00cb7e
-SHA1: 540b2934ed187deef28bc5b50c21054e842347d7
-SHA256: ba24e48abdf4675d566711d84ef3f6cff90eb5d8d646fd3dda7641a651f5ae3c
-SHA521: 536d4973456eb085b487bdfc16ec1d4f282d0ad470814988f29e047d94339ee0a2c92025afb06c1652b604cb4cd5a82977f265da44a6a0293aa9b091c9db21c1
-
 Package: com.catchmind.spotvnow++
 Name: SPOTV NOW++
 Author: Catchmind
