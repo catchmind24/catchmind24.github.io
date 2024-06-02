@@ -1,10 +1,10 @@
-Package: com.catchmind.videoleap
-Name: Videoleap++
+Package: com.catchmind.spotvnow++
+Name: SPOTV NOW++
 Author: Catchmind
-Description: Premium subscription
+Description: Remove preroll video ads
 Depends: mobilesubstrate
 Maintainer: Catchmind
 Architecture: iphoneos-arm
 Section: Tweaks
-Version: 1.0.0
-Installed-Size: 264
+Version: 1.0.0-1+debug
+Installed-Size: 200
