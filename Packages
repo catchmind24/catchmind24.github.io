@@ -1,21 +1,3 @@
-Package: com.catchmind.adguard++
-Name: AdGuard++
-Author: Catchmind
-Description: Premium subscription
-Depends: mobilesubstrate
-Maintainer: Catchmind
-Architecture: iphoneos-arm
-Section: Tweaks
-Version: 1.0.0-1+debug
-Installed-Size: 200
-Filename: debs/com.catchmind.adguard++_1.0.0-1+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/depictions/com.catchmind.adguard++.html
-Size: 4480
-MD5sum: ef4aa7fcbfa180c18b305292d00c9f20
-SHA1: 9e688ec7908d5fe608613b498cdeabf40c399a9a
-SHA256: 7d7cdc751e7cdad38de093343e886f53f3e99a0ac83ca90507aaeed293da37d3
-SHA521: dcdb7ef94c410710c0a33a7932d809fc0714778eb5f2628a83e2bed931fc4a2a00b1748a74703782e037a444762bf6b8bde424c8a9849986241ab4c6416c1300
-
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: catchmind
