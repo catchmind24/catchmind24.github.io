@@ -19,7 +19,7 @@ SHA521: dcdb7ef94c410710c0a33a7932d809fc0714778eb5f2628a83e2bed931fc4a2a00b1748a
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: catchmind
-Description: No video ads on AfreecaTV
+Description: No video ads on AfreecaTV, Multiview enabled
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -28,16 +28,16 @@ Version: 1.1.0
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatv++_1.1.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 5834
-MD5sum: 759193c08f6556a092ea2c3b24c3364f
-SHA1: 09455d2beee6043aeb274352e0433518e8498f60
-SHA256: eb43428e23e6c1d09c3be1a8b6d1ae4e825bee1169321cf78a833837d0a6aa79
-SHA521: 4919a0021e52c44bb34abe9cd65b8ac7a2c41718194836bcbb7009cea7b800f81c4776bfb059134f87a154e127df8a2235ad712c91d66091d3846db9ca1a79ac
+Size: 5846
+MD5sum: a790d2040058f96b451e9a0866e45385
+SHA1: 406812eaea7bcf4e35db326fbd401d716668219b
+SHA256: ff24533674a9ceb42b09d37106d67ee22d83e3eac5a5b171a07cb56813b2ff23
+SHA521: f52b1513a8427b7dc38f1e49009aa06989f01790305ea005d4e1bf604529a4dc83127ca5b1f00531b1fca4c4d026eefbe571d26f83e74b76b53958d669265518
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: No video ads on AfreecaTV
+Description: No video ads on AfreecaTV, Multiview enabled
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -46,11 +46,11 @@ Version: 1.1.0
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatv++_1.1.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 5920
-MD5sum: 4e179709680c3f99d9d486c1b5c0b266
-SHA1: c8fc40cf6d82526735f024af6f1099216578c39d
-SHA256: ff55a06f15da85c36692cf59a3ac9eb2352d1a0e56bff68d208b9963ec915232
-SHA521: 1c2a8eb167bd99c070b0ce55a96d693f0dae102231e785758134da607cf933f12ddbf12b1590ae9fc9c2419932ff7d99f6d56a112dc9ba6b07a2ef627a8249ad
+Size: 5940
+MD5sum: 8f2f6ef2e9bd9426e361e69168337964
+SHA1: 7ce2742a9393abd68d35a2265549383e6450899e
+SHA256: acb4854b2d8282c35be969da23ecddb8361e6156bcf683ebd28df0edf8caa1b1
+SHA521: bc3621cc162b51d68d272d7350e6e2f46a94103af5ea561fd4b420e5fa4977d6320308743fae34112e7ccb2d358ac7bcabd9cb8721769a8265c3e8eb6077ef7b
 
 Package: com.catchmind.afreecatvadult
 Name: AfreecaTV Bypass Adult Certification
