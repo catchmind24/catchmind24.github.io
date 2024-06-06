@@ -1,8 +1,8 @@
-Origin: catchmind repo
-Label: catchmind repo
+Origin: catchmind24 repo
+Label: catchmind24 repo
 Suite: stable
 Version: 1.0
-Codename: catchmind
+Codename: catchmind24
 Architectures: iphoneos-arm iphoneos-arm64
 Components: main
 Description: 
