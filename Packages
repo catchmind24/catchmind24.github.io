@@ -34,3 +34,39 @@ SHA1: 7ce2742a9393abd68d35a2265549383e6450899e
 SHA256: acb4854b2d8282c35be969da23ecddb8361e6156bcf683ebd28df0edf8caa1b1
 SHA521: bc3621cc162b51d68d272d7350e6e2f46a94103af5ea561fd4b420e5fa4977d6320308743fae34112e7ccb2d358ac7bcabd9cb8721769a8265c3e8eb6077ef7b
 
+Package: com.catchmind.aftvvodaoq
+Name: AfreecaTV VOD Original Quality
+Author: catchmind
+Description: Always play VODs in original quality on AfreecaTV
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.aftvvodaoq_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.aftvvodaoq.html
+Size: 3850
+MD5sum: f7bfae0d9816c89fc646c722c5c88de2
+SHA1: 3ae349b0cb615fff2e5bf05fade58c7be572229b
+SHA256: 62f03873f8c18d70fa1cc4a43bb74ed9fc73fcda720b9fa5f2387978857bf966
+SHA521: adf65854186768741fd7d0c60cc93bb2ea49cc7214cbdcee1ff31a47ce525bc996fc6ab0cd9107901d2af5ae20b50f90a67c7442c6fd6f79a62a7b27cbd3b486
+
+Package: com.catchmind.aftvvodaoq
+Name: AfreecaTV VOD Original Quality(rootless)
+Author: catchmind
+Description: Always play VODs in original quality on AfreecaTV
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.aftvvodaoq_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.aftvvodaoq.html
+Size: 5556
+MD5sum: e48238363b05177582a2354a9af81e29
+SHA1: c9ca83494e1935a971dd7bbd9cdb517173efb71a
+SHA256: 2ad317b053890424543e4eccb39ad0a357d11bbb3925e5acd748ab4491ae18c7
+SHA521: 5a6c377a6798d9c331fa02f187ed443612342b7c095e4584bcad8f1523d9fe309df89a307ea33ae3716db37ea051c954cd4c292725636718f925ba84fc07c68a
+
