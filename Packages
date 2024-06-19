@@ -34,24 +34,6 @@ SHA1: 7ce2742a9393abd68d35a2265549383e6450899e
 SHA256: acb4854b2d8282c35be969da23ecddb8361e6156bcf683ebd28df0edf8caa1b1
 SHA521: bc3621cc162b51d68d272d7350e6e2f46a94103af5ea561fd4b420e5fa4977d6320308743fae34112e7ccb2d358ac7bcabd9cb8721769a8265c3e8eb6077ef7b
 
-Package: com.catchmind.spotvnow++
-Name: SPOTV NOW++
-Author: Catchmind
-Description: Remove preroll video ads
-Depends: mobilesubstrate
-Maintainer: Catchmind
-Architecture: iphoneos-arm
-Section: Tweaks
-Version: 1.0.0-1+debug
-Installed-Size: 200
-Filename: debs/com.catchmind.spotvnow++_1.0.0-1+debug_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/depictions/com.catchmind.spotvnow++.html
-Size: 4512
-MD5sum: 466f8b5bd50011a5ad09db63e148b4b2
-SHA1: 996532e98458630572a4ed5c2d9ac624cd16366d
-SHA256: e8bfd2ef0635f7a1a4ea7cfb56096abadacdabdfa1b7214df48787c0830c1d7b
-SHA521: c84ae59c258cd8790a1f2855ffea9ef771ab6e881c656e0e751d1d764df7ee878f6b8f11699dfcdeaa9375d5552b3dccd516a03f834865c306dc12a1356d7d85
-
 Package: com.catchmind24.aftvvodaoq
 Name: AfreecaTV VOD Original Quality
 Author: catchmind24
