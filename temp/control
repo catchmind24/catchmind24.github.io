@@ -1,10 +1,10 @@
-Package: com.catchmind.aftvvodaoq
-Name: AfreecaTV VOD Original Quality(rootless)
+Package: com.catchmind.afreecatv++
+Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: Always play VODs in original quality on AfreecaTV
+Description: No video ads on AfreecaTV, Multiview enabled
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.1.0
 Installed-Size: 152
