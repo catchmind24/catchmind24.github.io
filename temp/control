@@ -1,10 +1,10 @@
 Package: com.catchmind.afreecatv++
-Name: AfreecaTV++
+Name: AfreecaTV++(rootless)
 Author: catchmind
 Description: No video ads on AfreecaTV, Multiview enabled
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm64
 Version: 1.1.0
 Installed-Size: 152
