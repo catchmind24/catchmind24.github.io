@@ -1,36 +1,36 @@
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: catchmind
-Description: No video ads on AfreecaTV, Multiview enabled
+Description: Remove banner, video ads on AfreecaTV. Multiview enabled.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.1.0
-Installed-Size: 152
-Filename: debs/com.catchmind.afreecatv++_1.1.0_iphoneos-arm.deb
+Version: 1.2.0
+Installed-Size: 280
+Filename: debs/com.catchmind.afreecatv++_1.2.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 5846
-MD5sum: a790d2040058f96b451e9a0866e45385
-SHA1: 406812eaea7bcf4e35db326fbd401d716668219b
-SHA256: ff24533674a9ceb42b09d37106d67ee22d83e3eac5a5b171a07cb56813b2ff23
-SHA521: f52b1513a8427b7dc38f1e49009aa06989f01790305ea005d4e1bf604529a4dc83127ca5b1f00531b1fca4c4d026eefbe571d26f83e74b76b53958d669265518
+Size: 6958
+MD5sum: 98146b8211e17370c4e006d59851fbad
+SHA1: a9653cdcd69cdd56ac2626ee19f85f8f0f7878a1
+SHA256: dfb58d5e553720196366b5e790d0989dd7134a1f657fa82945f81d01d02a6baa
+SHA521: cb62bc5d736270d2edbbc003e0b69689e2acf3aecdbc856628bb8dd7fde683cdbf17571eb8c29faba49444483f50ccf27aa4d0bc76178d07fbf1bacfdc5dd230
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: No video ads on AfreecaTV, Multiview enabled
+Description: Remove banner, video ads on AfreecaTV. Multiview enabled.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.1.0
+Version: 1.2.0
 Installed-Size: 152
-Filename: debs/com.catchmind.afreecatv++_1.1.0_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.2.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 5940
-MD5sum: 8f2f6ef2e9bd9426e361e69168337964
-SHA1: 7ce2742a9393abd68d35a2265549383e6450899e
-SHA256: acb4854b2d8282c35be969da23ecddb8361e6156bcf683ebd28df0edf8caa1b1
-SHA521: bc3621cc162b51d68d272d7350e6e2f46a94103af5ea561fd4b420e5fa4977d6320308743fae34112e7ccb2d358ac7bcabd9cb8721769a8265c3e8eb6077ef7b
+Size: 4882
+MD5sum: d591ccfea51c7d673607dcefadaa9b3a
+SHA1: b4dacde58ecff18dfd2cf776542f31b2df0c0156
+SHA256: 84a7a95ec1ab0f2c505508c5588eea8a4224ca16f3dfca480a37665deac9edbc
+SHA521: 2abe3b291c6ad49f0bc5eb4e404d5e42e3cd267261d7c97e9c9004af05bb64318c49859e5543a5139ca52ef1caed2a22855816f800a854b22e7da873cf0577f2
 
