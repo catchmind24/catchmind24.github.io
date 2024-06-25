@@ -1,36 +1,36 @@
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: catchmind
-Description: Remove banner, video ads on AfreecaTV. Multiview enabled.
+Description: Remove ads on AfreecaTV. Multiview enabled.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.2.0
-Installed-Size: 280
-Filename: debs/com.catchmind.afreecatv++_1.2.0_iphoneos-arm.deb
+Version: 1.3.0
+Installed-Size: 152
+Filename: debs/com.catchmind.afreecatv++_1.3.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 6958
-MD5sum: 98146b8211e17370c4e006d59851fbad
-SHA1: a9653cdcd69cdd56ac2626ee19f85f8f0f7878a1
-SHA256: dfb58d5e553720196366b5e790d0989dd7134a1f657fa82945f81d01d02a6baa
-SHA521: cb62bc5d736270d2edbbc003e0b69689e2acf3aecdbc856628bb8dd7fde683cdbf17571eb8c29faba49444483f50ccf27aa4d0bc76178d07fbf1bacfdc5dd230
+Size: 9102
+MD5sum: c82e17b8642a9f2d4403c32f8d7140cb
+SHA1: f979f6fea574d76bfb6ae0288e9ec6632fb8156d
+SHA256: 66fce407d22f6aa98759b1839d86ec44ab4da6795d4246419f4d1db490cf3ebe
+SHA521: 2d0354d0e29d47830c7f1e1fffadb5fb191dec4193254acaf09123a6e62d39d71bf88ac152c2c7894ac796512928ec34414bfd90b7a25519894b8cf212133ce9
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: Remove banner, video ads on AfreecaTV. Multiview enabled.
+Description: Remove ads on AfreecaTV. Multiview enabled.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.2.0
+Version: 1.3.0
 Installed-Size: 152
-Filename: debs/com.catchmind.afreecatv++_1.2.0_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.3.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 4882
-MD5sum: d591ccfea51c7d673607dcefadaa9b3a
-SHA1: b4dacde58ecff18dfd2cf776542f31b2df0c0156
-SHA256: 84a7a95ec1ab0f2c505508c5588eea8a4224ca16f3dfca480a37665deac9edbc
-SHA521: 2abe3b291c6ad49f0bc5eb4e404d5e42e3cd267261d7c97e9c9004af05bb64318c49859e5543a5139ca52ef1caed2a22855816f800a854b22e7da873cf0577f2
+Size: 9202
+MD5sum: e4886128e8c8ef4374bcda300f74990c
+SHA1: 353b1b47c1ae1a8c2419221f4d4c55a6ab52e1ef
+SHA256: 46fade723ec101df1a919b4c8aa7c6c60acbea7e21d550ff527c03de2eab05cf
+SHA521: 54570a0d22a60c62b21344934933d84b68ebdc8b150ad3d28e2abba593b43fa8957a4404a90db8d1e0b0f0d95f725d4b3648a98401005254acecb826beeb6b7f
 
