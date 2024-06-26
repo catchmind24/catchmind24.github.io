@@ -1,0 +1,36 @@
+Package: com.catchmind.afreecatv++
+Name: AfreecaTV++
+Author: catchmind
+Description: Remove ads on AfreecaTV. Timemachine, Multiview enabled.
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.4.0
+Installed-Size: 1224
+Filename: debs/com.catchmind.afreecatv++_1.4.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
+Size: 375140
+MD5sum: 5830fd43e6dfa2fe3f1ab941fba71311
+SHA1: 2571a08984b084f63e0b33c8f0f1b2cc236d10b6
+SHA256: 33bc944362b3f2f2915d176f0042c8c67d938982d594f0e3cd08d3c5500a9609
+SHA521: 99abfe2c659c596e49cdc5e35bfad8a0c2e96a3e4d7938a6609848ce1a6da96f105fea70d3a385674cfeb8bffbb3692a455afb16185741a137a83fb186656a1d
+
+Package: com.catchmind.afreecatv++
+Name: AfreecaTV++(rootless)
+Author: catchmind
+Description: Remove ads on AfreecaTV. Timemachine, Multiview enabled.
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Installed-Size: 1224
+Filename: debs/com.catchmind.afreecatv++_1.4.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
+Size: 374980
+MD5sum: b68e7e26827f4b863c0cbfcc3a8776ad
+SHA1: 377df504ae60015749e6d4c4e910436a062241e3
+SHA256: 4c4a6bbc2201efd6a59c96728aace54cc38fcfb2e8568678ae84f04d405ef84f
+SHA521: b8ce5433984dc898036d9389d58065e4091b376773fe365bebd3aed0c204a40f83c8f6d99f9a653bc5eec839ef10855835e83ff0bab20e4dd31864697a9a847e
+
