@@ -10,11 +10,11 @@ Version: 1.4.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.4.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 374856
-MD5sum: b73bf5ebef33ab16ca1b687a25427842
-SHA1: 70f81062c2297e358d5ab76a40a2b4a098318bf3
-SHA256: df13d4b1950b0979e95b347573f5744c52d068079b0d4078d1aca90fc15c0098
-SHA521: 71e039b6586e78cac2eb839501a17c38830e7dba9fd88da9b209e7795a0202692e4f1283b88c693a70d1d4e918c9472d5bdbcc94bfcf965967cffe39f775c035
+Size: 375034
+MD5sum: d0d83a804dfcbc85319383ca243eb411
+SHA1: dcb5819a19f2b00d2017c52748d8838b74cdf3ca
+SHA256: cd48cfebc2a0dc2c80eb0646b3dd272680ad9751d8e1dea34d18a59c86dcec06
+SHA521: f3b6c8b3a8d9ac56ed1d43a74c5d4e14e850a5b01373d4a1ecf6fcda5824ce361b04d0a3fbed49e9b67bd257be506c26606a4e1e018556290f3c12c4e52c148c
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
@@ -28,9 +28,9 @@ Version: 1.4.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.4.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 374956
-MD5sum: 8bf992d18eb56edb71f0a0ce8936f235
-SHA1: c8628518c79ba580a269e7c001d7c81450d992e9
-SHA256: bf7847beedde4985b3b38dbea59d93b2ac66920adf2ca9f3b31e8579b178a7c4
-SHA521: 37ce81d0770f8dca844678393a8939f14ecb9868dcd794d4a2272b1e839604eb5390cc471c783f3a77e781aad17d93f624ac0584316a6c3ce8126794aba0a752
+Size: 375062
+MD5sum: 0a501d3ab7dbb256a7166d09674382ca
+SHA1: 5de473bd74681a24cba70effac6137fe16b2ed39
+SHA256: 0e1aa1f014c933cc180be3ce752da8ce2e24bf2531b6999ab68ab8f692ec65c4
+SHA521: 771b1509947fdf51c04c771e9e47e794521fd76e1ab18c33f41bee3a75db89b7eeeb42f916de693ede8ca491bfc23c06982b9cb1937968744a74166c6c801c78
 
