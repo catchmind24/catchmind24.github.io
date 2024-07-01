@@ -6,15 +6,15 @@ Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.4.0
+Version: 1.5.0
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.4.0_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375140
-MD5sum: 5830fd43e6dfa2fe3f1ab941fba71311
-SHA1: 2571a08984b084f63e0b33c8f0f1b2cc236d10b6
-SHA256: 33bc944362b3f2f2915d176f0042c8c67d938982d594f0e3cd08d3c5500a9609
-SHA521: 99abfe2c659c596e49cdc5e35bfad8a0c2e96a3e4d7938a6609848ce1a6da96f105fea70d3a385674cfeb8bffbb3692a455afb16185741a137a83fb186656a1d
+Size: 375222
+MD5sum: 6488c233541b97136ecacf8dbfb796fb
+SHA1: 2f861f7ac64135c3df326f874779566a4b29bf72
+SHA256: 143cc42cc12dc5c796a9819ee7dc1ab123bd6b50a01ef0a84c1c26ac2c1795b7
+SHA521: 934b7aefc92c78fc6d20519fb03a4eeb0bad7dacfdb33a69710db1b1f5cf4f565c163c47762ab038ebf3dc546bb7910e970df9d5ae3087c3be9f5967bb53e9bd
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
