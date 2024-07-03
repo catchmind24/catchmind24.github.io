@@ -6,15 +6,15 @@ Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.5.1
+Version: 1.5.2
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.1_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375464
-MD5sum: 566430678c0540922a47e940cb195090
-SHA1: b87f17b01af2f8fe2926fa04fd60d89a4f7f0948
-SHA256: 12cd7ed07c530b356e8416065bc2e93e2d3d0e81038ef545f999ee91b4698555
-SHA521: 756487e4288d169adfcb82a72f8c253058c684bd0a5403171fe791dba82226b9a288e1d3d19812acb4e05c0246f6cbaf6c1a6cef3020fed46585db8fc9141ce9
+Size: 377102
+MD5sum: 7b3b8e7e35586bfc98c333f0db5a3232
+SHA1: fa20ab40b578e4ebffb6b6a31457c2e857bb55a4
+SHA256: c986de108169d54059a77ec3de141e1b1f5590ecb6f9a839205130ceb2a21b5b
+SHA521: 9a53f2dae23b5eee937b4934169100a6e4af561dca0a4ccb9bfaebec1484036d50bd1f03113ff3d188c346937150ed538dfa525a6fa4768505b1c53051c144cf
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
@@ -24,13 +24,13 @@ Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.5.1
+Version: 1.5.2
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.1_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375590
-MD5sum: 9a19cbcdc9b7288268d325b7af18f3b8
-SHA1: 5c5fe1caa1197da97286a0b02aa04e50e4d894f4
-SHA256: d8c36e85a67a1e66efb1a7570d5dc2c93e62e175ab8d6755e8b9f974c3e55b53
-SHA521: 2d2cc7652a97372ce970cd6f98d123bfd9cf1d17bbd61a26f7d46ff39ef3bd73f899d094df5055e6bb7c9484fb449d56e559fdca2f4d064cbebef573660e7002
+Size: 377140
+MD5sum: 10c97a3f94a8b5e6d709190e57985305
+SHA1: 9d6aea7907ed84c5a2879c9801581ac5940e8650
+SHA256: 698906b67ae3002252746542ac9150964ec9ed2b1263ff6e2bf2d4258874978d
+SHA521: e5f066efef58a4d0c79bd1d35f255a50c370f4bfb9e7daed2467a682a42a51749403545c8e6446b307f341199d0587d89e0c2c285223dbde013b96a647dd31fa
 
