@@ -1,7 +1,7 @@
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: Remove ads on AfreecaTV. Timemachine, Multiview enabled.
+Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks

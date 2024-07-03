@@ -1,7 +1,7 @@
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++
 Author: catchmind
-Description: Remove ads on AfreecaTV. Timemachine, Multiview enabled.
+Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -10,16 +10,16 @@ Version: 1.5.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 377102
-MD5sum: 7b3b8e7e35586bfc98c333f0db5a3232
-SHA1: fa20ab40b578e4ebffb6b6a31457c2e857bb55a4
-SHA256: c986de108169d54059a77ec3de141e1b1f5590ecb6f9a839205130ceb2a21b5b
-SHA521: 9a53f2dae23b5eee937b4934169100a6e4af561dca0a4ccb9bfaebec1484036d50bd1f03113ff3d188c346937150ed538dfa525a6fa4768505b1c53051c144cf
+Size: 376958
+MD5sum: 97bf7060952015ec262f062cc9e593ee
+SHA1: 64f55532bdb728f5bab6c36a95c223581f1333c3
+SHA256: 19ba7ca0e5869af2c8dea2b21c45c76ea76c6f179574bae36d814182cf8b2957
+SHA521: a936a905f08029a61ff24f489b164ff2055468a0a816fa1d54d35004830f815f89f8b01f4556eec9de10cdd33300caa2e7791adc92f891418ce5a0a31e5af1df
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
 Author: catchmind
-Description: Remove ads on AfreecaTV. Timemachine, Multiview enabled.
+Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features.
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -28,9 +28,9 @@ Version: 1.5.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 377140
-MD5sum: 10c97a3f94a8b5e6d709190e57985305
-SHA1: 9d6aea7907ed84c5a2879c9801581ac5940e8650
-SHA256: 698906b67ae3002252746542ac9150964ec9ed2b1263ff6e2bf2d4258874978d
-SHA521: e5f066efef58a4d0c79bd1d35f255a50c370f4bfb9e7daed2467a682a42a51749403545c8e6446b307f341199d0587d89e0c2c285223dbde013b96a647dd31fa
+Size: 377228
+MD5sum: dec8642fe54104afea12fdd5c4368603
+SHA1: 28967e808bd69d2e04c6fcdbcb31c206ad80112e
+SHA256: b2082a4a169c6eb5d4cb886cf35f822eace48b113fdac813caf28b7b807e10e2
+SHA521: dbe2f96fc840622c243e77db786f3acd1466254b3c0b970388a5da19ecaff04a84ab5d2296a832d4534d5e41275ecde43dcad321de2c366066025b33107152d6
 
