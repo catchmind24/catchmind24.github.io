@@ -34,3 +34,39 @@ SHA1: cc2f53c3fc1c5ba56e67bdb89768fab78a07c279
 SHA256: 39d87540618f0ae0d215c451d82f96ff19df9548bff1ee1b738c8d01ebf00ffe
 SHA521: a4f25e89bd3481cee4f4b6dd32b121bfb08f74cf5e1d7d8950343e866ea20380f20687c669fc075c91b9db2a1743168597a60cdfaf0f6304cd74d448f7c8d163
 
+Package: com.catchmind.afreecatvsubscription
+Name: AfreecaTV Subscription
+Author: catchmind
+Description: You will subscribe to all BJs. Your nickname will be displayed in the subscriber list, and you'll be able to use both the subscription and signature emoticons. Since only the default personacon badge is applied, entering rooms with private personacons or chatting in those rooms might be risky. Use at your own risk!
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
+Size: 5584
+MD5sum: 139edfcb6ca002a95aa6b86df6de90ca
+SHA1: c9e27750981933539e474aa40c60e747f6df1f2d
+SHA256: f225bf8d7ffcc32fa250466bfd2e676794cf697b49c66797122cd29c567dd2a4
+SHA521: 1e2018f2c0b9894d9b718d1f3ee92540367dd427b6d2ec1778053e4c0b9d1d49f7ee49f2c36f471261fb9e06b5d961f1aa6ebf39c9fb0e4f25c8339f2eef1bb2
+
+Package: com.catchmind.afreecatvsubscription
+Name: AfreecaTV Subscription(rootless)
+Author: catchmind
+Description: You will subscribe to all BJs. Your nickname will be displayed in the subscriber list, and you'll be able to use both the subscription and signature emoticons. Since only the default personacon badge is applied, entering rooms with private personacons or chatting in those rooms might be risky. Use at your own risk!
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
+Size: 4080
+MD5sum: 0cde91d81793ba412c63c555797a238c
+SHA1: 66349fb2c25be5c2c722fc256696618cf64cbc7d
+SHA256: ac105cbcf7c7828d08f74175e42475c46414bc82a52ed5cc217842825cd79ce7
+SHA521: a42c79b054be1cdc200f164610683cd95387143a59ab2ddf9e1df43be878d56210d1c87e89f27af56164e743b851267d0f0c023ca8348f17c0c8ebede9887c6a
+

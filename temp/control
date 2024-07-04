@@ -1,10 +1,10 @@
-Package: com.catchmind.afreecatv++
-Name: AfreecaTV++
+Package: com.catchmind.afreecatvsubscription
+Name: AfreecaTV Subscription(rootless)
 Author: catchmind
-Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features.
+Description: You will subscribe to all BJs. Your nickname will be displayed in the subscriber list, and you'll be able to use both the subscription and signature emoticons. Since only the default personacon badge is applied, entering rooms with private personacons or chatting in those rooms might be risky. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
-Architecture: iphoneos-arm
-Version: 1.5.2
-Installed-Size: 1224
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
