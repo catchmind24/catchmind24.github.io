@@ -6,15 +6,15 @@ Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm
-Version: 1.5.2
+Version: 1.5.3
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.3_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 377070
-MD5sum: 3f3738032e18da2081da4f42823aa529
-SHA1: a9dd3b96b1bec5b873988fd2afbbade008f67214
-SHA256: b4355e10dd3212445606b410ab9f32be2236bc130c0da77de90639eadf1a5be3
-SHA521: 7705093bfb8f157063d479a9976fcc5992d4ce20e9498e545d9663c0ce9d75205fa894e3b12eff7ab7c5f51c9a9ec4f6aa1f6162d6da4f9b4f11e615dc1b704d
+Size: 378512
+MD5sum: 31b640f826fb6018ec6f4365584d94ff
+SHA1: d75c8cd2c606a9ae784bf4ad7f1fbecf439b5b04
+SHA256: 3cea2a75f610a6f87628ed1c88056b69838fb95906d78f7f4d713f40542372b1
+SHA521: e7263eb62ae576a9eb46a999cc9559784c4b1e6221a6ac5771dc0ea810479087afafc9c83c0b1c1597362cd25bff9e35ae080340a521d0fe8a03bc3fa94879d2
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
@@ -24,15 +24,15 @@ Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
 Architecture: iphoneos-arm64
-Version: 1.5.2
+Version: 1.5.3
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.2_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.3_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 377190
-MD5sum: b009dbd3608888951cb83dd6fbfaf834
-SHA1: cc2f53c3fc1c5ba56e67bdb89768fab78a07c279
-SHA256: 39d87540618f0ae0d215c451d82f96ff19df9548bff1ee1b738c8d01ebf00ffe
-SHA521: a4f25e89bd3481cee4f4b6dd32b121bfb08f74cf5e1d7d8950343e866ea20380f20687c669fc075c91b9db2a1743168597a60cdfaf0f6304cd74d448f7c8d163
+Size: 378578
+MD5sum: e984fee994b2f12c7ea19906e96915dd
+SHA1: 8fea4ea4aabd077944a07d3998cdb09e5b9e7fef
+SHA256: b08116da615a34f1759169b34680542ba33c2a7af4026b3d4075364ad10ac61d
+SHA521: 83186a5010c3342840f405d26bad4f2011576fb0016e2e47421f70d5cd4ef604754b9c77ef46c4a7616b2ea8097133c9addf11ff8fcd6fb3a54485eefad503c3
 
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription
