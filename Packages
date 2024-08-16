@@ -70,3 +70,39 @@ SHA1: 66349fb2c25be5c2c722fc256696618cf64cbc7d
 SHA256: ac105cbcf7c7828d08f74175e42475c46414bc82a52ed5cc217842825cd79ce7
 SHA521: a42c79b054be1cdc200f164610683cd95387143a59ab2ddf9e1df43be878d56210d1c87e89f27af56164e743b851267d0f0c023ca8348f17c0c8ebede9887c6a
 
+Package: com.catchmind.zeta++
+Name: zeta++
+Author: catchmind
+Description: Remove ads on zeta(pro subscription, but all other features are server-side verified.)
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.zeta++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
+Size: 6412
+MD5sum: 541cdee16c3d26ea69e7d58ed93df906
+SHA1: 413413c80a032a281dcb65b173cc577b10aa3dd2
+SHA256: bcd48f3190b52c626d3ccecf5409d373250a40b0d40fb530d8aecde25a6ab918
+SHA521: d47204aa5a01d2f9716a3d7c9717587e5ef27b227c1f2950e4e16eae38a7e650117d91232d313c1144d0c674696cee1f1ba6dfce145ee9e3975f3fdd48fde2d2
+
+Package: com.catchmind.zeta++
+Name: zeta++
+Author: catchmind
+Description: Remove ads on zeta(pro subscription, but all other features are server-side verified.)
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.zeta++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
+Size: 4592
+MD5sum: 09b5aa6808fdc282b5db169b560e26a7
+SHA1: 383caa15807777a0ce3054ef3d345cb023650a96
+SHA256: d1635f43d539b1425b8a51fec295148e58556c0b4a358789be67d915011c3aad
+SHA521: b6c49217f76e344e284e84495d77477bfc26d665430f5afeeddf27ee1dd1385b79f4e130186bf227e558121728588517e2390af56982938f04de4052736344bc
+
