@@ -70,6 +70,186 @@ SHA1: 66349fb2c25be5c2c722fc256696618cf64cbc7d
 SHA256: ac105cbcf7c7828d08f74175e42475c46414bc82a52ed5cc217842825cd79ce7
 SHA521: a42c79b054be1cdc200f164610683cd95387143a59ab2ddf9e1df43be878d56210d1c87e89f27af56164e743b851267d0f0c023ca8348f17c0c8ebede9887c6a
 
+Package: com.catchmind.b612++
+Name: B612++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.b612++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.b612++.html
+Size: 5532
+MD5sum: 29fb949ea981c4c68c686e9ec13a6212
+SHA1: 124b68b8019b0ad8149c328a7c44352809f2ba39
+SHA256: 85db834e991934a489a02092908c3d990c2232e408e74cd3f6e7693484538837
+SHA521: a978587a386d98f8266774ed4e79c9d2e287abd71a7fd06410b65f72a0dd22cf0cf7584a857edc7eabef93f4a249b1147aa451246492c834a60104f2f8c1c50d
+
+Package: com.catchmind.b612++
+Name: B612++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.b612++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.b612++.html
+Size: 3970
+MD5sum: 5b73a35ace1a9ace959710a789be7358
+SHA1: 2ee16080464d3c78466c3244b1c68baf9defdea5
+SHA256: e8c9ecd9fc2bbe08d8f2839c199c4eee615d2819ab3a9664493abae7affbd12f
+SHA521: 2c21eb8cbd2d370cbb24ddce31e6051357a0008b623b6163aa27eb537ab5d0ed583c4a9a1b36b3e9f8e79ba54f7c70474388f1127590cc57da4005e63b9b12b6
+
+Package: com.catchmind.epik++
+Name: EPIK++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.epik++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.epik++.html
+Size: 5538
+MD5sum: 7ae44d7c31ddc1603d5e278150e5f4c9
+SHA1: cf1f6d7e121b911bce103bf644bc35235efb3029
+SHA256: 4dad3526b40647091b425bcee30a9579ddcaf2f9705e983ffc6d8218b341ab9c
+SHA521: 13657d70303f4bbb374765127085188b8e9ae9b73306ef1afdca55bd2d9fbb356fb5ebc490a5dc789a3d6b2855418b9bb6a0eaa953ed3d4da4939b43889ba4fc
+
+Package: com.catchmind.epik++
+Name: EPIK++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.epik++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.epik++.html
+Size: 3974
+MD5sum: 33f47e94f808500b08158df27f24ef7b
+SHA1: d1d78efd09261c34c9220da77bcd3c47614d5e18
+SHA256: e9f4bca564385be6709a8d896d9a4ce101cb9d51081f18dc1bb53e938f1c8563
+SHA521: 6745b5d79afca819152499e69ba93fdfd91ece523fcb36c94d57198efe5cdd0bc875997403e2becb7d72f1b8a304c60c0fdcd131de6e5e1f0fd3ded47b76aa2a
+
+Package: com.catchmind.foodie++
+Name: Foodie++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.foodie++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.foodie++.html
+Size: 5552
+MD5sum: c39de2b7ee457efe21aaaa80cf8bf0bf
+SHA1: 7be252fc6e6a570b1093e1c685ed8c2713e26bed
+SHA256: 011816e676bb4573a7db9817dfc5fb9bf7342191e2764fe2d123d4f05a24eeec
+SHA521: 9916f72cba92d47ea79d119caf9df9533bfb781cac413930193f764603c713262fbf2a9d0785215cbca1a1e45db6ff2ce74968f3338a9592fc452c8acb5496f0
+
+Package: com.catchmind.foodie++
+Name: Foodie++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.foodie++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.foodie++.html
+Size: 3972
+MD5sum: 6a640f49d531a2f6156c4692b6da8dbd
+SHA1: 208b66339e17e080e84bb0c4d868f021853ece87
+SHA256: 87c50e26b2792a6a65d86018c46113ac1115a7d8388677b7c4f833c3a1dcc168
+SHA521: 7393c0416ff4620214bf40aa80eaae97329567e9548e2328ee1166b12ae0103a1bdfa3634651e7c7bf87498643f2fd896e272a8a873678f6a09e681ffff15b5e
+
+Package: com.catchmind.snow++
+Name: SNOW++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.snow++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.snow++.html
+Size: 5542
+MD5sum: a3e1feb8d13b22c07242459c77ab9c71
+SHA1: a9d5108332a10f3b33c28a586871e8c082ce510a
+SHA256: 44f48158dc6d224d9abfad6aafaff55794d8ff62761e03d8d7150260592b0e63
+SHA521: 8bde478c51257d0363e848be7ce1fd71253238c842ab89fc057073a1b437faf04acd8fa2b5cb54349b78df3e2ead00c4e3281d87b6bed0f02c2bcacea17d557d
+
+Package: com.catchmind.snow++
+Name: SNOW++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.snow++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.snow++.html
+Size: 3984
+MD5sum: 2227b1834da87b7de3beb25355b2b362
+SHA1: 58fe6c62758497b34990a678e6a1c273eefa55b5
+SHA256: eb7612494bc49f0631bcbd8db731cda92233da8c65d6a8c8fadc2feef5cfc7bd
+SHA521: 2b7b7a61fa353e1514b4cffcb5ffb53e2715950a8470e28f1ddc3648ed37afa3667a2617cc12b25fee508a80936654b73644614b8a7de6be436381d28793c3b3
+
+Package: com.catchmind.soda++
+Name: SODA++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.soda++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.soda++.html
+Size: 5540
+MD5sum: d0a3f8cdd7837c55cf50346188c33c79
+SHA1: 4c3137efa5c836c5c54eef45ca665cfe54143d81
+SHA256: 05ceba76c9dbcc24d7b42dd481a7ab57e55738d8b015c48bf5b153f5683e2fff
+SHA521: ff31dcea72387501195981805a498a94caef24f9f9fbe1fc90294cc0e42e17781e87e122b76a0e8fe9b654a3c3d7c5348c843ee6f84dcba7127c30faa2a899db
+
+Package: com.catchmind.soda++
+Name: SODA++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.soda++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.soda++.html
+Size: 3974
+MD5sum: e2720c9dc170a17fde9186615fb24b72
+SHA1: 6286d93476e8e86770c1095290efd78970fe9301
+SHA256: 3d506639967abce0befd6be76f5be2db79e6527dac6b13c7b4c16656d8830fbe
+SHA521: 7086b6bcc622f8d1891287cbd9fdaa14239cd24423d2c96c34e04901a5874feeaeacc60a84260b34390f94bf74cc2fc3ff479ac9d6ff7ac110eab8d61a879f9e
+
 Package: com.catchmind.zeta++
 Name: zeta++
 Author: catchmind
