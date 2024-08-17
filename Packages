@@ -178,6 +178,42 @@ SHA1: 208b66339e17e080e84bb0c4d868f021853ece87
 SHA256: 87c50e26b2792a6a65d86018c46113ac1115a7d8388677b7c4f833c3a1dcc168
 SHA521: 7393c0416ff4620214bf40aa80eaae97329567e9548e2328ee1166b12ae0103a1bdfa3634651e7c7bf87498643f2fd896e272a8a873678f6a09e681ffff15b5e
 
+Package: com.catchmind.picsart++
+Name: PicsArt++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 280
+Filename: debs/com.catchmind.picsart++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
+Size: 9168
+MD5sum: 772994060acc0910abfa1bf0682b5641
+SHA1: 76c4831936ec658310b65e4753db2b629e8177a5
+SHA256: 809baa98b4277d52966bea1495f642fab5763b9c52f15634301ff0234163c979
+SHA521: cb271c03f0f405bdf929781afffb4152e37549b3aa25907d1fd5f41ad6cb57e706679f4540ab9cb72e78f65bf5668de2150b12489f43c8dbb7f8511adbe60493
+
+Package: com.catchmind.picsart++
+Name: PicsArt++
+Author: catchmind
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind
+Section: Tweaks
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 152
+Filename: debs/com.catchmind.picsart++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
+Size: 5968
+MD5sum: 6e4b3a5fb6dcb48bb69b382bf5df19b7
+SHA1: 53e3b901752c0ef26eaef91cbaf5216d46305242
+SHA256: 64559a6b31825d054fc0aa53842655794e91adaedbe6ea28d9d96d42dead8996
+SHA521: 4c532c5d3ddc1dc7a1a6bdd575b3ddaab18c837c000916353739460376df3b764240fe6c0ea8a6536cab0a9fe17cb53292de290a2b8d0ad7ef6a67f7c943f039
+
 Package: com.catchmind.snow++
 Name: SNOW++
 Author: catchmind
