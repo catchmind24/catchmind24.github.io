@@ -36,46 +36,6 @@ SHA1: 0b4a3ad732a5f120db2272f538c4e524be9b40d4
 SHA256: 1d6ec017a899caa3b67af752ba8431b3fba877f72204c2ffefe4ed0124476514
 SHA521: 9c441a6b1403dcaa5b052c459c22c548aa0ef927a83ed87307442a5e54e22054605600fa2913d5985899767c54a054e4e3b3d5121b2ce8f6e3443f5f68aee7b7
 
-Package: com.catchmind.afreecatvsubscription
-Name: AfreecaTV Subscription
-Author: catchmind
-Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
-Depends: mobilesubstrate
-Maintainer: catchmind
-Section: Tweaks
-Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
-Architecture: iphoneos-arm
-Version: 1.0.1
-Installed-Size: 280
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm.deb
-Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Icon: https://catchmind24.github.io/icons/com.catchmind.afreecatvsubscription.png
-Size: 5540
-MD5sum: de8fddc27dd91808be50652841cce406
-SHA1: 979423774e04b171d2d64e8f3b8609ac99de365d
-SHA256: b95cdeff12a90b2977c44fec445245df6051c4b921dfe105497bae5ce7dc6e13
-SHA521: 91266b0e6531c0546e5fbc2e4a8c038d62cb746beca05a42e0100acf53bf372db03f4a5622f07641866427c4623c4c9bb05316b949aeae3736fa11cf585fe19b
-
-Package: com.catchmind.afreecatvsubscription
-Name: AfreecaTV Subscription(rootless)
-Author: catchmind
-Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
-Depends: mobilesubstrate
-Maintainer: catchmind
-Section: Tweaks
-Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
-Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 152
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm64.deb
-Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Icon: https://catchmind24.github.io/icons/com.catchmind.afreecatvsubscription.png
-Size: 4028
-MD5sum: 72d84a6ecb2d55d7e367616cc223edcd
-SHA1: 04026d30b3e0c86b3222eb496c960226d5eecad0
-SHA256: 2553282c2bc5cfdf758a5c631b933a62e1d7bc372b98fe758318f33a79194d79
-SHA521: 232a1f21f33de7bdcfdb1e98da55d61f5874fe38bd19e7081e8971840d392f1ece4659416cf907c75f7820f93d9e74e41e3a33345ba06736b9cf4d5fb4481f10
-
 Package: com.catchmind.b612++
 Name: B612++
 Author: catchmind
