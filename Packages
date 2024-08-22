@@ -39,7 +39,7 @@ SHA521: 9c441a6b1403dcaa5b052c459c22c548aa0ef927a83ed87307442a5e54e22054605600fa
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription
 Author: catchmind
-Description: All BJs will be subscribed. Enable subscription and signature emoticons. Only the default personacon badge will be applied. Use at your own risk!
+Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -49,16 +49,16 @@ Version: 1.0.1
 Installed-Size: 280
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 5544
-MD5sum: 2e3b6ec10bb3aad152c09181e12cc776
-SHA1: 6c5804e7824774c3803be39f972581ab923ca604
-SHA256: 8735160a141ef9c79e4333c730e024227467228d4f8dafce6f89c3889a6de90f
-SHA521: b2070b86e9d7fee36cb2544e5538b6b78c1f13f68f0ca192688be125837d7c6bf37b781eba7a9d5eeb5ee7b17576ed5fd7a9857aaf75b1bf2a5ba3ac465876a1
+Size: 5540
+MD5sum: de8fddc27dd91808be50652841cce406
+SHA1: 979423774e04b171d2d64e8f3b8609ac99de365d
+SHA256: b95cdeff12a90b2977c44fec445245df6051c4b921dfe105497bae5ce7dc6e13
+SHA521: 91266b0e6531c0546e5fbc2e4a8c038d62cb746beca05a42e0100acf53bf372db03f4a5622f07641866427c4623c4c9bb05316b949aeae3736fa11cf585fe19b
 
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription(rootless)
 Author: catchmind
-Description: All BJs will be subscribed. Enable subscription and signature emoticons. Only the default personacon badge will be applied. Use at your own risk!
+Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
@@ -68,11 +68,11 @@ Version: 1.0.1
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4030
-MD5sum: e42231e14715da8ce1248d544e412453
-SHA1: 8d00f807beadf6b77cdb1fc8d27650df39559c14
-SHA256: d40c7872ea0438dccb8719da2e1d6a3300bcc4cc0f7b0ed3573c26455779a747
-SHA521: 9a36000b6b3f3d68cb157ce026bde2e6dab12d782b5f34b976f8452e5bdfe6e234d0c7bc7035c2e11275bf8f669f41dc6250c2f90b4ccf5779dbf7929045ab82
+Size: 4028
+MD5sum: 72d84a6ecb2d55d7e367616cc223edcd
+SHA1: 04026d30b3e0c86b3222eb496c960226d5eecad0
+SHA256: 2553282c2bc5cfdf758a5c631b933a62e1d7bc372b98fe758318f33a79194d79
+SHA521: 232a1f21f33de7bdcfdb1e98da55d61f5874fe38bd19e7081e8971840d392f1ece4659416cf907c75f7820f93d9e74e41e3a33345ba06736b9cf4d5fb4481f10
 
 Package: com.catchmind.b612++
 Name: B612++
