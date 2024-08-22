@@ -49,6 +49,7 @@ Version: 1.0.1
 Installed-Size: 280
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
+Icon: https://catchmind24.github.io/icons/com.catchmind.afreecatvsubscription.png
 Size: 5540
 MD5sum: de8fddc27dd91808be50652841cce406
 SHA1: 979423774e04b171d2d64e8f3b8609ac99de365d
@@ -68,6 +69,7 @@ Version: 1.0.1
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
+Icon: https://catchmind24.github.io/icons/com.catchmind.afreecatvsubscription.png
 Size: 4028
 MD5sum: 72d84a6ecb2d55d7e367616cc223edcd
 SHA1: 04026d30b3e0c86b3222eb496c960226d5eecad0
