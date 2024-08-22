@@ -1,10 +1,11 @@
-Package: com.catchmind.zeta++
-Name: zeta++
+Package: com.catchmind.afreecatvsubscription
+Name: AfreecaTV Subscription(rootless)
 Author: catchmind
-Description: Remove ads on zeta(pro subscription, but all other features are server-side verified.)
+Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 152
