@@ -5,16 +5,17 @@ Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/c9/ba/a1c9ba85-5983-00c5-d4ac-629c58bfa024/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
-Version: 1.5.3
+Version: 1.5.4
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.3_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.4_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378512
-MD5sum: 31b640f826fb6018ec6f4365584d94ff
-SHA1: d75c8cd2c606a9ae784bf4ad7f1fbecf439b5b04
-SHA256: 3cea2a75f610a6f87628ed1c88056b69838fb95906d78f7f4d713f40542372b1
-SHA521: e7263eb62ae576a9eb46a999cc9559784c4b1e6221a6ac5771dc0ea810479087afafc9c83c0b1c1597362cd25bff9e35ae080340a521d0fe8a03bc3fa94879d2
+Size: 378758
+MD5sum: bcc2f78db8f1cc22b4366c47f6e2a51b
+SHA1: ceffd995c5fde80a35f3a1166bccec44afb98961
+SHA256: 3a37e06acb92582e5443e6f118cd7e264aacbecabbd9c30017b8588b8ed50098
+SHA521: 11d799ba3d6d8b4bb58744f669db00c30fd086d037fdb77df8e680a077d2e9dd4822ee57f5e76c91f0cf5a9185e7666f7c85db67160aaad9468f4875b991bc40
 
 Package: com.catchmind.afreecatv++
 Name: AfreecaTV++(rootless)
@@ -23,52 +24,55 @@ Description: Remove ads on AfreecaTV. Enabled Timemachine and Multiview features
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/c9/ba/a1c9ba85-5983-00c5-d4ac-629c58bfa024/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.5.3
+Version: 1.5.4
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.3_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.5.4_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378578
-MD5sum: e984fee994b2f12c7ea19906e96915dd
-SHA1: 8fea4ea4aabd077944a07d3998cdb09e5b9e7fef
-SHA256: b08116da615a34f1759169b34680542ba33c2a7af4026b3d4075364ad10ac61d
-SHA521: 83186a5010c3342840f405d26bad4f2011576fb0016e2e47421f70d5cd4ef604754b9c77ef46c4a7616b2ea8097133c9addf11ff8fcd6fb3a54485eefad503c3
+Size: 378816
+MD5sum: 93200a4b2b7190c2beee3d23961f4192
+SHA1: 0b4a3ad732a5f120db2272f538c4e524be9b40d4
+SHA256: 1d6ec017a899caa3b67af752ba8431b3fba877f72204c2ffefe4ed0124476514
+SHA521: 9c441a6b1403dcaa5b052c459c22c548aa0ef927a83ed87307442a5e54e22054605600fa2913d5985899767c54a054e4e3b3d5121b2ce8f6e3443f5f68aee7b7
 
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription
 Author: catchmind
-Description: You will subscribe to all BJs. Your nickname will be displayed in the subscriber list, and you'll be able to use both the subscription and signature emoticons. Since only the default personacon badge is applied, entering rooms with private personacons or chatting in those rooms might be risky. Use at your own risk!
+Description: All BJs will be subscribed. Enable subscription and signature emoticons. Only the default personacon badge will be applied. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+Icon: https://i.postimg.cc/nz5vHfY6/personalcon-default.png
 Architecture: iphoneos-arm
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 280
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.0_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 5584
-MD5sum: 139edfcb6ca002a95aa6b86df6de90ca
-SHA1: c9e27750981933539e474aa40c60e747f6df1f2d
-SHA256: f225bf8d7ffcc32fa250466bfd2e676794cf697b49c66797122cd29c567dd2a4
-SHA521: 1e2018f2c0b9894d9b718d1f3ee92540367dd427b6d2ec1778053e4c0b9d1d49f7ee49f2c36f471261fb9e06b5d961f1aa6ebf39c9fb0e4f25c8339f2eef1bb2
+Size: 5536
+MD5sum: 941dee2592c939266603b71e959b9878
+SHA1: dbbb69a949950796f01917efa49e0634f953b087
+SHA256: 3cfeb77756e41005a8c442794d882a0b931f96e1b21abdd763d6722102b0491f
+SHA521: 9b2203945fd0f6b0aa9e288852606ecddf20245ff866ed919a16e558ff1eb83395596825a5329860f65381dc2d916dfed08f85a7d43c5cded2914d6a02dbbcfa
 
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription(rootless)
 Author: catchmind
-Description: You will subscribe to all BJs. Your nickname will be displayed in the subscriber list, and you'll be able to use both the subscription and signature emoticons. Since only the default personacon badge is applied, entering rooms with private personacons or chatting in those rooms might be risky. Use at your own risk!
+Description: All BJs will be subscribed. Enable subscription and signature emoticons. Only the default personacon badge will be applied. Use at your own risk!
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+Icon: https://i.postimg.cc/nz5vHfY6/personalcon-default.png
 Architecture: iphoneos-arm64
-Version: 1.0.0
+Version: 1.0.1
 Installed-Size: 152
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.0_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4080
-MD5sum: 0cde91d81793ba412c63c555797a238c
-SHA1: 66349fb2c25be5c2c722fc256696618cf64cbc7d
-SHA256: ac105cbcf7c7828d08f74175e42475c46414bc82a52ed5cc217842825cd79ce7
-SHA521: a42c79b054be1cdc200f164610683cd95387143a59ab2ddf9e1df43be878d56210d1c87e89f27af56164e743b851267d0f0c023ca8348f17c0c8ebede9887c6a
+Size: 4024
+MD5sum: 1736775ee17b4e6b637616ee0aa8e7c3
+SHA1: 2d8f1cdd9af1d5706367520d636df472e090035a
+SHA256: 0a9864a880217990a823ef982a9c6d0ca41bc2cb9689a7a2775f0993bb1843ab
+SHA521: 823156b1081e9d6538aa5933fc2c2fd32e005fbf3a2473a9785bceef3b85e96a0cfe29418bb23717a7e8ba6e0445add96d1e19d2ac9fd6268e8277f7bfa71629
 
 Package: com.catchmind.b612++
 Name: B612++
