@@ -1,10 +1,11 @@
 Package: com.catchmind.zeta++
 Name: zeta++
-Author: catchmind
-Description: Remove ads on zeta(pro subscription, but all other features are server-side verified.)
+Author: catchmind <musicinfacebook@gmail.com>
+Description: Remove ads on zeta(Pro subscription, but all other features are server-side verified.)
 Depends: mobilesubstrate
-Maintainer: catchmind
+Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.0.0
-Installed-Size: 152
+Version: 1.0.1
+Installed-Size: 1208
