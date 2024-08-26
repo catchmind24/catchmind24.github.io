@@ -457,7 +457,7 @@ SHA521: cecab55b34f89769fa7763810653609081cca9823c7538d92e9b338ea38004764bbe38cb
 Package: com.catchmind.speak++
 Name: Speak++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Premium subscription(Restart app after login, then go to Debug settings to activate premium features.)
+Description: Premium subscription(Restart app after login, then go to Debug settings in the Settings tab to activate premium features.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
@@ -467,16 +467,16 @@ Version: 1.0.0
 Installed-Size: 1192
 Filename: debs/com.catchmind.speak++_1.0.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.speak++.html
-Size: 373666
-MD5sum: aabcd42b2152e4d24b02aabe3a5c2137
-SHA1: e1226c1a7a6304206b761a9dd8c7b8c25734a3f6
-SHA256: e4bf3cc66665ac6e0316fb7e5711422d4c73a8b33367fc5ed9643bf5127fb12c
-SHA521: 77d45ecb59361ef1dd786e45c7239821ce770044e2258b7b00ac188ffab301f18669c9781bd909832616c671d293e4bb93361f9a24486a6ebe86199ec43643f9
+Size: 373778
+MD5sum: 941b1b149889329de570141aa0bcf0ad
+SHA1: 15617df7d4080052ae4ade8993b29dbd33cecddd
+SHA256: 8c1ef85f1eb86bbc45fc753849cc367a72278f651df8562a5b0953ca16e05c50
+SHA521: 0bca859c1526a4325f4f18ded32ef2c510dfb160f694663a2944d11a8df3b0666746f2643a66b4a28bb2701898a749011b0003ccdab32b738c961079c475f673
 
 Package: com.catchmind.speak++
 Name: Speak++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Premium subscription(Restart app after login, then go to Debug settings to activate premium features.)
+Description: Premium subscription(Restart app after login, then go to Debug settings in the Settings tab to activate premium features.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
@@ -486,11 +486,11 @@ Version: 1.0.0
 Installed-Size: 1192
 Filename: debs/com.catchmind.speak++_1.0.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.speak++.html
-Size: 373772
-MD5sum: 59c6430475ea350448405d8990cbfe36
-SHA1: e49eb80aace968a12440ed8d6cdc9037b0b0c345
-SHA256: c77b325faac08150f758ca6407c8b655e757446248631c80a9c7755efdc9f7b4
-SHA521: 906b41378e2c45174fea16fd112ee315298ae67f68a1bd8a584b82e8f3ffef9262f023c768d573491a1a7279f731b04c5098001a286571dcec89ceea3ce2a62f
+Size: 373868
+MD5sum: 73417d5fed0f0b72a4eef8fd74d5a581
+SHA1: b08bc46c13c02ac3b0a7ac4c0a90022f34ebf39b
+SHA256: 6c85dbf2af1067e59b7145e671d37381ab04e6616927fd2679b97cc4b03e5434
+SHA521: 717a1d4aa4fc6247c53a4404e642dd5e1a77de8c5d9e2b0ab553bddac33f0212156caa82ee836ed4c9d99f714c974004c74a79432ad3b8cc875b28cf453d5d3a
 
 Package: com.catchmind.zeta++
 Name: zeta++
