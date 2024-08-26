@@ -349,15 +349,15 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
-Version: 1.0.1
+Version: 1.0.2
 Installed-Size: 1224
-Filename: debs/com.catchmind.picsart++_1.0.1_iphoneos-arm.deb
+Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 369732
-MD5sum: 3cce8432dd24c009563e6db53193565d
-SHA1: 1b371093dd87234a7db9a84b8e8eecdee66fa84d
-SHA256: 30c5ac8dd8c716aaf13e749de36a5f7a9d4f94ed3913665058332cacbb58c9bc
-SHA521: dfc552d2c7ce31d07b00f7e55aeba31a11a292b3c03d4aacc076786c859ab15a91f0522ac02e32d2793ef59bf8b04993fc2b147260b7cda0db0277301cc94384
+Size: 372210
+MD5sum: 8f68e98374791f9637f8a259a4317149
+SHA1: f8708dc87297d0e816b47e8ebab93fe6dd28639e
+SHA256: a09c926b8a431315948873989d6ff615bbc0d8bf04daf1df8ada913cacf57b03
+SHA521: faf9bc609a267a0f26a45700257bece8d9c24141834d4a2e1f76c7cc2940f831c87ea6d351673ea4216419a74e4a1acdeb5c0f79ccbbc2e3e101421cd8aa99be
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -368,15 +368,15 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Installed-Size: 1224
-Filename: debs/com.catchmind.picsart++_1.0.1_iphoneos-arm64.deb
+Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 370320
-MD5sum: c4883a4d1c6cdfd4ed27c6819b730f5d
-SHA1: 53026f6bd6050820919b32d6589ec57f3edccfa6
-SHA256: a1304d0cc1ac679e4b63fc2d0d751d9f9e5373afeb9b911b7269f0e037a461f9
-SHA521: 2abb026193601a539327f782e6dd1f64766b0afff37978a74d07c4488bb0a10a3f92d339ce04951e0c45b40c2efa7a27fe090454ebe78f28859f547cc2be81cf
+Size: 372942
+MD5sum: 572a5eb4fa6bd1443ef039c436044510
+SHA1: 260da88b0cc233c0d2fadf47d8438f89236cd35f
+SHA256: b3a712a35df2a295b010453a0fedaf245f7ba6302b54cedc9a6cc79015ff554d
+SHA521: afdd5acf5acbaee62e8f132ef17c2755aa5a78568d1c836d6d39259b3f29fbb0428a91efc18a6cd2c58b03bb38d8a8a0bc2899afd621a81ea3bcc62cdbaf878c
 
 Package: com.catchmind.snow++
 Name: SNOW++
