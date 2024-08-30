@@ -87,3 +87,34 @@ body {
 .icon:hover {
     transform: scale(1.15);
 }
+
+@media (max-width: 480px) {
+    .container {
+        padding: 24px;
+        border-radius: 14px;
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    .button {
+        padding: 12px 20px;
+        font-size: 0.9em;
+    }
+
+    .links {
+        gap: 20px;
+    }
+
+    .icon {
+        width: 28px;
+    }
+}
