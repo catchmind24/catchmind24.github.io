@@ -11,11 +11,10 @@
     :root {
         --background-color: #ffffff;
         --text-color: #000000;
-        --border-color: #cccccc;
-        --button-border-color: #bbbbbb;
+        --border-color: #dddddd;
+        --button-border-color: #cccccc;
         --hover-background-color: #f0f0f0;
         --box-shadow-color: rgba(0, 0, 0, 0.1);
-    }
 }
 
 body {
