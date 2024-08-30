@@ -1,0 +1,89 @@
+:root {
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --border-color: #222222;
+    --button-border-color: #333333;
+    --hover-background-color: #111111;
+    --box-shadow-color: rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--background-color);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.container {
+    background: var(--background-color);
+    padding: 48px;
+    border-radius: 28px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    max-width: 340px;
+    width: 90%;
+    box-shadow: 0 4px 20px var(--box-shadow-color);
+}
+
+.logo-container {
+    margin-bottom: 28px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+}
+
+.title {
+    font-size: 2.2em;
+    margin: 20px 0;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 36px 0;
+}
+
+.button {
+    padding: 16px 24px;
+    background: var(--background-color);
+    border-radius: 14px;
+    border: 1px solid var(--button-border-color);
+    color: var(--text-color);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: var(--hover-background-color);
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    margin-top: 36px;
+}
+
+.icon {
+    width: 36px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.15);
+}

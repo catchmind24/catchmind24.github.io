@@ -1,73 +1,27 @@
-<!FDOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>catchmind</title> <!-- Change Sidia To Whatever You'd Like -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>catchmind's repo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-
-<style>
-html {
-    height: 100%;
-}
-
-body {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#87e0fd+0,53cbf1+40,05abe0+100;Blue+3D+%23+16 */
-background: #192a54; /* Old browsers */
-background: -moz-linear-gradient(top, #192a54 0%, #0b1a40 40%, #020b21 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #192a54 0%,#0b1a40 40%,#020b21 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #192a54 0%,#0b1a40 40%,#020b21 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#192a54', endColorstr='#020b21',GradientType=0 ); /* IE6-9 */
-height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    color: white;
-}
-
-.container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-}
-
-.obsolete_cydia {
-    position: absolute;
-    top: 97%;
-    left: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    text-align: center;
-    opacity: 0.5;
-}
-</style>
-
 <body>
-
-  <div class="container">
-<h1>catchmind repo</h1>
-
-<h3> </h3>
-
-<h3> <a href="sileo://source/https://catchmind24.github.io/">Add to Sileo</a></h3>
-
-</div>
-
-
-
-
-
-<div class="obsolete_cydia"> <!-- This is Using Essentialis' "index.html", they added "obsolete_cydia" bullshit. Not Me (Sukarodo) -->
-
-  <h6> <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io/">Add to Cydia</a></h6>
-
-</div>
+    <div class="container">
+        <div class="logo-container">
+            <img src="assets/icon.png" alt="catchmind's Logo" class="logo">
+            <h1 class="title">catchmind repo</h1>
+        </div>
+        <div class="button-container">
+            <a href="sileo://source/https://catchmind24.github.io" class="button">Add to Sileo</a>
+            <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io" class="button">Add to Cydia</a>
+            <a href="zbra://sources/https://catchmind24.github.io" class="button">Add to Zebra</a>
+        </div>
+        <div class="links">
+            <a href="https://t.me/catchmind"><img src="assets/telegram.png" alt="Telegram Icon" class="icon"></a>
+            <a href="https://ko-fi.com/catchmind"><img src="assets/ko-fi.png" alt="Ko-fi Icon" class="icon"></a>
+        </div>
+    </div>
 </body>
 </html>
