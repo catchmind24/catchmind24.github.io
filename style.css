@@ -108,7 +108,7 @@ body {
     transform: scale(1.15);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 820px) {
     .container {
         padding: 24px;
         max-width: 90%;
