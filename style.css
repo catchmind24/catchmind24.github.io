@@ -50,7 +50,7 @@ body {
 
 .container {
     background: var(--background-color);
-    padding: 20px;
+    padding: 48px;
     border-radius: 28px;
     border: 1px solid var(--border-color);
     text-align: center;
