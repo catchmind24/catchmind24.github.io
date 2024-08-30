@@ -11,8 +11,8 @@
     :root {
         --background-color: #ffffff;
         --text-color: #000000;
-        --border-color: #dddddd;
-        --button-border-color: #cccccc;
+        --border-color: #cccccc;
+        --button-border-color: #bbbbbb;
         --hover-background-color: #f0f0f0;
         --box-shadow-color: rgba(0, 0, 0, 0.1);
     }
