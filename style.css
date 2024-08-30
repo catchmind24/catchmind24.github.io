@@ -15,6 +15,25 @@
         --button-border-color: #cccccc;
         --hover-background-color: #f0f0f0;
         --box-shadow-color: rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Icon for dark mode */
+.logo {
+    content: url('assets/icon.png');
+    width: 100px;
+    height: 100px;
+    border-radius: 24px;
+}
+
+/* Icon for light mode */
+@media (prefers-color-scheme: light) {
+    .logo {
+        content: url('assets/icon2.png');
+        width: 100px;
+        height: 100px;
+        border-radius: 24px;
+    }
 }
 
 body {
@@ -42,12 +61,6 @@ body {
 
 .logo-container {
     margin-bottom: 28px;
-}
-
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 24px;
 }
 
 .title {
