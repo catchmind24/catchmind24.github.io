@@ -6,7 +6,7 @@
     --hover-background-color: #111111;
     --box-shadow-color: rgba(255, 255, 255, 0.15);
     --logo-border-color: #444444;
-    --logo-box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+    --logo-box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
 }
 
 @media (prefers-color-scheme: light) {
@@ -18,7 +18,7 @@
         --hover-background-color: #f0f0f0;
         --box-shadow-color: rgba(0, 0, 0, 0.08);
         --logo-border-color: #cccccc;
-        --logo-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+        --logo-box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
     }
 }
 
