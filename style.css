@@ -5,6 +5,8 @@
     --button-border-color: #333333;
     --hover-background-color: #111111;
     --box-shadow-color: rgba(0, 0, 0, 0.2);
+    --logo-border-color: #444444;
+    --logo-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 @media (prefers-color-scheme: light) {
@@ -15,6 +17,8 @@
         --button-border-color: #cccccc;
         --hover-background-color: #f0f0f0;
         --box-shadow-color: rgba(0, 0, 0, 0.1);
+        --logo-border-color: #cccccc;
+        --logo-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 }
 
@@ -22,7 +26,8 @@
     content: url('assets/icon.png');
     width: 60px;
     height: 60px;
-    border-radius: 15px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px var(--box-shadow-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -30,7 +35,8 @@
         content: url('assets/icon2.png');
         width: 60px;
         height: 60px;
-        border-radius: 15px;
+        border-radius: 50%;
+        box-shadow: 0 3px 10px var(--box-shadow-color);
     }
 }
 
@@ -108,25 +114,4 @@ body {
 
 .icon:hover {
     transform: scale(1.15);
-}
-
-@media (min-width: 375px) {
-    .container {
-        padding: 24px;
-        max-width: 280px;
-    }
-
-    .title {
-        font-size: 2em;
-    }
-
-    .button {
-        font-size: 1em;
-        padding: 14px 20px;
-    }
-
-    .logo {
-        width: 60px;
-        height: 60px;
-    }
 }
