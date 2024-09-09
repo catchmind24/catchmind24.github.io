@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>com.catchmind.afreecatv++</title>
+    <style>
+        :root {
+            color-scheme: light dark;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #000000;
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 1px solid currentColor;
+            padding-bottom: 10px;
+        }
+        .button {
+            display: inline-block;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .header-image {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            display: none;
+        }
+        .screenshots {
+            display: none;
+        }
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .info-table td {
+            padding: 8px;
+            border-bottom: 1px solid currentColor;
+        }
+        .info-table td:first-child {
+            font-weight: bold;
+            width: 30%;
+        }
+        .changelog {
+            margin-top: 20px;
+        }
+        .changelog h3 {
+            margin-bottom: 5px;
+        }
+        .changelog ul {
+            margin-top: 0;
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                color: #ffffff;
+                background-color: #000000;
+            }
+            .button {
+                background-color: #ffffff;
+                color: #000000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="ios-main" role="main">
+        <img src="" alt="Header Image" class="header-image" id="headerImage">
+        
+        <h1>com.catchmind.afreecatv++</h1>
+        
+        <h2 id="details" role="header">Details</h2>
+        
+        <a href="https://buymeacoffee.com/catchmind24" class="button" target="_blank">☕️ Buy me a coffee</a>
+        
+        <h2 id="description" role="header">Description</h2>
+        <p>Premium subscription</p>
+        
+        <h2 id="package-info" role="header">Package Info</h2>
+        <table class="info-table">
+            <tr>
+                <td>Version</td>
+                <td>1.5.4</td>
+            </tr>
+            <tr>
+                <td>Author</td>
+                <td>catchmind</td>
+            </tr>
+            <tr>
+                <td>Section</td>
+                <td>Tweaks</td>
+            </tr>
+        </table>
+        
+        <h2 id="changelog" role="header">Changelog</h2>
+        <div class="changelog">
+            <h3>1.5.4</h3>
+            <ul>
+                <li>Added app icon</li>
+            </ul>
+            <h3>1.5.3</h3>
+            <ul>
+                <li>Fixed preview bug</li>
+            </ul>
+            <h3>1.5.2</h3>
+            <ul>
+                <li>Fixed catch tab bug</li>
+            </ul>
+            <h3>1.5.1</h3>
+            <ul>
+                <li>Removed subscription feature</li>
+            </ul>
+            <h3>1.5.0</h3>
+            <ul>
+                <li>Removed catch ads</li>
+            </ul>
+            <h3>1.4.0</h3>
+            <ul>
+                <li>Removed live banner ad</li>
+            </ul>
+            <h3>1.3.0</h3>
+            <ul>
+                <li>Removed intro bottom banner ad</li>
+            </ul>
+            <h3>1.2.0</h3>
+            <ul>
+                <li>Removed various ad banners</li>
+            </ul>
+            <h3>1.1.0</h3>
+            <ul>
+                <li>Enabled Timamachine and Multiview features</li>
+                <li>Patched remove preroll ad</li>
+            </ul>
+            <h3>1.0.0</h3>
+            <ul>
+                <li>Initial Release</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function setHeaderImage(imageUrl) {
+            const headerImage = document.getElementById('headerImage');
+            if (imageUrl && imageUrl.trim() !== "") {
+                headerImage.src = imageUrl;
+                headerImage.style.display = 'block';
+            } else {
+                headerImage.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>

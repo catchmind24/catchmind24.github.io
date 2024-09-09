@@ -1,11 +1,11 @@
-Package: com.catchmind.zeta++
-Name: zeta++
+Package: com.catchmind.accuweather++
+Name: AccuWeather++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on zeta(Pro subscription, but all other features are server-side verified.)
+Description: Premium subscription(Restart app and click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
-Architecture: iphoneos-arm64
-Version: 1.0.1
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Architecture: iphoneos-arm
+Version: 1.0.0
 Installed-Size: 1208
