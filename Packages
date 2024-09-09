@@ -73,7 +73,7 @@ MD5sum: 10f6b144a0d8bffa060ca825aee9db91
 SHA1: 55da411193bbacce7302f29e151ede6d9b353690
 SHA256: 9d3417745b950232cf3fabfec2bd23b77dcba4dffaf2d33940a79eadbbf668d4
 SHA521: 9829fd49ce7e9d07e09edfb7fcc6f3c6906de453b0a95277ca090634d6c7b444a8e975a7719d8328e249d4e23bbf14d3bf24fbb239927450f6b4e42ad7c68816
-Sileodepiction: https://catchmind24.github.io/depictions/afreecatv++.json
+Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/afreecatv++.json
 
 Package: com.catchmind.afreecatvsubscription
 Name: AfreecaTV Subscription
