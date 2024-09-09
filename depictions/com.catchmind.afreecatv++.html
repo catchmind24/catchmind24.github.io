@@ -7,6 +7,7 @@
     <style>
         :root {
             color-scheme: light dark;
+            --tint-color: #000000;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -17,43 +18,56 @@
             margin: 0 auto;
             padding: 20px;
         }
-        h2 {
-            border-bottom: 1px solid currentColor;
-            padding-bottom: 10px;
+        .depiction-tab-view {
+            border: 1px solid var(--tint-color);
+            border-radius: 10px;
+            overflow: hidden;
         }
-        .button {
-            display: inline-block;
-            background-color: #000000;
-            color: #ffffff;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-bottom: 20px;
+        .tab-buttons {
+            display: flex;
+            background-color: var(--tint-color);
+        }
+        .tab-button {
+            flex: 1;
+            padding: 10px;
+            background: none;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .tab-button.active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+        }
+        .tab-content.active {
+            display: block;
         }
         .header-image {
             width: 100%;
             max-height: 200px;
             object-fit: cover;
             margin-bottom: 20px;
-            display: none;
         }
-        .screenshots {
-            display: none;
+        .depiction-screenshot-view {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
         }
-        .info-table {
-            width: 100%;
-            border-collapse: collapse;
+        .depiction-screenshot-view img {
+            max-width: 30%;
+            border-radius: 6px;
         }
-        .info-table td {
-            padding: 8px;
-            border-bottom: 1px solid currentColor;
-        }
-        .info-table td:first-child {
-            font-weight: bold;
-            width: 30%;
-        }
-        .changelog {
-            margin-top: 20px;
+        .depiction-button-view {
+            display: inline-block;
+            background-color: var(--tint-color);
+            color: #ffffff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
         }
         .changelog h3 {
             margin-bottom: 5px;
@@ -68,89 +82,94 @@
                 color: #ffffff;
                 background-color: #000000;
             }
-            .button {
-                background-color: #ffffff;
-                color: #000000;
-            }
         }
     </style>
 </head>
 <body>
-    <div class="ios-main" role="main">
-        <img src="" alt="Header Image" class="header-image" id="headerImage">
-        
-        <h1>com.catchmind.afreecatv++</h1>
-        
-        <h2 id="details" role="header">Details</h2>
-        
-        <a href="https://buymeacoffee.com/catchmind24" class="button" target="_blank">☕️ Buy me a coffee</a>
-        
-        <h2 id="description" role="header">Description</h2>
-        <p>Premium subscription</p>
-        
-        <h2 id="package-info" role="header">Package Info</h2>
-        <table class="info-table">
-            <tr>
-                <td>Version</td>
-                <td>1.5.4</td>
-            </tr>
-            <tr>
-                <td>Author</td>
-                <td>catchmind</td>
-            </tr>
-            <tr>
-                <td>Section</td>
-                <td>Tweaks</td>
-            </tr>
-        </table>
-        
-        <h2 id="changelog" role="header">Changelog</h2>
-        <div class="changelog">
-            <h3>1.5.4</h3>
-            <ul>
-                <li>Added app icon</li>
-            </ul>
-            <h3>1.5.3</h3>
-            <ul>
-                <li>Fixed preview bug</li>
-            </ul>
-            <h3>1.5.2</h3>
-            <ul>
-                <li>Fixed catch tab bug</li>
-            </ul>
-            <h3>1.5.1</h3>
-            <ul>
-                <li>Removed subscription feature</li>
-            </ul>
-            <h3>1.5.0</h3>
-            <ul>
-                <li>Removed catch ads</li>
-            </ul>
-            <h3>1.4.0</h3>
-            <ul>
-                <li>Removed live banner ad</li>
-            </ul>
-            <h3>1.3.0</h3>
-            <ul>
-                <li>Removed intro bottom banner ad</li>
-            </ul>
-            <h3>1.2.0</h3>
-            <ul>
-                <li>Removed various ad banners</li>
-            </ul>
-            <h3>1.1.0</h3>
-            <ul>
-                <li>Enabled Timamachine and Multiview features</li>
-                <li>Patched remove preroll ad</li>
-            </ul>
-            <h3>1.0.0</h3>
-            <ul>
-                <li>Initial Release</li>
-            </ul>
+    <div class="depiction-tab-view">
+        <div class="tab-buttons">
+            <button class="tab-button active" onclick="openTab(event, 'details')">Details</button>
+            <button class="tab-button" onclick="openTab(event, 'changelog')">Changelog</button>
+        </div>
+
+        <div id="details" class="tab-content active">
+            <img src="" alt="Header Image" class="header-image" id="headerImage">
+            
+            <h1>com.catchmind.afreecatv++</h1>
+            
+            <a href="https://buymeacoffee.com/catchmind24" class="depiction-button-view" target="_blank">☕️ Buy me a coffee</a>
+            
+            <div class="depiction-screenshot-view">
+                <img src="" alt="Screenshot 1">
+                <img src="" alt="Screenshot 2">
+                <img src="" alt="Screenshot 3">
+            </div>
+            
+            <h2>Description</h2>
+            <p>Premium subscription</p>
+            
+            <h2>Package Info</h2>
+            <table>
+                <tr>
+                    <td><strong>Version</strong></td>
+                    <td>1.5.4</td>
+                </tr>
+                <tr>
+                    <td><strong>Author</strong></td>
+                    <td>catchmind</td>
+                </tr>
+                <tr>
+                    <td><strong>Section</strong></td>
+                    <td>Tweaks</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="changelog" class="tab-content">
+            <h2>Changelog</h2>
+            <div class="changelog">
+                <h3>1.5.4</h3>
+                <ul><li>Added app icon</li></ul>
+                <h3>1.5.3</h3>
+                <ul><li>Fixed preview bug</li></ul>
+                <h3>1.5.2</h3>
+                <ul><li>Fixed catch tab bug</li></ul>
+                <h3>1.5.1</h3>
+                <ul><li>Removed subscription feature</li></ul>
+                <h3>1.5.0</h3>
+                <ul><li>Removed catch ads</li></ul>
+                <h3>1.4.0</h3>
+                <ul><li>Removed live banner ad</li></ul>
+                <h3>1.3.0</h3>
+                <ul><li>Removed intro bottom banner ad</li></ul>
+                <h3>1.2.0</h3>
+                <ul><li>Removed various ad banners</li></ul>
+                <h3>1.1.0</h3>
+                <ul>
+                    <li>Enabled Timamachine and Multiview features</li>
+                    <li>Patched remove preroll ad</li>
+                </ul>
+                <h3>1.0</h3>
+                <ul><li>Initial Release</li></ul>
+            </div>
         </div>
     </div>
 
     <script>
+        function openTab(evt, tabName) {
+            var i, tabContent, tabButtons;
+            tabContent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabContent.length; i++) {
+                tabContent[i].style.display = "none";
+            }
+            tabButtons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabButtons.length; i++) {
+                tabButtons[i].className = tabButtons[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
         function setHeaderImage(imageUrl) {
             const headerImage = document.getElementById('headerImage');
             if (imageUrl && imageUrl.trim() !== "") {
