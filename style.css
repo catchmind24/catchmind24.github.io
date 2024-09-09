@@ -114,3 +114,7 @@ body {
 .icon:hover {
     transform: scale(1.15);
 }
+
+.icon[src*="telegram.png"] {
+    width: 34px;
+}
