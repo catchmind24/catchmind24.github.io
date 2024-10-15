@@ -1,13 +1,11 @@
-Package: com.blatant.adguard
-Name: AdGuard
-Description: Cracked By Blatant
-Maintainer: blatant
-Author: blatant
-Section: Cracks
-Depends: mobilesubstrate (>= 0.9.5000)
-SileoDepiction: https://github.com/b1atant/b1atant.github.io/raw/main/depictions/AdGuard.json
-Depiction: https://raw.githubusercontent.com/b1atant/Logo/main/MadeByS.PNG
-Icon: https://i.postimg.cc/nzbcs1MZ/IMG-5783.jpg
+Package: com.catchmind.zeta++
+Name: zeta++
+Author: catchmind <musicinfacebook@gmail.com>
+Description: Remove ads on zeta(Pro subscription, but all other features are server-side verified.)
+Depends: mobilesubstrate
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Section: Tweaks
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.0
-Installed-Size: 204
+Version: 1.0.1
+Installed-Size: 1208

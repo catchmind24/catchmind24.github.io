@@ -37,46 +37,45 @@ SHA256: b3a8dab7ed48c9df30e175e051fb07c1364221fa91ae3bb481786de7c84dec60
 SHA521: eeb5d3d52cab643f1cca921a1588c487543fcc93313fedfd2f71b05606780a454e192677ae0e0d3941c446e2e92053636efc732613444bc7bbbcaf63bbb05dbe
 
 Package: com.catchmind.afreecatv++
-Name: AfreecaTV++
+Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on AfreecaTV. Enable Timemachine and Multiview features.
+Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/c9/ba/a1c9ba85-5983-00c5-d4ac-629c58bfa024/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
-Version: 1.5.4
+Version: 1.6.0
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.4_iphoneos-arm.deb
+Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378748
-MD5sum: a1c18bdf13e256cf74105ceaf4911f0d
-SHA1: 3f0eecef26e18a9792468dd8e9ff99d4dc9a1f74
-SHA256: 60974fb7568a3f34fa479f85483b3b0ddf754f132e7fd4ed3c0a14e35b8f0971
-SHA521: ce8d3d853560d6248bf0d8f87c58daea246bd5639c051b4d99731ec9a598a96d594c9589b28ae361c186f1024e8c1e2b8725f45ce0b30f87e4cd63849570cff1
+Size: 378572
+MD5sum: 25f64a840fa89d323db16fcfdb76963f
+SHA1: 0eb13fe9de5762230eb15ea3cc9ef415e50630c9
+SHA256: 5e98d46d9bdd6455aa9847f5c80c0ee01a4a68be77f8e39563b4afb845049459
+SHA521: f3648b979ba4091fa8c8bace28fb1aa47312982a63a407d3273db40ff1224866cf55788df2fb317d26f372c6c39d4d20f0961c711a038ee1cd3db70399beeefc
 
 Package: com.catchmind.afreecatv++
-Name: AfreecaTV++(rootless)
+Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on AfreecaTV. Enable Timemachine and Multiview features.
+Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/c9/ba/a1c9ba85-5983-00c5-d4ac-629c58bfa024/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.5.4
+Version: 1.6.0
 Installed-Size: 1224
-Filename: debs/com.catchmind.afreecatv++_1.5.4_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378832
-MD5sum: 10f6b144a0d8bffa060ca825aee9db91
-SHA1: 55da411193bbacce7302f29e151ede6d9b353690
-SHA256: 9d3417745b950232cf3fabfec2bd23b77dcba4dffaf2d33940a79eadbbf668d4
-SHA521: 9829fd49ce7e9d07e09edfb7fcc6f3c6906de453b0a95277ca090634d6c7b444a8e975a7719d8328e249d4e23bbf14d3bf24fbb239927450f6b4e42ad7c68816
-Sileodepiction: https://catchmind24.github.io/depictions/afreecatv.json
+Size: 378632
+MD5sum: a5a9f2611c2e2797bd604eb65713966b
+SHA1: 74471cef1410f9d038f0c8d0403c726b15ccc96b
+SHA256: 68527100b370bc21b2a68218f6913292bd0d4defb9e8e08bc6e5bf159d6f75b0
+SHA521: 5718d859ce86a65550b557e56653289d1d7d6dc1b9fad0f8688a0abdfe9093fee43d626c5fca53ed90e356cabe77ad0fdc167b898a655954c40db59d18b62718
 
 Package: com.catchmind.afreecatvsubscription
-Name: AfreecaTV Subscription
+Name: SOOP Subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
 Depends: mobilesubstrate
@@ -84,18 +83,18 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
 Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm
-Version: 1.0.1
-Installed-Size: 280
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm.deb
+Version: 1.0.2
+Installed-Size: 152
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 5566
-MD5sum: 1079836501f4b7f3daf3c7e4bee78402
-SHA1: 6ac85e8318e09594f84ab6609453d6a310f0f2be
-SHA256: 83375c2c16809e4d64795e95ac08c1cb7d8fd188c6b67868cf90e0ac4515d20e
-SHA521: 8f0662fe846c76f46cc7e3ceddeb2016b7730b73a15837ccb89a37537cc3cabf0b24bb965b3f2b842f7ecbb5231e812bbeb78ec984602fea512e49aa446e06f9
+Size: 3956
+MD5sum: 6cc2d72c0c997f1912b6ea068d5d50d8
+SHA1: ee9fbe137294891a7c878b6cab1294a4109ef977
+SHA256: 3c1457c248b80b16ed6f2555d4a5a9b013d2e95cadbac76028c091bed538a34a
+SHA521: 600e4ba2b2c360f80bf2386b936ceaf3d872b90f8dc3daa77c50da594dfa7cbe3aa4b99f7b4ad6d3a9760bd7c68f5b1a63f8680cfb8e295a1ab626529b9a3b4f
 
 Package: com.catchmind.afreecatvsubscription
-Name: AfreecaTV Subscription(rootless)
+Name: SOOP Subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
 Depends: mobilesubstrate
@@ -103,15 +102,15 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
 Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm64
-Version: 1.0.1
+Version: 1.0.2
 Installed-Size: 152
-Filename: debs/com.catchmind.afreecatvsubscription_1.0.1_iphoneos-arm64.deb
+Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4056
-MD5sum: f136f5a41410a53bb21c2b530a7b1ae0
-SHA1: 2bd1f7c7bb9267462bda96c03fb1ade7d538b0aa
-SHA256: c9275dfc0784aaeeabe25e42d05b66cda774ef9c1f5eb3c545df6557db2f97b2
-SHA521: c8ec70d1ecb98ff6198b5c0d7682ee825d452caa81119c34e4118ff6e47658210ce172fd12c6da68c42828fd573cedc3ab9e2db6af75a089e3b82061d8dbd714
+Size: 4040
+MD5sum: 68f13b4492ef010c5c20c57b423997ff
+SHA1: d707068d03fca208003768f42f07ff56c2fb6beb
+SHA256: 194fc551c1f6e32bf20d7634b088591b5185acee786dc473ef891f0052abba87
+SHA521: 3763e39b15eef1f6669623a195cfaa916926241c7cf0cb70640d831ec0bb0cb4a36d1589c215978d4d2580a229c8b9049647be8a65a8b3d0914b35c4e371f890
 
 Package: com.catchmind.b612++
 Name: B612++
