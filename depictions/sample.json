@@ -1,7 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
-    "tintColor":"#000000",
+    "tintColor": "#000000",
     "headerImage": "",
     "tabs": [
         {
@@ -29,7 +29,7 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "Premium subscription",
                     "useSpacing": true
-                },
+                }
             ]
         },
         {
@@ -37,14 +37,14 @@
             "tabname": "Changelog",
             "views": [
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.0.0",
-                    "useBoldText": true,
-                    "useBottomMargin": false
+                    "class": "DepictionLabelView",
+                    "text": "1.0.0",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Initial Release",
+                    "markdown": "- Initial Release",
                     "useSpacing": true
                 }
             ]
