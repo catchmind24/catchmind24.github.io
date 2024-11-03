@@ -62,17 +62,18 @@ Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorizat
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/afreecatv.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378572
-MD5sum: 25f64a840fa89d323db16fcfdb76963f
-SHA1: 0eb13fe9de5762230eb15ea3cc9ef415e50630c9
-SHA256: 5e98d46d9bdd6455aa9847f5c80c0ee01a4a68be77f8e39563b4afb845049459
-SHA521: f3648b979ba4091fa8c8bace28fb1aa47312982a63a407d3273db40ff1224866cf55788df2fb317d26f372c6c39d4d20f0961c711a038ee1cd3db70399beeefc
+Size: 375150
+MD5sum: ceed5c63be394c038d0dde7ce592f189
+SHA1: b22a7ee657d1fd696e53caaa9b7c1228176cf99f
+SHA256: 9f4df20a5059a2942c16a6c641e5753cad5884ffd3af49f306b23f1b29a4a601
+SHA521: 0fb392a8674143cfe399920a82a9737fe35da4e601b34389ca091bafd45ef06e4437149e5c4ade1a8eea62b39902aff29579902b6e593968014826d720a45391
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
@@ -81,17 +82,18 @@ Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorizat
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/afreecatv.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 378632
-MD5sum: a5a9f2611c2e2797bd604eb65713966b
-SHA1: 74471cef1410f9d038f0c8d0403c726b15ccc96b
-SHA256: 68527100b370bc21b2a68218f6913292bd0d4defb9e8e08bc6e5bf159d6f75b0
-SHA521: 5718d859ce86a65550b557e56653289d1d7d6dc1b9fad0f8688a0abdfe9093fee43d626c5fca53ed90e356cabe77ad0fdc167b898a655954c40db59d18b62718
+Size: 375134
+MD5sum: bd9307ee32f30480653bf9abfc94f0be
+SHA1: d4d456e22532e559fe0e3131cdb40758720e26a3
+SHA256: fabad96a547213e0e63b47e4051e8aea280774c333109c455ab1aeb14c7eb983
+SHA521: ae80ffdb69fbdcc9baf31212efe7f1b0b087094b88e26158cc72813ad1218f05c02b04932835c82c6cb0048e10ade8a87185c02f23ad1c52f47efe9f375f9dad
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
@@ -107,11 +109,11 @@ Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375152
-MD5sum: 4318f351b43f751249b1651c1012685a
-SHA1: 4a265573251a3c7c8400f4f22756a785fefecdd1
-SHA256: f64886a97ff745054e38edefd5389dcaca6949bb54e1961fb4deeac9c5015378
-SHA521: d3dd6021c54ef8230da82f95fcc0e4d3323918a6a40c63bfd2d1ea1d0039c476e0d3dd0055dc56e5b5bc9f093d5cc2fecf53194ca1922f925997635f4b8a4e10
+Size: 375184
+MD5sum: 0d7f799bdc3b982b224455a71d201e1a
+SHA1: 3c93e6af044aaae75b97101f3d070e8d79896947
+SHA256: 494b59fe7f90a15ef33a72a5a17aff242244b03df0612cc07cf0e97c36beef80
+SHA521: 35aa0a40bd991733010e10611c216fd854a7c99711bbd9a56d460d9b19e507affe89730f5aaf5096db8db8b7f498af70e9c696de76330e91104564b0f37cfe7f
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOP Subscription
