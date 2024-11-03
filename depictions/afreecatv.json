@@ -1,7 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
-    "tintColor":"#000000",
+    "tintColor": "#000000",
     "headerImage": "",
     "tabs": [
         {
@@ -29,17 +29,17 @@
                     "class": "DepictionMarkdownView",
                     "markdown": "Remove ads on SOOP. Unlock Quickview features (Timemachine, Multiview), Bypass Adult Authorization.",
                     "useSpacing": true
-                },
+                }
             ]
         },
         {
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
-		 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.6.0",
-                    "useBoldText": true,
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.6.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -48,9 +48,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.5.4",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.5.4",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -59,9 +59,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.5.3",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.5.3",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -70,9 +70,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.5.2",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.5.2",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -81,9 +81,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.5.1",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.5.1",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -92,9 +92,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.5.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.5.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -103,9 +103,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.4.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.4.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -114,9 +114,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.3.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.3.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -125,9 +125,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.2.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.2.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -136,9 +136,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.1.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.1.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
@@ -147,9 +147,9 @@
                     "useSpacing": true
                 },
                 {
-                    "class": "DepictionSubheaderView",
-                    "title": "Version 1.0.0",
-                    "useBoldText": true,
+                    "class": "DepictionLabelView",
+                    "text": "1.0.0",
+                    "fontWeight": "bold",
                     "useBottomMargin": false
                 },
                 {
