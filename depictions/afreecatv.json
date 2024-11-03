@@ -30,28 +30,6 @@
                     "markdown": "Remove ads on SOOP. Ulock Quickview features (Timamachine, Multiview), Bypass Adult Authorization.",
                     "useSpacing": true
                 },
-                {
-                    "class": "DepictionHeaderView",
-                    "title": "Package Info"
-                },
-                {
-                    "class": "DepictionSeparatorView"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Version",
-                    "text": "1.6.0"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Author",
-                    "text": "catchmind"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Section",
-                    "text": "Tweaks"
-                }
             ]
         },
         {
