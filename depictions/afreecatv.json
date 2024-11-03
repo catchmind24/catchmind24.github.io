@@ -77,6 +77,17 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+		 {
+                    "class": "DepictionSubheaderView",
+                    "title": "Version 1.6.0",
+                    "useBoldText": true,
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Changed from AfreecaTV to SOOP",
+                    "useSpacing": true
+                },
                 {
                     "class": "DepictionSubheaderView",
                     "title": "Version 1.5.4",
