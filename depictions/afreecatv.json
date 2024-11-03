@@ -19,25 +19,6 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionScreenshotsView",
-                    "itemCornerRadius": 6,
-                    "itemSize": "[160, 346]",
-                    "screenshots": [
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": ""
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": ""
-                        },
-                        {
-                            "accessibilityText": "Screenshot",
-                            "url": ""
-                        }
-                    ]
-                },
-                {
                     "class": "DepictionHeaderView",
                     "title": "Description"
                 },
@@ -59,7 +40,7 @@
                 {
                     "class": "DepictionTableTextView",
                     "title": "Version",
-                    "text": "1.5.4"
+                    "text": "1.6.0"
                 },
                 {
                     "class": "DepictionTableTextView",

@@ -1,11 +1,12 @@
-Package: com.catchmind.zeta++
-Name: zeta++
+Package: com.catchmind.afreecatv++
+Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Premium subscription(most features are server-side verified.)
+Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/afreecatv.json
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
-Version: 1.0.2
-Installed-Size: 1208
+Version: 1.6.0
+Installed-Size: 1224
