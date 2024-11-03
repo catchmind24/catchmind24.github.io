@@ -58,7 +58,7 @@ SHA521: 1d0b9acc435d131f0252da5626cd0e3ef6ad23df2e855cea835f60d93e66eef927109649
 Package: com.catchmind.afreecatv++
 Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
+Description: Remove ads on SOOP. Unlock Quickview features (Timemachine, Multiview), Bypass Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
@@ -69,16 +69,16 @@ Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375150
-MD5sum: ceed5c63be394c038d0dde7ce592f189
-SHA1: b22a7ee657d1fd696e53caaa9b7c1228176cf99f
-SHA256: 9f4df20a5059a2942c16a6c641e5753cad5884ffd3af49f306b23f1b29a4a601
-SHA521: 0fb392a8674143cfe399920a82a9737fe35da4e601b34389ca091bafd45ef06e4437149e5c4ade1a8eea62b39902aff29579902b6e593968014826d720a45391
+Size: 375242
+MD5sum: aff58139433c9aac2139664f7a0df47f
+SHA1: b4e967f51ebfcd9d8ea79341ff08063a06dfc63a
+SHA256: b8da211d64182944d4e35035bb4e3086891cd9d093bddfa77949268f41a073e1
+SHA521: 6c0147bbe8ca86be67fa0adf10a05f2b42044b0c68863cf9d80794c40ba61ec90eb3ec3a2d4b1e6f8be207d757bae5b4a4a2fa16388e974618c17685ec4f7927
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
+Description: Remove ads on SOOP. Unlock Quickview features (Timemachine, Multiview), Bypass Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
@@ -89,16 +89,16 @@ Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375134
-MD5sum: bd9307ee32f30480653bf9abfc94f0be
-SHA1: d4d456e22532e559fe0e3131cdb40758720e26a3
-SHA256: fabad96a547213e0e63b47e4051e8aea280774c333109c455ab1aeb14c7eb983
-SHA521: ae80ffdb69fbdcc9baf31212efe7f1b0b087094b88e26158cc72813ad1218f05c02b04932835c82c6cb0048e10ade8a87185c02f23ad1c52f47efe9f375f9dad
+Size: 375158
+MD5sum: 57dc67b1de57ecec6aa083bd901de363
+SHA1: d323dd882dfeae7c58b15769924dbfc1b7ed98a6
+SHA256: 7d744eec37852c873bad1ec68689f373dd9227e5a30c373d1e3511c5c30124c9
+SHA521: 45c12b8d59e136478097d06988f6b96bfad75b7b303ee7e4a5f69286f90e1762801dd1954cab37262a9c3c1ff211d9a074159926dead8be266b25d93703fd534
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Remove ads on SOOP. Enable Timemachine, Multiview, Adult Authorization.
+Description: Remove ads on SOOP. Unlock Quickview features (Timemachine, Multiview), Bypass Adult Authorization.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
@@ -109,11 +109,11 @@ Version: 1.6.0
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.0_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375184
-MD5sum: 0d7f799bdc3b982b224455a71d201e1a
-SHA1: 3c93e6af044aaae75b97101f3d070e8d79896947
-SHA256: 494b59fe7f90a15ef33a72a5a17aff242244b03df0612cc07cf0e97c36beef80
-SHA521: 35aa0a40bd991733010e10611c216fd854a7c99711bbd9a56d460d9b19e507affe89730f5aaf5096db8db8b7f498af70e9c696de76330e91104564b0f37cfe7f
+Size: 375070
+MD5sum: fd38a1dbb545990c070f401b87877195
+SHA1: 277a887827c7d62883616b2f371014c3bdcce00c
+SHA256: 297bef07cad49167629213b0d5af06a3d9107b0963e9dd88613017aeaea4e7ec
+SHA521: 47e4f3971346f850169013722d00ececaa6825647fe3f31f14b28dce3956e24d89bbabaf695cd79d1a329978d02638ad44595a80dc3cae509229c5ceb789040c
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOP Subscription
