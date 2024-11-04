@@ -1,0 +1,81 @@
+{
+    "minVersion": "0.4",
+    "class": "DepictionTabView",
+    "tintColor": "#000000",
+    "headerImage": "",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "views": [
+                {
+                    "class": "DepictionButtonView",
+                    "text": "☕️ Buy me a coffee",
+                    "action": "https://buymeacoffee.com/catchmind24",
+                    "openExternal": true,
+                    "tintColor": "#000000"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Description"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Premium subscription (Most features are server-side verified.)",
+                    "useSpacing": true
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.0.2",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed bugs",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.0.1",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed bugs",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.0.0",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial Release",
+                    "useSpacing": true
+                }
+            ]
+        }
+    ]
+}

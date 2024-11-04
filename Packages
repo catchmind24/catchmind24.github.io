@@ -1,21 +1,22 @@
 Package: com.catchmind.accuweather++
 Name: AccuWeather++
-Author: catchmind <musicinfacebook@gmail.com>
+Author: catchmind
 Description: Premium subscription(Restart app and click restore purchase.)
 Depends: mobilesubstrate
-Maintainer: catchmind <musicinfacebook@gmail.com>
+Maintainer: catchmind
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/AccuWeather++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.0
 Installed-Size: 1208
 Filename: debs/com.catchmind.accuweather++_1.0.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.accuweather++.html
-Size: 374950
-MD5sum: edcc0783896a461ab5e5fae966fc810b
-SHA1: 7340e227071d42a10c89a91b7ee5e98318c531f9
-SHA256: df87d6cadfe42cb91bdd608be1bbf4c85d7ebebfe4dbcd2bb6a399e75d7f1e7e
-SHA521: f9d48f995e58ef983c1331b0ed4f0c9f418edc4aed0a38e275834437055e884e8f46ec20be519f48f18e005f849c37e8871050a68702dab276c4ec8d5258bae5
+Size: 373898
+MD5sum: f920e95c649ed6f2edefc77fa6d6107d
+SHA1: e3494d03788af484e4df813f622ec71e4d0e6439
+SHA256: 105a0248b794ef5ee349635a291163c3886cecd72eb0113e6a47a46012bc5f1e
+SHA521: dc424b8e1f07906fa783a9c0e0cedae4400e888cbfe6dbe9b8ab96f0aa8f5f37a4b6b8d7045dfaf0c287db6c9ebeebd2722e709c98a752a156fee1ee7aa50fac
 
 Package: com.catchmind.accuweather++
 Name: AccuWeather++
@@ -24,17 +25,18 @@ Description: Premium subscription(Restart app and click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/AccuWeather++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 1208
 Filename: debs/com.catchmind.accuweather++_1.0.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.accuweather++.html
-Size: 374912
-MD5sum: 1febc9909ee42b1d289fe339a5c7b8f9
-SHA1: 568fe3e4969ae0154bc47ac1e45b2ec7492bc974
-SHA256: b3a8dab7ed48c9df30e175e051fb07c1364221fa91ae3bb481786de7c84dec60
-SHA521: eeb5d3d52cab643f1cca921a1588c487543fcc93313fedfd2f71b05606780a454e192677ae0e0d3941c446e2e92053636efc732613444bc7bbbcaf63bbb05dbe
+Size: 374100
+MD5sum: 9c0ca2813916a46df5d7a166b85a992b
+SHA1: cf56a06cbe23fe4200211aba6b61f2f79fdd1767
+SHA256: 1d605979472c55f281156d8b4fa3efef8e160b52a3bcc2c6db167b9684f1d4e6
+SHA521: a0451a662e070a4313a4472d9a9d4a3ab8fe19cea9d9ec06724da1fd152211a0de7661b2bc692ab205c023dcadacd9a09fde5d2d76bcdde803ea71404dad1857
 
 Package: com.catchmind.accuweather++
 Name: AccuWeather++
@@ -43,17 +45,18 @@ Description: Premium subscription(Restart app and click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/AccuWeather++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 1208
 Filename: debs/com.catchmind.accuweather++_1.0.0_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.accuweather++.html
-Size: 373914
-MD5sum: f28291b99428f93ce0719726bc27bc17
-SHA1: b06d201bb8981b2f10edad986c4b85aa74c6eb7e
-SHA256: f6cecfdabbbf8ea75870a509c5ba4426bebcb5608cb815b1e6aad3ec17b83f2e
-SHA521: 1d0b9acc435d131f0252da5626cd0e3ef6ad23df2e855cea835f60d93e66eef927109649db3144b8fe2a4a26fc730ba34e663a3fd5ac87d3333085ff1aac6197
+Size: 373948
+MD5sum: fec767e5b9fbdbb8833724a36f3fc57a
+SHA1: cb557feaa7d0dc2ec27b69afdddbd6e07ac62efe
+SHA256: 05c7ebc5b2df8822a4edd0f948cab559dde6717a5fcd88a765219761b9f4f2d7
+SHA521: e3580a292d31df332b7371bd1f7f07ccf6afedcf431bb77a25e68d9971003ca2f905d112d5f698145a1370ab7c307a1445c2ad1731dc6c4603cf6ad11301a26e
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
@@ -118,59 +121,62 @@ SHA521: 60acccded12baf10f58a9badbcdb86e6224f5e066ff7d011d8e67488f1c9b2eba51d42fd
 Package: com.catchmind.afreecatvsubscription
 Name: SOOP Subscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
+Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SOOP_Subscription.json
 Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm
 Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 3956
-MD5sum: 6cc2d72c0c997f1912b6ea068d5d50d8
-SHA1: ee9fbe137294891a7c878b6cab1294a4109ef977
-SHA256: 3c1457c248b80b16ed6f2555d4a5a9b013d2e95cadbac76028c091bed538a34a
-SHA521: 600e4ba2b2c360f80bf2386b936ceaf3d872b90f8dc3daa77c50da594dfa7cbe3aa4b99f7b4ad6d3a9760bd7c68f5b1a63f8680cfb8e295a1ab626529b9a3b4f
+Size: 3992
+MD5sum: d281e52b4ccf925ef2247202a61059d0
+SHA1: 42ef29cadbfc079dab5b3530c5f29090e5bc25c5
+SHA256: 7625487147d5b717896f15ecbedc57c2d369e8222bf8bcaed6ddf10d84a16b7e
+SHA521: 23b0f2c512e484bbbbfc019408605bb74f3d0372eff95b73d5e8f063ee82a64dfdad86ca3b76ade2b1412487e06c8d1dd495900f49a38e3cfc3154ac2c09ccb2
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOP Subscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
+Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SOOP_Subscription.json
 Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm64
 Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4040
-MD5sum: 68f13b4492ef010c5c20c57b423997ff
-SHA1: d707068d03fca208003768f42f07ff56c2fb6beb
-SHA256: 194fc551c1f6e32bf20d7634b088591b5185acee786dc473ef891f0052abba87
-SHA521: 3763e39b15eef1f6669623a195cfaa916926241c7cf0cb70640d831ec0bb0cb4a36d1589c215978d4d2580a229c8b9049647be8a65a8b3d0914b35c4e371f890
+Size: 4080
+MD5sum: 88c8d5eae1ea146e0f4b988506c19c25
+SHA1: 83a0673ce5da5f40faf56a30b08d23aa3738c21c
+SHA256: 74e5fab4ac8e89b361b6114ff5524aaaf052e6717759eb19c00c241ef55fd3e6
+SHA521: 74db3459db89c8fe9f25e2c5efdda47525f45650b30d4b9ae9125196f1da822a1a645a1fb78de18c7e0158776ffd3223d486774a93553d7c6eee798072f2340c
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOP Subscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons are enabled. Only the default personacon badge is applied. Use at your own risk!
+Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SOOP_Subscription.json
 Icon: https://i.postimg.cc/cLrTGTSg/personalcon-default-6x.png
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 3960
-MD5sum: 468d8c2c480cdde877e7124d339af36c
-SHA1: c875f9961f610abcdd133aeb0593a1b5a0063bcb
-SHA256: 055ce422044e4efb3bfdda04ba84ec19e715889d06c5c4a310959f23a3be06f4
-SHA521: 8690375f6def6830e7dc9fb14878cce0264cebc48d77b417a19c6e52b0ae165de1772a3bd649e75cee83a0a9a1dda65e8e062eb5e0b7535d048f596d2fbee969
+Size: 4016
+MD5sum: a9f5cf0ba92420004f1bc8aa5044a0ae
+SHA1: 8ff59d4b0e84e4cfd5661328ed259aeb3d4add7f
+SHA256: 46361b2f29ea851e142bfdeecf901fd94a5de111cd6c106e1fa504523574a461
+SHA521: 3645aadefc9bffec14c9660d2468734ce96223a60ddbb17be1325d167d772f7b11d4c1145c41035a6d02d0dbd80b935239480634685883263b16079a5c6e5de4
 
 Package: com.catchmind.b612++
 Name: B612++
@@ -179,17 +185,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/B612++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.b612++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.b612++.html
-Size: 373674
-MD5sum: 8d6224aa5209fd517f70699bf879bf66
-SHA1: ce370aa5fa9d123cca08f4edc7ceba6d1e00317f
-SHA256: ff2c130746ed5dd863d923044178239f04a2c17715a8ab24ae15bbc1d9611fa4
-SHA521: 2dc9c787985aef23042efccda092f82ed50b6b18e965d4e1528d749870ea13ee24bf6708ea2c76d3dc839f3ead965bae4c80f47ce46d1a5d71c2c40f2e686a4e
+Size: 372912
+MD5sum: 6de772e35a4c154887feb8b07ccba18e
+SHA1: 64c2ed9f51f392dff611a32907c2a77516ca50ed
+SHA256: aa86dfd410f6f2d9d2cb6fd80bf4b29ac6ef92273d793841f0ba49b0ea0ddcb1
+SHA521: 1ffa42e661078ab3a7af7a6a85b12eef2807a781fb49e52d7bd96fb2a62b87f413191ca473da385263e280fc0edda5e002b9c241366abd2d848d531445c90936
 
 Package: com.catchmind.b612++
 Name: B612++
@@ -198,17 +205,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/B612++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.b612++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.b612++.html
-Size: 373720
-MD5sum: 4ac29a343c54dac8bb01cc895d2287b9
-SHA1: a4a2bf15988996bf7231d9107ba025ac4de527b2
-SHA256: 8c18907c80e1c08b7936ea58ac91fc5230a0e8db8d82f910ef44032104bcdb3c
-SHA521: b4603d4b5b7eb9e1885c47177b1050ba0bf750daadc34b7d3a579bb6a35361af9dca51cee6911b24dadd87ad5d8e867e485c76716dec46e44cb7ad790d508e70
+Size: 372860
+MD5sum: eb425d5a29c861602b2136a65986370c
+SHA1: 618b126e1371a4bb60ac76d13b53dd05390fdd6d
+SHA256: 0d10e0e60ea029353bfd7959cf7574cae626018c052f7d412933a4e516c28e41
+SHA521: 31859a04740ccf9be323cf245300977fd78a9b3b877b18bb4d4402e3beeb852069a24be8558cceec05592e8344225e9cdac2b28bd554a0a6f3472102a764b5d6
 
 Package: com.catchmind.b612++
 Name: B612++
@@ -217,17 +225,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/B612++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.b612++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.b612++.html
-Size: 372754
-MD5sum: e486758e2d005c3cfe43c6c0d4675cb5
-SHA1: 64b5f5ecb706b24c81e316281d021fb02c277dcf
-SHA256: 9fd5e2ed5048f21a0bbecec2f6c603669fd38e0c9d58e004b3f94ca445f648d1
-SHA521: 04b339c70c4ae5b964cc8bfa4de5969f5d61a0bcde5f0afb2816a5a5337124de529cf3e72b5c481c41336182db517875378abf1ea0ad7144019ec67196e53c51
+Size: 372910
+MD5sum: 11117324f7af411cca737a3ad5202d13
+SHA1: ff7e828780036f003d8c764f15f3a134416ce8a4
+SHA256: 744c463c8edae256504800eb53718cb98abd118aafcf08ab18292ac0031959c3
+SHA521: de0549a81535b981c8fed5d163d7e3efec9be1d7a362c3f6fe37773094b33c90430fb58951653979b1e4bb346f312260ec2a00b9cecac5694567eb275d7b7d45
 
 Package: com.catchmind.beautyplus++
 Name: BeautyPlus++
@@ -236,17 +245,18 @@ Description: Premium subscription(Click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/BeautyPlus++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/8c/be/7b8cbe6c-0166-384d-77f8-4f829b9658f9/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1208
 Filename: debs/com.catchmind.beautyplus++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.beautyplus++.html
-Size: 375272
-MD5sum: ec2eb38b53e6720f5b9d3763717fd4d5
-SHA1: 234721aed4d1b3f19485a696428e07f6fd76c8fa
-SHA256: 79e713d87248220f4a9edecd47c7d8737dfc53ceb1def57405b4eda9eef11736
-SHA521: 469dc4215ce0eafc876bdc159bfef5742a8676f7d56c2c16bde5096c8eae4a79dc3fe2e119a55f31913904fa73396c35838b232fb8788cce0a2098f622ce2838
+Size: 374340
+MD5sum: 0e0ffb937f7c52be9d4ffec410f8a51c
+SHA1: 8108febc71a3cae2db404e196fd7f66c02aa1272
+SHA256: 23b696e451b05f4c65bc65078ef8288b5e702a160c21a7864a86622bfa9c8b7b
+SHA521: 11688cc1c0fd1922df7ff5b3a0942b4039bef40bcca9ba6365595a1a7afee39361a3866927299e16f50e994968c887eeba0a09ad9be33b6b5ebd0342f2243a7b
 
 Package: com.catchmind.beautyplus++
 Name: BeautyPlus++
@@ -255,17 +265,18 @@ Description: Premium subscription(Click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/BeautyPlus++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/8c/be/7b8cbe6c-0166-384d-77f8-4f829b9658f9/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1208
 Filename: debs/com.catchmind.beautyplus++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.beautyplus++.html
-Size: 375426
-MD5sum: 97cd16849fcd386c98c099bd320c3a8a
-SHA1: cbfabac41ab1b390dc11aee93829d1e4435b4f9a
-SHA256: 855661da36c2d6f710ea029a525e7a5e341bf03c4acbc5444bbcfea298be7588
-SHA521: 14536ff52464a89db63fb18e66a47c1893a89b5d31ef98260f41e550b0d3ca893730fbc55434b767038b5c00a60aef4bbac8090acf259cf453876ecce3de2401
+Size: 374432
+MD5sum: 848f30c58a779ea669cf6811d420f4e5
+SHA1: 5ea0dfd31d7ca18e868439b42a7261439347c366
+SHA256: 53a8b23c4ce7e520f558ef417d5a58748cbf74a9436914034835e3ed38b3eb6e
+SHA521: 5b8698a36511c26aeee8a56c522132e5c37329b328684cda615fe0af2e589e78564f5697b9e2b9a048abb75c2ecf19819c9185072837a594e66185d0f83eda2c
 
 Package: com.catchmind.beautyplus++
 Name: BeautyPlus++
@@ -274,17 +285,78 @@ Description: Premium subscription(Click restore purchase.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/BeautyPlus++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7b/8c/be/7b8cbe6c-0166-384d-77f8-4f829b9658f9/AppIcon-0-0-1x_U007emarketing-0-5-0-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1208
 Filename: debs/com.catchmind.beautyplus++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.beautyplus++.html
-Size: 374316
-MD5sum: d3b851313d7533223bad7ff80e556451
-SHA1: fbc825711aeefeaed610e1d420280df5784c643f
-SHA256: 81b3edecb08a91dc9f8c77f8f86f3318c67543d972617dcde4e6d6dfd1c28167
-SHA521: ec2d04b64774e474aa561ee30405e480ffeb2f31620770bb0363f4524e2bf0d78b37f3c0052426ccedba1f5c70d183a27e68e8735f66bb074d1e929a5f1d846a
+Size: 374426
+MD5sum: 29fcf3cec4cb5716b92d4c15f31a2d44
+SHA1: 0c93a76b450d0faf8d290781f0b9da326ba5df7e
+SHA256: 4cfdd99dcecbf7ca7907f13802caa3ed540ce032e86ff1d5ad3fe8e77186ff48
+SHA521: c7ecf50f5a7933108c0b63533f47b11072b07efe495951317402281d8b9b6ca40606ee741d5b694ca1a05b1be26864ebda4e53e3e854bc28910b77ad96a96c3d
+
+Package: com.catchmind.camscanner++
+Name: CamScanner++
+Author: catchmind <musicinfacebook@gmail.com>
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/d8/1d/1bd81d4c-0fea-32fd-7f75-0f803340a3b6/AppIconLite-0-1x_U007ephone-0-6-0-0-P3-85-220-0.png/512x512bb.jpg
+Architecture: iphoneos-arm
+Version: 1.0.0
+Installed-Size: 1224
+Filename: debs/com.catchmind.camscanner++_1.0.0_iphoneos-arm.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.camscanner++.html
+Size: 375450
+MD5sum: 937d25554017a408cfe9a23671b86cd3
+SHA1: f9b472f6c036ccb16e6f0427c6d9bbb6810f2e5b
+SHA256: 45f89ecb744e234321174312a58d68be875b68b4f363b8c6c55eacd888bd7b81
+SHA521: 8d76951bacd708c433a05cfb84a1521888bbdb817ff5d5783fdab6e8584a22c60083565ec618d7e3808b88b83715b163061ecf41b63491d9987f6cbc8a099baf
+
+Package: com.catchmind.camscanner++
+Name: CamScanner++
+Author: catchmind <musicinfacebook@gmail.com>
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/d8/1d/1bd81d4c-0fea-32fd-7f75-0f803340a3b6/AppIconLite-0-1x_U007ephone-0-6-0-0-P3-85-220-0.png/512x512bb.jpg
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 1224
+Filename: debs/com.catchmind.camscanner++_1.0.0_iphoneos-arm64.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.camscanner++.html
+Size: 375598
+MD5sum: cb7851d7c71d763e43036edd5f8f9e80
+SHA1: c3df11164cc02bd908d7f5197783d0ea9c29aece
+SHA256: 9ff00f40e125d9af1c45ee0d6187e747cc2c6126f0cfbdf222b23b6c749fc8dd
+SHA521: 4f3fdbcbd559bdbf4c4b9c8f9b60b4bd4fbf51cb32942a08e13ff31225b3053386db6f95918399da3ecd9121d7409582f032e3b77db641e7663f20a9e54415c9
+
+Package: com.catchmind.camscanner++
+Name: CamScanner++
+Author: catchmind <musicinfacebook@gmail.com>
+Description: Premium subscription
+Depends: mobilesubstrate
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/d8/1d/1bd81d4c-0fea-32fd-7f75-0f803340a3b6/AppIconLite-0-1x_U007ephone-0-6-0-0-P3-85-220-0.png/512x512bb.jpg
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 1224
+Filename: debs/com.catchmind.camscanner++_1.0.0_iphoneos-arm64e.deb
+Depiction: https://catchmind24.github.io/depictions/com.catchmind.camscanner++.html
+Size: 375396
+MD5sum: 4596e6c8af02162458818640722b1713
+SHA1: e9f4bd8b22c16d52f99c44258176dd5bd0401610
+SHA256: 66f785982e1fcc087d848ed6d9677891e305925b7ae13b6890923355890e3893
+SHA521: 357b94b2a389748ba8522a806d8a17c5cf3d94fd9c44d4b5cdc3faeb88800915a43e095898778eb37b7fd0854117502588dba4ff416f8ddbcc53efce030219f9
 
 Package: com.catchmind.epik++
 Name: EPIK++
@@ -293,17 +365,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/EPIK++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/93/43/2993436f-b2c1-88a7-f2fd-c14e1ce3e1bf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.epik++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epik++.html
-Size: 373636
-MD5sum: f65cd6d85b1950d91986daa737e2e818
-SHA1: cf3c0713a8bb1324d56f814b3eb9ca17ae3d0c16
-SHA256: 5f389d3b5805741d92ba8246748d7ec24a9b25ddf9ea550d90d53f42b96fbe3d
-SHA521: 0b89f3c1d4252ccac7162bd18c95dd75b7d821e677abce7235dae673e3dc8c2a70d0d692eeec39d91c9deb0f17ea0dcf5b29602168b146b2264517995006b62e
+Size: 372830
+MD5sum: 0499fbe85cd1576b92356b818dc4e30c
+SHA1: ffd48325e36de0b53af8ad9a1beda726add8ad67
+SHA256: 8bf1a716fa52ed99b9ab0a661d446876c9825afe1b390f1eaaa8fbe0f2926015
+SHA521: d625aec88659d27705be980d00f9ed0ff19d637e35fdae1dd1f96db267e469a1827eb6d858a1d61686365f71c55890d4009a12fc8664a41095c4f9c51ba709d3
 
 Package: com.catchmind.epik++
 Name: EPIK++
@@ -312,17 +385,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/EPIK++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/93/43/2993436f-b2c1-88a7-f2fd-c14e1ce3e1bf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.epik++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epik++.html
-Size: 373824
-MD5sum: 248c340241b8b4baff2174ab37e89de2
-SHA1: ed2d0f76aad6e7238ae3dad381e98afc7ff0610b
-SHA256: 3d4a6d4ec8888d0b2dfa5f36000619785f92d23456166dc8b2fdd8a18912655b
-SHA521: 6471227af014d1e40adfceaa7b98611d06e55ca9ca9f17a264bb4e6d9d2d31d2c8393f6dd8ff82cec123c04d0ea01015e308153cefbf15e73539cbc3de21a37f
+Size: 372876
+MD5sum: c900feb19f1f8c628ab5b01a6cbca98a
+SHA1: ddbffa3d1f427d4d3f7ef1027e598d63c3b17b24
+SHA256: c4287f62adb14531ee062f386db992d762fd34feaabd5842fc432f4ea3fb5cd7
+SHA521: 423c7cad1fe2120dac49b28b5d33913b23c18a44c9183f579861c11297ca0b63ab94deac4f90717d040a090001244d201ceebcdbe382ab1daa4831d3b93ff22f
 
 Package: com.catchmind.epik++
 Name: EPIK++
@@ -331,17 +405,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/EPIK++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/29/93/43/2993436f-b2c1-88a7-f2fd-c14e1ce3e1bf/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.epik++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epik++.html
-Size: 373010
-MD5sum: 68aade4c3cb38d070b44ca6ee56b1dc1
-SHA1: 2bf1678ad2203b87ee1ffff873237b83bb75e322
-SHA256: b62e923d5647e150a28b0c89de34cf2a610f73f044229e30e095493818dd0e38
-SHA521: 9d81181c659065f3d3c136164cedb1ed2aa58530778a7de816bc763cff8c7071d2c8f53d3612a9a23000ff121640dece3eb4879892a68e41a6272adf21acd22c
+Size: 373054
+MD5sum: 71f8624312f4888b378b945f3343737a
+SHA1: ef977fc76e5f6290c0c87f48d2cc64f41d2bdfe9
+SHA256: cecb04d134d37b1897a0105af1d499d67cebd7aa99bd061b82f656de7df922d3
+SHA521: a97ae01d46e44d2fb2d7f0f4226b3363667b5f1c40e978a8ed3c343c2a43cd1b8f9dc7af5567d3bfca4b1a0a10ee3a3ebc33160085f3d02f6735febb8637a7a6
 
 Package: com.catchmind.epop++
 Name: 말해보카++
@@ -350,17 +425,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/말해보카++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
-Version: 1.0.1
-Installed-Size: 1224
-Filename: debs/com.catchmind.epop++_1.0.1_iphoneos-arm.deb
+Version: 1.0.2
+Installed-Size: 1208
+Filename: debs/com.catchmind.epop++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epop++.html
-Size: 376204
-MD5sum: 6027b4a419884497967ee4d93477c415
-SHA1: 3ae3ab7372e4d0206dd5edb8826a944a81abf46d
-SHA256: 02320365bd7c872d42cb90585860f28d585a86eeb0b648e844d8f9e9f2c1682f
-SHA521: 6bee0db259b1cc830fc7a25fab92221d45f78c7213f43deaf88dab3a059968b187e8e7fd6d65e009b2e5edf4d113bc02dc927e25399bed7dfd1b3aec83f66464
+Size: 374714
+MD5sum: 123a65aebb196842098cf14e12f0bfc4
+SHA1: cefe8460efa135c5a4714b59a72c5c245b200afd
+SHA256: 497ca9e63ae4f96c14b5391745485d3fc3e831093074b962d9554bf2a3e2b1df
+SHA521: 7e660bcf6f11562b10a3dda963eebb3ed25d9f63a8cdc9fec05163a4250720ed6f651a2be62b1bbea45924c727c4869f8a928029388fa51201e7e0d8102e68ea
 
 Package: com.catchmind.epop++
 Name: 말해보카++
@@ -369,17 +445,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/말해보카++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
-Version: 1.0.1
-Installed-Size: 1224
-Filename: debs/com.catchmind.epop++_1.0.1_iphoneos-arm64.deb
+Version: 1.0.2
+Installed-Size: 1208
+Filename: debs/com.catchmind.epop++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epop++.html
-Size: 376398
-MD5sum: f6f2a5675686d2f0d345952d85333edf
-SHA1: 31baad148cbc64bc552736eef5a531ed82142ac0
-SHA256: a11b3008348639f12e38b9c42717373973ec49d4bf23753617b219efb01eceaf
-SHA521: f9f8aaedfe865b18b342287f36febbf2a037d4057dc9fd346e7d406133ca21a97e223d583fa0f52dbad0eed2107accf5ecb488002ea72b7ea25bafc4c8dbc710
+Size: 374642
+MD5sum: 4cd11435786422be52e9bc6f3fd7fa8b
+SHA1: 4ffb78fd1b9270603f54f213736c9b807d96e8e7
+SHA256: 3adde7dbef078126a13e2257752048c43339f79635dcdcf9a255d6f1247e9033
+SHA521: 29c6142294a13bbf8ceb311101cab5d87ccdb33efdd46176d53255e2ac060078d8cbda7b26b03e9387bea3e2c34e03068e8ef645ab7322656335575dfadf8dc1
 
 Package: com.catchmind.epop++
 Name: 말해보카++
@@ -388,17 +465,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/말해보카++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
-Version: 1.0.1
-Installed-Size: 1224
-Filename: debs/com.catchmind.epop++_1.0.1_iphoneos-arm64e.deb
+Version: 1.0.2
+Installed-Size: 1208
+Filename: debs/com.catchmind.epop++_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.epop++.html
-Size: 376180
-MD5sum: 268f11b1b8cc97d2aebd1ed1995db2ce
-SHA1: 0796f5b2e3b4010f07ade8ed14bb665a3ed64bb4
-SHA256: 04e9096d7e45911d7a2c278b0c70d2045e85d254c7fa4a135e5cc99ae82d6d26
-SHA521: c4fed94d605be0a3ed00bfe7c873907c26685825fe356ddb25b8cdf709ab0b3087e55d37bb355a0be881d153e3470a687d20a147fd8217dfe24b5fe63e00d7dd
+Size: 374772
+MD5sum: 7cb27c0da16b3dc880c61342728e6580
+SHA1: 4d84570c320c783d7f585119f26310d666caf1b2
+SHA256: e40c3bbdff838bed89a2dd011525e2ebdc61cff8c20db8a229b0dab12a4b403e
+SHA521: daf9f464fa0315eef5b5ed9fc3ab1a3c34ab104523ff63ec5a2ef5dc006743e3a18cb982866799507f154240c94dc04d00799c5a89321bb1198a422b67bb4852
 
 Package: com.catchmind.facetune++
 Name: Facetune++
@@ -407,17 +485,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1224
 Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.facetune++.html
-Size: 375886
-MD5sum: 177db8c1e7090619d235590d90d38f4a
-SHA1: 0e19b5e24187f0053e0b589c754dc293b63c04f1
-SHA256: 7a9d3c50dd8b9a8e9b8af58cfaa4be3717ae9cc69800e596ea0d3a91ff87ca3c
-SHA521: 69601003b390584e76100bcca81c11064de2aa192dcce33d89a60bcab36c51a7c1420df1e3a753b2712bb4a3ecc03f1e5110a95648f63d43cd69283a96da2eb1
+Size: 374974
+MD5sum: f85969b49ce9d71c2ab9d50b0b9a9238
+SHA1: 3d5c1875c08a2558c15c1e5438fe4a868772a53d
+SHA256: 675f7b569a3a39dba09f7ba9081eabd165131c82c63091cf237740940d722b72
+SHA521: e200b9ecabdeb83ea964f30585729d11a111b80101882a907d4e35f0438e8e15f1def5db7e9281bfb6af79ccc8ec3aad3bcde1e88c568466a08fc05ca8ea2fdc
 
 Package: com.catchmind.facetune++
 Name: Facetune++
@@ -426,17 +505,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1224
 Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.facetune++.html
-Size: 376028
-MD5sum: 99f57aec4448ef5e8ee9ce6029f8a402
-SHA1: 90308c5446843e415542dada2970703465ed0c10
-SHA256: 15229bf32a4cd9ea9aea9cd3f32b40a4b688eb5a08ecc0c35b041701a59d677c
-SHA521: 0aa3dffb2ffc25c147c6d59a3dd954421c863ec4c88afc5dfc3d07d80d8eda709c78aa6c9c873356abc2215f7c839d76dafb6183a88c3d04cd57ebf5ec0a6af1
+Size: 375092
+MD5sum: b8413fe9ed470809f6f1a57eb438923e
+SHA1: 1abab0076351d52d0601e8428097b58c8c1c6c53
+SHA256: 791e34018f56d6197657e7d3c551bb7f24a099613bc0d92ca130e50ec9573f1a
+SHA521: 2810e6062a44c1e3591eb35ffbc31f786227611affc627213b932308cb418d900d4fe1a6dad3d0c531accf61af77ea657d30124028555a31141f32f8ad7547da
 
 Package: com.catchmind.facetune++
 Name: Facetune++
@@ -445,17 +525,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1224
 Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.facetune++.html
-Size: 374954
-MD5sum: e0d84e984d046fd63fe8cf51888dd5a4
-SHA1: 87fc746963a3dea322df85c358fcc5bd80279adf
-SHA256: bec8e03ca5b045eeb9410ff400236a45f0ed8fbf909981aede02b5a1cb76183e
-SHA521: 3a85ad5dcf76dcb265adc6e0bfede22e0ede697123ad40c9dca42083e91d14c4ca31f8e4c02d6b830e7cbe56a558248bbff281994e72b7a04376841853d33383
+Size: 375030
+MD5sum: 5b08e2ee7289a683d9f1a9ef520d0bfb
+SHA1: 5a6864af95eefdfa900eafd998e29fe98796e520
+SHA256: a1946b2631c2aaf95c5b787993d675b41d446a2626335fcf11db7e673eccf8a8
+SHA521: 95cb44fa1bbd42a4bbc741eae84317ffadd7d3c3eb6bbaf7f5e6efdf2bc0963d0bb0c2be839387a505ad239b16ce031f743b37312d5cc5766f8041bc38af21aa
 
 Package: com.catchmind.foodie++
 Name: Foodie++
@@ -464,17 +545,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Foodie++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/50/84/58508498-cfa2-4950-144f-3e598c9e1a5b/GlobalAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.foodie++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.foodie++.html
-Size: 373688
-MD5sum: 81c92108204ebea2ac4790b959d08a3c
-SHA1: cdcc9e7f1cb1e7ab0cb8d2ccff21f19f7525eebc
-SHA256: 71ccbaf934ff1ab347938536de566f67614a5dd3efc189efb60ef9106c2c6043
-SHA521: 877f7f079c43e8bbee40d88f1e50509723e04326e0d7eb91b5269ce565798091252f25705448d5b66b88384009c745d425710756a6f3bb71d77fb92f135c7ceb
+Size: 372812
+MD5sum: 048fdd9c8fb58aed77c329a42f81c7b7
+SHA1: 7f8f42635be6d973df2ba201ba1df9e385d83da4
+SHA256: d6152ca8a239b18d1d0858dd1b037db2f2a90660f56d375c78db288687d267a7
+SHA521: 4016a2416ab4d88f932afee220dbc8b629afd79840e559f4bbf1cff27c23311612ee0092c7b38c761c7866c85731e0f442a3cee3d675c749e255046da5be99d4
 
 Package: com.catchmind.foodie++
 Name: Foodie++
@@ -483,17 +565,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Foodie++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/50/84/58508498-cfa2-4950-144f-3e598c9e1a5b/GlobalAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.foodie++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.foodie++.html
-Size: 373782
-MD5sum: b4bdf88593e13c2d8bb2094c0fbde2df
-SHA1: 15de3ac43b176719b87dfc54d1f2d53a37f6f01b
-SHA256: fab8010b94a5fe18aed50c7e6822de239e8dfa563f5b5dadf0dd52831876da6d
-SHA521: 145e46be1e58509f12ab3a8f3cc97d910c5457acb00b7b538c1190072c9b54a22ce80795a6562c8fc8636aa47b2692738cf3fb08dc9c38652a01f50bdbae0e8e
+Size: 372972
+MD5sum: 0497308483cf621dba456ddf6ce6170f
+SHA1: d7beb5bb1e5408cc2ba0b80aca491d06516217fd
+SHA256: f7eba2076836c4770e0a009997141e7af789554db1dcaeb01b2bef2625be4dd6
+SHA521: c5d2645a099f4a04288f8c0e0f13a5a8a275f0f86f64aa8bda0080d45b8d04ec591a9690897ef554633e7246f2389dfb3683b03f5583ec987df1054731cece7a
 
 Package: com.catchmind.foodie++
 Name: Foodie++
@@ -502,17 +585,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Foodie++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/58/50/84/58508498-cfa2-4950-144f-3e598c9e1a5b/GlobalAppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.foodie++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.foodie++.html
-Size: 372838
-MD5sum: cd703c8ddc10afff9cb43a999ca4317d
-SHA1: 39d4bacc155ce8f0b6d8d533eb7b083e88614f49
-SHA256: d272e3b54ab5e0e5125dae70cabdb63a6fee068f78c4e3604222c08683947b05
-SHA521: 98f7bfa4c9ba8bd46607d05b9d76e2234a8dc4a75d1b19b8dfb6c3a66e1190feee073273592712a113f1b475da27db31a5574d4b5b31208bd77512b161d907e9
+Size: 372910
+MD5sum: 4b0054ea173360242dcd30ec0b81af47
+SHA1: d4489a500bd91a7715866b4ffbd55863e3b3b751
+SHA256: ce42e4b98af3c89c1dfe76c73672420d868e534ce8161915ae61c046cbbb6240
+SHA521: cf347796f0f7cafa69582428689887bc4122a05059c3aadd5b4f194c4505a8b69f83e3f2806cf591cadc36337aa0366874e9534c0c23dc94a5ebc5599f1758fc
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -521,17 +605,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 372210
-MD5sum: 8f68e98374791f9637f8a259a4317149
-SHA1: f8708dc87297d0e816b47e8ebab93fe6dd28639e
-SHA256: a09c926b8a431315948873989d6ff615bbc0d8bf04daf1df8ada913cacf57b03
-SHA521: faf9bc609a267a0f26a45700257bece8d9c24141834d4a2e1f76c7cc2940f831c87ea6d351673ea4216419a74e4a1acdeb5c0f79ccbbc2e3e101421cd8aa99be
+Size: 371710
+MD5sum: 9bb9ac4f917639f11401fa13812615c6
+SHA1: e396cadb231dd934a4fd1b18b42e0a93b9df8d70
+SHA256: 14fae052230b91dca39933cce59dd4f6a3c874948e33856e3c913bf44a1ecdca
+SHA521: 13fdd00417a82b89de89e0fbc8a781e07604d8af3a402c0b34168302859e22b910663587acd8eb2ff1755e7b46572d6107610006c3b57061a2c8f64ba965b94e
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -540,17 +625,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 372942
-MD5sum: 572a5eb4fa6bd1443ef039c436044510
-SHA1: 260da88b0cc233c0d2fadf47d8438f89236cd35f
-SHA256: b3a712a35df2a295b010453a0fedaf245f7ba6302b54cedc9a6cc79015ff554d
-SHA521: afdd5acf5acbaee62e8f132ef17c2755aa5a78568d1c836d6d39259b3f29fbb0428a91efc18a6cd2c58b03bb38d8a8a0bc2899afd621a81ea3bcc62cdbaf878c
+Size: 371714
+MD5sum: 776ade581e462d102887b0a8fd105792
+SHA1: 46aab314b08a4b5c9d00a7c0bf2eeabf949b6abe
+SHA256: b809450f0455da0d982162354eccf96362c86404806e04e8eda0bbf5c820ef62
+SHA521: 24b02a231562a822df5261b31d8de6f30bde33cf898c9a1f9ff51a7a9bea36e07e935aefb170ac36d384d0a4733773cb452a0afa1b80bda0ad46d33fa2666a0b
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -559,17 +645,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 371720
-MD5sum: 3ca5ca77d97760a18bdbd6009442f44f
-SHA1: c1d03de1154258414839664eda12ab24a527d30f
-SHA256: 9903551d3556a0328d9c53888368dd69bb02d0b81ff2caf4b0e6af9195a874f8
-SHA521: 2129b58f491e56c5163af53f0791aac9ceb2b4bb217dfdffde205f0f30e98c20cf9062dd91a42703f7b7bc97869ee0999f34eecff5f4a75006a3fa3308a70918
+Size: 372050
+MD5sum: 4a740d65105411579a373f518b9f6b52
+SHA1: a171f72aa248847f5dd19d925d53ba82212323ba
+SHA256: 2cf1a1ef5ddc66edbebf5ca7c9f38ba80ab01dd06fb8f516573a30db64dee31c
+SHA521: 831f4e2e815aa38a72f06f3beb0c1f9b267927dc01e953b694e24a43dfa7fc0d1515ddfac5456b05dca67cdb03009ae90ab6076de6aa7f3da431647b5ff8a5e2
 
 Package: com.catchmind.snow++
 Name: SNOW++
@@ -578,17 +665,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SNOW++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/bb/98/05bb98f9-c7e0-05df-1ca0-bbef69c8f3e0/AppIcon-0-0-1x_U007emarketing-0-2-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.snow++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.snow++.html
-Size: 373676
-MD5sum: b8c56fe1c0ec28576978adc4f42c804a
-SHA1: bb9187f80861d8ddaf592dcea7e9922c0b715cd8
-SHA256: 45a4dd01aee924ce401e70a54486ab47705f9530eaf5c1c6b6a6ef3ee7392f15
-SHA521: 35490fa56df6de2b129830cc133deaddb1ff1b89dd840a3943af41eeff56adbdfb3f6a42f21de6b8679b127e3540ee220a2f975798bef8ba384766f8394fea83
+Size: 372862
+MD5sum: 2d4fe781d5f7d71fb6dc3cc85ff24bdc
+SHA1: d3da49569e2e1bd14256200171cf5a4cfa144f77
+SHA256: 1a4b59e6180cf8a99170c654b72022eb1ae64f6ecc8005ff41f59cf4949561f3
+SHA521: 68c5c073c846a172ff681e4e6c524d399bbfca068dbf3928346ee9a7289efdc0775eea00f55c8b58973bf7b05bfba17a7bed0b08b8c5465e6aa81ef312120c70
 
 Package: com.catchmind.snow++
 Name: SNOW++
@@ -597,17 +685,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SNOW++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/bb/98/05bb98f9-c7e0-05df-1ca0-bbef69c8f3e0/AppIcon-0-0-1x_U007emarketing-0-2-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.snow++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.snow++.html
-Size: 373734
-MD5sum: 78cfacefda16c7e40dd10b85f5ea7a28
-SHA1: f8e3203756826729e8f0ee2a7d5c21a21d7b375f
-SHA256: 691a90f2dc27edfae17c3cb984247068a70df87ffabc5fd99a7ecc41f80fbd45
-SHA521: f49565abb9d89f63d007c92366d645466297b7128468595208a8c067e9863963972bda67a18766079a5d5cec3d56321f016ca8fcc900ce4ab051e0cced348a7d
+Size: 372960
+MD5sum: 346e3779231b80d6513bc009b2bf5e0a
+SHA1: 9aba769390948280616f2aba66e62f3102527f09
+SHA256: 03922e8d2c6193a4c6d11bfa6961e827d082365b4d740c56c4a6ca333afd97ca
+SHA521: a932fa15a14c257ea39c22d56af2968a933f423a22fb1166fb007797a29593b255108575a5ac426f45815f468fa4b6af96514ef87b84e5a040848156f7608832
 
 Package: com.catchmind.snow++
 Name: SNOW++
@@ -616,17 +705,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SNOW++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/05/bb/98/05bb98f9-c7e0-05df-1ca0-bbef69c8f3e0/AppIcon-0-0-1x_U007emarketing-0-2-0-sRGB-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.snow++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.snow++.html
-Size: 372854
-MD5sum: d2b471637c61a6bd8b46efb69558b757
-SHA1: 796094c08b40e4379f464f7120ff8cc9dfc11874
-SHA256: d02e16728ba1dce2155f5241007db8bc218506c029604f9bd58df9c9355ee68e
-SHA521: 17013f0d6f9d1525b43b28a81c8ec3b1094b803d0453561e7f16e85cba150d30c669d6abede9cd5e0648b1efc737c4e9e89cd05a66a6bc3126bfc0f4a4d7e8fb
+Size: 372908
+MD5sum: 876870673f0544ce3e1f3e631bda58d4
+SHA1: 08805b1daec88fade6f93ab599edcc213df2836d
+SHA256: 244f070fed3588dcca3b8c83934a3cd179a9a6a57284c69c1cec32847343cc71
+SHA521: 0554ab5e21d135c0610b7d94215001d6e63557a59d22574cafc185812ac39710bf3ef646241bd90c8435f876dbb9ff95d8c774a0fdf8e76eb4b2b578ff07b27c
 
 Package: com.catchmind.soda++
 Name: SODA++
@@ -635,17 +725,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SODA++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/b9/24/80b9249c-d622-986f-cc85-901a8874b722/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.soda++_1.0.1_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soda++.html
-Size: 373654
-MD5sum: 38db5892cd3ca8c733ff189e995a43b9
-SHA1: 4046a8b420d178a113c6444e313e4d2fb1804984
-SHA256: 216fbab66aa1845a929413f08899f9423016a2a790699428d13a98b9756f09af
-SHA521: 77c8692809f773104ebedc568ea274ff9c216ab4d126bae6b2db64a95d34fad3f5651b581f83f6ce1d76f2ccb152c7e30d307bf185647f148b4ab30b7b1abf86
+Size: 372770
+MD5sum: 7b7ee7cec1acf7ca3e2dbe2c2673a94b
+SHA1: 066dfa4412eb8ae7f04ebe95730f97e4fbe1f4d6
+SHA256: 3b7e70ffa1259e0acddfbf17621060df2a5f2021a1bb98d867f95e56177b9959
+SHA521: 1f382fecf88ee9a82234336a44394a0f12d3d6f3aaaa6216eda384b4819569482c1762b9d271f69af9e30c2a7c0b0bc8b7b609e1939852a09899963de9ea4b11
 
 Package: com.catchmind.soda++
 Name: SODA++
@@ -654,17 +745,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SODA++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/b9/24/80b9249c-d622-986f-cc85-901a8874b722/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.soda++_1.0.1_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soda++.html
-Size: 373688
-MD5sum: 9d9803af11bad410825e61eceba07cb7
-SHA1: ebb77a609bf4a2b8987ba2fff693cdaba4a115e2
-SHA256: 96c06b705b3cf385df5e4338a7b54356e3f415cdf041be87da7da562b4547c1e
-SHA521: cecab55b34f89769fa7763810653609081cca9823c7538d92e9b338ea38004764bbe38cb0afbd09e7b20ea3df2eb14cb48673c39c982bfa28bf6934a2d9e1a75
+Size: 372818
+MD5sum: 2dedb29b276813e0d6d9ec3515594cf4
+SHA1: a51bb9d45b27b3c167e90c699857137ba3dfcccb
+SHA256: a49d5844b707c9b5fb18f281a6427b30c97d7cf9aef0a8d9ab8c73b491f2a0cb
+SHA521: c531ecab2efe426002d709b7a510587ba2ef3ac6d8c6ddadaddf3108039af2870e0154cfcea64be014e4bf2c98712b630781531470aa48a80b3a909ab7c6e095
 
 Package: com.catchmind.soda++
 Name: SODA++
@@ -673,17 +765,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/SODA++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/b9/24/80b9249c-d622-986f-cc85-901a8874b722/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.1
 Installed-Size: 1192
 Filename: debs/com.catchmind.soda++_1.0.1_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soda++.html
-Size: 372824
-MD5sum: 98a602ed199985ecd86e50f3904af54d
-SHA1: 23ce55fc918fa89fc9a8b847c064e99a8cbf4564
-SHA256: db80fb7541dd6abcdef3edb60efffea4bd901aec770e87aae9b1ffa5a207dbb3
-SHA521: e867dc8d411fdb7ca448ec949129bcf244403f18595f28f594589518fffcfc56a3c7a268a3fe1310347fc8b2b3d3fe2c76776bd0822f5877ff5d381df781145c
+Size: 372762
+MD5sum: 8fd5a837542bb874755963549de3342b
+SHA1: e8dc79d0afb76498b1f455d0f1b2e0ab66e7aec4
+SHA256: 379f8c9635f11540b275a6b0bf8787a591f10ad72f851cedf8d69d47b2900ebe
+SHA521: f1220b30caef7a543f8da2a48a921312e55a4b93f53e3b7a334843326f24f166cb84a3c0e3db451d747e8c9004fc112687a718a3af7efbc646cd7f02456e1e1e
 
 Package: com.catchmind.speak++
 Name: Speak++
@@ -692,17 +785,18 @@ Description: Premium subscription(Restart app after login, then go to Debug sett
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Speak++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.0
 Installed-Size: 1192
 Filename: debs/com.catchmind.speak++_1.0.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.speak++.html
-Size: 373778
-MD5sum: 941b1b149889329de570141aa0bcf0ad
-SHA1: 15617df7d4080052ae4ade8993b29dbd33cecddd
-SHA256: 8c1ef85f1eb86bbc45fc753849cc367a72278f651df8562a5b0953ca16e05c50
-SHA521: 0bca859c1526a4325f4f18ded32ef2c510dfb160f694663a2944d11a8df3b0666746f2643a66b4a28bb2701898a749011b0003ccdab32b738c961079c475f673
+Size: 373070
+MD5sum: e8d43441e9308a5223f07be207511698
+SHA1: 7c87cf346c91c76a871fc67ead0f99ec0a9adb57
+SHA256: 0bd1d35e52924229e59f5f779a11324955d457a3630103d54050adcf6d9f7788
+SHA521: 5e308284402b819963bce16732853a85ce80bdb60e40fd79aa386365cc0ea70f6bb34b8c02d5eb1a30b3418074fe9cc0327b265ce5776dd7cad52a0f9f80b1f7
 
 Package: com.catchmind.speak++
 Name: Speak++
@@ -711,17 +805,18 @@ Description: Premium subscription(Restart app after login, then go to Debug sett
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Speak++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Installed-Size: 1192
 Filename: debs/com.catchmind.speak++_1.0.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.speak++.html
-Size: 373868
-MD5sum: 73417d5fed0f0b72a4eef8fd74d5a581
-SHA1: b08bc46c13c02ac3b0a7ac4c0a90022f34ebf39b
-SHA256: 6c85dbf2af1067e59b7145e671d37381ab04e6616927fd2679b97cc4b03e5434
-SHA521: 717a1d4aa4fc6247c53a4404e642dd5e1a77de8c5d9e2b0ab553bddac33f0212156caa82ee836ed4c9d99f714c974004c74a79432ad3b8cc875b28cf453d5d3a
+Size: 372922
+MD5sum: 68d0bdb357c1dcb7be9d20a602050d0d
+SHA1: c208c2c179481e41e3df635633d69ca7c6668f2d
+SHA256: 03e82ab79ae8dc21b9f90fb450471e318de085c74f0fce4091f1061acfdcd565
+SHA521: cf87c3b4ec99c1727cfbe94525899073d6defc0fef537a5b63a37b75ea2a09161c9508ff7db6466a603c2f4e13ef27500c001e7c6a7337bf45a074bf3b736241
 
 Package: com.catchmind.speak++
 Name: Speak++
@@ -730,17 +825,18 @@ Description: Premium subscription(Restart app after login, then go to Debug sett
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Speak++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.0
 Installed-Size: 1192
 Filename: debs/com.catchmind.speak++_1.0.0_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.speak++.html
-Size: 372988
-MD5sum: 322b5c3d4c78538e38217253220f815f
-SHA1: 288b73d717f28662013c2e59beec5e133e707307
-SHA256: c307d30f356fdbfc22538fa9a2ef2dad26bb163b0f63204c784871b7e71a75bf
-SHA521: f3684aa9e69a33a2f613c2e0b1a713a055048c1b2407033dcd2b199f0d169827f8b9d001e3c672800c8df7d62a2f50811cb3a85743a3b4bdaea65a69347f5b03
+Size: 372928
+MD5sum: 3dd58dfb327f7fe3527ba3a57dd02c80
+SHA1: 81b3040e63b10649c535cd9beddb65401644179d
+SHA256: 071209ce88ed40fbd53734279c76d9fb2b73877362ca3c39f5136031a7d891a7
+SHA521: 9bcc873d54efebeb9838adfd673d366a52b0b21b692e41414c777433564ecaedecfcad2bddfd166ec5b63dc4a5aa2a8826594032002e292827976d7b3522f8a1
 
 Package: com.catchmind.zeta++
 Name: zeta++
@@ -749,17 +845,18 @@ Description: Premium subscription(most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
 Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373106
-MD5sum: 3c2c24b48af303c8ac961a09f9912063
-SHA1: 4118f752e6428a9dcfb732797c6160dd268bd73e
-SHA256: 0b66f3fb95dd565d93bd423536360fb77467b6d3f46f3992063e4d615b6b7faa
-SHA521: f05256b85ed7e33c757512c9153c14c9156e566ed938d20a34047a8fe2ab20e294a619bde628d89439d9018bdc6e65981ac0731727bd5de5000ffca3ce7fa2b4
+Size: 373368
+MD5sum: 5b38c173fbadac1f81ed2f3c78a999ce
+SHA1: 433e3b951123dda7cc7931fa1a690ff16df1186e
+SHA256: a09658494aea0aaa4c02397ac83aaf5ffc6955d033b193f4b756a7e950b0b758
+SHA521: 73302bcdabe4ab28d57f30f7fdff84be91db2b67932042092b31272c55862e7c0a1d673e8b9ec6b691b26153b42c84a1e85b29e6504a0073e9bed05151316af9
 
 Package: com.catchmind.zeta++
 Name: zeta++
@@ -768,17 +865,18 @@ Description: Premium subscription(most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
 Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373218
-MD5sum: ae13223ad132115bf8bced1b1ef6c57e
-SHA1: f2350a1c41e272bd8735d004b06078e848dbdd57
-SHA256: 0c24bb8036c7a24cebb2508438bea70c70347dd6c3a1f8da69d1e609d012b4ee
-SHA521: 075d1432fa5d70c39b6b9bafcbda88c6b1652effa39780aa0e3cbc0cefeebebf529dfda8fdf1b8307be7ea52f8c52df86b5a872ae2754da13842aba9fde52ec9
+Size: 373184
+MD5sum: a8e8d49c05b0acc66541a3445e104ab0
+SHA1: a8584d90a89557a1fbc721a4dab45b5ad2b0668a
+SHA256: 5af1f693fb35de02b17aecba146564360a2e49f78c18bf47ae60b2397a5c7f6b
+SHA521: 826b9a27fa1991223c116990511deea0b643b1a152ee19fa6654416201ddf199956b4b048e57c3c1c9d762529bfe9baf1fe23b299ea7016ca9ab012a948ff5ce
 
 Package: com.catchmind.zeta++
 Name: zeta++
@@ -787,15 +885,16 @@ Description: Premium subscription(most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373264
-MD5sum: 17c7dad01a7f81dc8bccf4c2eb3cbdf1
-SHA1: b883459116d4ba15e66721aff53cedb5434bc657
-SHA256: 666b48f972260c334e997692d81eb9a3649220423058a638bb4ffa9b4c2f8b7f
-SHA521: 44761fe00b16bb192121f6004ac1682b6857cb1bc0363f0bddfcef5a0d94f23de69167417837cb07e61bea742590194618dae6916c530d2c8088e067656d83d4
+Size: 373138
+MD5sum: 2d8e061f854a4481c98e5f5fa57e1b3b
+SHA1: dca908447a9ebdcc54a069310043a2493a8998ed
+SHA256: b295bffdddb7a61622a62479d8727a7f8c00e891e69074a42f9e43c515eedbee
+SHA521: 24ca7fd6eb13a37931f0cb15bd17259d6b6b0d9aa1d47d73af114340712c2a98129de9d940e32221b846e3d152fa63b8fb0102b955f714a7ef70e98408ea513f
 

@@ -5,6 +5,7 @@ Description: Premium subscription(most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
+SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
 Version: 1.0.2
