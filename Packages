@@ -964,7 +964,7 @@ Author: catchmind <musicinfacebook@gmail.com>
 Description: Premium subscription (Most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Section: Tweaks
+Section: Cracks
 SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm
@@ -972,11 +972,11 @@ Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373054
-MD5sum: b48068c8d5b382ca520da453b23bca76
-SHA1: 6e21ce03d391e6efb5971d0c1775a8e0d7d95c16
-SHA256: caa9b7984383fb471139a0ee5f62a6b46121b19e7b83c5e44f092dea00c0ce7b
-SHA521: 8b200e8db54d467deca14fd1848c385af76c3f5c7eee323b71e16fb71bb4d02ae74e73cc6479eeeca1457b81067edff71c0f38811a76f8180bf6f5e723bc9c2c
+Size: 373132
+MD5sum: 961eacaa77718de7aaaa2f7e184fbd94
+SHA1: a8cc33977700a09ef86332d4b3ee6d663dc74d71
+SHA256: c8bf58f197bcd0236038f89004de07036f745a91950a0835651ce712e9026ccb
+SHA521: 336e03fae1bda19f427b9caebddba4ef9fb573d62be235077b16d571e054f47c2ce1be02045bff5ad69ee838fbe325c514f32b6ae843521112cdf91df28f296a
 
 Package: com.catchmind.zeta++
 Name: zeta++
@@ -984,7 +984,7 @@ Author: catchmind <musicinfacebook@gmail.com>
 Description: Premium subscription (Most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Section: Tweaks
+Section: Cracks
 SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64
@@ -992,11 +992,11 @@ Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373214
-MD5sum: c169c9d822af5a3ae8e1ca68a550b5a3
-SHA1: 27c32b430f8f99a47462bf9dd7b27c7a77fa96de
-SHA256: 19058619339622483bfb9feb60770f4b02981396b3acca386c3dc01be5a5e1fa
-SHA521: 7c40f8bb3044febf45a5ebd4368eb1732c2d424a157d7b69d757f2bdc84e3ed7e38de6ead9bda7129bf2c3f8b6430e15b1df1c43bf66a3eccddc6a71b4184456
+Size: 373284
+MD5sum: 0d61780e23a666b2596b33314dcf2c1e
+SHA1: e1227ef7f1030702373c92827bd1c50764261fc2
+SHA256: 547873a9f5f5dc15ba0a2de6ad26714f8d3b36f63e4f115a6d8342dfc2580009
+SHA521: 77cacbb713ce408fb9f5d18cf9a1976c11a4de615d013cf858c7e933977dbcb9d10ef7ef9ec54f5ab655d2824bec120c07d232df08f82c10b5d779fcd303c4c0
 
 Package: com.catchmind.zeta++
 Name: zeta++
@@ -1004,7 +1004,7 @@ Author: catchmind <musicinfacebook@gmail.com>
 Description: Premium subscription (Most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Section: Tweaks
+Section: Cracks
 SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Architecture: iphoneos-arm64e
@@ -1012,9 +1012,9 @@ Version: 1.0.2
 Installed-Size: 1208
 Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.zeta++.html
-Size: 373186
-MD5sum: d666e3f2ed5b2ce2d0e397eead68f0f0
-SHA1: bb8fd5645e28c902509a4f285bab58bd3fc596ce
-SHA256: ec6b88f92c9161c0e37a8002fcc37cf3b972cb3a7099e83906e935e44a7b5eab
-SHA521: 6ad0c0ce246895a11fe9c83b3bfcb01e12413a7d7a2de2c61e95b6284b8657c98d611e21ab993ae8d1fa43f89b6b33686229078e7b656b984ddce3493f7bfcb4
+Size: 373146
+MD5sum: 05dbb62e5394c870a7bd44524929eb9d
+SHA1: fbe9ac68926bd6bacffa1666d5f6b72e10ee2874
+SHA256: c91fa0a8f25ac9563bbd8bcb1bc47bdd04aa33920a31ef4b450239954f47bee2
+SHA521: 48bbe490fdec633d1485275103955938c7e4dd1fa8902ab27c91eb3d431a6451653e7bd1be21a335bdc625e1ed56e143668886577dd8f056a5d1865b6b43239f
 
