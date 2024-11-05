@@ -27,7 +27,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Remove ads on SOOP. Unlock Quickview features (Timemachine, Multiview), Bypass Adult Authorization.",
+                    "markdown": "Remove ads on SOOP.",
                     "useSpacing": true
                 }
             ]
@@ -36,6 +36,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+		{
+                    "class": "DepictionLabelView",
+                    "text": "1.6.1",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Separated Quick View Plus and Adult Authorization Bypass, excluding Remove Ads. ",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+
                 {
                     "class": "DepictionLabelView",
                     "text": "1.6.0",

@@ -1,7 +1,7 @@
 Package: com.catchmind.zeta++
 Name: zeta++
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Premium subscription(most features are server-side verified.)
+Description: Premium subscription (Most features are server-side verified.)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Tweaks
