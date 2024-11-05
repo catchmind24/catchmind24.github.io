@@ -841,7 +841,7 @@ SHA521: 82f3f29403a345e9990b9d2b56476b0b8076347d3090e020c6c5d71168f69c701f259710
 Package: com.catchmind.soopquickviewplus
 Name: SOOPQuickViewPlus
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Unlock Quick View Plus features (Timemachine, Multi View)
+Description: Unlock Quick View Plus features (Timemachine, Multi-View)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -853,15 +853,15 @@ Installed-Size: 152
 Filename: debs/com.catchmind.soopquickviewplus_1.0.0_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soopquickviewplus.html
 Size: 4208
-MD5sum: 92c7ee58e975e11fbe554cecdc2e2a84
-SHA1: f99bccf0f70db21fa00961fcc23e2774c44c112d
-SHA256: 8b87ae3e6810c8c00438bb112d34a5d21a024af61d2cb1b42c2b4cd8f2b480bf
-SHA521: 12b69536ee1073d6cbf9381a9807f135b93ce50f3906010a75f9edceded8016bac34fd3fb0e49d87f759f0f19826baf5ce3bfee64013088b767acbe0f12c82c7
+MD5sum: 9a4b547468fd942cd9716844b03dffae
+SHA1: c61e7ea43939089db3a1eda2822c0a152066fb2a
+SHA256: 1dc1f58b1384bfcabb5481cedabea3eb5e1678eb1fbd0a4e233f5be7a5d247cf
+SHA521: 07119d3d8c7c9ddc06875d128191ce0386db7fba59442aea949a811a4ac20004aa8edc9d1b4b9b0a652bebe9d6d052ecd5a24a62a712ec6302ae438a4bd6ae6b
 
 Package: com.catchmind.soopquickviewplus
 Name: SOOPQuickViewPlus
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Unlock Quick View Plus features (Timemachine, Multi View)
+Description: Unlock Quick View Plus features (Timemachine, Multi-View)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -872,16 +872,16 @@ Version: 1.0.0
 Installed-Size: 152
 Filename: debs/com.catchmind.soopquickviewplus_1.0.0_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soopquickviewplus.html
-Size: 4298
-MD5sum: d755068628ba0ce9ff3a07faba6b85a5
-SHA1: 149ecf2295219394093d0c8eda86649c880d045b
-SHA256: 9c7833748c9535b57479e85def35c48c13f21ac1fea161c52d46344d41322935
-SHA521: 094372fc80fe5954c4293c3c9bf3e95cf4809b03ab57da72825d22a98b3349b778ee2b04d85c4719c4d9e46f0a4e1c49027c2f6fe1191e3a3baa7308ad46132d
+Size: 4306
+MD5sum: 371c3c5bd99e4bc9d85b5e38649c2504
+SHA1: ef3757ed2982d9a6b9a4074be569abe022c20d87
+SHA256: 86ecea583495ff94f62e7613fd8a6c6d2f3e6d1266caf00556bf1e53a89c9b0d
+SHA521: 42718487877fa0b728485512abe29e78adbabb4d94b68feb5608a6fa888841d0a7cb5ca28758f97c669d27bd23b1ebc3860180995d664d1ea5706c61417f501f
 
 Package: com.catchmind.soopquickviewplus
 Name: SOOPQuickViewPlus
 Author: catchmind <musicinfacebook@gmail.com>
-Description: Unlock Quick View Plus features (Timemachine, Multi View)
+Description: Unlock Quick View Plus features (Timemachine, Multi-View)
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -892,11 +892,11 @@ Version: 1.0.0
 Installed-Size: 152
 Filename: debs/com.catchmind.soopquickviewplus_1.0.0_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.soopquickviewplus.html
-Size: 4224
-MD5sum: d834c183dfdec88223695960e9edcca2
-SHA1: 8cec8c6ebc9bbb135e7b04bf5a4147f02e3231ac
-SHA256: 3f83b2f4a3287cd14688667abffc762877fada0fc522efc68f8b51634b90edbf
-SHA521: 0bf959c190ac19438c651cd4c5788d208f4238813ac9c21df393f0105b2a0c02945cd25ade9d38f54b8c72ae96ada8a08900f33307448084efebb048251b8629
+Size: 4230
+MD5sum: 27a6ae08379059be9e2c34cbd3625140
+SHA1: d47d8e345b4680fd529823dba8dd7025634925ff
+SHA256: 34cc04139fe0ce06061efa9cffa598dd7a82c636132ee58194a5bd76d5f2037b
+SHA521: 8ba6eb96b229dc9c7c34409f5e85f336a1e3b7797ef48949251d908a9c85c73964a83f01d1b88049622b15be671b221e406cc563296922e4c4dcb3b4fb95576f
 
 Package: com.catchmind.speak++
 Name: Speak++
