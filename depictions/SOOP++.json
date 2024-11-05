@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Separated Quick View Plus and Adult Authorization Bypass, excluding Remove Ads.",
+                    "markdown": "- Separated Quick View Plus and Adult Authorization Bypass, excluding Remove Ads.\\",
                     "useSpacing": true
                 },
                 {
