@@ -27,7 +27,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!",
+                    "markdown": "All BJs will be subscribed. Only the default personacon badge is applied.",
                     "useSpacing": true
                 }
             ]

@@ -121,7 +121,7 @@ SHA521: ac05f6bd7ec38d0d53a80576e5d0eb7eac4fad4e73c1f38e22bfd1ec8a4700e4240b0a37
 Package: com.catchmind.afreecatvsubscription
 Name: SOOPSubscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
+Description: All BJs will be subscribed. Only the default personacon badge will be applied.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -132,16 +132,16 @@ Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4018
-MD5sum: 5fcfe58e0962036c11b23cec818592a7
-SHA1: 7bb3b48858e1852d0d3f11e5a556efe840cc2348
-SHA256: 303f27b990d1a8d4a9909c7f901c9dcfb7c6e6926666ad95c5d0ecf84c4c0b6f
-SHA521: ebd4434ff48f4851989826964e8fd879ec77560e21d4037088e5a9c6aeb57e22b0053b47f48d7beb1079564aa3673ce715c651fd21ebc7aec4c36891161a55f5
+Size: 3970
+MD5sum: 81cf4b9c12f25c7e3b2d2f6c634f8b9e
+SHA1: 539e2e608b1e939de1602e8cce426d961a652208
+SHA256: 3e773b9a39ba342252aaf0f8c3b53b35f323af80b563c669bc286e792f11aa0e
+SHA521: 8bdc3cb681703a26edb9f60ae1350ca2fb7ee822ada97366391b269c4814b9481b497968398b39edb50a7c459ac76e646d868d8c2012e4ae870be0648d4bccbd
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOPSubscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
+Description: All BJs will be subscribed. Only the default personacon badge will be applied.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -152,16 +152,16 @@ Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4108
-MD5sum: 8405f7b844ebeb6ab1aa791f333c7d93
-SHA1: 50573a98be9ae89b70fe73d184f165955106bfff
-SHA256: 3ee9708c2305452b4720d6494835ebee7171cd4314921ea9a047591347b796a9
-SHA521: 898bfa7ce3567e1110c9effeb94b2311e78892be6295521990c2bc09c2396b61f85e6665bd7b553b97a19fb9a398bae84297adc2a2d41868ba9c43d4c5e5a1f0
+Size: 4054
+MD5sum: 6c986a82d2edb94cef14f452cac67750
+SHA1: 7d670d0d051780b0b013aa1c2dd5a8e2137e24de
+SHA256: c6fdb9ec76e124ecba397f75cfca11292ebd8d6cc6a8ada30a458d2947474596
+SHA521: 7692dfb4a20c97365377625f9763436417a323c3bd86662f5a7c2a1f951c956bd275b40cab5ad7e5a5a8092603bc6838307825161e0b9768ba1bb1b670b78ea4
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOPSubscription
 Author: catchmind <musicinfacebook@gmail.com>
-Description: All BJs will be subscribed. Subscription and signature emoticons will be enabled. Only the default personacon badge is applied. USE AT YOUR OWN RISK!
+Description: All BJs will be subscribed. Only the default personacon badge will be applied.
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
@@ -172,11 +172,11 @@ Version: 1.0.2
 Installed-Size: 152
 Filename: debs/com.catchmind.afreecatvsubscription_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatvsubscription.html
-Size: 4034
-MD5sum: 44f2303f8ab7a2ae9af543c19b6469c9
-SHA1: 3986aedf32b3ca3bae1f703939c4d1278772644c
-SHA256: 63d5f65e35fda7686d47a5fb0998700ec25ed2567c1e3b009ab420450eceeed9
-SHA521: 373d57e4530c6eb2565beec04ec996aa3fb9ec847a18d51a13d3cb96d45660a4b012846e70bcd24d4953d9e9d05632a81b976116e86051add70dc733746187d5
+Size: 3988
+MD5sum: 4f55caa9519cc6a88c1b0196c18fa59b
+SHA1: 3e5771387af0971e3ee2b7a3529f0969d265026c
+SHA256: f68316279ab7d753b64be1007fe2bae6ccc21cd75a751867b20cb7ac6880eb91
+SHA521: a1d23a8af567493742d4260b9c6f61166f02d73fe217ac823c41169a4fa55053a4c1d6229413e5f293bc7e172969650ce438fefa1e33b3097b4b878892f25eba
 
 Package: com.catchmind.b612++
 Name: B612++
