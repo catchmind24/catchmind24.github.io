@@ -72,11 +72,11 @@ Version: 1.6.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375398
-MD5sum: e037a1db03ac05e5bb902161df29a975
-SHA1: 7f38954627a6f58c8c27fa64a4e861b926327b88
-SHA256: ff051162f9af2fe47cc6a2f2e3e5f2518f2181936596846bd6cf94cf74034cb2
-SHA521: 7361fc0b7becb9b18222c54f8c770e01de1d2f704b066458dd4eb1b6ac82ffeaad7177025ea23017c023bc819762d7178830fdf27992f451ea5bbb1a8967e126
+Size: 375354
+MD5sum: 0ceb5589be0a85c21a3b626ec7353e8e
+SHA1: 79bf0325bae153a26e3f0eaee9390a406d90d261
+SHA256: 88f4e2ad517583fd4b0ec6f0a545df716a4619fb04d861d463df30c30d708424
+SHA521: 2b17162a2a2549922e6ab2fa768bde3b1e13b07f921ab9c0c29b5c9216068a1e7d335f3096e96352125b5aea87f7d49be404cc406056b66ef3b1e649f7d58edd
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
@@ -92,11 +92,11 @@ Version: 1.6.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375382
-MD5sum: 80adf899b599323ad68d545268ec6d53
-SHA1: 2b9874dbbc23d4d02adc451cc6eaa46a58a27ccc
-SHA256: 6283d102e2e704b2dc3a67e89ab1a9a38f1d8bf1087a698c07456200aad62d7f
-SHA521: 25b75677577bc9fb045c8393ede5a9277a5575964f613bc812c18aba612ddf24c54180ed64c0cf6fc1b989d4cb3c874eccd617881608fb94a064696e1816f223
+Size: 375342
+MD5sum: 3a5eef80588a9082dc5b544a98a3fd0a
+SHA1: 02719cbc2b4916d30f343f0884ed6141dabb3dae
+SHA256: d83f4df4c7a5ededef7ee92abaab2e6c06eab3bef50149bf01813f808aaeda8b
+SHA521: d339029bd56cc282f33858908ff8745cf6ddf4b2b1f3c63c476634e2633125e3d0537615a7672fce2c8ea4b5cb441d9ad94a1597fe60733d7520f1de84eadad2
 
 Package: com.catchmind.afreecatv++
 Name: SOOP++
@@ -112,11 +112,11 @@ Version: 1.6.2
 Installed-Size: 1224
 Filename: debs/com.catchmind.afreecatv++_1.6.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.afreecatv++.html
-Size: 375536
-MD5sum: cb4ae41f8a7287a77a1e5de839316b25
-SHA1: ccd9be8b9b514cdcc997eb10531fa9f360c3d10c
-SHA256: 2353556a6706a795c4ee6111e8dfe0535d783e1fd5977b07fdbeaba3243efdac
-SHA521: 5267c0ac944e3ef32b795c16e53797e9f6629cd7a60f7fcd2378f0ad8441e2de35d6b992d0bfaccf62e46cdd8569c7c576f536e76dd0e8849b73ec6549282447
+Size: 375410
+MD5sum: 2719b6f6adca74353c0baf31e09f383b
+SHA1: e34ffae6354ded220ee3ca1174ce82570bc292f2
+SHA256: 9a58a1781d63d69ae6dc54ac952831a1ffd41fbfef1f0dbe6a292557d534cd90
+SHA521: eb8f17a533b50316243de9bfa26fe4862a39a969db33064ee69a2f3d17076fca1f180b7f59eba0e76ee445efc8e0ab2b7d9d3f1e5c526044beb6ebdae0cc7586
 
 Package: com.catchmind.afreecatvsubscription
 Name: SOOPSubscription

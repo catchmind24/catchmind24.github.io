@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed instream full banner ad removal",
+                    "markdown": "- Added player full banner ad removal",
                     "useSpacing": true
                 },
                 {
