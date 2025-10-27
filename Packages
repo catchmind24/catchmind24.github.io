@@ -545,18 +545,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
-SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/98/c3/d298c3de-0fac-0530-c9ec-455c79c3ddf2/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+SileoDepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 Architecture: iphoneos-arm
 Version: 1.0.2
-Installed-Size: 1224
+Installed-Size: 1208
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 371674
-MD5sum: 71a32e0de0a9b6dbf4720aa87ae9104e
-SHA1: ffde8cdd5e280ed85cde13246acb75e2c91da35d
-SHA256: bfebc074afe2cae27216e719f69cc18f39b180a14b629b38140d406b07806b27
-SHA521: fccb6f5e22fd7f2eb022e47999ac2b0d3986badbbd4ba8611c5ff2176d4e5aea7b1b182b76389cc4ed812c413311d49030c5e5cfdfa5e9a729cb03421611872d
+Size: 366800
+MD5sum: 2e9c19564d33298c845061a910ffce2c
+SHA1: ef2f51be42a3a3feb6bb6ce9f524e20190992626
+SHA256: 1ac61534cb59171e2c99a59c5c3f8b5e0090040309c830276005cad7cf177636
+SHA521: 4bad2b31222a8040ead20d6b975110e0a70a2fa3bac1b3352c7d8ada45388f8c544c30e29bb54ec87818e2383eb6e36f74ca479433295613f6afc3e79a76deea
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -565,18 +565,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
-SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/98/c3/d298c3de-0fac-0530-c9ec-455c79c3ddf2/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+SileoDepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 Architecture: iphoneos-arm64
 Version: 1.0.2
-Installed-Size: 1224
+Installed-Size: 1208
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm64.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 372096
-MD5sum: 818cfeed6509de2057da9d953ae6e61b
-SHA1: c4448e59b26af147724d4bc03a60ddd7706511a2
-SHA256: eba3d83c091127772cfddd2690732565690ffd8d4246cea69178f4e40605ec53
-SHA521: a9389f5bfede3de2ced38d75e89096e219aa0a82e5193a0a76a0bc940c6b719fa8f91414b5e841f3fc83df24b9934f78720d7b19fc755eba130e2cf7c6dee998
+Size: 366944
+MD5sum: c88b69787b2cd08a64ed8687bdb673e0
+SHA1: 746d0a7b3ceb15972bf0934786e10a6e44e3bf0f
+SHA256: ca0709c5341617956d07510f82d910e12cb5d1e2a42f69c36896a1e237fb4124
+SHA521: 38b135443c33ca3024ccb6fdbe1a951614ef1c10d90f903c3feb65c0fb30cc2a546e515cd0831b42e32f41bc7aaa9201d96a221c21c331a0e351a23c36698009
 
 Package: com.catchmind.picsart++
 Name: PicsArt++
@@ -585,18 +585,18 @@ Description: Premium subscription
 Depends: mobilesubstrate
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Section: Cracks
-SileoDepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/PicsArt++.json
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/49/bc/04/49bc0475-fbf6-39ec-e0f5-b4d495edd11d/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/98/c3/d298c3de-0fac-0530-c9ec-455c79c3ddf2/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
+SileoDepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 Architecture: iphoneos-arm64e
 Version: 1.0.2
-Installed-Size: 1224
+Installed-Size: 1208
 Filename: debs/com.catchmind.picsart++_1.0.2_iphoneos-arm64e.deb
 Depiction: https://catchmind24.github.io/depictions/com.catchmind.picsart++.html
-Size: 371452
-MD5sum: c7b05f5f27689fa83c117568134f00fd
-SHA1: 6c073d4e3fe6486c274b79b00e341aef89914f09
-SHA256: 5c36f082fe9f1c65ee1823e1b9e93b8d8f7ab7a613d1f94bdf7acfd616de93cb
-SHA521: 7b1beaa60e2576ea2fc26fd8f63868c634aed33add07444e8f72f921875f2dd3f72083875933a4998d2d0a952d78416093ce12fd943ef48497ef19c97d7fabea
+Size: 366790
+MD5sum: d2d8a931701d97411b71a7c750e09447
+SHA1: 5b6a783862484b3b62621b3dd05cf1de91a1632a
+SHA256: 7c3335346344863eeeb9d7e98dad4bbbd56231164c9f2408514d09dc45e70e4e
+SHA521: 90411aab559f2a66a1f67edb1b7db87aaf17bff32a0dc629c17fa9738251ceb43aaa14f13863e1f59833e96c690ebdb6c179a86f042e1efc0f4dedeff321e31e
 
 Package: com.catchmind.snow++
 Name: SNOW++
