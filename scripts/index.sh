@@ -1,21 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_ROOT="$(pwd)"
-DEB_DIR="$REPO_ROOT/debs"
+cd "$(git rev-parse --show-toplevel)"
 
-if [ ! -d "$DEB_DIR" ]; then
-  echo "❌ debs 디렉토리를 찾을 수 없습니다: $DEB_DIR"
-  exit 1
-fi
+[ -d "debs" ] || { echo "❌ debs 디렉토리가 없습니다"; exit 1; }
 
 echo "▶ dpkg-scanpackages 실행..."
-dpkg-scanpackages -m "$DEB_DIR" /dev/null > "$REPO_ROOT/Packages"
+dpkg-scanpackages -m "debs" /dev/null > "Packages"
 
 echo "▶ Packages.gz 생성..."
-gzip -9kf "$REPO_ROOT/Packages"
+gzip -9kf "Packages"
 
-# Release 파일 생성 — 필요 없으면 아래 블록을 주석처리하세요.
 echo "▶ Release 생성..."
 cat > "$REPO_ROOT/Release" <<'EOF'
 Origin: catchmind repo
