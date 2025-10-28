@@ -15,6 +15,19 @@ dpkg-scanpackages -m "$DEB_DIR" /dev/null > "$REPO_ROOT/Packages"
 echo "▶ Packages.gz 생성..."
 gzip -9kf "$REPO_ROOT/Packages"
 
+# Release 파일 생성 — 필요 없으면 아래 블록을 주석처리하세요.
+echo "▶ Release 생성..."
+cat > "$REPO_ROOT/Release" <<'EOF'
+Origin: catchmind repo
+Label: catchmind repo
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: lol
+EOF
+
 # Release에 체크섬 추가 (Packages, Packages.gz 기준)
 {
   echo "MD5Sum:"
