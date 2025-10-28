@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Merged Quick View Plus and Adult Authorization Bypass; fixed crashes on iOS 26.",
+                    "markdown": "- Merged Quick View Plus and Adult Authorization Bypass\n- Fixed crashes on iOS 26",
                     "useSpacing": true
                 },
                 {
@@ -59,7 +59,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added player full banner ad removal",
+                    "markdown": "- Added 'player full banner ad' removal",
                     "useSpacing": true
                 },
                 {
@@ -115,7 +115,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed preview bug",
+                    "markdown": "- Fixed preview issue",
                     "useSpacing": true
                 },
                 {
@@ -129,7 +129,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed catch tab bug",
+                    "markdown": "- Fixed catch tab issue",
                     "useSpacing": true
                 },
                 {
@@ -171,7 +171,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Removed live banner ad",
+                    "markdown": "- Removed live banner ads",
                     "useSpacing": true
                 },
                 {
@@ -227,7 +227,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release",
+                    "markdown": "- Initial release",
                     "useSpacing": true
                 }
             ]
