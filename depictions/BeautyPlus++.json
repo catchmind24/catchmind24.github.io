@@ -27,7 +27,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Premium subscription (Click restore purchase.)",
+                    "markdown": "Premium subscription",
                     "useSpacing": true
                 }
             ]
