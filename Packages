@@ -377,58 +377,58 @@ Name: 말해보카++
 Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/epop++.json
 
 Package: com.catchmind.facetune++
-Version: 1.0.1
+Version: 1.0.1-2
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1224
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm64e.deb
-Size: 374872
-MD5sum: 26f76d8459f110afaae758efd4bea5f0
-SHA1: 8805b3d446b64d40e749a9a337954d55b16c185d
-SHA256: 56f27709828e159632811a3834c373bd71784a2cf355a073e0a6e38541547209
-Section: Cracks
+Filename: debs/com.catchmind.facetune++_1.0.1-2_iphoneos-arm64e.deb
+Size: 370136
+MD5sum: b3b5559feaff8626f6f3209bb46f2e45
+SHA1: babad6bef1b1377a392e08764a1280f6105927b3
+SHA256: 13a2b143e5fa2998279bfc943e718293c611adce977ecf74caaced5cbe2c8840
+Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: Facetune++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
+Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.facetune++
-Version: 1.0.1
+Version: 1.0.1-2
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1224
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm.deb
-Size: 375042
-MD5sum: f8fdf9d992f37e2a2ce53197fd8d8570
-SHA1: b631e4fd66f8cce64eab3f24278604c652623efe
-SHA256: 617eb24e5f722d6569ade32211ca4cf68b580ffa6a6bfeb508d914a19ab50ca5
-Section: Cracks
+Filename: debs/com.catchmind.facetune++_1.0.1-2_iphoneos-arm.deb
+Size: 370088
+MD5sum: 9633541117bc8e15ce50e87edfa5fe9b
+SHA1: 0cba6e905eacf17c5711d3d964817bcf3b1f26e4
+SHA256: c7c653d5f73dc6e5a64a42593a0136d7763f53c3c6b3e1a1d5f54a192b2ab1a9
+Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: Facetune++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
+Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.facetune++
-Version: 1.0.1
+Version: 1.0.1-2
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1224
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.0.1_iphoneos-arm64.deb
-Size: 374956
-MD5sum: 2b2c823c10555c856e5de04a12b4f844
-SHA1: 9cf9dc2b712756cd73c1d475ad6c85071ef704ed
-SHA256: 37fe9b3bacc95bda8cfd338c4a01af3d427249e9f003d298d5cf6049e7630c43
-Section: Cracks
+Filename: debs/com.catchmind.facetune++_1.0.1-2_iphoneos-arm64.deb
+Size: 370200
+MD5sum: 02381c8e769470a02f89bc74c388b74b
+SHA1: 2c6bf295fa79743d634997bf8d3b89a260c24c04
+SHA256: 5f697ecb3319e6b3318323e804e874482ea0268480fb42ec80e69857421b829f
+Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/94/ab/55/94ab55a9-c333-e057-eeaf-25d00777353c/AppIcon-0-0-1x_U007epad-0-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: Facetune++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/Facetune++.json
+Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.foodie++
 Version: 1.1.0
