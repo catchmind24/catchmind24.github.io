@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "☕️ Buy me a coffee",
+                    "text": ☕️ Buy me a coffee",
                     "action": "https://buymeacoffee.com/catchmind24",
                     "openExternal": true,
                     "tintColor": "#000000"
@@ -36,6 +36,17 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.0.1-2",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed crashes on iOS 26.",
+                    "useSpacing": true
+                },
                 {
                     "class": "DepictionLabelView",
                     "text": "1.0.1",
