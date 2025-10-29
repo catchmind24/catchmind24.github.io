@@ -10,7 +10,7 @@
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": ☕️ Buy me a coffee",
+                    "text": "☕️ Buy me a coffee",
                     "action": "https://buymeacoffee.com/catchmind24",
                     "openExternal": true,
                     "tintColor": "#000000"
