@@ -538,6 +538,60 @@ Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/98/c3/d298c3de-0f
 Name: PicsArt++
 Sileodepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 
+Package: com.catchmind.revenuecat++
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm64.deb
+Size: 371490
+MD5sum: f18e90c94359de31e788191883ce88f4
+SHA1: cfe8668a16cd4594bc76bf7febcbb4339a130d05
+SHA256: a90a902f353234170024236bbc4f2a75fe3cf1b8ccaa15e712ceece9bbab3ea6
+Section: Cracks
+Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
+Name: RevenueCat++
+Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
+
+Package: com.catchmind.revenuecat++
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm.deb
+Size: 371320
+MD5sum: b836b0cb8064b742a3a5322b7586cdee
+SHA1: 51a7a8651bd51698f4c7b9390599b52c7e6268a1
+SHA256: a472257a979017d853e11b13217401e9a603cc90c3c815cba98f840d6db05efe
+Section: Cracks
+Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
+Name: RevenueCat++
+Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
+
+Package: com.catchmind.revenuecat++
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm64e.deb
+Size: 371232
+MD5sum: 06cdffcfd3d4809dac73cfba4bf5dc5e
+SHA1: e41f0caf96d54294ee4f9efca85cbd7cca0a035d
+SHA256: 85e955d4df886f66213dcadca2b623811fec83920ff4857c24fc283fb6235f11
+Section: Cracks
+Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
+Name: RevenueCat++
+Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
+
 Package: com.catchmind.snow++
 Version: 1.0.1-2
 Architecture: iphoneos-arm
