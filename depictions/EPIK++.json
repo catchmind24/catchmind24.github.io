@@ -44,7 +44,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Restored premium features\nFixed crashes on iOS 26",
+                    "markdown": "- Restored premium features\n- Fixed crashes on iOS 26",
                     "useSpacing": true
                 },
                 {
