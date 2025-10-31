@@ -268,6 +268,60 @@ Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1b/d8/1d/1bd81d4c-0f
 Name: CamScanner++
 Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
 
+Package: com.catchmind.duolingo++
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.duolingo++_1.0.0_iphoneos-arm64.deb
+Size: 373088
+MD5sum: 9f30e493b0c93857e7024393d8ed56f8
+SHA1: 8dd39b5b3abfcf9e28106426e6e8089bfe400552
+SHA256: 1844b80136b9f1b0fed43efffb7afddd00f7e0e478f5cdebdefaef38cddb99f5
+Section: Cracks
+Description: Unlock Duolingo Max premium features including unlimited timer boosts.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo++
+Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
+
+Package: com.catchmind.duolingo++
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.duolingo++_1.0.0_iphoneos-arm.deb
+Size: 372978
+MD5sum: 0df8f7cbaa46f4032e06c5866dc07d00
+SHA1: e07392df234259dd8f77972a034041110327ac44
+SHA256: 4748aa47fccc897429ae8df42acccb974288929d157c17e37daeb5b7c179691a
+Section: Cracks
+Description: Unlock Duolingo Max premium features including unlimited timer boosts.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo++
+Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
+
+Package: com.catchmind.duolingo++
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1224
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.duolingo++_1.0.0_iphoneos-arm64e.deb
+Size: 373068
+MD5sum: da8c4ab72076c09173329fd1c7bc7860
+SHA1: 7d3133c9514dfd4ec9c0de41db5f4a38ce08fb42
+SHA256: 2d356d6da98d451b49f4e1ff92fcf6d15703ed768182299f53d99616a43ed2b9
+Section: Cracks
+Description: Unlock Duolingo Max premium features including unlimited timer boosts.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo++
+Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
+
 Package: com.catchmind.epik++
 Version: 1.1.0
 Architecture: iphoneos-arm
