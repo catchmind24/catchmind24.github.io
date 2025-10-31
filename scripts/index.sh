@@ -60,5 +60,6 @@ EOF
 } >> "Release"
 
 echo "X-Generated-At: $(date -u)" >> Release
+echo "X-Random-Token: $(uuidgen)" >> Release
 
 echo "✅ 완료: $(wc -l < Packages) entries"
