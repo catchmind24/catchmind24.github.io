@@ -1,3 +1,57 @@
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm.deb
+Size: 365724
+MD5sum: 2691c9883daa4b9226891e6cddb34d88
+SHA1: 00355e4b6f6de0ab1f2819b0bca6d3c7e2621126
+SHA256: 2a4eb96f0311bc04b46314454cc71c3ff1b39e16d2a3d4910f413941c2c4f77c
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+Sileodepiction: https://catchmind24.github.io/depictions/AccuWeather++.json
+
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm64e.deb
+Size: 365740
+MD5sum: 651e1ba309bcd0234c5404bd20e2f678
+SHA1: 262f71d562bee89fe5f7cc89792081bff8eea021
+SHA256: 96e6b52c0f4b3aef185ec9cd16cccbc3b880d7923e914f810dfb9e492c34cfdb
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+Sileodepiction: https://catchmind24.github.io/depictions/AccuWeather++.json
+
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm64.deb
+Size: 365782
+MD5sum: 942ca950774bee94d1c24d1cb971619a
+SHA1: fd851f5c42db2b175b8fdd7c8b3af5292fea1be6
+SHA256: a5a8096ea2cd532e2584bb720014980cce7816f048e27402ad87f67623f0d5cd
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+Sileodepiction: https://catchmind24.github.io/depictions/AccuWeather++.json
+
 Package: com.catchmind.afreecatv++
 Version: 1.6.3
 Architecture: iphoneos-arm64
@@ -699,6 +753,66 @@ Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/b9/24/80b9249c-d622-986f-cc85-901a8874b722/AppIcon-0-0-1x_U007emarketing-0-4-0-85-220.png/512x512bb.jpg
 Name: SODA++
 Sileodepiction: https://catchmind24.github.io/depictions/SODA++.json
+
+Package: com.catchmind.speak++
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm64e.deb
+Size: 369894
+MD5sum: 38eb817e7e87df51a5e7b7c54218b094
+SHA1: 3e5c4de60953eae4512dfe28d77164ebe6c8b088
+SHA256: e562b7987d75978451e5a6ee1a0019e35b49a473619ee64ef9fd8d1e17cd1c27
+Section: Tweaks
+Description: Enables Developer Options.
+ ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
+ Use RevenueCat++ for premium features.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+Name: Speak++
+Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
+
+Package: com.catchmind.speak++
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm64.deb
+Size: 369966
+MD5sum: 929589f3e84fbfb01315d818ea900d40
+SHA1: 91330d36d7772c43323d0bc611fe2f3d60f3a573
+SHA256: 6fad9355bfd76579e25b2674997fe9ac4c148fe99a9ccaf1b7bf285d8d2d9467
+Section: Tweaks
+Description: Enables Developer Options.
+ ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
+ Use RevenueCat++ for premium features.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+Name: Speak++
+Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
+
+Package: com.catchmind.speak++
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm.deb
+Size: 369684
+MD5sum: c8b162ab13c6b1c776cd6859f490d8cc
+SHA1: 3d457908920c6c34d7f2aafc20947756d25ffac7
+SHA256: 17dff8395eb5335b8cb9b963f7f0e283ee5f5342b33730d597b86c911f4c1db2
+Section: Tweaks
+Description: Enables Developer Options.
+ ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
+ Use RevenueCat++ for premium features.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/00/ae/aa/00aeaa87-665c-7a29-278f-de021522e45b/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+Name: Speak++
+Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.zeta++
 Version: 1.0.2
