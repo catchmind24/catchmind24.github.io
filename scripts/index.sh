@@ -59,4 +59,6 @@ EOF
   done
 } >> "Release"
 
+echo "X-Generated-At: $(date -u)" >> Release
+
 echo "✅ 완료: $(wc -l < Packages) entries"
