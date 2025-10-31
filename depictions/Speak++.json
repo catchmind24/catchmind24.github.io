@@ -26,9 +26,22 @@
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Enables Developer Options. \n\n⚠️ Don’t activate premium in Debug settings — it will mess up the app. \n\nUse RevenueCat++ for premium features.",
-                    "useSpacing": true
+                    "class": "DepictionLabelView",
+                    "text": "Enables Developer Options.",
+                    "textColor": "#000000",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "⚠️ Don’t activate premium in Debug settings — it will mess up the app.",
+                    "textColor": "#D32F2F",
+                    "useBottomMargin": false
+                },
+                {
+                    "class": "DepictionLabelView",
+                    "text": "Use RevenueCat++ for premium features.",
+                    "textColor": "#000000",
+                    "useBottomMargin": false
                 }
             ]
         },
@@ -36,7 +49,7 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
-               {
+                {
                     "class": "DepictionLabelView",
                     "text": "1.1.0",
                     "useBottomMargin": false,
