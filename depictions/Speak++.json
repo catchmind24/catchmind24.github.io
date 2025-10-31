@@ -28,7 +28,7 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Enables Developer Options.  \n⚠️ Don’t activate premium in Debug settings — it will mess up the app.  \nUse RevenueCat++ for premium features.",
-                    "useSpacing": false
+                    "useSpacing": true
                 }
             ]
         },
