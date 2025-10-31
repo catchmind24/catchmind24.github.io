@@ -27,7 +27,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Premium subscription (Restart app and click restore purchase.)",
+                    "markdown": "Premium subscription (Restart app to restore purchase)",
                     "useSpacing": true
                 }
             ]
@@ -38,13 +38,27 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "1.0.0-2",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed crashes on iOS 26.",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "1.0.0",
                     "useBottomMargin": false,
                     "textColor": "#9E9E9E"
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release",
+                    "markdown": "- Initial release",
                     "useSpacing": true
                 }
             ]
