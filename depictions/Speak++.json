@@ -27,7 +27,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Premium subscription (Restart app after login, then go to Debug settings in the Settings tab to activate premium features.)",
+                    "markdown": "Enables Developer Options.\n⚠️ Don’t activate premium in Debug settings — it will mess up the app.\nUse RevenueCat++ for premium features.)",
                     "useSpacing": true
                 }
             ]
@@ -36,6 +36,21 @@
             "class": "DepictionStackView",
             "tabname": "Changelog",
             "views": [
+               {
+                    "class": "DepictionLabelView",
+                    "text": "1.1.0",
+                    "useBottomMargin": false,
+                    "textColor": "#9E9E9E"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Premium features removed\n- Fixed crashes on iOS 26",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+
                 {
                     "class": "DepictionLabelView",
                     "text": "1.0.0",
@@ -44,7 +59,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release",
+                    "markdown": "- Initial release",
                     "useSpacing": true
                 }
             ]
