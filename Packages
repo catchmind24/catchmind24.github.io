@@ -52,6 +52,57 @@ Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e9
 Name: AccuWeather++
 Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/AccuWeather++.json
 
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm.deb
+Size: 365680
+MD5sum: ffbcd2d0403fe18910d622c69f7ea9ac
+SHA1: 9f247239d987872305f117024014cd101170e000
+SHA256: cf248f62b7e5ffddb555c1bfad4049180a9b22e75c679cbf133c50ac85a1f2a6
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm64e.deb
+Size: 365722
+MD5sum: cd937ce95279858774d2dc34eb4d3d77
+SHA1: 9485ff31324fd60587d6e2365551a46a831f7220
+SHA256: 6916583d403308767420d67001bb4f69ab27384b6481bbdd25066aa3267d41e1
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+
+Package: com.catchmind.accuweather++
+Version: 1.0.0-2
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1208
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.accuweather++_1.0.0-2_iphoneos-arm64.deb
+Size: 365708
+MD5sum: f698d8f3bd090e65f06aabca7994648b
+SHA1: 3ef8c5894b8bec738dabee007a0021f2f183b8d4
+SHA256: 24db982de1a6d011a05326f2e1c46415a2db9f442b6686122506a2e4029eb587
+Section: Tweaks
+Description: Premium subscription (Restart app to restore purchase)
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d6/dd/ca/d6ddca40-e933-9844-c0de-2c03185242fc/AppIcon-0-1x_U007emarketing-0-7-0-85-220-0.png/512x512bb.jpg
+Name: AccuWeather++
+
 Package: com.catchmind.afreecatv++
 Version: 1.6.3
 Architecture: iphoneos-arm64
