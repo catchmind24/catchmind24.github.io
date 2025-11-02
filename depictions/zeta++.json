@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Premium subscription (Most features are server-side verified.)",
+                    "markdown": "Premium subscription",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }
@@ -40,6 +40,20 @@
             "tabname": "Changelog",
             "tintColor": "#D1B06B",
             "views": [
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.1.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Redesigned popup interface\n- Fixed crashes on iOS 26",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionLabelView",
                     "text": "1.0.2",
