@@ -52,60 +52,6 @@ Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-37
 Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
-Package: com.catchmind.b612++
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm64.deb
-Size: 325390
-MD5sum: 9155275f0d5d14f0b3f0c11e66b9bd87
-SHA1: 000c412a7d1bab47f11061a283f5fa662a84b47e
-SHA256: 3373a3a8dfda75b9bebb26d8947c629987556836656ef5bc13f0d016358ea248
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
-Name: B612++
-Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
-
-Package: com.catchmind.b612++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm64e.deb
-Size: 325340
-MD5sum: 1540645fd144595f2e06de7c2f707561
-SHA1: d7cfb0f7329325cdf263b2919a8d9fc9dfaa305c
-SHA256: 3c43e691e6c0eb4b58109a4d5ca22c941e4edbffb53617e31f9244d9a22578ad
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
-Name: B612++
-Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
-
-Package: com.catchmind.b612++
-Version: 1.1.0
-Architecture: iphoneos-arm
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm.deb
-Size: 325334
-MD5sum: 32bd2d265e6586bb11f8888f34cec5d3
-SHA1: e937235853f316042f1f0a79a17029d5b42fa614
-SHA256: f89244299f083bce77c2b38d4863cc9b219a4ec90ec4c2fa7ca53b5a0f1cd854
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/1f/7f/05/1f7f0590-45fb-7f38-87e8-b6e2f00f9f95/AppIcon-0-0-1x_U007emarketing-0-4-0-sRGB-85-220.png/512x512bb.jpg
-Name: B612++
-Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
-
 Package: com.catchmind.beautyplus++
 Version: 1.2.0
 Architecture: iphoneos-arm64e
