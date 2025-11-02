@@ -329,15 +329,16 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm64.deb
-Size: 326642
-MD5sum: eb506beb2e43d789e54ef05e737dd78f
-SHA1: 1539c0d06cd95af8a3862ace5c2122d31d00b3e2
-SHA256: 2ac812a3963051a27a5a49ac02c34e1a125beb2dc15a230e42d806319d456f26
+Size: 326592
+MD5sum: 288f6327ecf349d97be8a8bcd6384492
+SHA1: e188dfa42bd712de5531484613a3e184e36b937a
+SHA256: 709318279dcbc39413bcb8779f5af399a667175f071877a5ceb3cde887b0806d
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Name: 말해보카++
+Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
 Version: 2.0.0
@@ -346,15 +347,16 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm.deb
-Size: 326612
-MD5sum: bf8967b9cba5e34c8cf25cba8c95b1e3
-SHA1: f76873e53b09b63d7e9c2b9f3e6814b40e3a83d1
-SHA256: 913f6c1c9441aa79011804cca69875c4a9cb2e8e298b61fa0d13168e0e45cc02
+Size: 326610
+MD5sum: 69329cbe282d6108553015f8575dabce
+SHA1: 7d2f580b210e36ef75eab17a20a376e13a656b32
+SHA256: fc256f0f44762b0870da3f156ce65d39c88ce175cdebd79e185611a08cbb09ff
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Name: 말해보카++
+Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
 Version: 2.0.0
@@ -363,15 +365,16 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm64e.deb
-Size: 326604
-MD5sum: 3eb6b795cb0768f00752a1c876729fc6
-SHA1: c35f2d1cbd25229325066556db0175947b1cec27
-SHA256: d2adbbda215443b5e6c4f6df8c6793681042775b95a9d213d5e5602f8adff10e
+Size: 326692
+MD5sum: f74c28ae7a107ef8c3ebe7eee7d02521
+SHA1: 9b3794dc1a976814efdeb986471f0efdbd0465b5
+SHA256: 92dfc7541ccd700dac54d19a8e6c4abefea10d7bb22afe8389468be1d8977f1a
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
 Name: 말해보카++
+Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.facetune++
 Version: 1.1.0
@@ -764,15 +767,16 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64e.deb
-Size: 322148
-MD5sum: 038707d82e3eeca3f6ba2fefda93db24
-SHA1: 55ffaf54921c8b84c617c72d2db66a40c33a1822
-SHA256: 4fed89238afab78a62c4b72ac4d1021261fcc3ea257ec23593b44de21de72aae
+Size: 322254
+MD5sum: aaa49d4d4d3ac8f5ef7cb84e6c564f9a
+SHA1: 9a96099248bc730449e6cf668fa51cb3ec497134
+SHA256: bceca1c0b7ec4add559953c66d240c90548be4a5a2382cc81e4bb784cb118433
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Name: zeta++
+Sileodepiction: https://catchmind24.github.io/depictions/zeta++.json
 
 Package: com.catchmind.zeta++
 Version: 1.1.0
@@ -781,15 +785,16 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm.deb
-Size: 322048
-MD5sum: 6142dd8e2737640020005bba9f2a4223
-SHA1: 367ff9d69a4e151c9ff167d728114acb8e5cae93
-SHA256: b0ea98b034af71abd1caeadc38a34989e44ecdbef9634081d6775f601e4fec33
+Size: 322230
+MD5sum: 3d007e06a6494ebe3104088cc2677925
+SHA1: 7561166fcd86fd38c03370f965f057adf1e92cd6
+SHA256: 3953cd37241e78163d4ebe21ac9283d6a20af25b33be76258a91628d404aefb1
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Name: zeta++
+Sileodepiction: https://catchmind24.github.io/depictions/zeta++.json
 
 Package: com.catchmind.zeta++
 Version: 1.1.0
@@ -798,13 +803,14 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64.deb
-Size: 322252
-MD5sum: dc3311f84450daa9dbb3a0d9eee4e1f6
-SHA1: 6685954d881649ae3005f701cbaf9464b1cdcdf7
-SHA256: 516f4450063cd3a8882e85ab3f20ae767c5fe46eb1e7f747b431fe771f1ab581
+Size: 322236
+MD5sum: 5393c5a9487f7db52ab8277764833200
+SHA1: 9b7134106faffd984a127434259488ce74d07d34
+SHA256: c5efe77942962bc5d52f6534bf6261e627ed7479477aa1ef2fbba50a54adf02e
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Name: zeta++
+Sileodepiction: https://catchmind24.github.io/depictions/zeta++.json
 
