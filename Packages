@@ -1,14 +1,14 @@
 Package: com.catchmind.afreecatv++
-Version: 1.6.3
+Version: 1.7.0
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.6.3_iphoneos-arm64.deb
-Size: 371620
-MD5sum: 4e2fff952f9b9c044c403cb65564a42d
-SHA1: 3db511395320216b1ae05801b838d996be2c907a
-SHA256: 446abe12a9984540cda1fa28b0963bcd083f77798d2792af325b1cf4b52dd29c
+Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm64.deb
+Size: 325434
+MD5sum: f9c1f5b3c09940e49a7e633737aa9c50
+SHA1: 063345b9459fafd6c17c25575e70a9dcc650f47d
+SHA256: d4ba444d37a079ee4c1137a41d166ef1a6fd344037f3a3e376644e5d10baedad
 Section: Cracks
 Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -17,16 +17,16 @@ Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.afreecatv++
-Version: 1.6.3
+Version: 1.7.0
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.6.3_iphoneos-arm.deb
-Size: 371588
-MD5sum: 14f353b32666898317cef7f014502ce0
-SHA1: ecfb17452d85a84523fe30443a1729dbefcc1a07
-SHA256: 9500bcff67ac00ae719c658959b3cecf679ef6f7549ed30a53827da29ffb1555
+Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm.deb
+Size: 325490
+MD5sum: abc1b3159e524b01b1b0aa7019b692be
+SHA1: b9ae0545684264ed4d46463f404d8d9433c39f5f
+SHA256: 24e7016c3cd9467769bc72037913d00bcaeac2ed74154dfd0a9759a2890b044c
 Section: Cracks
 Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -35,16 +35,16 @@ Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.afreecatv++
-Version: 1.6.3
+Version: 1.7.0
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.6.3_iphoneos-arm64e.deb
-Size: 371560
-MD5sum: 3d4b28b71d623725a3d634274a617051
-SHA1: 5c862d72d59961c06ec1e22190403c05bca55355
-SHA256: 8b3c14b832f8b17da44fa846f957bace498a04c151c12aa12ceec63269bfa4ac
+Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm64e.deb
+Size: 325392
+MD5sum: eee8f7bc36dd79ddfe532d9ea6907ee5
+SHA1: 3d3d08801f8cdca135e8cbced5a8cdd3baa93cf2
+SHA256: 26402eb841422b63ae26e8e72716cb07831f36b2181d02bb1c9e01ae97cb87f9
 Section: Cracks
 Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -539,34 +539,16 @@ Name: PicsArt++
 Sileodepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 
 Package: com.catchmind.revenuecat++
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm64.deb
-Size: 371640
-MD5sum: 0518c2a73a4c3f49d846dc3c62efe6df
-SHA1: 0164e73e3e6e61e36777d2cb760933436a9c0db8
-SHA256: 69dd8dc58b644d469b845e8f614afe11af1f3252935b0f598e5dcb842f4f05be
-Section: Cracks
-Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
-Name: RevenueCat++
-Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
-
-Package: com.catchmind.revenuecat++
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm.deb
-Size: 371508
-MD5sum: 52a7f33292450f74d1287fdbcea8f5ce
-SHA1: 492c840db4ddd504277708033d1c4ff55bd9b019
-SHA256: 3e00ac2a0b1a543abad99506d49b4babe2a3189796584c1aeedc01ff957b0d86
+Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm.deb
+Size: 328440
+MD5sum: 6b290b237cb3af67fc37bffa6a55d7d7
+SHA1: 1495a1c1cca24be66787e0eba05d12cb6b42ab21
+SHA256: af107e47159b066514a17b5edbfdcdc79f323b7a78cf5fd3ca342e4da3e27924
 Section: Cracks
 Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -575,16 +557,34 @@ Name: RevenueCat++
 Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
 
 Package: com.catchmind.revenuecat++
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1224
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.0.0_iphoneos-arm64e.deb
-Size: 371588
-MD5sum: 882027e4fbf5c3b8a5f7b4322c9945b2
-SHA1: 1390383345bc34d1c1fe02386b3ab323fc06ac1c
-SHA256: 602c2ec536d1c25ffb0342cd8e2e7eaa94c6a53c53f6e4760c8a4ad51300f9a2
+Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm64e.deb
+Size: 328402
+MD5sum: a9ed4cd964dd9724e5c55020ad256aa1
+SHA1: 3c8c3cfc9b4fab3fba4a4c947413c7e786d06516
+SHA256: 847b4047414ba5ea021cfce5551415312b20b5fed05330647f76ab7e3f1c8122
+Section: Cracks
+Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
+Name: RevenueCat++
+Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
+
+Package: com.catchmind.revenuecat++
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm64.deb
+Size: 328454
+MD5sum: 5eb62e5426975cfce58d6b6e2a74963d
+SHA1: c14de14bbc35f92fd1dc1ac972efcf9455156e7e
+SHA256: 22b05da33ac0f66af1775b2ad3d6ca3c5aa94215c210cc26eff0372be44e5e49
 Section: Cracks
 Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -701,16 +701,16 @@ Name: SODA++
 Sileodepiction: https://catchmind24.github.io/depictions/SODA++.json
 
 Package: com.catchmind.speak++
-Version: 1.1.0
+Version: 1.2.0
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm64e.deb
-Size: 369870
-MD5sum: b8e755446a2a98eac6a641110c8ed7d0
-SHA1: 2c8224ef9f6f35bbafc1930f8fd5acfc298972a1
-SHA256: ef4ee1b72d7744fb84278e5375ada7717506ab67023262cf5d69fe6cf347fb20
+Filename: debs/com.catchmind.speak++_1.2.0_iphoneos-arm64e.deb
+Size: 327050
+MD5sum: b04d6e48ee43a3e654b0328f22be93b9
+SHA1: 539ea94f7694e1cf5a66b32230b5fbbae532004b
+SHA256: 64c8c1e45ee007a788972415e2aee39e35d9971cba690170a167878e826c9f97
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
@@ -721,16 +721,16 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.speak++
-Version: 1.1.0
+Version: 1.2.0
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm64.deb
-Size: 369884
-MD5sum: 3724e21149743e644b90ff99cef4763a
-SHA1: 1fac6a3aaf56304aa578a5b79cbc81e68a15d1c7
-SHA256: f0794e76ddcc0f48f0d79ffa56334515dea34839ecccfc6baef9311361242022
+Filename: debs/com.catchmind.speak++_1.2.0_iphoneos-arm64.deb
+Size: 327188
+MD5sum: 43b255d7b511778b9fcf1006067f412c
+SHA1: 2db414b8f7111721dde9119a64eee82489a76e79
+SHA256: 764eef2fa6f431d7690f9d85832adbe9c44dc26cf3e80d38f0656e996167f342
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
@@ -741,16 +741,16 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.speak++
-Version: 1.1.0
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.1.0_iphoneos-arm.deb
-Size: 369826
-MD5sum: 0c38bd6f285a746ef868ba6128138323
-SHA1: 6fcefb39c097d6e09d6761729a906c2f8a5ea434
-SHA256: 76b9fde079cbf6cd1ae8b33f8cb22476dd4bc1f0574b490a3e4ac373490ab4fb
+Filename: debs/com.catchmind.speak++_1.2.0_iphoneos-arm.deb
+Size: 327140
+MD5sum: fcb989483dccea58de41c465154c384b
+SHA1: f7d4d721d9de7699f62a5889aa336a90bc0cfef5
+SHA256: 5ed313a2b3b74c33db137adea25d5e829c701134fcc6e0ec8ab194749ac933a3
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
