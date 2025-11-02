@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Git 저장소 루트로 이동 (실패시 현재 디렉토리 사용)
+# Git 저장소 루트로 이동
 if git rev-parse --show-toplevel &>/dev/null; then
   cd "$(git rev-parse --show-toplevel)"
   echo "📂 작업 디렉토리: $(pwd)"
@@ -46,15 +46,23 @@ echo "  ✓ 압축 완료: $(stat -c%s Packages.gz 2>/dev/null || stat -f%z Pack
 
 # Release 파일 생성
 echo "▶ Release 파일 생성..."
-cat > "Release" <<'EOF'
+
+# 🔥 핵심: 타임스탬프 기반 버전 생성 (Sileo 캐시 무효화)
+TIMESTAMP=$(date -u +%s)
+VERSION="1.0.${TIMESTAMP}"
+CURRENT_DATE=$(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S %Z")
+
+# 🔥 Date를 Release 파일 **안에** 포함 (해시 계산 전)
+cat > "Release" <<EOF
 Origin: catchmind
 Label: catchmind repo
 Suite: stable
-Version: 1.0
+Version: ${VERSION}
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: catchmind Cydia/Sileo Repository
+Date: ${CURRENT_DATE}
 EOF
 
 # 해시값 계산 및 추가
@@ -109,12 +117,13 @@ EOF
   done
 } >> "Release"
 
-# Date 추가
-echo "Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S %Z")" >> "Release"
-
 # 최종 확인
 echo ""
 echo "✅ 인덱스 생성 완료"
+echo "   - Version: ${VERSION}"
+echo "   - Date: ${CURRENT_DATE}"
 echo "   - Packages: $(wc -l < Packages) 줄"
 echo "   - Packages.gz: $(stat -c%s Packages.gz 2>/dev/null || stat -f%z Packages.gz) bytes"
 echo "   - Release: $(wc -l < Release) 줄"
+echo ""
+echo "💡 Sileo는 Version과 Date 변경을 감지하여 캐시를 갱신합니다"
