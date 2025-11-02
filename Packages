@@ -758,56 +758,53 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.zeta++
-Version: 1.0.2
+Version: 1.1.0
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64e.deb
-Size: 373146
-MD5sum: 05dbb62e5394c870a7bd44524929eb9d
-SHA1: fbe9ac68926bd6bacffa1666d5f6b72e10ee2874
-SHA256: c91fa0a8f25ac9563bbd8bcb1bc47bdd04aa33920a31ef4b450239954f47bee2
-Section: Cracks
-Description: Premium subscription (Most features are server-side verified.)
+Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64e.deb
+Size: 322148
+MD5sum: 038707d82e3eeca3f6ba2fefda93db24
+SHA1: 55ffaf54921c8b84c617c72d2db66a40c33a1822
+SHA256: 4fed89238afab78a62c4b72ac4d1021261fcc3ea257ec23593b44de21de72aae
+Section: Tweaks
+Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Name: zeta++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
 
 Package: com.catchmind.zeta++
-Version: 1.0.2
-Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm64.deb
-Size: 373284
-MD5sum: 0d61780e23a666b2596b33314dcf2c1e
-SHA1: e1227ef7f1030702373c92827bd1c50764261fc2
-SHA256: 547873a9f5f5dc15ba0a2de6ad26714f8d3b36f63e4f115a6d8342dfc2580009
-Section: Cracks
-Description: Premium subscription (Most features are server-side verified.)
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
-Name: zeta++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
-
-Package: com.catchmind.zeta++
-Version: 1.0.2
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1208
+Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.0.2_iphoneos-arm.deb
-Size: 373132
-MD5sum: 961eacaa77718de7aaaa2f7e184fbd94
-SHA1: a8cc33977700a09ef86332d4b3ee6d663dc74d71
-SHA256: c8bf58f197bcd0236038f89004de07036f745a91950a0835651ce712e9026ccb
-Section: Cracks
-Description: Premium subscription (Most features are server-side verified.)
+Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm.deb
+Size: 322048
+MD5sum: 6142dd8e2737640020005bba9f2a4223
+SHA1: 367ff9d69a4e151c9ff167d728114acb8e5cae93
+SHA256: b0ea98b034af71abd1caeadc38a34989e44ecdbef9634081d6775f601e4fec33
+Section: Tweaks
+Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
 Name: zeta++
-Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/zeta++.json
+
+Package: com.catchmind.zeta++
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64.deb
+Size: 322252
+MD5sum: dc3311f84450daa9dbb3a0d9eee4e1f6
+SHA1: 6685954d881649ae3005f701cbaf9464b1cdcdf7
+SHA256: 516f4450063cd3a8882e85ab3f20ae767c5fe46eb1e7f747b431fe771f1ab581
+Section: Tweaks
+Description: Premium subscription
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4b/fa/b0/4bfab0ab-dc63-9152-ab8c-bdaa850ada4a/AppIcon-0-0-1x_U007emarketing-0-10-0-85-220.png/512x512bb.jpg
+Name: zeta++
 
