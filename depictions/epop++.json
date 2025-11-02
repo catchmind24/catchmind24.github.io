@@ -1,26 +1,28 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
-    "tintColor": "#000000",
+    "tintColor": "#D1B06B",
     "headerImage": "",
     "tabs": [
         {
             "tabname": "Details",
             "class": "DepictionStackView",
+            "tintColor": "#D1B06B",
             "views": [
                 {
                     "class": "DepictionButtonView",
-                    "text": "☕️ Buy me a coffee",
+                    "text": "☕️ Buy Me A Coffee",
                     "action": "https://buymeacoffee.com/catchmind24",
                     "openExternal": true,
-                    "tintColor": "#000000"
+                    "tintColor": "#D1B06B"
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Description"
+                    "title": "Description",
+                    "useBoldText": true
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -28,19 +30,21 @@
                 {
                     "class": "DepictionMarkdownView",
                     "markdown": "Premium subscription",
-                    "useSpacing": true
+                    "useSpacing": true,
+                    "tintColor": "#D1B06B"
                 }
             ]
         },
         {
             "class": "DepictionStackView",
             "tabname": "Changelog",
+            "tintColor": "#D1B06B",
             "views": [
                 {
                     "class": "DepictionLabelView",
                     "text": "1.0.2",
                     "useBottomMargin": false,
-                    "textColor": "#9E9E9E"
+                    "textColor": "#D1B06B"
                 },
                 {
                     "class": "DepictionMarkdownView",
@@ -54,7 +58,7 @@
                     "class": "DepictionLabelView",
                     "text": "1.0.1",
                     "useBottomMargin": false,
-                    "textColor": "#9E9E9E"
+                    "textColor": "#D1B06B"
                 },
                 {
                     "class": "DepictionMarkdownView",
@@ -68,7 +72,7 @@
                     "class": "DepictionLabelView",
                     "text": "1.0.0",
                     "useBottomMargin": false,
-                    "textColor": "#9E9E9E"
+                    "textColor": "#D1B06B"
                 },
                 {
                     "class": "DepictionMarkdownView",
