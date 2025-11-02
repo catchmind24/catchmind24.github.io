@@ -1,19 +1,51 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-cd "$(git rev-parse --show-toplevel)"
+# Git 저장소 루트로 이동 (실패시 현재 디렉토리 사용)
+if git rev-parse --show-toplevel &>/dev/null; then
+  cd "$(git rev-parse --show-toplevel)"
+  echo "📂 작업 디렉토리: $(pwd)"
+else
+  echo "⚠️ Git 저장소가 아니거나 shallow clone입니다. 현재 디렉토리에서 작업합니다."
+fi
 
 DEB_DIR="debs"
 
-[ -d "$DEB_DIR" ] || { echo "❌ debs 디렉토리가 없습니다"; exit 1; }
+# debs 디렉토리 확인
+if [ ! -d "$DEB_DIR" ]; then
+  echo "❌ $DEB_DIR 디렉토리가 없습니다"
+  exit 1
+fi
 
+# deb 파일 개수 확인
+DEB_COUNT=$(find "$DEB_DIR" -name "*.deb" | wc -l)
+echo "📦 발견된 .deb 파일: $DEB_COUNT개"
+
+if [ "$DEB_COUNT" -eq 0 ]; then
+  echo "⚠️ 경고: deb 파일이 없습니다"
+fi
+
+# Packages 파일 생성
 echo "▶ dpkg-scanpackages 실행..."
-dpkg-scanpackages -m "$DEB_DIR" /dev/null > "Packages"
+if ! dpkg-scanpackages -m "$DEB_DIR" /dev/null > "Packages"; then
+  echo "❌ dpkg-scanpackages 실패"
+  exit 1
+fi
 
+# 생성된 패키지 수 확인
+PACKAGE_COUNT=$(grep -c "^Package:" Packages || echo "0")
+echo "  ✓ 인덱싱된 패키지: $PACKAGE_COUNT개"
+
+# Packages.gz 생성
 echo "▶ Packages.gz 생성..."
-gzip -9kf "Packages"
+if ! gzip -9kf "Packages"; then
+  echo "❌ Packages.gz 생성 실패"
+  exit 1
+fi
+echo "  ✓ 압축 완료: $(stat -c%s Packages.gz 2>/dev/null || stat -f%z Packages.gz) bytes"
 
-echo "▶ Release 생성..."
+# Release 파일 생성
+echo "▶ Release 파일 생성..."
 cat > "Release" <<'EOF'
 Origin: catchmind
 Label: catchmind repo
@@ -22,41 +54,67 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: lol
+Description: catchmind Cydia/Sileo Repository
 EOF
 
+# 해시값 계산 및 추가
 {
   echo "MD5Sum:"
   for f in Packages Packages.gz; do
     [ -f "$f" ] || continue
-    size=$(stat -c%s "$f")
-    hash=$(md5sum "$f" | cut -d' ' -f1)
+    # Linux와 macOS 호환성
+    if stat -c%s "$f" &>/dev/null; then
+      size=$(stat -c%s "$f")
+    else
+      size=$(stat -f%z "$f")
+    fi
+    hash=$(md5sum "$f" 2>/dev/null | cut -d' ' -f1 || md5 -q "$f")
     echo " $hash $size $f"
   done
 
   echo "SHA1:"
   for f in Packages Packages.gz; do
     [ -f "$f" ] || continue
-    size=$(stat -c%s "$f")
-    hash=$(sha1sum "$f" | cut -d' ' -f1)
+    if stat -c%s "$f" &>/dev/null; then
+      size=$(stat -c%s "$f")
+    else
+      size=$(stat -f%z "$f")
+    fi
+    hash=$(sha1sum "$f" 2>/dev/null | cut -d' ' -f1 || shasum -a 1 "$f" | cut -d' ' -f1)
     echo " $hash $size $f"
   done
 
   echo "SHA256:"
   for f in Packages Packages.gz; do
     [ -f "$f" ] || continue
-    size=$(stat -c%s "$f")
-    hash=$(sha256sum "$f" | cut -d' ' -f1)
+    if stat -c%s "$f" &>/dev/null; then
+      size=$(stat -c%s "$f")
+    else
+      size=$(stat -f%z "$f")
+    fi
+    hash=$(sha256sum "$f" 2>/dev/null | cut -d' ' -f1 || shasum -a 256 "$f" | cut -d' ' -f1)
     echo " $hash $size $f"
   done
 
   echo "SHA512:"
   for f in Packages Packages.gz; do
     [ -f "$f" ] || continue
-    size=$(stat -c%s "$f")
-    hash=$(sha512sum "$f" | cut -d' ' -f1)
+    if stat -c%s "$f" &>/dev/null; then
+      size=$(stat -c%s "$f")
+    else
+      size=$(stat -f%z "$f")
+    fi
+    hash=$(sha512sum "$f" 2>/dev/null | cut -d' ' -f1 || shasum -a 512 "$f" | cut -d' ' -f1)
     echo " $hash $size $f"
   done
 } >> "Release"
 
-echo "✅ 완료: $(wc -l < Packages) entries"
+# Date 추가
+echo "Date: $(LC_ALL=C date -u +"%a, %d %b %Y %H:%M:%S %Z")" >> "Release"
+
+# 최종 확인
+echo ""
+echo "✅ 인덱스 생성 완료"
+echo "   - Packages: $(wc -l < Packages) 줄"
+echo "   - Packages.gz: $(stat -c%s Packages.gz 2>/dev/null || stat -f%z Packages.gz) bytes"
+echo "   - Release: $(wc -l < Release) 줄"

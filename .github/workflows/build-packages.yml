@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # 전체 git 히스토리 가져오기
 
       - name: Install dpkg-dev
         run: |
@@ -29,14 +31,48 @@ jobs:
           chmod +x scripts/index.sh
           ./scripts/index.sh
 
+      - name: Verify generated files
+        run: |
+          echo "📦 생성된 파일 확인:"
+          ls -lh Packages Packages.gz Release 2>/dev/null || {
+            echo "❌ 필수 파일이 생성되지 않았습니다"
+            exit 1
+          }
+          echo "✅ 모든 파일이 정상적으로 생성되었습니다"
+          echo ""
+          echo "📊 Packages 파일 정보:"
+          wc -l Packages
+
       - name: Commit & push index
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Packages Packages.gz Release || true
+          
+          # 파일 추가 (에러 발생시 중단)
+          git add Packages Packages.gz Release
+          
+          # 변경사항 확인 및 커밋
           if ! git diff --cached --quiet; then
-            git commit -m "Update repo index"
-            git push
+            git commit -m "Update repo index [$(date -u +%Y-%m-%d_%H:%M:%S)]"
+            
+            # 푸시 재시도 로직 추가
+            for i in {1..3}; do
+              if git push; then
+                echo "✅ 푸시 성공"
+                break
+              else
+                echo "⚠️ 푸시 실패, 재시도 $i/3"
+                sleep 2
+                git pull --rebase
+              fi
+            done
           else
-            echo "No changes to commit."
+            echo "ℹ️ 변경사항 없음"
           fi
+
+      - name: Trigger Pages rebuild
+        run: |
+          echo "🔄 GitHub Pages 캐시 무효화를 위한 더미 커밋"
+          # Pages 강제 재빌드를 위한 방법
+          git commit --allow-empty -m "Trigger Pages rebuild [skip ci]"
+          git push || echo "더미 커밋 푸시 실패 (무시 가능)"
