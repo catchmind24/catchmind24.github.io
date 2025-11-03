@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Quick View Plus & Ad-Free experience with Adult Content Unlocked.",
+                    "markdown": "Quick View Plus & Ad-Free experience with Adult Content Unlocked",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }
@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Merged Quick View Plus and Adult Authorization Bypass\n- Fixed crashes on iOS 26",
+                    "markdown": "- Merged Quick View Plus and Adult Authorization Bypass\n- Added support for iOS 26",
                     "useSpacing": true
                 },
                 {
@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Separated Quick View Plus and Adult Authorization Bypass, excluding Remove Ads.",
+                    "markdown": "- Separated Quick View Plus and Adult Authorization Bypass, excluding Remove Ads",
                     "useSpacing": true
                 },
                 {

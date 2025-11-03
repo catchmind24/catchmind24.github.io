@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed crashes on iOS 26.",
+                    "markdown": "- Added support for iOS 26",
                     "useSpacing": true
                 },
                 {

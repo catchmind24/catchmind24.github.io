@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Unlock Duolingo Max premium features including unlimited timer boosts.",
+                    "markdown": "Unlock Duolingo Max premium features including unlimited timer boosts",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }

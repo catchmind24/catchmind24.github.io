@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Added unlimited credits\n- Fixed crashes on iOS 26",
+                    "markdown": "- Added unlimited credits\n- Added support for iOS 26",
                     "useSpacing": true
                 },
                 {

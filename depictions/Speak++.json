@@ -62,7 +62,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Premium features removed\n- Fixed crashes on iOS 26",
+                    "markdown": "- Premium features removed\n- Added support for iOS 26",
                     "useSpacing": true
                 },
                 {

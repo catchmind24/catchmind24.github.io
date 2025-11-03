@@ -48,7 +48,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Restored premium features\n- Fixed crashes on iOS 26\n- Redesigned popup interface",
+                    "markdown": "- Restored premium features\n- Added support for iOS 26\n- Redesigned popup interface",
                     "useSpacing": true
                 },
                 {
