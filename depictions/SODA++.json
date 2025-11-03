@@ -90,7 +90,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Initial Release",
+                    "markdown": "- Initial release",
                     "useSpacing": true
                 }
             ]
