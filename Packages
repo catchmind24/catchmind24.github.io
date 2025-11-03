@@ -1,52 +1,52 @@
 Package: com.catchmind.afreecatv++
-Version: 1.7.0
+Version: 1.8.0
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm64.deb
-Size: 325434
-MD5sum: f9c1f5b3c09940e49a7e633737aa9c50
-SHA1: 063345b9459fafd6c17c25575e70a9dcc650f47d
-SHA256: d4ba444d37a079ee4c1137a41d166ef1a6fd344037f3a3e376644e5d10baedad
+Filename: debs/com.catchmind.afreecatv++_1.8.0_iphoneos-arm64.deb
+Size: 324462
+MD5sum: 455f1eb5e66d5619f3d645901579450b
+SHA1: e0b2ce9a200e956f6ecdcb20a2e602c2ec9e254e
+SHA256: bfa028d4a3ab93c797b83d53b2b718c4f9a0e18b2699b46394e07c792e3d2d1a
 Section: Cracks
-Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
+Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.afreecatv++
-Version: 1.7.0
-Architecture: iphoneos-arm
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm.deb
-Size: 325490
-MD5sum: abc1b3159e524b01b1b0aa7019b692be
-SHA1: b9ae0545684264ed4d46463f404d8d9433c39f5f
-SHA256: 24e7016c3cd9467769bc72037913d00bcaeac2ed74154dfd0a9759a2890b044c
-Section: Cracks
-Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
-Name: SOOP++
-Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
-
-Package: com.catchmind.afreecatv++
-Version: 1.7.0
+Version: 1.8.0
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.7.0_iphoneos-arm64e.deb
-Size: 325392
-MD5sum: eee8f7bc36dd79ddfe532d9ea6907ee5
-SHA1: 3d3d08801f8cdca135e8cbced5a8cdd3baa93cf2
-SHA256: 26402eb841422b63ae26e8e72716cb07831f36b2181d02bb1c9e01ae97cb87f9
+Filename: debs/com.catchmind.afreecatv++_1.8.0_iphoneos-arm64e.deb
+Size: 324432
+MD5sum: 368e411068aa71148414298dd920de94
+SHA1: cb46b7d45f43244faf9894a3732ac8d1125c6abe
+SHA256: 38c8cea4a0b70ab7a391af7f84056d37aa4be60c51c948cfdac9e761ec542938
 Section: Cracks
-Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked.
+Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
+Name: SOOP++
+Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
+
+Package: com.catchmind.afreecatv++
+Version: 1.8.0
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.afreecatv++_1.8.0_iphoneos-arm.deb
+Size: 324376
+MD5sum: 055eaf6d37a8760c3d4d87b177b24db2
+SHA1: dafaefc5b5b85a1e249ccd796964ef98eb75ef22
+SHA256: b171db2b00e3c36fc865fade7f20fbb2f5a7c57aeee4ccb2fd5c0549daf0ebc6
+Section: Cracks
+Description: Quick View Plus & Ad-Free experience with Adult Content Unlocked
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: SOOP++
@@ -261,24 +261,6 @@ Size: 322130
 MD5sum: 66e255b1b93356ee497d4b8ff6642fb0
 SHA1: 78c5527463a7a379ae5fd96889badd146afed722
 SHA256: d3e9fddb38a298f3dfe8f54485d1855de0d0a2ab56d262e5710d9b1f45f60fb6
-Section: Tweaks
-Description: Remove ads from CHZZK
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/b9/89/85b98911-4708-82d8-3dcf-5464a420239b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
-Name: CHZZK++
-Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
-
-Package: com.catchmind.chzzk++
-Version: 1.0.0
-Architecture: iphoneos-arm64e
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/roothide/com.catchmind.chzzk++_1.0.0_iphoneos-arm64e.deb
-Size: 322228
-MD5sum: 4774517d52e44a274d628633d546bfcf
-SHA1: ba440d8cb59bdfcc6c8b7c0be9c3fbbac822ddb6
-SHA256: 3fe435dc769df3fcc336a61184a5257a29cf0457ef21391a1fd15ac6351128d4
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
