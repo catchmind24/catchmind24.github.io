@@ -42,6 +42,20 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "1.3.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Improved stability",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "1.2.0",
                     "useBottomMargin": false,
                     "textColor": "#D1B06B"
