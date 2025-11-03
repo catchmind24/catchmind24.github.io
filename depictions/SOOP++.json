@@ -48,7 +48,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Fixed crash in CatchTab on iOS 26\n -Improved stability",
+                    "markdown": "- Fixed crash in CatchTab on iOS 26\n- Improved stability",
                     "useSpacing": true
                 },
                 {
