@@ -42,6 +42,20 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "1.8.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed crash in CatchTab on iOS 26\n -Improved stability",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "1.7.0",
                     "useBottomMargin": false,
                     "textColor": "#D1B06B"
