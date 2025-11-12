@@ -275,10 +275,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.chzzk++_1.0.1_iphoneos-arm64.deb
-Size: 323694
-MD5sum: 357529a90aa3cff71ecb4237ca8983de
-SHA1: 76f6f71a90c61e675970b992825283403a6a69f3
-SHA256: 026147bd3dfc4463f5c2cb1cd3d801d6a575c6ac737176da65be1df18694c6bc
+Size: 323648
+MD5sum: 697bced15ee68877c2fc4e95fcfd7209
+SHA1: fcb16e6b0304b916a21431a7eddfba8747864820
+SHA256: ffb4673a11de6a0f292abf8f407f680651671ee6ca32bddcb95fb793ba9a7277
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
@@ -293,10 +293,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.chzzk++_1.0.1_iphoneos-arm64e.deb
-Size: 323512
-MD5sum: da64752cdfe58995c85fc238141704f5
-SHA1: 910d249c5b5670756c7ff9923fdeb16c707b6c18
-SHA256: 78ff397feff0c18b16d02737c7c23193170e1842a3b48c60116594380d653302
+Size: 323658
+MD5sum: 640dfd2f4be9037bae71a2086e195a03
+SHA1: 464c5ff3430aa43a84e3adef404dd3606811c191
+SHA256: 88bfb11e9b2281cf16d6dce795a05aaed42682b82a82cc369fd2d461d87a5940
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
@@ -311,10 +311,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.chzzk++_1.0.1_iphoneos-arm.deb
-Size: 323644
-MD5sum: d5b8cd13730f480c4d455ba059c1f479
-SHA1: fa66a8d2220ce9df5f270f574eb20f5469f421d6
-SHA256: 097c7c55b32d1100071385c4f98ba86b7ac2141f715b2c8b11d7c0a5c54e9c4c
+Size: 323696
+MD5sum: ad03336387eb6e30b23bbdd4b364be52
+SHA1: af00bec01251633508bb74326bf22d239e00e2a5
+SHA256: f0b209419774d1dbcaed03699dec6b0c84dc0249c686b6ba89ec9f2fe6067150
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
