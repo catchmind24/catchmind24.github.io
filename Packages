@@ -161,34 +161,16 @@ Name: BeautyPlus++
 Sileodepiction: https://catchmind24.github.io/depictions/BeautyPlus++.json
 
 Package: com.catchmind.cake++
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.0_iphoneos-arm.deb
-Size: 326504
-MD5sum: 430cdffca05ca7395796deb08d3f470c
-SHA1: 313249060c3e6875693c929880fa1a7801891fa1
-SHA256: 49878a3c21842079e60f7cf76b4430cdcb54015773d6d3f85613a30605eac0de
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/cd/e1/57cde1a7-6369-ca43-893b-691914b9676c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
-Name: Cake++
-Sileodepiction: https://catchmind24.github.io/depictions/Cake++.json
-
-Package: com.catchmind.cake++
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1040
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.0_iphoneos-arm64e.deb
-Size: 326452
-MD5sum: 3768b8949d47081d7b311282efdc8f1f
-SHA1: 6ff3d59c5f30a842bc81ae10ea97a785d2350b44
-SHA256: 809019f36c85a9004ba5d0e242b15ff350cc8b214c055c8ccaa24f6557595027
+Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm64e.deb
+Size: 332176
+MD5sum: 7168b1706a76d0ac848f192f4d677c61
+SHA1: 560eacaa31af791c05867fd8d638cf4695115414
+SHA256: ecd0575ccbcf0beea20051abb50dc3a764a445e11275dc8c0b3f103c5da9236b
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -197,16 +179,34 @@ Name: Cake++
 Sileodepiction: https://catchmind24.github.io/depictions/Cake++.json
 
 Package: com.catchmind.cake++
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1040
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.0_iphoneos-arm64.deb
-Size: 326516
-MD5sum: 78e28858e58a7beddf9aad38a690d401
-SHA1: d7b02a2ed13e51f3a0b41b8de7b984db35267585
-SHA256: eda9a8bba7725340c55d49f760380b9105f5a08b7b877e3b0ffedf8ffa4797be
+Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm64.deb
+Size: 332406
+MD5sum: c0ac69f451ac3b74d660f994670b68cb
+SHA1: a81818a2dae33f9e04ed9a7b0fa582eb31b7fced
+SHA256: 5aef6713b69ebb4aa7af1a563d30f127fbf288643b7621aa959051328f9dc2eb
+Section: Cracks
+Description: Premium subscription
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/57/cd/e1/57cde1a7-6369-ca43-893b-691914b9676c/AppIcon-0-0-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg
+Name: Cake++
+Sileodepiction: https://catchmind24.github.io/depictions/Cake++.json
+
+Package: com.catchmind.cake++
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1040
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm.deb
+Size: 332204
+MD5sum: 39e3f0803a0c196136f64722ae7ff986
+SHA1: 9219b30323cf87c159250efb634cb82c7e51fff2
+SHA256: 2d5c0a9cbecf299aa77acb7d7f6a8759945251e154b4cfb87595e37c998535c0
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
