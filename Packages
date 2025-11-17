@@ -431,52 +431,52 @@ Name: EPIK++
 Sileodepiction: https://catchmind24.github.io/depictions/EPIK++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.0
-Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm64.deb
-Size: 326592
-MD5sum: 288f6327ecf349d97be8a8bcd6384492
-SHA1: e188dfa42bd712de5531484613a3e184e36b937a
-SHA256: 709318279dcbc39413bcb8779f5af399a667175f071877a5ceb3cde887b0806d
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
-Name: 말해보카++
-Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
-
-Package: com.catchmind.epop++
-Version: 2.0.0
-Architecture: iphoneos-arm
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm.deb
-Size: 326610
-MD5sum: 69329cbe282d6108553015f8575dabce
-SHA1: 7d2f580b210e36ef75eab17a20a376e13a656b32
-SHA256: fc256f0f44762b0870da3f156ce65d39c88ce175cdebd79e185611a08cbb09ff
-Section: Cracks
-Description: Premium subscription
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
-Name: 말해보카++
-Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
-
-Package: com.catchmind.epop++
-Version: 2.0.0
+Version: 2.0.1
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1008
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.0_iphoneos-arm64e.deb
-Size: 326692
-MD5sum: f74c28ae7a107ef8c3ebe7eee7d02521
-SHA1: 9b3794dc1a976814efdeb986471f0efdbd0465b5
-SHA256: 92dfc7541ccd700dac54d19a8e6c4abefea10d7bb22afe8389468be1d8977f1a
+Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm64e.deb
+Size: 326440
+MD5sum: b910d5f8b76405c6d777f7fe813c5045
+SHA1: 4a4482445194f31bb9a1f7ee3487a97222f01143
+SHA256: 757f9dd712ec0111b0c01f418fa8be2c3d5c99458f5bb08f122820bb942488a7
+Section: Cracks
+Description: Premium subscription
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+Name: 말해보카++
+Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
+
+Package: com.catchmind.epop++
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm.deb
+Size: 326478
+MD5sum: cdc4d339eac81eb01a96cef61cbec97b
+SHA1: cce7c8f3d26d324b53e7aeb3ab6241699b147798
+SHA256: a50e99ea43e7ce82dc25066b7c83a472d59a6297658bd407ef07f671eb128219
+Section: Cracks
+Description: Premium subscription
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/fe/9a/aafe9a3d-0357-1d00-7bb4-288ce7b132a1/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg
+Name: 말해보카++
+Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
+
+Package: com.catchmind.epop++
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1008
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm64.deb
+Size: 326370
+MD5sum: 28b14665f98e2facd09a82db2eb09828
+SHA1: 0e6e7324e498a428d6b36dd0ada6b26a03a15de0
+SHA256: a699d7040c6cb495d812e91410ebaceb6fd918dc1599c7df9092dc2bb01a0966
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
