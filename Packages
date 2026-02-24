@@ -1,68 +1,68 @@
 Package: com.catchmind.afreecatv++
-Version: 1.8.1
+Version: 1.8.2
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.8.1_iphoneos-arm64.deb
-Size: 324870
-MD5sum: 1fdabf0d3b80a23b9b33efc0b8095c01
-SHA1: e97330a4318e2c3bcf7cfd83669c4a2d4bd454d2
-SHA256: b19603fe4b4ad4cdeb6b0b898f9a802b9b3ee0ac558579bde868b57ac417dbfe
+Filename: debs/com.catchmind.afreecatv++_1.8.2_iphoneos-arm64.deb
+Size: 333840
+MD5sum: 407a0876f491d8cf1fed20b25c4cd8f1
+SHA1: 43f6d1ee33baaf2eb79382c994cd54d4d739afd3
+SHA256: d0275f63eb7c8e53e55ad4e2b722f3660a5f41633738d0c94e064bdae8faf179
 Section: Cracks
-Description: Quick View Plus — enhanced ad removal & adult verification bypass
+Description: Enables Quick View Plus features with extended ad removal and adult verification bypass
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.afreecatv++
-Version: 1.8.1
+Version: 1.8.2
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.8.1_iphoneos-arm64e.deb
-Size: 324662
-MD5sum: 743470f5942da8a39bfc942e1b7fbb32
-SHA1: 5f5b4fad5147e4290eb8f833f2ebd8a141cea075
-SHA256: 10beddaaaa6399e6ec2f8444955ed955f33d3bb2bf6ccb8a03ab32e558f14378
+Filename: debs/com.catchmind.afreecatv++_1.8.2_iphoneos-arm64e.deb
+Size: 333712
+MD5sum: 42ae47200da433745eaf44a30ea2b14f
+SHA1: 5623ee14463946cc43bcb3453b8c4be4c15662aa
+SHA256: b6fde6ae7c782309e84c65c1b22abbe11ba36d022af71cec8a99401c9de633e7
 Section: Cracks
-Description: Quick View Plus — enhanced ad removal & adult verification bypass
+Description: Enables Quick View Plus features with extended ad removal and adult verification bypass
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.afreecatv++
-Version: 1.8.1
+Version: 1.8.2
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.8.1_iphoneos-arm.deb
-Size: 324726
-MD5sum: 45d727b8a6116b1d59e7a43e820047b4
-SHA1: 0bf8a1dd41049de9a4b296d313fb449d125df4e7
-SHA256: ddb50ce8cc64a3113778bb0e538611816d9d7c6bd7e1a7f852bbd1badf785c9a
+Filename: debs/com.catchmind.afreecatv++_1.8.2_iphoneos-arm.deb
+Size: 333584
+MD5sum: fdd06cc998a91430a1650627cad8d1ba
+SHA1: 7cc65d69717b513e2f6235e75abe94e14d7059c8
+SHA256: 7858f0dfe414b72ce66969d545ed0ee8cbc3be17c104e4d3f8d4795a6871f5f1
 Section: Cracks
-Description: Quick View Plus — enhanced ad removal & adult verification bypass
+Description: Enables Quick View Plus features with extended ad removal and adult verification bypass
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/46/51/c1/4651c16e-376f-c677-d600-b7e6c7c79053/AppIcon-0-0-1x_U007epad-0-0-sRGB-85-220.png/512x512bb.jpg
 Name: SOOP++
 Sileodepiction: https://catchmind24.github.io/depictions/SOOP++.json
 
 Package: com.catchmind.b612++
-Version: 1.1.0
-Architecture: iphoneos-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm64.deb
-Size: 325390
-MD5sum: 9155275f0d5d14f0b3f0c11e66b9bd87
-SHA1: 000c412a7d1bab47f11061a283f5fa662a84b47e
-SHA256: 3373a3a8dfda75b9bebb26d8947c629987556836656ef5bc13f0d016358ea248
+Filename: debs/com.catchmind.b612++_1.1.1_iphoneos-arm64e.deb
+Size: 334538
+MD5sum: 68342e102d8738843d6559e0c13086ac
+SHA1: 250e43682c9b4254a06237b1c591d51e194d2e19
+SHA256: 9545b5095c3606bdfb834c3cbaa31a040512a1bd5e9d5291e34acb538d036123
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -71,16 +71,16 @@ Name: B612++
 Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
 
 Package: com.catchmind.b612++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
+Version: 1.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm64e.deb
-Size: 325340
-MD5sum: 1540645fd144595f2e06de7c2f707561
-SHA1: d7cfb0f7329325cdf263b2919a8d9fc9dfaa305c
-SHA256: 3c43e691e6c0eb4b58109a4d5ca22c941e4edbffb53617e31f9244d9a22578ad
+Filename: debs/com.catchmind.b612++_1.1.1_iphoneos-arm64.deb
+Size: 334538
+MD5sum: d046d8ab6ba0f687d33bc705eda2c75a
+SHA1: ba4af323ef0e537e048a87c29f835c02ec311fd2
+SHA256: 918af1cbe1c104eff80e444a1a7ad0a9e0cca647d616197d075aa1ce80a34355
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -89,16 +89,16 @@ Name: B612++
 Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
 
 Package: com.catchmind.b612++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.b612++_1.1.0_iphoneos-arm.deb
-Size: 325334
-MD5sum: 32bd2d265e6586bb11f8888f34cec5d3
-SHA1: e937235853f316042f1f0a79a17029d5b42fa614
-SHA256: f89244299f083bce77c2b38d4863cc9b219a4ec90ec4c2fa7ca53b5a0f1cd854
+Filename: debs/com.catchmind.b612++_1.1.1_iphoneos-arm.deb
+Size: 334496
+MD5sum: 12c362ee976ec7a7976a6d6ad8951b28
+SHA1: 7058cb475eba185f76176557324470922c300297
+SHA256: 5d3c67e649c8d641e82c5f5a47a4c7d47390508cdc3ee12109e006687693dd95
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -107,16 +107,16 @@ Name: B612++
 Sileodepiction: https://catchmind24.github.io/depictions/B612++.json
 
 Package: com.catchmind.beautyplus++
-Version: 1.2.0
-Architecture: iphoneos-arm64e
+Version: 1.2.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.beautyplus++_1.2.0_iphoneos-arm64e.deb
-Size: 324644
-MD5sum: 58f0c1492061e7dfd2d3864f4d64da3d
-SHA1: a74a739db0300a6195ad25c17ae7e79c11874cc5
-SHA256: 7fb1168dc6aa9769d0483f47ea7290eef0dcbed222e1a3bd9ecced664078485f
+Filename: debs/com.catchmind.beautyplus++_1.2.1_iphoneos-arm.deb
+Size: 333486
+MD5sum: c81addda9a4c908eca8054c39a0a78e5
+SHA1: 6846ff7400840f4948a1fe375af0003c76d75b7d
+SHA256: 2b27cb8af64d9f3d6c18ff8bd0da265db7cf42e678d2e1fc58ae19307f4eaa56
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -125,16 +125,16 @@ Name: BeautyPlus++
 Sileodepiction: https://catchmind24.github.io/depictions/BeautyPlus++.json
 
 Package: com.catchmind.beautyplus++
-Version: 1.2.0
-Architecture: iphoneos-arm
+Version: 1.2.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.beautyplus++_1.2.0_iphoneos-arm.deb
-Size: 324796
-MD5sum: 5ceaf798905494c42e47b686701feff3
-SHA1: 701e65200dec7383a7960f1e936ee41a099d7705
-SHA256: ef1fe40551f32b9d5d81541c0dfd9ed160e771b2cac93f49a477287c9840c8b2
+Filename: debs/com.catchmind.beautyplus++_1.2.1_iphoneos-arm64.deb
+Size: 333940
+MD5sum: 5b6d8871e1df83d917d35ba5fed83f7c
+SHA1: 69ec4823ed609dad6329fd6dd3c7aaee6e3866f2
+SHA256: c16cc747bbe54ecc7caef1b9b07dfdbd0958eb666f2bbefb9488247e0bc3a472
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -143,16 +143,16 @@ Name: BeautyPlus++
 Sileodepiction: https://catchmind24.github.io/depictions/BeautyPlus++.json
 
 Package: com.catchmind.beautyplus++
-Version: 1.2.0
-Architecture: iphoneos-arm64
+Version: 1.2.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.beautyplus++_1.2.0_iphoneos-arm64.deb
-Size: 324870
-MD5sum: 37d66cacf9eabd1c024e1906a103e660
-SHA1: 2fd6357a0ca64d9b0939d5b7e9fbadb6cdd4fba8
-SHA256: 7f50c5a1059fa6afcaf6e59a7b203a2f3e0e2e9af4eef164740ae52db8908ba8
+Filename: debs/com.catchmind.beautyplus++_1.2.1_iphoneos-arm64e.deb
+Size: 333714
+MD5sum: 0a31387781cf00c64350a1495e502e55
+SHA1: 769806bbef0fde3e107b68a00853833fc671372c
+SHA256: 1e9518ec1bee99a43927bb7c08a487d3848d79b6dcc0fced63de305240d52632
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -161,16 +161,16 @@ Name: BeautyPlus++
 Sileodepiction: https://catchmind24.github.io/depictions/BeautyPlus++.json
 
 Package: com.catchmind.cake++
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1040
+Installed-Size: 1060
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm64e.deb
-Size: 332176
-MD5sum: 7168b1706a76d0ac848f192f4d677c61
-SHA1: 560eacaa31af791c05867fd8d638cf4695115414
-SHA256: ecd0575ccbcf0beea20051abb50dc3a764a445e11275dc8c0b3f103c5da9236b
+Filename: debs/com.catchmind.cake++_1.0.2_iphoneos-arm64e.deb
+Size: 341534
+MD5sum: 02978c76efbe9e168460348e4d7e8d51
+SHA1: f531754553f7f288d7ed91d757d439f7a977af00
+SHA256: 8c0750e48bc4941c7bce268fb6297377edbeab5a19ad99b6f9e8fc1dc0bf52e5
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -179,16 +179,16 @@ Name: Cake++
 Sileodepiction: https://catchmind24.github.io/depictions/Cake++.json
 
 Package: com.catchmind.cake++
-Version: 1.0.1
-Architecture: iphoneos-arm64
+Version: 1.0.2
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1040
+Installed-Size: 1060
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm64.deb
-Size: 332406
-MD5sum: c0ac69f451ac3b74d660f994670b68cb
-SHA1: a81818a2dae33f9e04ed9a7b0fa582eb31b7fced
-SHA256: 5aef6713b69ebb4aa7af1a563d30f127fbf288643b7621aa959051328f9dc2eb
+Filename: debs/com.catchmind.cake++_1.0.2_iphoneos-arm.deb
+Size: 341462
+MD5sum: 77d6f9403a8a77e8ef81121f8de2ddb2
+SHA1: 4ea4f93431e43399f74ec41a579429112bfed97f
+SHA256: 6b21cf851cc285146ce1f100576dd890a77839a8173a94dd872d2ade0787226e
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -197,16 +197,16 @@ Name: Cake++
 Sileodepiction: https://catchmind24.github.io/depictions/Cake++.json
 
 Package: com.catchmind.cake++
-Version: 1.0.1
-Architecture: iphoneos-arm
+Version: 1.0.2
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1040
+Installed-Size: 1060
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.cake++_1.0.1_iphoneos-arm.deb
-Size: 332204
-MD5sum: 39e3f0803a0c196136f64722ae7ff986
-SHA1: 9219b30323cf87c159250efb634cb82c7e51fff2
-SHA256: 2d5c0a9cbecf299aa77acb7d7f6a8759945251e154b4cfb87595e37c998535c0
+Filename: debs/com.catchmind.cake++_1.0.2_iphoneos-arm64.deb
+Size: 341578
+MD5sum: 1bea542055bfc224cff2673dc09d0708
+SHA1: b1377124cf967dcd9da1d4ca1e5f6a2fc74de7ec
+SHA256: d8a7391b1b5f042b0a3b3a5b037d2ce178efcd874b81605c5ef05e57c7416c40
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -269,16 +269,16 @@ Name: CamScanner++
 Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.2
+Version: 1.0.3
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.2_iphoneos-arm64e.deb
-Size: 327584
-MD5sum: c5eb3aad6881e77114e4388b2e809af4
-SHA1: e02a1eefb9527f4d1b81c8ba2ceed262bc076b3b
-SHA256: aa6da400ac085c45953f893a0845311fff97f64b84fa2712d637c9b49654babd
+Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm64e.deb
+Size: 332942
+MD5sum: c12a9c0aeef373af29a359593c17c91b
+SHA1: 04420496e3bcfdf51dca5da8a15aefa8b46a517f
+SHA256: ef9a7631561c9ed4cfd11309686583f8cd2a1af0000c9b76ab7cefe2adedb954
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
@@ -287,16 +287,16 @@ Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.2
-Architecture: iphoneos-arm64
+Version: 1.0.3
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.2_iphoneos-arm64.deb
-Size: 327640
-MD5sum: c6d3a4ca4f7da1c8ab225f386a541bde
-SHA1: 2c02d34492a7270c9b4a3a63c0d45b2d269ff08f
-SHA256: a47f33ef48b5cbb49504557bd3f61c280e479d3f152b8a5e5cb64ebc979f0d75
+Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm.deb
+Size: 333030
+MD5sum: b7757af7b33321f378f16e86250f1943
+SHA1: 9730ea58083316a725942c0a18cd95f56ade467f
+SHA256: 378a4a195b9f56c91665cf9a10b5ec522e29ad60f9b61a9dba5e4fd7ab2f698c
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
@@ -305,16 +305,16 @@ Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.2
-Architecture: iphoneos-arm
+Version: 1.0.3
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.2_iphoneos-arm.deb
-Size: 327432
-MD5sum: 9e3725cacb562b0fdcf4127538645b78
-SHA1: 2fb497d9fafd2abb2467a9459812c2b629a5003c
-SHA256: 28975a710752b102e3a6e319892034bb9f136cb3818ec7b363b84d46f9a1e1cf
+Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm64.deb
+Size: 333130
+MD5sum: a2d7f10b63e358df891a797a6de94639
+SHA1: 26128c0e901fd1434abffc3b6c37ad724cbdd10b
+SHA256: 5db92c7e406590f6844b26ba78a7c44bcc09e31c1f98ba16d07e56237cc8f7fd
 Section: Tweaks
 Description: Remove ads from CHZZK
 Author: catchmind <musicinfacebook@gmail.com>
@@ -323,70 +323,70 @@ Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
 
 Package: com.catchmind.duolingo++
-Version: 1.1.0
-Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.duolingo++_1.1.0_iphoneos-arm64.deb
-Size: 327248
-MD5sum: b246867df6c819e844b7e0dfb614b1e0
-SHA1: cde9565d28956e8e59f8c8239a54c529eb508c01
-SHA256: dfd2c82a980f2abad5c323617026e84bcc72530ab955fbba69aeaf87d10ca0df
-Section: Cracks
-Description: Unlock Duolingo Max premium features including unlimited timer boosts.
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
-Name: Duolingo++
-Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
-
-Package: com.catchmind.duolingo++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
-Depends: mobilesubstrate
-Filename: debs/com.catchmind.duolingo++_1.1.0_iphoneos-arm64e.deb
-Size: 327210
-MD5sum: 11c552c014dbb2eda266538ba31bb2dc
-SHA1: 88b201d1f46ea73017cd12a0426f606f836f0277
-SHA256: 9b7b4d11815e02ec34cd8dbb55931ebe532abe801714cfc87d5930c0d4e6612a
-Section: Cracks
-Description: Unlock Duolingo Max premium features including unlimited timer boosts.
-Author: catchmind <musicinfacebook@gmail.com>
-Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
-Name: Duolingo++
-Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
-
-Package: com.catchmind.duolingo++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1076
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.duolingo++_1.1.0_iphoneos-arm.deb
-Size: 327176
-MD5sum: 8ed9d4e707ee55afdb172471c0dbec2e
-SHA1: 0fa1c4be43785f2999070731477408825d36374a
-SHA256: b72b1b05d48cc550b74cf6c4d85c347dfe66e00e2a5efefb2f431e729b91cbb9
+Filename: debs/com.catchmind.duolingo++_1.1.1_iphoneos-arm.deb
+Size: 338936
+MD5sum: 5d0d20a131ab991c38362248f1c9b086
+SHA1: ae6b0802b523001a302b08a5d5636aff4a6745ef
+SHA256: be902babd3818d9edf7ffe81c460246df1814aa6b819a013ba0e272d0e343bff
 Section: Cracks
-Description: Unlock Duolingo Max premium features including unlimited timer boosts.
+Description: Unlock Duolingo Max premium features including unlimited timer boosts
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo++
+Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
+
+Package: com.catchmind.duolingo++
+Version: 1.1.1
+Architecture: iphoneos-arm64e
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1076
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.duolingo++_1.1.1_iphoneos-arm64e.deb
+Size: 339188
+MD5sum: 93851408565e1615b6ecdaf77e2f0d9f
+SHA1: 9dc78f34ba80bcc55f8f5d212e1368965c23d979
+SHA256: 46e3f0ff00242fa57eb04fbdbbab5f203474460c04a95ac57041f2b4d6c9644d
+Section: Cracks
+Description: Unlock Duolingo Max premium features including unlimited timer boosts
+Author: catchmind <musicinfacebook@gmail.com>
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
+Name: Duolingo++
+Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
+
+Package: com.catchmind.duolingo++
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: catchmind <musicinfacebook@gmail.com>
+Installed-Size: 1076
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.duolingo++_1.1.1_iphoneos-arm64.deb
+Size: 339246
+MD5sum: 142a5acebae004100db224cc6602297f
+SHA1: b2e8037b07da56737da3cad40e64cef1bfe24732
+SHA256: d896706323f976b2b7dab34720ae61cd09413915bf1c62d3cae46da695960866
+Section: Cracks
+Description: Unlock Duolingo Max premium features including unlimited timer boosts
 Author: catchmind <musicinfacebook@gmail.com>
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/82/32/b98232f9-cd2c-3402-f29b-e97a9e6cfb95/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg
 Name: Duolingo++
 Sileodepiction: https://catchmind24.github.io/depictions/Duolingo++.json
 
 Package: com.catchmind.epik++
-Version: 2.1.0
-Architecture: iphoneos-arm64e
+Version: 2.1.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epik++_2.1.0_iphoneos-arm64e.deb
-Size: 324044
-MD5sum: 8480922abe6c36bfcf83c80e2b00516f
-SHA1: 3cc58f97ba8378c47af658a29e8ed845456ae4d5
-SHA256: d2cb13a3fe290268cd1123ece062f792b844e44ee7e5ee768fa3312d8c59bee2
+Filename: debs/com.catchmind.epik++_2.1.1_iphoneos-arm.deb
+Size: 332984
+MD5sum: b620321f416e9cab523e524bb1ea2e19
+SHA1: 31123f1ec0ab179326cadd98ba73fd65637c5030
+SHA256: 4dd7dfd4a5300b2b1958ad6cf00a4cd69596368bae63e6fb642f75479f0f5c1b
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -395,16 +395,16 @@ Name: EPIK++
 Sileodepiction: https://catchmind24.github.io/depictions/EPIK++.json
 
 Package: com.catchmind.epik++
-Version: 2.1.0
+Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epik++_2.1.0_iphoneos-arm64.deb
-Size: 324148
-MD5sum: 12b504b2b94f46dad3613b7d931090d3
-SHA1: ae619d33d9e9f06b0af201897e86672aa6e83ce2
-SHA256: 6cb03f3199c7b9fb36eecc0d25c5d17bbd1066111c1a338045a47e183086fbb9
+Filename: debs/com.catchmind.epik++_2.1.1_iphoneos-arm64.deb
+Size: 333116
+MD5sum: 4ca0819c3721bdcaa6d517962a79a804
+SHA1: dd42a5ec7d53e553c134870007f35ce0672f5e84
+SHA256: e3f043155b7cea7b9d60416aa0eb8562f1c3203ae7018c2f91e7346abefbf095
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -413,16 +413,16 @@ Name: EPIK++
 Sileodepiction: https://catchmind24.github.io/depictions/EPIK++.json
 
 Package: com.catchmind.epik++
-Version: 2.1.0
-Architecture: iphoneos-arm
+Version: 2.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epik++_2.1.0_iphoneos-arm.deb
-Size: 324204
-MD5sum: 8fa465bfd80afed4fedde1ba7e5f601d
-SHA1: c838360c7bce791393f95224c2ef99d610dfa3c3
-SHA256: 5b87155310882ee33e61e87ea17f2fcd22b8586a3311ba0e89ae226e88a8810b
+Filename: debs/com.catchmind.epik++_2.1.1_iphoneos-arm64e.deb
+Size: 333032
+MD5sum: 051e9724030e4eddbe9da73ddfef69a4
+SHA1: 99605c41f4af8524d7762eb6a77b5417b54eb57a
+SHA256: 03a0c724cddd1a5dc8926ea7cf586df7ad7eee82582a187f2b34cc65b12cd3fa
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -431,16 +431,16 @@ Name: EPIK++
 Sileodepiction: https://catchmind24.github.io/depictions/EPIK++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.1
-Architecture: iphoneos-arm64e
+Version: 2.0.2
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm64e.deb
-Size: 326440
-MD5sum: b910d5f8b76405c6d777f7fe813c5045
-SHA1: 4a4482445194f31bb9a1f7ee3487a97222f01143
-SHA256: 757f9dd712ec0111b0c01f418fa8be2c3d5c99458f5bb08f122820bb942488a7
+Filename: debs/com.catchmind.epop++_2.0.2_iphoneos-arm.deb
+Size: 339288
+MD5sum: 84cc0cf2e004031fcdc5a72ef629a864
+SHA1: bd982df24e6b3380756511d23313ae32f34156a3
+SHA256: c64ea6294683d35accfc9675e0fc1d04d4ca7550de4f0fe18cb9403089272f98
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -449,16 +449,16 @@ Name: 말해보카++
 Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.1
-Architecture: iphoneos-arm
+Version: 2.0.2
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm.deb
-Size: 326478
-MD5sum: cdc4d339eac81eb01a96cef61cbec97b
-SHA1: cce7c8f3d26d324b53e7aeb3ab6241699b147798
-SHA256: a50e99ea43e7ce82dc25066b7c83a472d59a6297658bd407ef07f671eb128219
+Filename: debs/com.catchmind.epop++_2.0.2_iphoneos-arm64e.deb
+Size: 339224
+MD5sum: 49404006692bb44697e35235c2bda9af
+SHA1: f3292ffcd1bcd0ac27f14c49a75c89de4af605c1
+SHA256: 70114dfe13489b24cdbafdfa2199f82de76ad5bb906ef67f2c990f0e18478d22
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -467,16 +467,16 @@ Name: 말해보카++
 Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.1
+Version: 2.0.2
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.1_iphoneos-arm64.deb
-Size: 326370
-MD5sum: 28b14665f98e2facd09a82db2eb09828
-SHA1: 0e6e7324e498a428d6b36dd0ada6b26a03a15de0
-SHA256: a699d7040c6cb495d812e91410ebaceb6fd918dc1599c7df9092dc2bb01a0966
+Filename: debs/com.catchmind.epop++_2.0.2_iphoneos-arm64.deb
+Size: 339338
+MD5sum: 10878a698808474ba0845948fbc002f3
+SHA1: 97f8418c40ec71064be5fec462bb3c4393f2524b
+SHA256: b7aaeafa55a284cc5b737ffe5dd8fa47e1278830b6f948f48fd8d74b2841ae14
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -485,16 +485,16 @@ Name: 말해보카++
 Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.facetune++
-Version: 1.1.0
-Architecture: iphoneos-arm
+Version: 1.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.1.0_iphoneos-arm.deb
-Size: 327288
-MD5sum: a4135e527ed2fed28631a2b6c08fbb1e
-SHA1: b5c1a8cf08066e9c01af99bdbcd45e03fa415627
-SHA256: a5d249da205a489c96121f40c9b324ef85d157d1082fba61a9c3e51dc23e388e
+Filename: debs/com.catchmind.facetune++_1.1.1_iphoneos-arm64.deb
+Size: 336554
+MD5sum: 2028b0fbbcd6cad88b3102389cbba94e
+SHA1: 324674026cf53579af135a0912cab56a4c4d5aec
+SHA256: e8112d2487f2f02987e43453b2cd3d72716038a411577f4556ec89f6ad68b1e7
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -503,16 +503,16 @@ Name: Facetune++
 Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.facetune++
-Version: 1.1.0
-Architecture: iphoneos-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.1.0_iphoneos-arm64.deb
-Size: 327344
-MD5sum: a200785ff0eb1a482c6441dff6efba9d
-SHA1: faa1d40aebc6e7facc5ebbb4536f368e75c28a5f
-SHA256: 668dfedde550da13c660755aea88c7f078677987152a49a7b8ef0475f13e4a38
+Filename: debs/com.catchmind.facetune++_1.1.1_iphoneos-arm.deb
+Size: 336482
+MD5sum: 1f9c7fb4931175cd261345027aeada75
+SHA1: 3f67db00c0f70c764e8ea60b8209171d20486820
+SHA256: 5793db3e0d62c03bb0c69fd0b2da4adcf8d8ce6b7a6166078cd68a127dfa5596
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -521,16 +521,16 @@ Name: Facetune++
 Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.facetune++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.facetune++_1.1.0_iphoneos-arm64e.deb
-Size: 327280
-MD5sum: 20cdd74fc7bbc92e9a65bad8c7e4ff80
-SHA1: 74aec86e252d3fb4cc84fd216f380ff5bf1ba650
-SHA256: 00abb6eab3ec9bfc7a7b5c51940d7e57df6889181fa8175bdac06d054237413f
+Filename: debs/com.catchmind.facetune++_1.1.1_iphoneos-arm64e.deb
+Size: 336492
+MD5sum: fcc7a52aa4161806f238d79969ceebd4
+SHA1: 5f2b7686118abd28b5b7e1cb5cd692be17aeb133
+SHA256: 95ef77652d50b0377fe67b3536135b8fdcbebee3ec133fc377d3afac43241b19
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -539,16 +539,16 @@ Name: Facetune++
 Sileodepiction: https://catchmind24.github.io/depictions/Facetune++.json
 
 Package: com.catchmind.foodie++
-Version: 2.1.0
-Architecture: iphoneos-arm
+Version: 2.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.foodie++_2.1.0_iphoneos-arm.deb
-Size: 324046
-MD5sum: da6238ca594da6f1590e586ee590cce3
-SHA1: d3dba8de85087082d883b828cbc4ece4d8c3fc10
-SHA256: d74cd634ea851718b35db72def5b08c0990944c0b132c7aff97a87ff6e5a8b54
+Filename: debs/com.catchmind.foodie++_2.1.1_iphoneos-arm64e.deb
+Size: 332824
+MD5sum: a425c3c02323e9494f74a7e8b44ff559
+SHA1: f565fd5cca12e0d016ae263e5ab85b5e2161ebc4
+SHA256: 820a2a60b46e28d7fc14dcf00dd8e92239b6780825610a447d14d431d4cf9040
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -557,16 +557,16 @@ Name: Foodie++
 Sileodepiction: https://catchmind24.github.io/depictions/Foodie++.json
 
 Package: com.catchmind.foodie++
-Version: 2.1.0
+Version: 2.1.1
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.foodie++_2.1.0_iphoneos-arm64.deb
-Size: 324350
-MD5sum: 18d66c7c8c3480deb14a0b8bd2e57561
-SHA1: 4cff8455e5ee357b84dcc7a500d46f8aa5914f99
-SHA256: c555a60d8b61ee77581c6be0d1c1b715486f657514d57e714ccf77beace0e6b4
+Filename: debs/com.catchmind.foodie++_2.1.1_iphoneos-arm64.deb
+Size: 333010
+MD5sum: 53ff6bbf1c14de1234a112e0ea3116b7
+SHA1: 5f8909b917fc80093a261bd8c7f805ea33b061bd
+SHA256: 78b580c62d69dea4e360bcf0dadcd00b8a6eadde7c4ff8cd4bd5be77a29fe6fa
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -575,16 +575,16 @@ Name: Foodie++
 Sileodepiction: https://catchmind24.github.io/depictions/Foodie++.json
 
 Package: com.catchmind.foodie++
-Version: 2.1.0
-Architecture: iphoneos-arm64e
+Version: 2.1.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.foodie++_2.1.0_iphoneos-arm64e.deb
-Size: 324138
-MD5sum: d9d923f40a71548540212806c7874fb5
-SHA1: 1dab526d38fbae54017044c27e4a71e9748edd01
-SHA256: d1100f5f40147df4c404c3cfd74f2e5cdfc6efe7759e430642d0d0ae609e66c1
+Filename: debs/com.catchmind.foodie++_2.1.1_iphoneos-arm.deb
+Size: 332888
+MD5sum: afb7add9edefe985c820e64a4c32debb
+SHA1: 2f6afc3f7b55d34bf518ff383fa4a81f5cd1060e
+SHA256: dbd9a04af7fc256f2680f693ab1ab2d019854729235177121c6d317870604c27
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -593,16 +593,16 @@ Name: Foodie++
 Sileodepiction: https://catchmind24.github.io/depictions/Foodie++.json
 
 Package: com.catchmind.picsart++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
+Version: 1.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.picsart++_1.1.0_iphoneos-arm64e.deb
-Size: 323906
-MD5sum: 3dd228d3b60ad5a50040e8403d389128
-SHA1: 0b197b207cc160a950c3f11dc0220a3a5a5e6117
-SHA256: 58db5a79a118e60fc81ffb033c188dc822b6e220b4d6921f28e9d3a2b146e5b3
+Filename: debs/com.catchmind.picsart++_1.1.1_iphoneos-arm64.deb
+Size: 337414
+MD5sum: 7802f091e356d6dcfad8af979302c0ca
+SHA1: 2b144966ce0dc26b17d5708e17625552d4dafde5
+SHA256: a9b435e4494db655c0f9eaa2c7af58ad01438bf6ac500a2b219d4e791649675f
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -611,16 +611,16 @@ Name: PicsArt++
 Sileodepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 
 Package: com.catchmind.picsart++
-Version: 1.1.0
-Architecture: iphoneos-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.picsart++_1.1.0_iphoneos-arm64.deb
-Size: 324186
-MD5sum: 553fa7620e3f9819b89b21862b30490d
-SHA1: 0909637e876f2ee25048469f08c489e25f419499
-SHA256: eb0a5211cd716f86ae607fc4f624389fa16080f8a901320c6819600b7835f529
+Filename: debs/com.catchmind.picsart++_1.1.1_iphoneos-arm64e.deb
+Size: 337416
+MD5sum: 29c552fe939e116a3c35c145f598a616
+SHA1: 9464e24ffbb95711e6f8fc2249f83b0cc7b10250
+SHA256: 919e766ab01c0869dcc4c84de1d0bf4cc6458820ba6364aea50568520ca55de8
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -629,16 +629,16 @@ Name: PicsArt++
 Sileodepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 
 Package: com.catchmind.picsart++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.picsart++_1.1.0_iphoneos-arm.deb
-Size: 324036
-MD5sum: b98aeef25f2dceaca2d65d5ecb1218ae
-SHA1: a94317890709d92f9b93dbe82c332ff97b44675f
-SHA256: 78c3feba46a1c9088463f57712e4208b5aff7b419d89d573040d1fae604fbc26
+Filename: debs/com.catchmind.picsart++_1.1.1_iphoneos-arm.deb
+Size: 337360
+MD5sum: 1a17ee3eb27838b96b8f1427ae3d747d
+SHA1: c06beecfeac5b5769e00d8effcebd0c95cc73b0c
+SHA256: 5cf1568f22808a9e90043f07b0b2150034f77c2c407e945e5a8e6f26104637d4
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -647,16 +647,16 @@ Name: PicsArt++
 Sileodepiction: https://catchmind24.github.io/depictions/PicsArt++.json
 
 Package: com.catchmind.revenuecat++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm.deb
-Size: 328440
-MD5sum: 6b290b237cb3af67fc37bffa6a55d7d7
-SHA1: 1495a1c1cca24be66787e0eba05d12cb6b42ab21
-SHA256: af107e47159b066514a17b5edbfdcdc79f323b7a78cf5fd3ca342e4da3e27924
+Filename: debs/com.catchmind.revenuecat++_1.1.1_iphoneos-arm.deb
+Size: 334050
+MD5sum: 53d4217a68e76af9db8fe619eab5f0b5
+SHA1: 8d7485ebf8deb1326a708db6823554fd0e8aa301
+SHA256: 9409b74992b0f4b2e59171cf67267eef6ec2d14e624421c7128d9e090964e88b
 Section: Cracks
 Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -665,16 +665,16 @@ Name: RevenueCat++
 Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
 
 Package: com.catchmind.revenuecat++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
+Version: 1.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm64e.deb
-Size: 328402
-MD5sum: a9ed4cd964dd9724e5c55020ad256aa1
-SHA1: 3c8c3cfc9b4fab3fba4a4c947413c7e786d06516
-SHA256: 847b4047414ba5ea021cfce5551415312b20b5fed05330647f76ab7e3f1c8122
+Filename: debs/com.catchmind.revenuecat++_1.1.1_iphoneos-arm64.deb
+Size: 334004
+MD5sum: 19b8485461cf395d545d7c6de2fffe95
+SHA1: cc7f57a1bd5a8fbccbe718250abba803dec12e34
+SHA256: 929761a5cc82874bc390a9f80ce5f10972896b6395e36f7b4cd5632ade3936ba
 Section: Cracks
 Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -683,16 +683,16 @@ Name: RevenueCat++
 Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
 
 Package: com.catchmind.revenuecat++
-Version: 1.1.0
-Architecture: iphoneos-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.revenuecat++_1.1.0_iphoneos-arm64.deb
-Size: 328454
-MD5sum: 5eb62e5426975cfce58d6b6e2a74963d
-SHA1: c14de14bbc35f92fd1dc1ac972efcf9455156e7e
-SHA256: 22b05da33ac0f66af1775b2ad3d6ca3c5aa94215c210cc26eff0372be44e5e49
+Filename: debs/com.catchmind.revenuecat++_1.1.1_iphoneos-arm64e.deb
+Size: 334004
+MD5sum: 2b542fb7e2bbddcfb4e00662096220da
+SHA1: c6b221443a45193e9aacc6a8a170a0936e87b0e9
+SHA256: adeeb16dca258594d3942a1fba78c143edd927824605bbf6e4999b9c1ef34aeb
 Section: Cracks
 Description: Patches RevenueCat API responses to unlock premium subscriptions. Works automatically with any app using RevenueCat SDK.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -701,16 +701,16 @@ Name: RevenueCat++
 Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
 
 Package: com.catchmind.snow++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
+Version: 1.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.snow++_1.1.0_iphoneos-arm64e.deb
-Size: 325368
-MD5sum: e87c9b1e9592257d06dcb807720f6922
-SHA1: 03d12e5cbd1b5a0c803a51616718be451ad35265
-SHA256: b69520323681da7e927a7f0a3de87f69c2c7a7260ac10eae2ac551c1c74dcc76
+Filename: debs/com.catchmind.snow++_1.1.1_iphoneos-arm64.deb
+Size: 334590
+MD5sum: ea97ebfe25a9715274db45aab031014b
+SHA1: bd7c7f826602c4ba85a4d5cfa9b7a8878a441cd2
+SHA256: 807a2568545cd04faef48e6dc7df16add32bd7735e8cbf462d1c8279196b245b
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -719,16 +719,16 @@ Name: SNOW++
 Sileodepiction: https://catchmind24.github.io/depictions/SNOW++.json
 
 Package: com.catchmind.snow++
-Version: 1.1.0
-Architecture: iphoneos-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.snow++_1.1.0_iphoneos-arm64.deb
-Size: 325432
-MD5sum: 5bb9d6ddde519f1ec960877223dd7701
-SHA1: dae12ef6dce57303e0ca590f1fea08325de7fbf9
-SHA256: 88d2db1c9d79878d6283546c73ac8ff4a670748f42c5c38ab2b93aebc7de268f
+Filename: debs/com.catchmind.snow++_1.1.1_iphoneos-arm64e.deb
+Size: 334380
+MD5sum: 2ae3479aefa7358a3920e3155c073170
+SHA1: 07327083224d329bdbfc4a948020df1025cd8958
+SHA256: 9352fb0c9b4321830bf954774b316b54beae64ef1b1b7b77301fd03791b5a4a6
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -737,16 +737,16 @@ Name: SNOW++
 Sileodepiction: https://catchmind24.github.io/depictions/SNOW++.json
 
 Package: com.catchmind.snow++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.snow++_1.1.0_iphoneos-arm.deb
-Size: 325336
-MD5sum: e974e81f58295ded62de3c60c4a0fd08
-SHA1: 0d11010fd9e472d645a0aab4c013a4a62b83c3d1
-SHA256: b7305f40dfdf01c3c657d96f11767b9cc180d53c61d9f9f94c1248732ae4807d
+Filename: debs/com.catchmind.snow++_1.1.1_iphoneos-arm.deb
+Size: 334524
+MD5sum: 46fc057d1c8388c0ecf0edbeea21fd17
+SHA1: 7d312c9bca931dd5de4cc74ffd3730ff9abe87f8
+SHA256: daf6798a73a611b4118e7cb847d7f5228fd80cc0834f9faf1260c5a873727243
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -755,16 +755,16 @@ Name: SNOW++
 Sileodepiction: https://catchmind24.github.io/depictions/SNOW++.json
 
 Package: com.catchmind.soda++
-Version: 2.1.0
-Architecture: iphoneos-arm64
+Version: 2.1.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.soda++_2.1.0_iphoneos-arm64.deb
-Size: 324226
-MD5sum: a3c2654afe23baf6d745b8fecae4fdca
-SHA1: 82bf896d4508fa0f6e06659ed833123da2a700c7
-SHA256: 8f1134c5515bfc809e30704f32755c55a97848030b9a77d2990c7b914291fc35
+Filename: debs/com.catchmind.soda++_2.1.1_iphoneos-arm.deb
+Size: 332990
+MD5sum: 98e38fe6d7a231c1d1b1aa6b165a9940
+SHA1: 15bc868097737e2def71a36e80068be1e1fc191b
+SHA256: e0fb2abfbd98a4b3c11012c107defd1fe12e545be680916d3cb83d0f20033d5c
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -773,16 +773,16 @@ Name: SODA++
 Sileodepiction: https://catchmind24.github.io/depictions/SODA++.json
 
 Package: com.catchmind.soda++
-Version: 2.1.0
-Architecture: iphoneos-arm
+Version: 2.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.soda++_2.1.0_iphoneos-arm.deb
-Size: 324238
-MD5sum: ee9c1c15e0f408aa36caba5ada29645b
-SHA1: 9f7c93c4d2297dae616bd5bc758a7cfd31808b17
-SHA256: 8142cc025cd50db599398c06f641b22f25369b5dc31d7edad8128910cc28c16a
+Filename: debs/com.catchmind.soda++_2.1.1_iphoneos-arm64e.deb
+Size: 333072
+MD5sum: 94cdbc60261119f72036aa59ec5744f7
+SHA1: 274f7f22d53abbd088607f8099e7833badf1ce20
+SHA256: 19643ce749fdc17445519f38c98317099b818d9e740f53fc787aef6b5efba781
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -791,16 +791,16 @@ Name: SODA++
 Sileodepiction: https://catchmind24.github.io/depictions/SODA++.json
 
 Package: com.catchmind.soda++
-Version: 2.1.0
-Architecture: iphoneos-arm64e
+Version: 2.1.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.soda++_2.1.0_iphoneos-arm64e.deb
-Size: 323980
-MD5sum: 985b84466126720d13c581947bf8e2d4
-SHA1: 2b62c118ebd6fe737a526521fdcf656aa3f34158
-SHA256: d4cd94fd50265e8fd1d7862f154f277f70d782823392d522712385537e139d9b
+Filename: debs/com.catchmind.soda++_2.1.1_iphoneos-arm64.deb
+Size: 333170
+MD5sum: 4da36f1c7a5a840cafbee1fcd7e5df73
+SHA1: dab6672ea431b8ca93fa3d2230a923cf415efa7a
+SHA256: a704a1441eedac7db6baf2482637295118eda9506020d0389fbc294859526e07
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -809,16 +809,16 @@ Name: SODA++
 Sileodepiction: https://catchmind24.github.io/depictions/SODA++.json
 
 Package: com.catchmind.speak++
-Version: 1.3.0
-Architecture: iphoneos-arm64e
+Version: 1.3.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.3.0_iphoneos-arm64e.deb
-Size: 322196
-MD5sum: 529a392cc7995b9e8ab411355255c22c
-SHA1: 9777540f89cdff12200c52e1ed9d35616c61bb44
-SHA256: 47a3d2819ad7c62d8f8622cca7045f31642e7cef7c358ae0a4cdb80f2d867440
+Filename: debs/com.catchmind.speak++_1.3.1_iphoneos-arm.deb
+Size: 334638
+MD5sum: 97d1794058aba7b80a11f676be7345dc
+SHA1: 09d33e6280cf791369b8e20834cc1da325c8425d
+SHA256: a690060448ac333bb87f982c98a0f0676be3c5ccbe323ffe3fe8685ec453a2fa
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
@@ -829,16 +829,16 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.speak++
-Version: 1.3.0
-Architecture: iphoneos-arm
+Version: 1.3.1
+Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.3.0_iphoneos-arm.deb
-Size: 322102
-MD5sum: 52bdb5bc11d64d4227aa6135c0c12a1c
-SHA1: 3fa82be9d256b2160c49889721b7b4c02c673461
-SHA256: 8bc3de952e58f619c5420c7957ba20c78a64bdc718d7f6ffbe9aedd5d6e1fb5c
+Filename: debs/com.catchmind.speak++_1.3.1_iphoneos-arm64.deb
+Size: 334720
+MD5sum: e6cdd4c923eb67470b2047feee55d7be
+SHA1: fedc5c91eca93278217d53531fe42cf99a9af564
+SHA256: 4b19c2ffab2439476d63b5fe5d865b86440998c27dabb218fccb4770ba37db3f
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
@@ -849,16 +849,16 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.speak++
-Version: 1.3.0
-Architecture: iphoneos-arm64
+Version: 1.3.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.speak++_1.3.0_iphoneos-arm64.deb
-Size: 322022
-MD5sum: 94ba39134ba09dfb7c41670680965069
-SHA1: c5916f90998213af4d6a01e3a528705280b98163
-SHA256: d565d55928eb91cc8da169cb9824b9930198befeb0adc6b4a3df77c06d49e9e5
+Filename: debs/com.catchmind.speak++_1.3.1_iphoneos-arm64e.deb
+Size: 334578
+MD5sum: 0613313fe35fc874d66bed1c561a1c83
+SHA1: 47c15608b9b1df555aa42a3ecd86f555566dd1f5
+SHA256: 1f78ab36bbc533ab71a213827fd51d3b6c96a871c8a22b2551bdb992aed23058
 Section: Cracks
 Description: Enables Developer Options.
  ⚠️ Don’t activate premium in Debug settings — it will mess up the app.
@@ -869,16 +869,16 @@ Name: Speak++
 Sileodepiction: https://catchmind24.github.io/depictions/Speak++.json
 
 Package: com.catchmind.zeta++
-Version: 1.1.0
-Architecture: iphoneos-arm64e
+Version: 1.1.1
+Architecture: iphoneos-arm
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64e.deb
-Size: 322140
-MD5sum: b8bf45d1a8089a1b412c6e809f78b223
-SHA1: 28f73a89dc548083206cdb296c81a7c419dd896a
-SHA256: c77fc82ec37854c3e7b2d9f4b13cd9a28aa6e2a4468f034c3e2b649def219b3a
+Filename: debs/com.catchmind.zeta++_1.1.1_iphoneos-arm.deb
+Size: 331002
+MD5sum: d9f34ead2cfec761a1b0c5d4e6449839
+SHA1: 1ab07ba5fa846aa316d9359c653d015bc3528736
+SHA256: 9eacd962216da113bbe9c22089c7227bcb1b801021a2650df0b5f93e4ba96d61
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -887,16 +887,16 @@ Name: zeta++
 Sileodepiction: https://catchmind24.github.io/depictions/zeta++.json
 
 Package: com.catchmind.zeta++
-Version: 1.1.0
-Architecture: iphoneos-arm
+Version: 1.1.1
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm.deb
-Size: 322190
-MD5sum: 3386877005f2866313c15d38ee282c07
-SHA1: 43886b0a06df24a98668c1f82721268149bd3a56
-SHA256: e19e3893bd33296ac2fa239a7e11047a1b192c35e9ac5bba93d75ddf3c26ac0a
+Filename: debs/com.catchmind.zeta++_1.1.1_iphoneos-arm64e.deb
+Size: 331434
+MD5sum: 051efb3be6532d5018f874d1c7de95e0
+SHA1: 15cdd91cf8cfd6e7e1d4824b32b396b794b10cde
+SHA256: 4dc743872fd37fd6e34bb3465c8d041be00e61f3f12e7551005315a628bad439
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
@@ -905,16 +905,16 @@ Name: zeta++
 Sileodepiction: https://catchmind24.github.io/depictions/zeta++.json
 
 Package: com.catchmind.zeta++
-Version: 1.1.0
+Version: 1.1.1
 Architecture: iphoneos-arm64
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1008
+Installed-Size: 1044
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.zeta++_1.1.0_iphoneos-arm64.deb
-Size: 322216
-MD5sum: a9626aa909c4ad1415dad201be2ca836
-SHA1: e75f23ed34d67fa3b1b43083b9b6c59efc4cc39b
-SHA256: 34393d574008156899f986a7498e42422dbfba3aa402af2c3d42c9072dedf761
+Filename: debs/com.catchmind.zeta++_1.1.1_iphoneos-arm64.deb
+Size: 331420
+MD5sum: 27d1be7d0a337bdf97f1ef3070a5e609
+SHA1: e051484255cebda24eec7b9814055c236f2aba92
+SHA256: 9d9d48f245e0fce569ea9064ee68e49b7c6198b0c9e3d8e8653d8946589e1134
 Section: Cracks
 Description: Premium subscription
 Author: catchmind <musicinfacebook@gmail.com>
