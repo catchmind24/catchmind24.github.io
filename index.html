@@ -11,424 +11,382 @@
     <style>
         :root {
             --gold:      #D1B06B;
-            --gold-50:   rgba(209,176,107,.50);
-            --gold-20:   rgba(209,176,107,.20);
+            --gold-45:   rgba(209,176,107,.45);
+            --gold-25:   rgba(209,176,107,.25);
             --gold-12:   rgba(209,176,107,.12);
-            --gold-08:   rgba(209,176,107,.08);
-            --gold-05:   rgba(209,176,107,.05);
-            --gold-03:   rgba(209,176,107,.03);
+            --gold-06:   rgba(209,176,107,.06);
+            --gold-04:   rgba(209,176,107,.04);
+            --gold-02:   rgba(209,176,107,.02);
             --bg:        #09090B;
             --text:      #E4E2DF;
-            --text-2:    rgba(228,226,223,.45);
-            --text-3:    rgba(228,226,223,.24);
-            --surface:   rgba(255,255,255,.024);
-            --surface-h: rgba(255,255,255,.046);
-            --border:    rgba(255,255,255,.055);
-            --border-h:  rgba(255,255,255,.10);
+            --text-dim:  rgba(228,226,223,.24);
+            --text-mute: rgba(228,226,223,.45);
+            --white-02:  rgba(255,255,255,.02);
+            --white-03:  rgba(255,255,255,.03);
+            --white-04:  rgba(255,255,255,.04);
+            --white-05:  rgba(255,255,255,.05);
+            --dur:       .3s;
             --ease:      cubic-bezier(.33,1,.68,1);
-            --dur:       .32s;
         }
 
-        *,*::before,*::after { margin:0; padding:0; box-sizing:border-box }
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 
-        html {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            text-size-adjust: 100%;
+        html{
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            text-size-adjust:100%;
         }
 
-        ::selection {
-            background: rgba(209,176,107,.12);
-            color: var(--text);
+        ::selection{
+            background:var(--gold-12);
+            color:var(--text);
         }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            overflow-x: hidden;
-            line-height: 1.6;
+        body{
+            font-family:'Inter',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            min-height:100vh;
+            overflow-x:hidden;
+            line-height:1.6;
         }
 
-        /* ── Accent thread ── */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0; left: 0; right: 0;
-            height: 1px;
-            background: linear-gradient(90deg, transparent 25%, var(--gold) 50%, transparent 75%);
-            opacity: .07;
-            z-index: 100;
+        /* ── Top accent thread ── */
+        body::before{
+            content:'';
+            position:fixed;
+            top:0;left:0;right:0;
+            height:1px;
+            background:linear-gradient(90deg,transparent 20%,var(--gold) 50%,transparent 80%);
+            opacity:.05;
+            z-index:100;
         }
 
         /* ── Atmosphere ── */
-        .atm { position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden }
-
-        .atm-grad {
-            position: absolute; inset: 0;
-            background:
-                radial-gradient(ellipse 55% 45% at 50% 0%, rgba(209,176,107,.018) 0%, transparent 50%),
-                radial-gradient(ellipse 45% 35% at 5% 85%, rgba(209,176,107,.010) 0%, transparent 45%);
+        .atm{
+            position:fixed;inset:0;
+            pointer-events:none;
+            z-index:0;
+            overflow:hidden;
         }
 
-        .atm-noise {
-            position: absolute; inset: -50%;
-            width: 200%; height: 200%;
-            opacity: .40;
-            background-size: 128px 128px;
+        .atm-grad{
+            position:absolute;inset:0;
+            background:radial-gradient(ellipse 50% 40% at 50% 0%,rgba(209,176,107,.02) 0%,transparent 50%);
+            animation:breathe 12s ease-in-out infinite;
         }
 
-        .atm-vig {
-            position: absolute; inset: 0;
-            background: radial-gradient(ellipse at 50% 50%, transparent 40%, var(--bg) 100%);
+        @keyframes breathe{
+            0%,100%{opacity:.7}
+            50%{opacity:1}
+        }
+
+        .atm-noise{
+            position:absolute;inset:-50%;
+            width:200%;height:200%;
+            opacity:.35;
+            background-size:128px 128px;
+        }
+
+        .atm-vig{
+            position:absolute;inset:0;
+            background:radial-gradient(ellipse at 50% 50%,transparent 35%,var(--bg) 100%);
         }
 
         /* ── Pointer light ── */
-        .ptr {
-            position: fixed;
-            width: 700px; height: 700px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(209,176,107,.018) 0%, transparent 55%);
-            pointer-events: none;
-            z-index: 1;
-            will-change: transform;
-            opacity: 0;
-            transition: opacity 1.2s ease;
+        .ptr{
+            position:fixed;
+            width:500px;height:500px;
+            border-radius:50%;
+            background:radial-gradient(circle,rgba(209,176,107,.012) 0%,transparent 55%);
+            pointer-events:none;
+            z-index:1;
+            will-change:transform;
+            opacity:0;
+            transition:opacity 1.5s ease;
         }
 
-        body:hover .ptr { opacity: 1 }
+        body:hover .ptr{opacity:1}
 
         /* ── Container ── */
-        .ctn {
-            position: relative; z-index: 2;
-            max-width: 480px;
-            margin: 0 auto;
-            padding: 120px 24px 96px;
+        .ctn{
+            position:relative;
+            z-index:2;
+            max-width:440px;
+            margin:0 auto;
+            padding:140px 24px 100px;
         }
 
-        /* ── Hero ── */
-        .hero {
-            display: flex; flex-direction: column;
-            align-items: center; text-align: center;
-            margin-bottom: 64px;
+        /* ── Header ── */
+        .header{
+            margin-bottom:64px;
         }
 
-        .av {
-            position: relative;
-            width: 56px; height: 56px;
-            margin-bottom: 24px;
+        .av{
+            position:relative;
+            width:40px;height:40px;
+            margin-bottom:20px;
         }
 
-        .av img {
-            width: 100%; height: 100%;
-            object-fit: contain;
-            position: relative; z-index: 1;
-            filter: drop-shadow(0 2px 10px rgba(0,0,0,.30));
-            will-change: transform;
+        .av img{
+            width:100%;height:100%;
+            object-fit:contain;
+            position:relative;
+            z-index:1;
+            filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));
         }
 
-        .av-glow {
-            position: absolute; inset: -18px;
-            border-radius: 50%;
-            background: radial-gradient(circle, var(--gold-05) 0%, transparent 70%);
-            filter: blur(14px);
-            z-index: 0;
-            opacity: 0;
-            transition: opacity 1.2s ease, filter .6s ease;
+        .av-glow{
+            position:absolute;
+            inset:-20px;
+            border-radius:50%;
+            background:radial-gradient(circle,var(--gold-04) 0%,transparent 70%);
+            filter:blur(18px);
+            z-index:0;
+            opacity:0;
+            transition:opacity 1.5s ease;
         }
 
-        .h1 {
-            font-size: clamp(1.4rem, 4vw, 1.64rem);
-            font-weight: 300;
-            letter-spacing: -.04em;
-            line-height: 1.2;
-            margin-bottom: 10px;
-            text-shadow: 0 0 48px rgba(209,176,107,.06);
+        .name{
+            font-size:clamp(1.5rem,4vw,1.7rem);
+            font-weight:300;
+            letter-spacing:-.04em;
+            line-height:1.2;
+            margin-bottom:8px;
         }
 
-        .sub {
-            font-size: .78rem;
-            font-weight: 300;
-            color: var(--text-3);
-            line-height: 1.8;
-            letter-spacing: .015em;
+        .tagline{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.72rem;
+            font-weight:400;
+            color:var(--text-dim);
+            letter-spacing:.02em;
+            line-height:1.7;
         }
 
-        /* ── Segment ── */
-        .seg { margin-bottom: 48px }
-
-        .ey {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: .54rem;
-            font-weight: 500;
-            letter-spacing: .13em;
-            text-transform: uppercase;
-            color: var(--gold);
-            opacity: .35;
-            margin-bottom: 16px;
-            user-select: none;
+        /* ── Section ── */
+        .section{
+            margin-bottom:56px;
         }
 
-        .ey::after {
-            content: '';
-            flex: 1;
-            height: 1px;
-            background: currentColor;
-            opacity: .18;
+        .section-line{
+            height:1px;
+            background:var(--gold);
+            opacity:.06;
+            margin-bottom:20px;
         }
 
-        /* ── Cards ── */
-        .cards {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
+        .section-label{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.55rem;
+            font-weight:500;
+            letter-spacing:.13em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.30;
+            margin-bottom:16px;
+            user-select:none;
         }
 
-        .card {
-            --mx: 50%; --my: 50%; --glow: 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 16px 20px;
-            border-radius: 10px;
-            border: 1px solid var(--border);
-            background: var(--surface);
-            color: var(--text);
-            text-decoration: none;
-            overflow: hidden;
-            transition:
-                background var(--dur) ease,
-                border-color var(--dur) ease,
-                transform var(--dur) var(--ease),
-                box-shadow var(--dur) ease;
-            -webkit-tap-highlight-color: transparent;
+        /* ── Rows ── */
+        .rows{
+            display:flex;
+            flex-direction:column;
         }
 
-        .card::before {
-            content: '';
-            position: absolute; inset: 0;
-            background: radial-gradient(
-                280px circle at var(--mx) var(--my),
-                var(--gold-03) 0%, transparent 100%
+        .row{
+            --rx:50%;--ry:50%;--glow:0;
+            position:relative;
+            display:flex;
+            align-items:center;
+            gap:14px;
+            padding:14px 16px;
+            color:var(--text);
+            text-decoration:none;
+            overflow:hidden;
+            transition:background var(--dur) ease;
+            -webkit-tap-highlight-color:transparent;
+        }
+
+        .row::before{
+            content:'';
+            position:absolute;inset:0;
+            background:radial-gradient(
+                250px circle at var(--rx) var(--ry),
+                var(--gold-02) 0%,transparent 100%
             );
-            opacity: var(--glow);
-            transition: opacity .5s ease;
-            pointer-events: none;
+            opacity:var(--glow);
+            transition:opacity .5s ease;
+            pointer-events:none;
         }
 
-        .card:hover {
-            background: var(--surface-h);
-            border-color: var(--border-h);
-            transform: translateY(-1px);
-            box-shadow: 0 4px 24px rgba(0,0,0,.12);
+        .row+.row{
+            border-top:1px solid var(--white-04);
         }
 
-        .card:active {
-            transform: translateY(0) scale(.997);
-            box-shadow: none;
-            transition-duration: .06s;
+        .row:hover{
+            background:var(--white-02);
         }
 
-        .card-ico {
-            width: 32px; height: 32px;
-            border-radius: 8px;
-            background: rgba(255,255,255,.03);
-            display: flex;
-            align-items: center; justify-content: center;
-            flex-shrink: 0;
-            transition: background var(--dur) ease;
+        .row:active{
+            background:rgba(255,255,255,.01);
+            transition-duration:.06s;
         }
 
-        .card:hover .card-ico {
-            background: var(--gold-05);
+        .row-ico{
+            width:28px;height:28px;
+            border-radius:6px;
+            background:var(--white-03);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-shrink:0;
+            transition:background var(--dur) ease;
         }
 
-        .card-ico img {
-            width: 18px; height: 18px;
-            object-fit: contain;
+        .row:hover .row-ico{
+            background:var(--white-05);
         }
 
-        .card-body { flex: 1; min-width: 0 }
-
-        .card-t {
-            font-size: .83rem;
-            font-weight: 400;
-            letter-spacing: .005em;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+        .row-ico img{
+            width:16px;height:16px;
+            object-fit:contain;
         }
 
-        .badge {
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: .50rem;
-            font-weight: 500;
-            letter-spacing: .06em;
-            text-transform: uppercase;
-            color: var(--gold);
-            opacity: .55;
-            padding: 2px 6px;
-            border-radius: 3px;
-            background: var(--gold-05);
-            border: 1px solid var(--gold-08);
-            line-height: 1.4;
+        .row-body{
+            flex:1;
+            min-width:0;
+            display:flex;
+            align-items:center;
+            gap:8px;
         }
 
-        .card-arr {
-            flex-shrink: 0;
-            width: 14px; height: 14px;
-            color: var(--text-3);
-            opacity: .45;
+        .row-title{
+            font-size:.85rem;
+            font-weight:400;
+            letter-spacing:.005em;
+        }
+
+        .badge{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.50rem;
+            font-weight:500;
+            letter-spacing:.06em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.40;
+            padding:2px 6px;
+            border-radius:3px;
+            background:var(--gold-04);
+            line-height:1.4;
+        }
+
+        .row-arr{
+            flex-shrink:0;
+            width:14px;height:14px;
+            color:var(--text);
+            opacity:.20;
             transition:
                 transform .4s var(--ease),
                 color .3s ease,
                 opacity .3s ease;
         }
 
-        .card:hover .card-arr {
-            transform: translateX(2px);
-            color: var(--gold);
-            opacity: .50;
+        .row:hover .row-arr{
+            transform:translateX(2px);
+            color:var(--gold);
+            opacity:.45;
         }
 
-        /* Primary card */
-        .card-p {
-            background: linear-gradient(135deg, var(--gold-03) 0%, var(--surface) 100%);
-            border-color: var(--gold-08);
+        /* ── Elsewhere ── */
+        .links{
+            display:flex;
+            align-items:center;
+            font-size:.82rem;
         }
 
-        .card-p .card-ico {
-            background: var(--gold-08);
+        .links a{
+            color:var(--text);
+            text-decoration:none;
+            opacity:.45;
+            padding:6px 0;
+            transition:opacity .25s ease;
         }
 
-        .card-p:hover {
-            background: linear-gradient(135deg, var(--gold-05) 0%, var(--surface-h) 100%);
-            border-color: var(--gold-12);
+        .links a:hover{
+            opacity:.85;
         }
 
-        /* ── Chips ── */
-        .chips {
-            display: flex;
-            gap: 8px;
+        .links-dot{
+            width:3px;height:3px;
+            border-radius:50%;
+            background:var(--text);
+            opacity:.15;
+            margin:0 16px;
+            flex-shrink:0;
         }
 
-        .chip {
-            flex: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 7px;
-            padding: 12px 16px;
-            border-radius: 8px;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            color: var(--text-2);
-            font-family: 'Inter', sans-serif;
-            font-size: .78rem;
-            font-weight: 400;
-            text-decoration: none;
-            transition:
-                color .25s ease,
-                background .25s ease,
-                border-color .3s ease,
-                transform var(--dur) var(--ease);
-            -webkit-tap-highlight-color: transparent;
+        /* ── Footer ── */
+        .footer{
+            padding-top:80px;
         }
 
-        .chip:hover {
-            color: var(--text);
-            background: var(--surface-h);
-            border-color: var(--border-h);
-            transform: translateY(-1px);
+        .footer-line{
+            height:1px;
+            background:var(--gold);
+            opacity:.06;
+            margin-bottom:20px;
         }
 
-        .chip:active {
-            transform: translateY(0) scale(.98);
-            transition-duration: .06s;
+        .footer p{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.55rem;
+            color:var(--text-dim);
+            letter-spacing:.04em;
         }
 
-        .chip svg {
-            width: 14px; height: 14px;
-            flex-shrink: 0;
-            opacity: .32;
-            transition: opacity .25s ease;
-        }
-
-        .chip:hover svg { opacity: .55 }
-
-        /* ── Colophon ── */
-        .colo {
-            padding-top: 60px;
-            text-align: center;
-        }
-
-        .colo-dot {
-            width: 3px; height: 3px;
-            border-radius: 50%;
-            background: var(--gold);
-            opacity: .18;
-            margin: 0 auto 14px;
-        }
-
-        .colo p {
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: .56rem;
-            color: var(--text-3);
-            letter-spacing: .04em;
-        }
-
-        .colo span {
-            color: rgba(209,176,107,.28);
+        .footer span{
+            color:var(--gold-25);
         }
 
         /* ── Reveal ── */
-        [data-reveal] {
-            opacity: 0;
-            transform: translateY(14px);
+        [data-reveal]{
+            opacity:0;
         }
 
-        [data-reveal].shown {
-            opacity: 1;
-            transform: translateY(0);
-            transition:
-                opacity .7s var(--ease),
-                transform .7s var(--ease);
+        [data-reveal].shown{
+            opacity:1;
+            transition:opacity .8s var(--ease);
         }
 
         /* ── Focus ── */
-        :focus-visible {
-            outline: 1px solid var(--gold-50);
-            outline-offset: 2px;
+        :focus-visible{
+            outline:1px solid var(--gold-45);
+            outline-offset:2px;
         }
 
         /* ── Scrollbar ── */
-        ::-webkit-scrollbar { width: 4px }
-        ::-webkit-scrollbar-track { background: transparent }
-        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px }
-        ::-webkit-scrollbar-thumb:hover { background: var(--border-h) }
+        ::-webkit-scrollbar{width:4px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:var(--white-05);border-radius:2px}
+        ::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.10)}
 
         /* ── Responsive ── */
-        @media (max-width: 520px) {
-            .ctn { padding: 88px 20px 64px }
-            .av { width: 48px; height: 48px }
-            .hero { margin-bottom: 52px }
-            .seg { margin-bottom: 40px }
-            .chips { flex-direction: column }
+        @media(max-width:520px){
+            .ctn{padding:100px 20px 64px}
+            .av{width:36px;height:36px}
+            .header{margin-bottom:52px}
+            .section{margin-bottom:44px}
         }
 
         /* ── Reduced motion ── */
-        @media (prefers-reduced-motion: reduce) {
-            *,*::before,*::after {
-                animation-duration: .01ms !important;
-                transition-duration: .01ms !important;
+        @media(prefers-reduced-motion:reduce){
+            *,*::before,*::after{
+                animation-duration:.01ms!important;
+                transition-duration:.01ms!important;
             }
-            .ptr { display: none }
-            [data-reveal] { opacity: 1; transform: none }
+            .ptr{display:none}
+            [data-reveal]{opacity:1}
         }
     </style>
 </head>
@@ -436,7 +394,7 @@
 
     <!-- Atmosphere -->
     <div class="atm" aria-hidden="true">
-        <div class="atm-grad"></div>
+        <div class="atm-grad" id="atmGrad"></div>
         <canvas class="atm-noise" id="noise"></canvas>
         <div class="atm-vig"></div>
     </div>
@@ -446,86 +404,81 @@
 
     <main class="ctn">
 
-        <!-- Hero -->
-        <section class="hero" data-reveal>
-            <div class="av" id="av">
+        <!-- Header -->
+        <header class="header" data-reveal>
+            <div class="av">
                 <div class="av-glow" id="avGlow"></div>
-                <img src="assets/profile_nobg.png" alt="catchmind" width="56" height="56">
+                <img src="assets/profile_nobg.png" alt="catchmind" width="40" height="40">
             </div>
-            <h1 class="h1">catchmind</h1>
-            <p class="sub">Premium jailbreak tweaks<br>and modifications for iOS</p>
-        </section>
+            <h1 class="name">catchmind</h1>
+            <p class="tagline">Premium jailbreak tweaks<br>and modifications for iOS</p>
+        </header>
 
         <!-- Repository -->
-        <section class="seg" data-reveal>
-            <span class="ey">Repository</span>
-            <div class="cards">
-                <a href="sileo://source/https://catchmind24.github.io" class="card card-p" aria-label="Add to Sileo">
-                    <div class="card-ico">
-                        <img src="assets/sileo.png" alt="" width="18" height="18">
+        <section class="section" data-reveal>
+            <div class="section-line"></div>
+            <div class="section-label">Repository</div>
+            <div class="rows">
+                <a href="sileo://source/https://catchmind24.github.io" class="row" aria-label="Add to Sileo">
+                    <div class="row-ico">
+                        <img src="assets/sileo.png" alt="" width="16" height="16">
                     </div>
-                    <div class="card-body">
-                        <div class="card-t">
-                            Add to Sileo
-                            <span class="badge">Recommended</span>
-                        </div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Sileo</span>
+                        <span class="badge">Recommended</span>
                     </div>
-                    <svg class="card-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
-                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io" class="card" aria-label="Add to Cydia">
-                    <div class="card-ico">
-                        <img src="assets/cydia.png" alt="" width="18" height="18">
+                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io" class="row" aria-label="Add to Cydia">
+                    <div class="row-ico">
+                        <img src="assets/cydia.png" alt="" width="16" height="16">
                     </div>
-                    <div class="card-body">
-                        <div class="card-t">Add to Cydia</div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Cydia</span>
                     </div>
-                    <svg class="card-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
-                <a href="zbra://sources/https://catchmind24.github.io" class="card" aria-label="Add to Zebra">
-                    <div class="card-ico">
-                        <img src="assets/zeeb.png" alt="" width="18" height="18">
+                <a href="zbra://sources/https://catchmind24.github.io" class="row" aria-label="Add to Zebra">
+                    <div class="row-ico">
+                        <img src="assets/zeeb.png" alt="" width="16" height="16">
                     </div>
-                    <div class="card-body">
-                        <div class="card-t">Add to Zebra</div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Zebra</span>
                     </div>
-                    <svg class="card-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
             </div>
         </section>
 
         <!-- Elsewhere -->
-        <section class="seg" data-reveal>
-            <span class="ey">Elsewhere</span>
-            <div class="chips">
-                <a href="https://t.me/catchmind" target="_blank" rel="noopener noreferrer" class="chip">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
-                    Telegram
-                </a>
-                <a href="https://buymeacoffee.com/catchmind24" target="_blank" rel="noopener noreferrer" class="chip">
-                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 00-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 01-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 013.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 01-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 01-4.743.295 37.059 37.059 0 01-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0011.343.376.483.483 0 01.535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 01.39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 01-.169.364z"/></svg>
-                    Support
-                </a>
+        <section class="section" data-reveal>
+            <div class="section-line"></div>
+            <div class="section-label">Elsewhere</div>
+            <div class="links">
+                <a href="https://t.me/catchmind" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <div class="links-dot"></div>
+                <a href="https://buymeacoffee.com/catchmind24" target="_blank" rel="noopener noreferrer">Support</a>
             </div>
         </section>
 
-        <!-- Colophon -->
-        <footer class="colo" data-reveal>
-            <div class="colo-dot"></div>
+        <!-- Footer -->
+        <footer class="footer" data-reveal>
+            <div class="footer-line"></div>
             <p>© 2021–2026 <span>catchmind</span></p>
         </footer>
 
     </main>
 
     <script>
-    (() => {
+    (()=>{
         'use strict';
 
-        /* ── Environment ────────────────────── */
-        const isTouch   = matchMedia('(hover: none)').matches;
-        const hasMotion = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+        /* ── Environment ── */
+        const isTouch   = matchMedia('(hover:none)').matches;
+        const hasMotion = !matchMedia('(prefers-reduced-motion:reduce)').matches;
 
         /* ═══════════════════════════════════════
-           Noise — procedural grain via canvas
+           Procedural noise — canvas grain
            ═══════════════════════════════════════ */
         const nCvs = document.getElementById('noise');
         const nCtx = nCvs.getContext('2d');
@@ -534,7 +487,7 @@
         nCvs.height = S;
 
         let seed = 0xDEADBEEF;
-        function rng() {
+        function rng(){
             seed |= 0;
             seed = seed + 0x6D2B79F5 | 0;
             let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
@@ -543,11 +496,11 @@
         }
 
         const imgData = nCtx.createImageData(S, S);
-        const d = imgData.data;
-        for (let i = 0; i < d.length; i += 4) {
+        const buf = imgData.data;
+        for(let i = 0; i < buf.length; i += 4){
             const v = (rng() * 255) | 0;
-            d[i] = d[i + 1] = d[i + 2] = v;
-            d[i + 3] = 8;
+            buf[i] = buf[i+1] = buf[i+2] = v;
+            buf[i+3] = 7;
         }
         nCtx.putImageData(imgData, 0, 0);
         nCvs.style.backgroundImage = `url(${nCvs.toDataURL()})`;
@@ -555,17 +508,17 @@
         nCvs.width = nCvs.height = 1;
 
         /* ═══════════════════════════════════════
-           Spring — smooth damped tracking
+           Spring — damped position tracking
            ═══════════════════════════════════════ */
-        class Spring {
-            constructor(k = .035, d = .78) {
-                this.k = k; this.d = d;
-                this.x = 0; this.y = 0;
-                this.vx = 0; this.vy = 0;
-                this.tx = 0; this.ty = 0;
+        class Spring{
+            constructor(k=.03, d=.85){
+                this.k=k; this.d=d;
+                this.x=0; this.y=0;
+                this.vx=0; this.vy=0;
+                this.tx=0; this.ty=0;
             }
-            target(x, y) { this.tx = x; this.ty = y }
-            step() {
+            target(x,y){ this.tx=x; this.ty=y }
+            step(){
                 this.vx = (this.vx + (this.tx - this.x) * this.k) * this.d;
                 this.vy = (this.vy + (this.ty - this.y) * this.k) * this.d;
                 this.x += this.vx;
@@ -576,121 +529,126 @@
         /* ═══════════════════════════════════════
            Pointer light — spring-damped cursor
            ═══════════════════════════════════════ */
-        const ptrEl    = document.getElementById('ptr');
-        const ptrSpring = new Spring(.04, .82);
-        let mx = 0, my = 0;
+        const ptrEl     = document.getElementById('ptr');
+        const ptrSpring = new Spring(.03, .85);
 
-        if (isTouch) {
+        if(isTouch){
             ptrEl.style.display = 'none';
         } else {
             document.addEventListener('mousemove', e => {
-                mx = e.clientX;
-                my = e.clientY;
-                ptrSpring.target(mx, my);
-            }, { passive: true });
+                ptrSpring.target(e.clientX, e.clientY);
+            }, {passive:true});
         }
 
         /* ═══════════════════════════════════════
-           Card spotlight — cursor-responsive glow
+           Row spotlight — cursor-responsive glow
            ═══════════════════════════════════════ */
-        if (!isTouch) {
-            document.querySelectorAll('.card').forEach(c => {
-                c.addEventListener('mouseenter', () =>
-                    c.style.setProperty('--glow', '1'));
-                c.addEventListener('mouseleave', () =>
-                    c.style.setProperty('--glow', '0'));
-                c.addEventListener('mousemove', e => {
-                    const r = c.getBoundingClientRect();
-                    c.style.setProperty('--mx', (e.clientX - r.left) + 'px');
-                    c.style.setProperty('--my', (e.clientY - r.top) + 'px');
-                }, { passive: true });
+        if(!isTouch){
+            document.querySelectorAll('.row').forEach(r => {
+                r.addEventListener('mouseenter', () =>
+                    r.style.setProperty('--glow','1'));
+                r.addEventListener('mouseleave', () =>
+                    r.style.setProperty('--glow','0'));
+                r.addEventListener('mousemove', e => {
+                    const b = r.getBoundingClientRect();
+                    r.style.setProperty('--rx', (e.clientX - b.left) + 'px');
+                    r.style.setProperty('--ry', (e.clientY - b.top)  + 'px');
+                }, {passive:true});
             });
         }
 
         /* ═══════════════════════════════════════
-           Avatar — magnetic pull + glow
+           Avatar glow
            ═══════════════════════════════════════ */
-        const avEl   = document.getElementById('av');
-        const avImg  = avEl.querySelector('img');
         const avGlow = document.getElementById('avGlow');
-        const avMag  = new Spring(.045, .75);
 
-        setTimeout(() => { avGlow.style.opacity = '.80' }, hasMotion ? 600 : 0);
+        setTimeout(() => { avGlow.style.opacity = '.50' }, hasMotion ? 800 : 0);
 
-        if (!isTouch) {
-            avEl.addEventListener('mouseenter', () => {
-                avGlow.style.opacity = '1';
-                avGlow.style.filter  = 'blur(10px)';
-            });
-            avEl.addEventListener('mouseleave', () => {
-                avGlow.style.opacity = '.80';
-                avGlow.style.filter  = 'blur(14px)';
-            });
+        if(!isTouch){
+            const av = avGlow.parentElement;
+            av.addEventListener('mouseenter', () => { avGlow.style.opacity = '.70' });
+            av.addEventListener('mouseleave', () => { avGlow.style.opacity = '.50' });
         }
 
         /* ═══════════════════════════════════════
-           Loop — unified rAF
+           Time-aware atmosphere
+           ═══════════════════════════════════════ */
+        const atmGrad = document.getElementById('atmGrad');
+
+        function updateAtm(){
+            const h = new Date().getHours();
+            const isNight = h >= 20 || h < 7;
+            const w = isNight ? .025 : .015;
+            atmGrad.style.background =
+                `radial-gradient(ellipse 50% 40% at 50% 0%, rgba(209,176,107,${w}) 0%, transparent 50%)`;
+        }
+
+        updateAtm();
+        setInterval(updateAtm, 1800000);
+
+        /* ═══════════════════════════════════════
+           Performance guard
+           ═══════════════════════════════════════ */
+        let frames    = 0;
+        let lastCheck = performance.now();
+        let lowPerf   = false;
+        let warmup    = true;
+
+        function perfGuard(){
+            frames++;
+            const now = performance.now();
+            if(now - lastCheck >= 3000){
+                if(!warmup){
+                    const fps = frames / ((now - lastCheck) / 1000);
+                    if(fps < 24 && !lowPerf){
+                        lowPerf = true;
+                        ptrEl.style.display = 'none';
+                    }
+                }
+                warmup = false;
+                frames = 0;
+                lastCheck = now;
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           Animation loop — desktop only
            ═══════════════════════════════════════ */
         let active = true;
 
         document.addEventListener('visibilitychange', () => {
             active = !document.hidden;
-            if (active && hasMotion) tick();
+            if(active && hasMotion && !isTouch) loop();
         });
 
-        function tick() {
-            if (!active) return;
-
-            if (!isTouch) {
-                /* Pointer light */
-                ptrSpring.step();
-                ptrEl.style.transform =
-                    `translate3d(${ptrSpring.x - 350}px,${ptrSpring.y - 350}px,0)`;
-
-                /* Avatar magnetic pull */
-                const r    = avEl.getBoundingClientRect();
-                const cx   = r.left + r.width  * .5;
-                const cy   = r.top  + r.height * .5;
-                const dx   = mx - cx;
-                const dy   = my - cy;
-                const dist = Math.sqrt(dx * dx + dy * dy);
-                const far  = 180;
-                const pull = 3;
-
-                if (dist > .5 && dist < far) {
-                    const t = (1 - dist / far) ** 2;
-                    avMag.target(dx / dist * pull * t, dy / dist * pull * t);
-                } else {
-                    avMag.target(0, 0);
-                }
-
-                avMag.step();
-                avImg.style.transform =
-                    `translate3d(${avMag.x}px,${avMag.y}px,0)`;
-            }
-
-            requestAnimationFrame(tick);
+        function loop(){
+            if(!active || lowPerf) return;
+            perfGuard();
+            ptrSpring.step();
+            ptrEl.style.transform =
+                `translate3d(${ptrSpring.x - 250}px,${ptrSpring.y - 250}px,0)`;
+            requestAnimationFrame(loop);
         }
 
-        if (hasMotion) tick();
+        if(hasMotion && !isTouch) loop();
 
         /* ═══════════════════════════════════════
-           Reveal — IntersectionObserver stagger
+           Reveal — staggered opacity
            ═══════════════════════════════════════ */
         const reveals = document.querySelectorAll('[data-reveal]');
 
-        if (hasMotion) {
+        if(hasMotion){
             const map = new Map();
             reveals.forEach((el, i) => map.set(el, i));
 
             const obs = new IntersectionObserver(entries => {
                 entries.forEach(e => {
-                    if (!e.isIntersecting) return;
+                    if(!e.isIntersecting) return;
                     const i = map.get(e.target) || 0;
-                    setTimeout(() => e.target.classList.add('shown'), 80 + i * 110);
+                    setTimeout(() => e.target.classList.add('shown'), 100 + i * 120);
                     obs.unobserve(e.target);
                 });
-            }, { threshold: .05 });
+            }, {threshold:.05});
 
             reveals.forEach(el => obs.observe(el));
         } else {
