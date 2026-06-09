@@ -54,6 +54,7 @@
                 {
                     "class": "DepictionSeparatorView"
                 },
+		{
                     "class": "DepictionLabelView",
                     "text": "2.0.2",
                     "useBottomMargin": false,
