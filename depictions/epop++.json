@@ -41,6 +41,20 @@
             "tintColor": "#D1B06B",
             "views": [
                 {
+
+                    "class": "DepictionLabelView",
+                    "text": "2.0.3",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Improved compatibility and stability",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                     "class": "DepictionLabelView",
                     "text": "2.0.2",
                     "useBottomMargin": false,
