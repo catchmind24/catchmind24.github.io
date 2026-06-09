@@ -41,7 +41,6 @@
             "tintColor": "#D1B06B",
             "views": [
                 {
-
                     "class": "DepictionLabelView",
                     "text": "2.0.3",
                     "useBottomMargin": false,
