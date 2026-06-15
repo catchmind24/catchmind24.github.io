@@ -80,7 +80,7 @@ trap 'rm -f "$TMP_PACKAGES"' EXIT
 
 # Default (no --multiversion / no -m) keeps only the newest version of each package.
 log "dpkg-scanpackages 실행 (최신 버전만 인덱싱)..."
-dpkg-scanpackages "$DEB_DIR" /dev/null > "$TMP_PACKAGES"
+dpkg-scanpackages -m "$DEB_DIR" /dev/null > "$TMP_PACKAGES"
 
 PKG_COUNT=$(grep -c '^Package:' "$TMP_PACKAGES" || true)
 ok "인덱싱된 패키지: ${PKG_COUNT}개"
