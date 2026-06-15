@@ -42,6 +42,20 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "1.9.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Added network-level ad blocking — removed all remaining ads",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "1.8.2",
                     "useBottomMargin": false,
                     "textColor": "#D1B06B"
