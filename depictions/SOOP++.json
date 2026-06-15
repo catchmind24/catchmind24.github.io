@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Enables Quick View Plus features with extended ad removal and adult verification bypass",
+                    "markdown": "Removes all ads — LIVE preroll video, VOD preroll, banners, LIVE mid-roll, and Catch ads. Also unlocks Multiview to watch two live broadcasts at once, and bypasses adult verification.\n\nNote: Player Timemachine and live Preview are validated server-side and can't be enabled.",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }
