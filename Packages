@@ -1,14 +1,14 @@
 Package: com.catchmind.afreecatv++
-Version: 1.8.2
-Architecture: iphoneos-arm
+Version: 1.9.0
+Architecture: iphoneos-arm64e
 Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1044
+Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.afreecatv++_1.8.2_iphoneos-arm.deb
-Size: 333584
-MD5sum: fdd06cc998a91430a1650627cad8d1ba
-SHA1: 7cc65d69717b513e2f6235e75abe94e14d7059c8
-SHA256: 7858f0dfe414b72ce66969d545ed0ee8cbc3be17c104e4d3f8d4795a6871f5f1
+Filename: debs/com.catchmind.afreecatv++_1.9.0_iphoneos-arm64e.deb
+Size: 343206
+MD5sum: de0fda940599d3bd242b33a6af3be239
+SHA1: 55d281301b2c7411260070f77630863a7979c86b
+SHA256: f53dede73400684024f0beb8427f2d40f14382e2dbb6ee379ab0616dcaf927d2
 Section: Cracks
 Description: Enables Quick View Plus features with extended ad removal and adult verification bypass
 Author: catchmind <musicinfacebook@gmail.com>
