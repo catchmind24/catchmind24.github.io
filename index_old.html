@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#09090B">
+    <title>catchmind</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --gold:      #D1B06B;
+            --gold-45:   rgba(209,176,107,.45);
+            --gold-25:   rgba(209,176,107,.25);
+            --gold-12:   rgba(209,176,107,.12);
+            --gold-06:   rgba(209,176,107,.06);
+            --gold-04:   rgba(209,176,107,.04);
+            --gold-02:   rgba(209,176,107,.02);
+            --bg:        #09090B;
+            --text:      #E4E2DF;
+            --text-dim:  rgba(228,226,223,.24);
+            --text-mute: rgba(228,226,223,.45);
+            --white-02:  rgba(255,255,255,.02);
+            --white-03:  rgba(255,255,255,.03);
+            --white-04:  rgba(255,255,255,.04);
+            --white-05:  rgba(255,255,255,.05);
+            --dur:       .3s;
+            --ease:      cubic-bezier(.33,1,.68,1);
+        }
+
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+
+        html{
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
+            text-size-adjust:100%;
+        }
+
+        ::selection{
+            background:var(--gold-12);
+            color:var(--text);
+        }
+
+        body{
+            font-family:'Inter',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
+            background:var(--bg);
+            color:var(--text);
+            min-height:100vh;
+            overflow-x:hidden;
+            line-height:1.6;
+        }
+
+        /* ── Top accent thread ── */
+        body::before{
+            content:'';
+            position:fixed;
+            top:0;left:0;right:0;
+            height:1px;
+            background:linear-gradient(90deg,transparent 20%,var(--gold) 50%,transparent 80%);
+            opacity:.05;
+            z-index:100;
+        }
+
+        /* ── Atmosphere ── */
+        .atm{
+            position:fixed;inset:0;
+            pointer-events:none;
+            z-index:0;
+            overflow:hidden;
+        }
+
+        .atm-grad{
+            position:absolute;inset:0;
+            background:radial-gradient(ellipse 50% 40% at 50% 0%,rgba(209,176,107,.02) 0%,transparent 50%);
+            animation:breathe 12s ease-in-out infinite;
+        }
+
+        @keyframes breathe{
+            0%,100%{opacity:.7}
+            50%{opacity:1}
+        }
+
+        .atm-noise{
+            position:absolute;inset:-50%;
+            width:200%;height:200%;
+            opacity:.35;
+            background-size:128px 128px;
+        }
+
+        .atm-vig{
+            position:absolute;inset:0;
+            background:radial-gradient(ellipse at 50% 50%,transparent 35%,var(--bg) 100%);
+        }
+
+        /* ── Pointer light ── */
+        .ptr{
+            position:fixed;
+            width:500px;height:500px;
+            border-radius:50%;
+            background:radial-gradient(circle,rgba(209,176,107,.012) 0%,transparent 55%);
+            pointer-events:none;
+            z-index:1;
+            will-change:transform;
+            opacity:0;
+            transition:opacity 1.5s ease;
+        }
+
+        body:hover .ptr{opacity:1}
+
+        /* ── Container ── */
+        .ctn{
+            position:relative;
+            z-index:2;
+            max-width:440px;
+            margin:0 auto;
+            padding:140px 24px 100px;
+        }
+
+        /* ── Header ── */
+        .header{
+            margin-bottom:64px;
+        }
+
+        .av{
+            position:relative;
+            width:40px;height:40px;
+            margin-bottom:20px;
+        }
+
+        .av img{
+            width:100%;height:100%;
+            object-fit:contain;
+            position:relative;
+            z-index:1;
+            filter:drop-shadow(0 2px 8px rgba(0,0,0,.25));
+        }
+
+        .av-glow{
+            position:absolute;
+            inset:-20px;
+            border-radius:50%;
+            background:radial-gradient(circle,var(--gold-04) 0%,transparent 70%);
+            filter:blur(18px);
+            z-index:0;
+            opacity:0;
+            transition:opacity 1.5s ease;
+        }
+
+        .name{
+            font-size:clamp(1.5rem,4vw,1.7rem);
+            font-weight:300;
+            letter-spacing:-.04em;
+            line-height:1.2;
+            margin-bottom:8px;
+        }
+
+        .tagline{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.72rem;
+            font-weight:400;
+            color:var(--text-dim);
+            letter-spacing:.02em;
+            line-height:1.7;
+        }
+
+        /* ── Section ── */
+        .section{
+            margin-bottom:56px;
+        }
+
+        .section-line{
+            height:1px;
+            background:var(--gold);
+            opacity:.06;
+            margin-bottom:20px;
+        }
+
+        .section-label{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.55rem;
+            font-weight:500;
+            letter-spacing:.13em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.30;
+            margin-bottom:16px;
+            user-select:none;
+        }
+
+        /* ── Rows ── */
+        .rows{
+            display:flex;
+            flex-direction:column;
+        }
+
+        .row{
+            --rx:50%;--ry:50%;--glow:0;
+            position:relative;
+            display:flex;
+            align-items:center;
+            gap:14px;
+            padding:14px 16px;
+            color:var(--text);
+            text-decoration:none;
+            overflow:hidden;
+            transition:background var(--dur) ease;
+            -webkit-tap-highlight-color:transparent;
+        }
+
+        .row::before{
+            content:'';
+            position:absolute;inset:0;
+            background:radial-gradient(
+                250px circle at var(--rx) var(--ry),
+                var(--gold-02) 0%,transparent 100%
+            );
+            opacity:var(--glow);
+            transition:opacity .5s ease;
+            pointer-events:none;
+        }
+
+        .row+.row{
+            border-top:1px solid var(--white-04);
+        }
+
+        .row:hover{
+            background:var(--white-02);
+        }
+
+        .row:active{
+            background:rgba(255,255,255,.01);
+            transition-duration:.06s;
+        }
+
+        .row-ico{
+            width:28px;height:28px;
+            border-radius:6px;
+            background:var(--white-03);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            flex-shrink:0;
+            transition:background var(--dur) ease;
+        }
+
+        .row:hover .row-ico{
+            background:var(--white-05);
+        }
+
+        .row-ico img{
+            width:16px;height:16px;
+            object-fit:contain;
+        }
+
+        .row-body{
+            flex:1;
+            min-width:0;
+            display:flex;
+            align-items:center;
+            gap:8px;
+        }
+
+        .row-title{
+            font-size:.85rem;
+            font-weight:400;
+            letter-spacing:.005em;
+        }
+
+        .badge{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.50rem;
+            font-weight:500;
+            letter-spacing:.06em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.40;
+            padding:2px 6px;
+            border-radius:3px;
+            background:var(--gold-04);
+            line-height:1.4;
+        }
+
+        .row-arr{
+            flex-shrink:0;
+            width:14px;height:14px;
+            color:var(--text);
+            opacity:.20;
+            transition:
+                transform .4s var(--ease),
+                color .3s ease,
+                opacity .3s ease;
+        }
+
+        .row:hover .row-arr{
+            transform:translateX(2px);
+            color:var(--gold);
+            opacity:.45;
+        }
+
+        /* ── Elsewhere ── */
+        .links{
+            display:flex;
+            align-items:center;
+            font-size:.82rem;
+        }
+
+        .links a{
+            color:var(--text);
+            text-decoration:none;
+            opacity:.45;
+            padding:6px 0;
+            transition:opacity .25s ease;
+        }
+
+        .links a:hover{
+            opacity:.85;
+        }
+
+        .links-dot{
+            width:3px;height:3px;
+            border-radius:50%;
+            background:var(--text);
+            opacity:.15;
+            margin:0 16px;
+            flex-shrink:0;
+        }
+
+        /* ── Footer ── */
+        .footer{
+            padding-top:80px;
+        }
+
+        .footer-line{
+            height:1px;
+            background:var(--gold);
+            opacity:.06;
+            margin-bottom:20px;
+        }
+
+        .footer p{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.55rem;
+            color:var(--text-dim);
+            letter-spacing:.04em;
+        }
+
+        .footer span{
+            color:var(--gold-25);
+        }
+
+        /* ── Reveal ── */
+        [data-reveal]{
+            opacity:0;
+        }
+
+        [data-reveal].shown{
+            opacity:1;
+            transition:opacity .8s var(--ease);
+        }
+
+        /* ── Focus ── */
+        :focus-visible{
+            outline:1px solid var(--gold-45);
+            outline-offset:2px;
+        }
+
+        /* ── Scrollbar ── */
+        ::-webkit-scrollbar{width:4px}
+        ::-webkit-scrollbar-track{background:transparent}
+        ::-webkit-scrollbar-thumb{background:var(--white-05);border-radius:2px}
+        ::-webkit-scrollbar-thumb:hover{background:rgba(255,255,255,.10)}
+
+        /* ── Responsive ── */
+        @media(max-width:520px){
+            .ctn{padding:100px 20px 64px}
+            .av{width:36px;height:36px}
+            .header{margin-bottom:52px}
+            .section{margin-bottom:44px}
+        }
+
+        /* ── Reduced motion ── */
+        @media(prefers-reduced-motion:reduce){
+            *,*::before,*::after{
+                animation-duration:.01ms!important;
+                transition-duration:.01ms!important;
+            }
+            .ptr{display:none}
+            [data-reveal]{opacity:1}
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Atmosphere -->
+    <div class="atm" aria-hidden="true">
+        <div class="atm-grad" id="atmGrad"></div>
+        <canvas class="atm-noise" id="noise"></canvas>
+        <div class="atm-vig"></div>
+    </div>
+
+    <!-- Pointer light -->
+    <div class="ptr" id="ptr" aria-hidden="true"></div>
+
+    <main class="ctn">
+
+        <!-- Header -->
+        <header class="header" data-reveal>
+            <div class="av">
+                <div class="av-glow" id="avGlow"></div>
+                <img src="assets/profile_nobg.png" alt="catchmind" width="40" height="40">
+            </div>
+            <h1 class="name">catchmind</h1>
+            <p class="tagline">Premium jailbreak tweaks<br>and modifications for iOS</p>
+        </header>
+
+        <!-- Repository -->
+        <section class="section" data-reveal>
+            <div class="section-line"></div>
+            <div class="section-label">Repository</div>
+            <div class="rows">
+                <a href="sileo://source/https://catchmind24.github.io" class="row" aria-label="Add to Sileo">
+                    <div class="row-ico">
+                        <img src="assets/sileo.png" alt="" width="16" height="16">
+                    </div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Sileo</span>
+                        <span class="badge">Recommended</span>
+                    </div>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                </a>
+                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io" class="row" aria-label="Add to Cydia">
+                    <div class="row-ico">
+                        <img src="assets/cydia.png" alt="" width="16" height="16">
+                    </div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Cydia</span>
+                    </div>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                </a>
+                <a href="zbra://sources/https://catchmind24.github.io" class="row" aria-label="Add to Zebra">
+                    <div class="row-ico">
+                        <img src="assets/zeeb.png" alt="" width="16" height="16">
+                    </div>
+                    <div class="row-body">
+                        <span class="row-title">Add to Zebra</span>
+                    </div>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Elsewhere -->
+        <section class="section" data-reveal>
+            <div class="section-line"></div>
+            <div class="section-label">Elsewhere</div>
+            <div class="links">
+                <a href="https://t.me/catchmind" target="_blank" rel="noopener noreferrer">Telegram</a>
+                <div class="links-dot"></div>
+                <a href="https://buymeacoffee.com/catchmind24" target="_blank" rel="noopener noreferrer">Support</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" data-reveal>
+            <div class="footer-line"></div>
+            <p>© 2021–2026 <span>catchmind</span></p>
+        </footer>
+
+    </main>
+
+    <script>
+    (()=>{
+        'use strict';
+
+        /* ── Environment ── */
+        const isTouch   = matchMedia('(hover:none)').matches;
+        const hasMotion = !matchMedia('(prefers-reduced-motion:reduce)').matches;
+
+        /* ═══════════════════════════════════════
+           Procedural noise — canvas grain
+           ═══════════════════════════════════════ */
+        const nCvs = document.getElementById('noise');
+        const nCtx = nCvs.getContext('2d');
+        const S = 128;
+        nCvs.width = S;
+        nCvs.height = S;
+
+        let seed = 0xDEADBEEF;
+        function rng(){
+            seed |= 0;
+            seed = seed + 0x6D2B79F5 | 0;
+            let t = Math.imul(seed ^ seed >>> 15, 1 | seed);
+            t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+            return ((t ^ t >>> 14) >>> 0) / 4294967296;
+        }
+
+        const imgData = nCtx.createImageData(S, S);
+        const buf = imgData.data;
+        for(let i = 0; i < buf.length; i += 4){
+            const v = (rng() * 255) | 0;
+            buf[i] = buf[i+1] = buf[i+2] = v;
+            buf[i+3] = 7;
+        }
+        nCtx.putImageData(imgData, 0, 0);
+        nCvs.style.backgroundImage = `url(${nCvs.toDataURL()})`;
+        nCtx.clearRect(0, 0, S, S);
+        nCvs.width = nCvs.height = 1;
+
+        /* ═══════════════════════════════════════
+           Spring — damped position tracking
+           ═══════════════════════════════════════ */
+        class Spring{
+            constructor(k=.03, d=.85){
+                this.k=k; this.d=d;
+                this.x=0; this.y=0;
+                this.vx=0; this.vy=0;
+                this.tx=0; this.ty=0;
+            }
+            target(x,y){ this.tx=x; this.ty=y }
+            step(){
+                this.vx = (this.vx + (this.tx - this.x) * this.k) * this.d;
+                this.vy = (this.vy + (this.ty - this.y) * this.k) * this.d;
+                this.x += this.vx;
+                this.y += this.vy;
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           Pointer light — spring-damped cursor
+           ═══════════════════════════════════════ */
+        const ptrEl     = document.getElementById('ptr');
+        const ptrSpring = new Spring(.03, .85);
+
+        if(isTouch){
+            ptrEl.style.display = 'none';
+        } else {
+            document.addEventListener('mousemove', e => {
+                ptrSpring.target(e.clientX, e.clientY);
+            }, {passive:true});
+        }
+
+        /* ═══════════════════════════════════════
+           Row spotlight — cursor-responsive glow
+           ═══════════════════════════════════════ */
+        if(!isTouch){
+            document.querySelectorAll('.row').forEach(r => {
+                r.addEventListener('mouseenter', () =>
+                    r.style.setProperty('--glow','1'));
+                r.addEventListener('mouseleave', () =>
+                    r.style.setProperty('--glow','0'));
+                r.addEventListener('mousemove', e => {
+                    const b = r.getBoundingClientRect();
+                    r.style.setProperty('--rx', (e.clientX - b.left) + 'px');
+                    r.style.setProperty('--ry', (e.clientY - b.top)  + 'px');
+                }, {passive:true});
+            });
+        }
+
+        /* ═══════════════════════════════════════
+           Avatar glow
+           ═══════════════════════════════════════ */
+        const avGlow = document.getElementById('avGlow');
+
+        setTimeout(() => { avGlow.style.opacity = '.50' }, hasMotion ? 800 : 0);
+
+        if(!isTouch){
+            const av = avGlow.parentElement;
+            av.addEventListener('mouseenter', () => { avGlow.style.opacity = '.70' });
+            av.addEventListener('mouseleave', () => { avGlow.style.opacity = '.50' });
+        }
+
+        /* ═══════════════════════════════════════
+           Time-aware atmosphere
+           ═══════════════════════════════════════ */
+        const atmGrad = document.getElementById('atmGrad');
+
+        function updateAtm(){
+            const h = new Date().getHours();
+            const isNight = h >= 20 || h < 7;
+            const w = isNight ? .025 : .015;
+            atmGrad.style.background =
+                `radial-gradient(ellipse 50% 40% at 50% 0%, rgba(209,176,107,${w}) 0%, transparent 50%)`;
+        }
+
+        updateAtm();
+        setInterval(updateAtm, 1800000);
+
+        /* ═══════════════════════════════════════
+           Performance guard
+           ═══════════════════════════════════════ */
+        let frames    = 0;
+        let lastCheck = performance.now();
+        let lowPerf   = false;
+        let warmup    = true;
+
+        function perfGuard(){
+            frames++;
+            const now = performance.now();
+            if(now - lastCheck >= 3000){
+                if(!warmup){
+                    const fps = frames / ((now - lastCheck) / 1000);
+                    if(fps < 24 && !lowPerf){
+                        lowPerf = true;
+                        ptrEl.style.display = 'none';
+                    }
+                }
+                warmup = false;
+                frames = 0;
+                lastCheck = now;
+            }
+        }
+
+        /* ═══════════════════════════════════════
+           Animation loop — desktop only
+           ═══════════════════════════════════════ */
+        let active = true;
+
+        document.addEventListener('visibilitychange', () => {
+            active = !document.hidden;
+            if(active && hasMotion && !isTouch) loop();
+        });
+
+        function loop(){
+            if(!active || lowPerf) return;
+            perfGuard();
+            ptrSpring.step();
+            ptrEl.style.transform =
+                `translate3d(${ptrSpring.x - 250}px,${ptrSpring.y - 250}px,0)`;
+            requestAnimationFrame(loop);
+        }
+
+        if(hasMotion && !isTouch) loop();
+
+        /* ═══════════════════════════════════════
+           Reveal — staggered opacity
+           ═══════════════════════════════════════ */
+        const reveals = document.querySelectorAll('[data-reveal]');
+
+        if(hasMotion){
+            const map = new Map();
+            reveals.forEach((el, i) => map.set(el, i));
+
+            const obs = new IntersectionObserver(entries => {
+                entries.forEach(e => {
+                    if(!e.isIntersecting) return;
+                    const i = map.get(e.target) || 0;
+                    setTimeout(() => e.target.classList.add('shown'), 100 + i * 120);
+                    obs.unobserve(e.target);
+                });
+            }, {threshold:.05});
+
+            reveals.forEach(el => obs.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('shown'));
+        }
+
+    })();
+    </script>
+</body>
+</html>

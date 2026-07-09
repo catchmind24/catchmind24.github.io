@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#09090B">
     <title>catchmind</title>
+    <meta name="description" content="catchmind — premium jailbreak tweaks and modifications for iOS.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="catchmind">
+    <meta property="og:description" content="Premium jailbreak tweaks and modifications for iOS.">
+    <meta property="og:url" content="https://catchmind24.github.io">
+    <meta property="og:image" content="https://catchmind24.github.io/assets/profile_nobg.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="assets/profile_nobg.png">
+    <link rel="apple-touch-icon" href="assets/profile_nobg.png">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
@@ -35,6 +45,8 @@
             -webkit-font-smoothing:antialiased;
             -moz-osx-font-smoothing:grayscale;
             text-size-adjust:100%;
+            scrollbar-width:thin;
+            scrollbar-color:var(--white-05) transparent;
         }
 
         ::selection{
@@ -47,6 +59,7 @@
             background:var(--bg);
             color:var(--text);
             min-height:100vh;
+            min-height:100dvh;
             overflow-x:hidden;
             line-height:1.6;
         }
@@ -72,7 +85,7 @@
 
         .atm-grad{
             position:absolute;inset:0;
-            background:radial-gradient(ellipse 50% 40% at 50% 0%,rgba(209,176,107,.02) 0%,transparent 50%);
+            background:radial-gradient(ellipse 50% 40% at 50% 0%,rgba(209,176,107,.018) 0%,transparent 50%);
             animation:breathe 12s ease-in-out infinite;
         }
 
@@ -96,6 +109,7 @@
         /* ── Pointer light ── */
         .ptr{
             position:fixed;
+            top:0;left:0;
             width:500px;height:500px;
             border-radius:50%;
             background:radial-gradient(circle,rgba(209,176,107,.012) 0%,transparent 55%);
@@ -114,7 +128,7 @@
             z-index:2;
             max-width:440px;
             margin:0 auto;
-            padding:140px 24px 100px;
+            padding:140px max(24px,env(safe-area-inset-left)) calc(100px + env(safe-area-inset-bottom));
         }
 
         /* ── Header ── */
@@ -178,12 +192,12 @@
 
         .section-label{
             font-family:'IBM Plex Mono',monospace;
-            font-size:.55rem;
+            font-size:.6rem;
             font-weight:500;
             letter-spacing:.13em;
             text-transform:uppercase;
             color:var(--gold);
-            opacity:.30;
+            opacity:.35;
             margin-bottom:16px;
             user-select:none;
         }
@@ -204,7 +218,10 @@
             color:var(--text);
             text-decoration:none;
             overflow:hidden;
-            transition:background var(--dur) ease;
+            transition:
+                background var(--dur) ease,
+                transform var(--dur) var(--ease),
+                box-shadow var(--dur) ease;
             -webkit-tap-highlight-color:transparent;
         }
 
@@ -229,28 +246,36 @@
         }
 
         .row:active{
-            background:rgba(255,255,255,.01);
+            background:var(--white-02);
+            transform:scale(.99);
+            box-shadow:inset 0 0 0 1px var(--gold-12);
             transition-duration:.06s;
         }
 
+        /* ── Icon chip — masked monochrome system ── */
         .row-ico{
             width:28px;height:28px;
             border-radius:6px;
             background:var(--white-03);
+            color:var(--text-mute);
             display:flex;
             align-items:center;
             justify-content:center;
             flex-shrink:0;
-            transition:background var(--dur) ease;
+            transition:
+                background var(--dur) ease,
+                color .4s ease;
         }
 
-        .row:hover .row-ico{
-            background:var(--white-05);
+        .row:hover .row-ico,
+        .row:active .row-ico{
+            background:var(--gold-06);
+            color:var(--gold);
         }
 
-        .row-ico img{
+        .row-glyph{
+            display:block;
             width:16px;height:16px;
-            object-fit:contain;
         }
 
         .row-body{
@@ -269,16 +294,16 @@
 
         .badge{
             font-family:'IBM Plex Mono',monospace;
-            font-size:.50rem;
+            font-size:.625rem;
             font-weight:500;
             letter-spacing:.06em;
             text-transform:uppercase;
             color:var(--gold);
-            opacity:.40;
-            padding:2px 6px;
+            opacity:.55;
+            padding:2px 7px;
             border-radius:3px;
-            background:var(--gold-04);
-            line-height:1.4;
+            background:var(--gold-06);
+            line-height:1.5;
         }
 
         .row-arr{
@@ -311,9 +336,14 @@
             opacity:.45;
             padding:6px 0;
             transition:opacity .25s ease;
+            -webkit-tap-highlight-color:transparent;
         }
 
         .links a:hover{
+            opacity:.85;
+        }
+
+        .links a:active{
             opacity:.85;
         }
 
@@ -340,7 +370,8 @@
 
         .footer p{
             font-family:'IBM Plex Mono',monospace;
-            font-size:.55rem;
+            font-size:.6rem;
+            font-variant-numeric:tabular-nums;
             color:var(--text-dim);
             letter-spacing:.04em;
         }
@@ -349,19 +380,23 @@
             color:var(--gold-25);
         }
 
-        /* ── Reveal ── */
-        [data-reveal]{
+        /* ── Reveal — JS-gated so no-JS still renders ── */
+        .js [data-reveal]{
             opacity:0;
+            transform:translateY(8px);
         }
 
-        [data-reveal].shown{
+        .js [data-reveal].shown{
             opacity:1;
-            transition:opacity .8s var(--ease);
+            transform:none;
+            transition:
+                opacity .8s var(--ease),
+                transform .8s var(--ease);
         }
 
         /* ── Focus ── */
         :focus-visible{
-            outline:1px solid var(--gold-45);
+            outline:1.5px solid var(--gold-45);
             outline-offset:2px;
         }
 
@@ -373,7 +408,7 @@
 
         /* ── Responsive ── */
         @media(max-width:520px){
-            .ctn{padding:100px 20px 64px}
+            .ctn{padding:100px max(20px,env(safe-area-inset-left)) calc(64px + env(safe-area-inset-bottom))}
             .av{width:36px;height:36px}
             .header{margin-bottom:52px}
             .section{margin-bottom:44px}
@@ -386,7 +421,7 @@
                 transition-duration:.01ms!important;
             }
             .ptr{display:none}
-            [data-reveal]{opacity:1}
+            .js [data-reveal]{opacity:1;transform:none}
         }
     </style>
 </head>
@@ -417,35 +452,29 @@
         <!-- Repository -->
         <section class="section" data-reveal>
             <div class="section-line"></div>
-            <div class="section-label">Repository</div>
+            <h2 class="section-label">Repository</h2>
             <div class="rows">
                 <a href="sileo://source/https://catchmind24.github.io" class="row" aria-label="Add to Sileo">
-                    <div class="row-ico">
-                        <img src="assets/sileo.png" alt="" width="16" height="16">
-                    </div>
-                    <div class="row-body">
+                    <span class="row-ico"><svg class="row-glyph" viewBox="0 0 1024.000000 1024.000000" aria-hidden="true"><g fill="currentColor" transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"><path d="M5003 8330 c-138 -19 -265 -68 -417 -158 -45 -27 -268 -158 -496 -292 -228 -134 -577 -339 -775 -455 -198 -116 -475 -278 -615 -360 -140 -81 -286 -173 -323 -203 -140 -111 -251 -285 -304 -477 l-28 -100 0 -1165 0 -1165 22 -84 c32 -119 109 -272 182 -363 86 -106 157 -162 361 -281 52 -30 217 -126 365 -213 149 -87 414 -242 590 -344 335 -196 521 -305 870 -510 297 -175 300 -177 401 -209 307 -100 521 -59 909 172 123 74 316 187 970 570 94 55 370 216 615 360 245 143 465 273 490 290 156 107 297 319 353 530 l22 82 0 1160 0 1160 -23 89 c-42 165 -133 328 -246 442 -85 84 -83 83 -666 424 -247 145 -642 376 -775 455 -77 45 -261 153 -410 240 -148 87 -330 194 -403 238 -243 145 -452 198 -669 167z m-1982 -3284 c629 -361 661 -384 728 -526 50 -105 52 -132 49 -598 l-3 -430 -31 -39 c-16 -21 -47 -46 -68 -57 -64 -31 -101 -18 -348 123 -555 320 -567 328 -629 424 -78 121 -80 135 -82 627 l-1 436 25 44 c67 122 141 121 360 -4z m3611 -273 c29 -26 27 -348 -3 -410 -30 -62 -42 -70 -477 -329 -219 -130 -452 -270 -519 -310 -129 -78 -170 -89 -205 -57 -26 23 -27 346 -2 396 32 64 84 102 399 289 176 106 412 247 525 315 212 126 245 139 282 106z m942 -365 c23 -32 23 -332 0 -386 -28 -68 -76 -102 -499 -354 -231 -138 -654 -390 -940 -561 -286 -170 -542 -323 -568 -339 -68 -40 -96 -44 -130 -18 l-27 21 0 179 0 178 33 48 c33 50 110 99 757 483 63 37 221 131 350 208 129 77 395 235 590 352 376 224 402 235 434 189z"/></g></svg></span>
+                    <span class="row-body">
                         <span class="row-title">Add to Sileo</span>
                         <span class="badge">Recommended</span>
-                    </div>
-                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    </span>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
                 <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://catchmind24.github.io" class="row" aria-label="Add to Cydia">
-                    <div class="row-ico">
-                        <img src="assets/cydia.png" alt="" width="16" height="16">
-                    </div>
-                    <div class="row-body">
+                    <span class="row-ico"><svg class="row-glyph" viewBox="0 0 1024.000000 1024.000000" aria-hidden="true"><g fill="currentColor" transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"><path d="M5205 7711 c-55 -26 -250 -117 -432 -202 -183 -85 -333 -156 -333 -159 0 -3 37 -26 83 -52 346 -195 465 -262 553 -311 l102 -57 348 170 c192 94 407 198 477 233 l128 62 -403 179 c-222 98 -407 180 -413 182 -5 2 -55 -18 -110 -45z M4195 7491 c-170 -65 -418 -160 -550 -210 -132 -51 -440 -167 -685 -258 -245 -92 -446 -167 -448 -168 -1 -1 18 -44 42 -96 24 -52 72 -156 106 -232 35 -75 64 -136 66 -135 1 2 8 59 15 127 11 105 16 125 33 136 12 7 194 93 406 190 212 97 433 199 492 226 59 27 113 49 120 49 7 0 85 -48 173 -105 l160 -105 3 252 c1 139 6 256 11 261 5 5 91 46 191 93 177 81 204 95 184 93 -5 0 -148 -53 -319 -118z M6485 7217 c3 -89 9 -163 13 -165 5 -1 94 -57 198 -123 104 -67 272 -173 374 -237 102 -63 240 -151 307 -194 l122 -80 3 -78 3 -79 215 201 c118 111 216 204 218 208 3 7 -47 31 -838 413 -448 216 -568 273 -603 289 -16 7 -17 -3 -12 -155z M6120 7228 c-69 -33 -226 -107 -350 -165 -124 -57 -282 -132 -352 -165 l-128 -61 0 -219 0 -220 248 127 c136 70 352 181 480 247 l232 119 0 200 c0 109 -1 199 -2 198 -2 0 -59 -28 -128 -61z M4314 7008 c5 -136 11 -207 19 -214 7 -7 86 -55 177 -107 91 -52 233 -135 315 -184 83 -49 171 -101 198 -117 l47 -27 -2 233 -3 233 -370 192 c-203 105 -374 192 -379 192 -5 1 -6 -83 -2 -201z M3705 6878 c-184 -76 -310 -128 -545 -223 -118 -48 -218 -90 -222 -94 -4 -3 106 -87 245 -186 139 -99 293 -209 342 -244 92 -66 444 -313 462 -324 5 -3 86 28 179 69 93 42 295 130 449 196 368 158 334 137 277 175 -55 37 -218 141 -502 320 -113 72 -281 180 -375 240 -93 60 -174 111 -180 115 -5 3 -64 -17 -130 -44z M6205 6674 c-143 -69 -325 -157 -405 -194 -80 -37 -208 -98 -285 -136 l-139 -67 39 -18 c22 -10 101 -44 175 -75 74 -31 223 -95 329 -142 107 -47 206 -85 220 -85 15 0 195 79 401 175 433 202 590 274 608 279 6 2 -66 48 -160 102 -317 179 -512 287 -517 287 -3 0 -123 -57 -266 -126z M2926 6347 c-3 -12 -7 -50 -10 -84 l-6 -61 58 -49 c31 -27 136 -113 232 -190 96 -78 216 -174 265 -215 50 -41 157 -129 240 -197 l150 -123 6 38 c4 22 10 84 13 140 l7 101 -103 71 c-57 39 -153 106 -214 149 -62 43 -180 125 -263 183 -84 58 -201 140 -261 182 -102 72 -110 76 -114 55z M7110 6223 c-63 -31 -277 -132 -474 -224 -198 -93 -364 -173 -368 -177 -5 -5 -7 -92 -6 -194 l3 -185 485 182 485 181 3 237 c1 130 -1 237 -5 236 -5 0 -60 -26 -123 -56z M2615 6104 c-22 -20 -169 -144 -327 -276 -159 -133 -288 -244 -288 -247 1 -3 71 -62 158 -131 86 -69 202 -161 257 -206 55 -44 215 -172 355 -285 140 -112 341 -273 445 -357 136 -109 196 -151 210 -148 11 2 166 54 345 116 179 61 374 129 434 149 l109 38 -84 69 c-46 38 -167 139 -269 224 -102 85 -331 277 -510 426 -312 260 -517 433 -700 591 -47 40 -87 73 -90 73 -3 -1 -23 -17 -45 -36z M5290 5929 l0 -194 63 -24 c34 -13 103 -41 152 -61 50 -21 196 -82 325 -135 129 -54 238 -100 243 -102 4 -2 6 80 5 183 l-3 188 -85 37 c-47 20 -218 93 -380 163 -162 70 -301 130 -307 133 -10 4 -13 -37 -13 -188z M4980 6032 c-30 -13 -93 -39 -140 -57 -97 -38 -794 -317 -798 -320 -1 -1 -5 -68 -9 -148 l-6 -147 59 24 c33 13 158 60 279 104 515 187 671 244 680 250 7 5 7 59 0 163 l-10 156 -55 -25z M7215 5569 c-115 -43 -284 -106 -375 -140 -91 -35 -223 -84 -295 -110 -71 -26 -233 -85 -360 -132 -615 -227 -799 -295 -1030 -378 -137 -50 -253 -93 -258 -96 -4 -2 2 -21 14 -41 12 -21 72 -125 134 -232 153 -265 305 -523 313 -532 4 -4 57 13 117 38 61 25 180 74 265 109 85 35 227 94 315 130 88 36 207 86 265 109 58 24 222 92 365 151 143 59 312 129 375 155 280 115 556 232 563 239 7 7 -26 167 -137 656 -22 102 -38 150 -47 152 -8 0 -108 -34 -224 -78z M5060 5557 c-58 -24 -286 -112 -507 -197 -222 -85 -402 -158 -400 -161 2 -6 216 -168 429 -326 l56 -41 254 100 c139 55 406 161 593 235 187 74 343 138 347 142 5 4 -70 40 -165 81 -94 40 -242 104 -327 142 -85 37 -159 68 -165 68 -5 -1 -57 -20 -115 -43z M4145 4489 c-225 -71 -498 -156 -606 -190 l-195 -61 -170 124 c-93 68 -183 134 -201 146 l-31 22 -1 -422 -1 -423 252 -170 c138 -93 306 -208 372 -255 110 -78 327 -227 818 -563 l173 -118 3 511 c1 280 1 739 0 1019 l-3 508 -410 -128z M6845 4235 c-264 -105 -561 -224 -660 -263 -99 -39 -346 -137 -550 -217 -203 -81 -378 -149 -387 -152 -13 -4 -62 63 -207 283 l-191 288 0 -806 0 -807 38 13 c58 21 272 106 832 329 283 112 673 266 865 343 193 76 442 174 555 219 l205 81 3 442 c2 351 0 442 -10 441 -7 -1 -229 -88 -493 -194z"/></g></svg></span>
+                    <span class="row-body">
                         <span class="row-title">Add to Cydia</span>
-                    </div>
-                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    </span>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
                 <a href="zbra://sources/https://catchmind24.github.io" class="row" aria-label="Add to Zebra">
-                    <div class="row-ico">
-                        <img src="assets/zeeb.png" alt="" width="16" height="16">
-                    </div>
-                    <div class="row-body">
+                    <span class="row-ico"><svg class="row-glyph" viewBox="0 0 1024.000000 1024.000000" aria-hidden="true"><g fill="currentColor" transform="translate(0.000000,1024.000000) scale(0.100000,-0.100000)"><path d="M4556 8089 c-88 -24 -121 -124 -121 -366 0 -168 0 -171 -20 -161 -70 37 -320 210 -374 259 -92 84 -179 126 -231 110 -45 -13 -77 -49 -86 -97 -12 -63 46 -261 140 -484 20 -46 36 -88 36 -92 0 -4 -29 -49 -64 -100 -97 -145 -159 -331 -187 -572 -11 -94 -14 -104 -59 -170 -142 -212 -367 -645 -661 -1271 -161 -344 -374 -793 -494 -1040 -258 -532 -309 -679 -309 -890 1 -602 636 -1089 1239 -950 246 57 418 179 584 415 225 318 373 476 577 617 107 73 154 93 220 93 90 0 271 30 396 66 315 90 547 261 656 482 27 57 52 99 55 95 3 -5 20 -56 37 -113 180 -597 308 -1294 310 -1677 l0 -43 860 0 860 0 0 2460 0 2460 -97 64 c-429 281 -946 465 -1548 553 -173 25 -217 27 -485 27 -315 1 -401 -7 -627 -60 l-102 -23 -113 76 c-144 97 -162 114 -204 194 -57 109 -122 156 -188 138z"/></g></svg></span>
+                    <span class="row-body">
                         <span class="row-title">Add to Zebra</span>
-                    </div>
-                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
+                    </span>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
             </div>
         </section>
@@ -453,7 +482,7 @@
         <!-- Elsewhere -->
         <section class="section" data-reveal>
             <div class="section-line"></div>
-            <div class="section-label">Elsewhere</div>
+            <h2 class="section-label">Elsewhere</h2>
             <div class="links">
                 <a href="https://t.me/catchmind" target="_blank" rel="noopener noreferrer">Telegram</a>
                 <div class="links-dot"></div>
@@ -516,8 +545,16 @@
                 this.x=0; this.y=0;
                 this.vx=0; this.vy=0;
                 this.tx=0; this.ty=0;
+                this.primed=false;
             }
-            target(x,y){ this.tx=x; this.ty=y }
+            target(x,y){
+                this.tx=x; this.ty=y;
+                if(!this.primed){
+                    /* snap on first contact — no corner sweep-in */
+                    this.x=x; this.y=y;
+                    this.primed=true;
+                }
+            }
             step(){
                 this.vx = (this.vx + (this.tx - this.x) * this.k) * this.d;
                 this.vy = (this.vy + (this.ty - this.y) * this.k) * this.d;
@@ -541,10 +578,13 @@
         }
 
         /* ═══════════════════════════════════════
-           Row spotlight — cursor-responsive glow
+           Row spotlight — cursor on desktop,
+           finger on touch
            ═══════════════════════════════════════ */
+        const rows = document.querySelectorAll('.row');
+
         if(!isTouch){
-            document.querySelectorAll('.row').forEach(r => {
+            rows.forEach(r => {
                 r.addEventListener('mouseenter', () =>
                     r.style.setProperty('--glow','1'));
                 r.addEventListener('mouseleave', () =>
@@ -554,6 +594,21 @@
                     r.style.setProperty('--rx', (e.clientX - b.left) + 'px');
                     r.style.setProperty('--ry', (e.clientY - b.top)  + 'px');
                 }, {passive:true});
+            });
+        } else {
+            /* press glow blooms from the fingertip */
+            rows.forEach(r => {
+                r.addEventListener('touchstart', e => {
+                    const t = e.touches[0];
+                    const b = r.getBoundingClientRect();
+                    r.style.setProperty('--rx', (t.clientX - b.left) + 'px');
+                    r.style.setProperty('--ry', (t.clientY - b.top)  + 'px');
+                    r.style.setProperty('--glow','1');
+                }, {passive:true});
+                ['touchend','touchcancel'].forEach(ev =>
+                    r.addEventListener(ev, () => {
+                        setTimeout(() => r.style.setProperty('--glow','0'), 350);
+                    }, {passive:true}));
             });
         }
 
@@ -571,16 +626,18 @@
         }
 
         /* ═══════════════════════════════════════
-           Time-aware atmosphere
+           Time-aware atmosphere — night runs
+           warmer and a step brighter
            ═══════════════════════════════════════ */
         const atmGrad = document.getElementById('atmGrad');
 
         function updateAtm(){
             const h = new Date().getHours();
             const isNight = h >= 20 || h < 7;
-            const w = isNight ? .025 : .015;
+            const c = isNight ? '214,168,92' : '209,176,107';
+            const w = isNight ? .04 : .018;
             atmGrad.style.background =
-                `radial-gradient(ellipse 50% 40% at 50% 0%, rgba(209,176,107,${w}) 0%, transparent 50%)`;
+                `radial-gradient(ellipse 50% 40% at 50% 0%, rgba(${c},${w}) 0%, transparent 50%)`;
         }
 
         updateAtm();
@@ -615,10 +672,14 @@
            Animation loop — desktop only
            ═══════════════════════════════════════ */
         let active = true;
+        let rafId  = null;
 
         document.addEventListener('visibilitychange', () => {
             active = !document.hidden;
-            if(active && hasMotion && !isTouch) loop();
+            if(active && hasMotion && !isTouch){
+                cancelAnimationFrame(rafId);
+                loop();
+            }
         });
 
         function loop(){
@@ -627,13 +688,13 @@
             ptrSpring.step();
             ptrEl.style.transform =
                 `translate3d(${ptrSpring.x - 250}px,${ptrSpring.y - 250}px,0)`;
-            requestAnimationFrame(loop);
+            rafId = requestAnimationFrame(loop);
         }
 
         if(hasMotion && !isTouch) loop();
 
         /* ═══════════════════════════════════════
-           Reveal — staggered opacity
+           Reveal — staggered rise
            ═══════════════════════════════════════ */
         const reveals = document.querySelectorAll('[data-reveal]');
 
