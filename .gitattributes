@@ -1,0 +1,11 @@
+# Keep LF everywhere: the repo index (Packages/Release) hashes must match the
+# bytes GitHub Pages serves, and index.sh must run without CRLF breakage.
+* text=auto eol=lf
+
+*.deb   binary
+*.gz    binary
+*.png   binary
+*.PNG   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary

@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Removes all ads — LIVE preroll video, VOD preroll, banners, LIVE mid-roll, and Catch ads. Also unlocks Multiview to watch two live broadcasts at once, and bypasses adult verification.\n\nNote: Player Timemachine and live Preview are validated server-side and can't be enabled.",
+                    "markdown": "Unlocks Quick View Plus — ad-free playback, Multiview, live Preview and the other Quick View benefits.\n\nAlso removes the ads Quick View doesn't block, such as banners and Catch feed ads, and bypasses adult verification.",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }
@@ -40,6 +40,20 @@
             "tabname": "Changelog",
             "tintColor": "#D1B06B",
             "views": [
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.10.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Enabled live Preview, including 19+ broadcasts\n- Enabled VOD Picture-in-Picture\n- Fixed adult verification bypass for VOD (login required)\n- Reworked ad removal: ads are now stopped at the app's own ad request instead of network/DNS blocking — lighter, with no empty ad placeholders",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
                 {
                     "class": "DepictionLabelView",
                     "text": "1.9.0",

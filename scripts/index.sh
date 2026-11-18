@@ -2,7 +2,8 @@
 #
 # Build a Sileo/Cydia APT repository index (Packages, Packages.gz, Release).
 #
-#  - Indexes only the LATEST version of each package (dpkg-scanpackages default).
+#  - Indexes every .deb in debs/. Keep only the latest version there and move
+#    older ones to archive/debs/ — debs/ is the single source of truth.
 #  - Deterministic output: re-running with the same .deb set produces byte-identical
 #    files, so CI only commits when packages actually change.
 #  - Architectures in Release are derived from the .deb files themselves.
@@ -73,13 +74,15 @@ log ".deb 파일: ${DEB_COUNT}개 발견"
 [ "$DEB_COUNT" -gt 0 ] || log "경고: .deb 파일이 없습니다 (빈 인덱스를 생성합니다)"
 
 # ──────────────────────────────────────────────────────────────────────────────
-# 1. Build Packages (latest version of each package only → no -m)
+# 1. Build Packages
 # ──────────────────────────────────────────────────────────────────────────────
 TMP_PACKAGES="$(mktemp)"
 trap 'rm -f "$TMP_PACKAGES"' EXIT
 
-# Default (no --multiversion / no -m) keeps only the newest version of each package.
-log "dpkg-scanpackages 실행 (최신 버전만 인덱싱)..."
+# -m (--multiversion) is required: each package ships the same name/version for
+# iphoneos-arm, -arm64 and -arm64e. Without -m, dpkg-scanpackages treats those as
+# duplicates and keeps only one architecture.
+log "dpkg-scanpackages 실행..."
 dpkg-scanpackages -m "$DEB_DIR" /dev/null > "$TMP_PACKAGES"
 
 PKG_COUNT=$(grep -c '^Package:' "$TMP_PACKAGES" || true)

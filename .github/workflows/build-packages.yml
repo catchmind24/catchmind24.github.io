@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'debs/**'
+      - 'depictions/**'
       - 'scripts/index.sh'
       - '.github/workflows/build-packages.yml'
   workflow_dispatch:
@@ -24,6 +25,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Validate depiction JSON
+        run: |
+          fail=0
+          for f in depictions/*.json; do
+            if ! jq empty "$f" 2>/tmp/jq.err; then
+              echo "❌ $f: $(cat /tmp/jq.err)"
+              fail=1
+            fi
+          done
+          [ "$fail" -eq 0 ] || exit 1
+          echo "✅ depiction JSON 문법 정상"
+
       - name: Install dpkg-dev
         run: |
           sudo apt-get update
@@ -33,6 +46,20 @@ jobs:
         run: |
           chmod +x scripts/index.sh
           ./scripts/index.sh
+
+      - name: Check depiction links
+        run: |
+          # Every SileoDepiction URL in Packages must point at a file in depictions/.
+          fail=0
+          while read -r url; do
+            name="${url##*/depictions/}"
+            if [ ! -f "depictions/$name" ]; then
+              echo "❌ depictions/$name 없음 ($url)"
+              fail=1
+            fi
+          done < <(grep -i '^SileoDepiction:' Packages | awk '{print $2}' | sort -u)
+          [ "$fail" -eq 0 ] || exit 1
+          echo "✅ 모든 depiction 링크가 존재합니다"
 
       - name: Verify generated files
         run: |
