@@ -192,6 +192,14 @@ body::before{
 
 .row-glyph{display:block;width:16px;height:16px}
 
+/* brand glyph that only exists as a bitmap: drawn in currentColor through its alpha */
+.glyph-mask{
+    background:currentColor;
+    /* 80%: the SVG brand glyphs leave about this much air inside their 16px box */
+    -webkit-mask:var(--glyph) center/80% no-repeat;
+    mask:var(--glyph) center/80% no-repeat;
+}
+
 .row-body{
     flex:1;
     min-width:0;
