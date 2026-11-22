@@ -16,7 +16,7 @@ depictions/      Sileo 네이티브 depiction JSON (패키지별 1개)
 archive/debs/    이전 버전 .deb 보관
 archive/         그 외 지난 depiction·이미지 보관
 assets/          사이트용 이미지
-assets/featured/ Sileo 추천 배너 이미지 (789×444, 시작 카드와 같은 스타일)
+assets/featured/ Sileo 추천 배너 이미지 (789×444). 지금은 대표 트윅 SOOP++ 한 장
 sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
 index.html       저장소 웹페이지

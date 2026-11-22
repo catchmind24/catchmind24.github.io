@@ -8,24 +8,6 @@
       "title": "",
       "package": "com.catchmind.afreecatv++",
       "hideShadow": true
-    },
-    {
-      "url": "https://catchmind24.github.io/assets/featured/chzzk.png",
-      "title": "",
-      "package": "com.catchmind.chzzk++",
-      "hideShadow": true
-    },
-    {
-      "url": "https://catchmind24.github.io/assets/featured/duolingo.png",
-      "title": "",
-      "package": "com.catchmind.duolingo++",
-      "hideShadow": true
-    },
-    {
-      "url": "https://catchmind24.github.io/assets/featured/revenuecat.png",
-      "title": "",
-      "package": "com.catchmind.revenuecat++",
-      "hideShadow": true
     }
   ]
 }

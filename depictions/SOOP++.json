@@ -29,7 +29,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "Unlocks Quick View Plus — ad-free playback, Multiview, live Preview and the other Quick View benefits.\n\nAlso removes the ads Quick View doesn't block, such as banners and Catch feed ads, and bypasses adult verification.",
+                    "markdown": "Unlocks Quick View Plus — ad-free playback, Multiview, live Preview and the other Quick View benefits.\n\nAlso removes the ads Quick View doesn't block, such as banners and Catch feed ads, and bypasses adult verification.\n\n**Also in SOOP++**\n- **Ghost Mode** — join chat as a guest so you don't appear in the viewer list, in every stream or only the streamers you choose\n- **Live Catch-up** — a playback buffer badge in the player; tap it to jump back toward live, or let it catch up automatically\n- **Entry quality** — pick the quality streams start in\n- **Hide AdBalloon banner** — no AdBalloon banner when you join a stream\n- **SOOP++ Settings** — turn each feature on or off at the top of the app's Settings, and check for updates",
                     "useSpacing": true,
                     "tintColor": "#D1B06B"
                 }
