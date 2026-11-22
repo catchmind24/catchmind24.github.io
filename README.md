@@ -21,7 +21,7 @@ assets/featured/ Sileo 추천 배너 이미지 (789×444). 지금은 대표 트�
 sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
 .githooks/       커밋할 때 debs/ 가 바뀌었으면 인덱스를 같은 커밋에 다시 만드는 훅
-index.html       저장소 웹페이지
+index.html       저장소 웹페이지 (트윅 목록은 Packages 를 읽어 자동으로 채움)
 CydiaIcon.png    저장소 아이콘
 ```
 
@@ -42,6 +42,7 @@ Sileo 가 전용 아이콘을 가진 표준 이름만 씁니다.
 1. 이전 버전 `.deb` 3개(arm / arm64 / arm64e)를 `debs/` → `archive/debs/`로 옮깁니다.
 2. 새 `.deb` 3개를 `debs/`에 넣습니다.
 3. `depictions/<패키지>.json`의 Changelog 탭 맨 위에 새 버전 항목을 추가합니다.
+   Details 탭의 Information 표(Compatibility 등)는 Makefile 의 `TARGET` 최소 iOS 가 바뀔 때만 고칩니다.
 4. 커밋 후 `main`에 push합니다. 훅이 켜져 있으면 커밋할 때 `Packages`/`Release`가 같이 갱신됩니다.
 
 훅은 clone 마다 한 번 켭니다 (WSL `Ubuntu-24.04` 의 `dpkg-scanpackages` 를 씁니다).
