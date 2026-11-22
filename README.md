@@ -20,6 +20,8 @@ assets/featured/ Sileo 추천 배너 이미지 (789×444). 지금은 대표 트�
                      배너를 바꿀 때는 파일 이름도 바꾼다 (이름-해시.png). Sileo 는 같은 주소의 이미지를 오래 저장해 두어서 새 그림이 안 보인다
 sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
+scripts/released.sh released.json 생성 스크립트 (트윅별 마지막 업데이트 날짜, git 기록에서 계산)
+released.json    웹페이지의 "last update" 표시용. 직접 수정하지 않음
 .githooks/       커밋할 때 debs/ 가 바뀌었으면 인덱스를 같은 커밋에 다시 만드는 훅
 index.html       저장소 웹페이지 (첫 화면: 저장소 추가 버튼)
 tweaks.html      트윅 목록 페이지. Packages 와 depictions/ 를 읽어 자동으로 채움 (따로 고칠 것 없음)
@@ -27,7 +29,7 @@ assets/site.css  두 페이지가 같이 쓰는 스타일
 CydiaIcon.png    저장소 아이콘
 ```
 
-`Packages`, `Packages.gz`, `Release`는 **직접 수정하지 않습니다.** `main`에 push하면
+`Packages`, `Packages.gz`, `Release`, `released.json`은 **직접 수정하지 않습니다.** `main`에 push하면
 GitHub Actions(`.github/workflows/build-packages.yml`)가 다시 생성해서 커밋합니다.
 
 ## 카테고리 (control 의 Section)
@@ -54,6 +56,8 @@ Sileo 가 전용 아이콘을 가진 표준 이름만 씁니다.
 ```sh
 git config core.hooksPath .githooks
 ```
+
+훅이 `released.json`(트윅별 배포 날짜)도 같이 만듭니다. CI 가 날짜를 고쳐 커밋하는 경우가 있으니 push 뒤에는 `git pull` 을 한 번 해 두세요.
 
 훅 없이 push 하면 CI 가 인덱스를 고칠 때까지 1분쯤 옛 `Packages` 가 이미 옮긴 deb 를 가리켜 설치가 404 로 실패합니다.
 

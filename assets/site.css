@@ -225,6 +225,14 @@ body::before{
 
 .row-title{font-size:.9rem;font-weight:400}
 
+.row-body-stack{flex-direction:column;align-items:flex-start;gap:0}
+.row-sub{
+    font-size:.75rem;
+    line-height:1.35;
+    color:var(--text-dim);
+}
+.row-sub:empty{display:none}
+
 .badge{
     font-family:'IBM Plex Mono',monospace;
     font-size:.625rem;
@@ -327,7 +335,7 @@ body::before{
 ::-webkit-scrollbar-thumb{background:var(--fill-2);border-radius:2px}
 
 @media(max-width:520px){
-    .ctn{padding:64px max(20px,env(safe-area-inset-left)) calc(32px + env(safe-area-inset-bottom))}
+    .ctn{padding:58px max(20px,env(safe-area-inset-left)) calc(32px + env(safe-area-inset-bottom))}
     .header{margin-bottom:36px}
     .section{margin-bottom:32px}
     .footer{margin-top:40px}

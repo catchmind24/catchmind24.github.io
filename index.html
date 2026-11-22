@@ -77,10 +77,10 @@
             <div class="rows rows-more">
                 <a href="tweaks.html" class="row">
                     <span class="row-ico"><svg class="row-glyph" viewBox="3.1 3.1 17.8 17.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg></span>
-                    <span class="row-body">
+                    <span class="row-body row-body-stack">
                         <span class="row-title">Browse tweaks</span>
+                        <span class="row-sub" id="twSub"></span>
                     </span>
-                    <span class="row-aside" id="twCount"></span>
                     <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
             </div>
@@ -126,14 +126,27 @@
             }, 1500);
         });
 
-        /* ── Tweak count for the Browse row ── */
-        fetch('Packages', {cache:'no-cache'})
-            .then(r => r.ok ? r.text() : Promise.reject(r.status))
-            .then(text => {
-                const ids = new Set(text.match(/^Package:\s*.+$/gm) || []);
-                if(ids.size) document.getElementById('twCount').textContent = ids.size;
-            })
-            .catch(() => {});
+        /* ── Browse row: how many tweaks and when the newest build landed ── */
+        const DAY = 864e5;
+        function ago(iso){
+            const days = Math.floor((Date.now() - Date.parse(iso + 'T00:00:00Z')) / DAY);
+            if(days < 1) return 'today';
+            if(days < 2) return 'yesterday';
+            if(days < 7) return days + ' days ago';
+            if(days < 31){ const w = Math.floor(days / 7); return w + (w === 1 ? ' week ago' : ' weeks ago') }
+            return new Date(iso + 'T00:00:00Z').toLocaleDateString('en-US', {month:'short', year:'numeric', timeZone:'UTC'});
+        }
+
+        Promise.all([
+            fetch('Packages', {cache:'no-cache'}).then(r => r.ok ? r.text() : Promise.reject(r.status)),
+            fetch('released.json', {cache:'no-cache'}).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+        ]).then(([text, released]) => {
+            const ids = [...new Set((text.match(/^Package:\s*(.+)$/gm) || []).map(l => l.replace(/^Package:\s*/, '').trim()))];
+            if(!ids.length) return;
+            const newest = ids.map(id => released[id]).filter(Boolean).sort().pop();
+            document.getElementById('twSub').textContent =
+                ids.length + ' tweaks' + (newest ? ' · last update ' + ago(newest) : '');
+        }).catch(() => {});
 
         /* ── Reveal — staggered rise ── */
         const reveals = document.querySelectorAll('[data-reveal]');

@@ -1,6 +1,6 @@
 #!/bin/sh
-# Rebuild Packages / Packages.gz / Release inside the same commit whenever debs/
-# changes. Otherwise GitHub Pages serves the new commit (old debs already moved to
+# Rebuild Packages / Packages.gz / Release (and released.json) inside the same
+# commit whenever debs/ changes. Otherwise GitHub Pages serves the new commit (old debs already moved to
 # archive/) with the old index for the minute CI needs, and installs 404.
 #
 # Enable once per clone:  git config core.hooksPath .githooks
@@ -22,7 +22,8 @@ elif command -v wsl.exe >/dev/null 2>&1; then
   }
 else
   echo "pre-commit: dpkg-scanpackages not found, leaving the index to CI" >&2
-  exit 0
 fi
+git add Packages Packages.gz Release 2>/dev/null || true
 
-git add Packages Packages.gz Release
+# release days for the site ("last update today"); plain bash + git, runs anywhere
+bash scripts/released.sh && git add released.json

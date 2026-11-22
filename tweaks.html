@@ -344,6 +344,19 @@
 
         const short = text => text.replace(/\s+or later$/i, '+');
 
+        /* released.json days: "today", "3 days ago", "2 weeks ago", then "Nov 2025" */
+        const DAY = 864e5;
+        const utc = iso => new Date(iso + 'T00:00:00Z');
+        function ago(iso){
+            const days = Math.floor((Date.now() - utc(iso)) / DAY);
+            if(days < 1) return 'today';
+            if(days < 2) return 'yesterday';
+            if(days < 7) return days + ' days ago';
+            if(days < 31){ const w = Math.floor(days / 7); return w + (w === 1 ? ' week ago' : ' weeks ago') }
+            return utc(iso).toLocaleDateString('en-US', {month:'short', year:'numeric', timeZone:'UTC'});
+        }
+        const fullDate = iso => utc(iso).toLocaleDateString('en-US', {month:'short', day:'numeric', year:'numeric', timeZone:'UTC'});
+
         /* SOOP++ -> "soop", 말해보카++ -> "말해보카": the address to share for one tweak */
         const slug = p => (p.name || p.package).toLowerCase().replace(/\+/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
 
@@ -366,7 +379,9 @@
             const notes = li >= 0 && log.slice(li + 1).find(v => v.class === 'DepictionMarkdownView');
             if(notes){
                 const box = el('div', 'tw-new');
-                box.append(el('p', 'tw-new-h', 'New in ' + log[li].text));
+                // the newest changelog entry is the build on the repo, so it carries the release day
+                const day = p.released && log[li].text === p.version ? ' · ' + fullDate(p.released) : '';
+                box.append(el('p', 'tw-new-h', 'New in ' + log[li].text + day));
                 const body = el('div');
                 body.innerHTML = markdown(notes.markdown);
                 box.append(body);
@@ -397,7 +412,8 @@
 
             const text = el('span', 'tw-text');
             const line = el('span', 'tw-line');
-            line.append(el('span', 'tw-title', p.name || p.package), el('span', 'tw-ver', p.version));
+            line.append(el('span', 'tw-title', p.name || p.package),
+                        el('span', 'tw-ver', p.version + (p.released ? ' · ' + ago(p.released) : '')));
             text.append(line);
             const tag = (p.dep && p.dep.tagline) || '';
             if(tag) text.append(el('span', 'tw-tag', tag));
@@ -426,6 +442,9 @@
                 const all = parsePackages(text)
                     .sort((a, b) => (a.name || a.package).localeCompare(b.name || b.package, 'en', {sensitivity:'base'}));
                 if(!all.length) throw 0;
+                const released = await fetch('released.json', {cache:'no-cache'})
+                    .then(r => r.ok ? r.json() : {}).catch(() => ({}));
+                all.forEach(p => { p.released = released[p.package] });
                 await Promise.all(all.map(async p => { p.dep = await loadDepiction(p) }));
 
                 document.getElementById('count').textContent = all.length + ' tweaks';

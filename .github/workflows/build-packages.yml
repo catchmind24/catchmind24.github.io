@@ -7,6 +7,7 @@ on:
       - 'debs/**'
       - 'depictions/**'
       - 'scripts/index.sh'
+      - 'scripts/released.sh'
       - '.github/workflows/build-packages.yml'
   workflow_dispatch:
 
@@ -24,6 +25,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # released.sh dates each package from git history
 
       - name: Validate depiction JSON
         run: |
@@ -46,6 +49,12 @@ jobs:
         run: |
           chmod +x scripts/index.sh
           ./scripts/index.sh
+
+      - name: Record release days
+        run: |
+          chmod +x scripts/released.sh
+          ./scripts/released.sh
+          jq empty released.json
 
       - name: Check depiction links
         run: |
@@ -74,7 +83,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add Packages Packages.gz Release
+          git add Packages Packages.gz Release released.json
 
           if git diff --cached --quiet; then
             echo "ℹ️ 변경 사항 없음 — 커밋하지 않습니다."
