@@ -195,7 +195,9 @@ body::before{
    sparser than the rest (Cydia covers 41% of its box, the others 65–71%). */
 .row-glyph{
     display:block;
-    width:15px;height:15px;
+    /* 13px in the 28px chip (46%): a touch above the cap height of the 14.4px
+       row title, the ratio iOS uses for its Settings icons */
+    width:13px;height:13px;
     transform:scale(var(--optical,1));
 }
 
