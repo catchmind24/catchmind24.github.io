@@ -3,6 +3,7 @@
     "class": "DepictionTabView",
     "tagline": "Ads removed",
     "tintColor": "#D1B06B",
+    "headerImage": "",
     "tabs": [
         {
             "tabname": "Details",

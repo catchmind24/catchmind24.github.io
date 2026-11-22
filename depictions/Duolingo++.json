@@ -3,6 +3,7 @@
     "class": "DepictionTabView",
     "tagline": "Duolingo Max unlocked",
     "tintColor": "#D1B06B",
+    "headerImage": "",
     "tabs": [
         {
             "tabname": "Details",
