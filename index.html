@@ -145,7 +145,7 @@
                 if(!pkgs.size) return;
                 document.getElementById('twCount').textContent = pkgs.size;
                 const stack = document.getElementById('stack');
-                [...pkgs.values()].filter(Boolean).slice(0, 4).forEach(src => {
+                [...pkgs.values()].filter(Boolean).slice(0, 3).forEach(src => {
                     const img = new Image(24, 24);
                     img.alt = '';
                     img.decoding = 'async';
