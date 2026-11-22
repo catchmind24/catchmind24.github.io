@@ -17,6 +17,7 @@ archive/debs/    이전 버전 .deb 보관
 archive/         그 외 지난 depiction·이미지 보관
 assets/          사이트용 이미지
 assets/featured/ Sileo 추천 배너 이미지 (789×444). 지금은 대표 트윅 SOOP++ 한 장
+                     배너를 바꿀 때는 파일 이름도 바꾼다 (이름-해시.png). Sileo 는 같은 주소의 이미지를 오래 저장해 두어서 새 그림이 안 보인다
 sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
 index.html       저장소 웹페이지
