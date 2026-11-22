@@ -5,7 +5,7 @@ Sileo / Zebra / Cydia 저장소 — **https://catchmind24.github.io/**
 | 패키지 관리자 | 추가 링크 |
 | --- | --- |
 | Sileo | `sileo://source/https://catchmind24.github.io` |
-| Zebra | `zbra://sources/https://catchmind24.github.io` |
+| Zebra | `zbra://sources/add/https://catchmind24.github.io` |
 | Cydia | 소스 추가에서 `https://catchmind24.github.io` 입력 |
 
 ## 폴더 구조
