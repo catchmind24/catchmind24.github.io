@@ -142,12 +142,6 @@
             user-select:none;
         }
 
-        .section-meta{
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.6875rem;
-            color:var(--text-dim);
-            font-variant-numeric:tabular-nums;
-        }
 
         /* ── Rows (repository actions) ── */
         .rows{display:flex;flex-direction:column}
@@ -260,7 +254,33 @@
             opacity:.8;
         }
 
-        /* ── Packages ── */
+        /* ── Packages (collapsed until asked for) ── */
+        .fold-sum{
+            display:block;
+            list-style:none;
+            cursor:pointer;
+            border-radius:10px;
+        }
+        .fold-sum::-webkit-details-marker{display:none}
+        .fold-sum::marker{content:''}
+
+        .fold-arr{transition:transform .3s var(--ease),color .25s ease,opacity .25s ease}
+        .fold[open] .fold-arr,
+        .fold[open] .row:hover .fold-arr{transform:rotate(90deg);color:var(--gold);opacity:.8}
+        .fold[open] .row-ico{background:var(--gold-08);color:var(--gold)}
+
+        .fold[open] .pkgs{
+            margin-top:6px;
+            padding-top:6px;
+            border-top:1px solid var(--line);
+            animation:unfold .35s var(--ease);
+        }
+
+        @keyframes unfold{
+            from{opacity:0;transform:translateY(-4px)}
+            to{opacity:1;transform:none}
+        }
+
         .pkgs{list-style:none}
 
         .pkg{
@@ -476,9 +496,20 @@
         <section class="section" data-reveal aria-labelledby="h-pkgs" id="pkgSection" hidden>
             <div class="section-head">
                 <h2 class="section-label" id="h-pkgs">Tweaks</h2>
-                <span class="section-meta" id="pkgCount"></span>
             </div>
-            <ul class="pkgs" id="pkgs"></ul>
+            <details class="fold">
+                <summary class="fold-sum">
+                    <span class="row">
+                        <span class="row-ico"><svg class="row-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg></span>
+                        <span class="row-body">
+                            <span class="row-title">Browse tweaks</span>
+                        </span>
+                        <span class="row-aside" id="pkgCount"></span>
+                        <svg class="row-arr fold-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+                    </span>
+                </summary>
+                <ul class="pkgs" id="pkgs"></ul>
+            </details>
         </section>
 
         <!-- Elsewhere -->
