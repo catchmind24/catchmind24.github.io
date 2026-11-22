@@ -45,6 +45,8 @@ Sileo 가 전용 아이콘을 가진 표준 이름만 씁니다.
 2. 새 `.deb` 3개를 `debs/`에 넣습니다.
 3. `depictions/<패키지>.json`의 Changelog 탭 맨 위에 새 버전 항목을 추가합니다.
    Details 탭의 Information 표(Compatibility 등)는 Makefile 의 `TARGET` 최소 iOS 가 바뀔 때만 고칩니다.
+   새 트윅을 추가할 때는 depiction 맨 위 `"tagline"` 에 목록 페이지용 한 줄(2~4단어, 예: `Premium unlocked`)을 넣습니다.
+   Sileo 는 이 값을 쓰지 않고 웹 목록에만 보입니다.
 4. 커밋 후 `main`에 push합니다. 훅이 켜져 있으면 커밋할 때 `Packages`/`Release`가 같이 갱신됩니다.
 
 훅은 clone 마다 한 번 켭니다 (WSL `Ubuntu-24.04` 의 `dpkg-scanpackages` 를 씁니다).

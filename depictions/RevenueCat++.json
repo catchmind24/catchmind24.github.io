@@ -1,6 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
+    "tagline": "Premium in apps built on RevenueCat",
     "tintColor": "#D1B06B",
     "tabs": [
         {

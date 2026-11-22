@@ -1,6 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
+    "tagline": "Ads removed",
     "tintColor": "#D1B06B",
     "tabs": [
         {

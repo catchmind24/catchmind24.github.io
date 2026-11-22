@@ -38,19 +38,42 @@
         .back:hover,.back:active{color:var(--gold)}
         .back svg{width:14px;height:14px}
 
-        .tagline a{color:var(--text-dim);text-decoration:underline;text-decoration-color:rgba(209,176,107,.3);text-underline-offset:3px}
-        .tagline a:hover{color:var(--gold)}
+        /* what every tweak shares, said once instead of in every panel */
+        .facts{
+            margin-top:6px;
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.75rem;
+            color:var(--text-quiet);
+            letter-spacing:.01em;
+            text-wrap:balance;
+        }
+        .facts span{white-space:nowrap}
 
         /* ── Catalog ── */
-        .tw{position:relative;scroll-margin-top:24px}
+        .tw{
+            --row-pad:14px;
+            position:relative;
+            margin:0 calc(-1 * var(--row-pad));
+            padding:0 var(--row-pad);
+            border-radius:12px;
+            scroll-margin-top:24px;
+            transition:background .25s ease;
+        }
 
         .tw+.tw::before{
             content:'';
             position:absolute;
-            top:0;left:54px;right:0;
+            top:0;left:calc(var(--row-pad) + 54px);right:var(--row-pad);
             height:1px;
             background:var(--line);
+            transition:opacity .2s ease;
         }
+
+        /* an open tweak becomes one soft card, so its panel can't be mistaken for the next row */
+        .tw[open]{background:var(--fill);margin-top:6px;margin-bottom:6px}
+        .tw:not([open]):hover{background:var(--fill)}
+        .tw[open]::before,.tw[open]+.tw::before,
+        .tw:hover::before,.tw:hover+.tw::before{opacity:0}
 
         .tw-sum{
             display:block;
@@ -65,13 +88,8 @@
             display:flex;
             align-items:center;
             gap:14px;
-            padding:10px 14px;
-            margin:0 -14px;
-            border-radius:10px;
-            transition:background .25s ease;
+            padding:11px 0;
         }
-        .tw-sum:hover .tw-head{background:var(--fill)}
-        .tw-sum:active .tw-head{background:var(--fill-2)}
 
         .tw-ico{
             width:40px;height:40px;
@@ -82,9 +100,9 @@
             object-fit:cover;
         }
 
-        .tw-name{
-            flex:1;
-            min-width:0;
+        .tw-text{flex:1;min-width:0}
+
+        .tw-line{
             display:flex;
             align-items:baseline;
             gap:8px;
@@ -101,8 +119,19 @@
         .tw-ver{
             font-family:'IBM Plex Mono',monospace;
             font-size:.6875rem;
-            color:var(--text-dim);
+            color:var(--text-quiet);
             font-variant-numeric:tabular-nums;
+        }
+
+        .tw-tag{
+            display:block;
+            margin-top:1px;
+            font-size:.78rem;
+            line-height:1.35;
+            color:var(--text-dim);
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
         }
 
         .tw .row-arr{transition:transform .3s var(--ease),color .25s ease,opacity .25s ease}
@@ -111,7 +140,7 @@
 
         /* expanded panel, aligned with the name column */
         .tw-panel{
-            padding:4px 0 20px 54px;
+            padding:0 0 18px 54px;
             font-size:.84rem;
             line-height:1.6;
             color:var(--text-soft);
@@ -153,19 +182,16 @@
         .tw-open{
             display:inline-flex;
             align-items:center;
-            gap:6px;
             margin-top:16px;
-            padding:7px 12px;
+            padding:6px 12px;
             border-radius:8px;
-            background:var(--gold-08);
+            box-shadow:inset 0 0 0 1px rgba(209,176,107,.28);
             color:var(--gold);
             font-size:.8rem;
             text-decoration:none;
             -webkit-tap-highlight-color:transparent;
         }
-        .tw-open:active{background:var(--gold-12)}
-
-        .tw-wait{color:var(--text-quiet);font-family:'IBM Plex Mono',monospace;font-size:.75rem}
+        .tw-open:active{background:var(--gold-08)}
 
         .note{
             font-family:'IBM Plex Mono',monospace;
@@ -174,7 +200,7 @@
         }
 
         @media(max-width:520px){
-            .tw-head{margin:0 -10px;padding-left:10px;padding-right:10px}
+            .tw{--row-pad:10px}
         }
     </style>
 </head>
@@ -187,7 +213,8 @@
         <header class="header" data-reveal>
             <a class="back" href="./"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>catchmind</a>
             <h1 class="name">Tweaks</h1>
-            <p class="tagline"><span id="count">All tweaks</span> in this repository.<br>Tap one for details. <a href="./">Add the repo</a> to install.</p>
+            <p class="tagline"><span id="count">All tweaks</span>. Tap one for details.</p>
+            <p class="facts" id="facts" hidden></p>
         </header>
 
         <noscript><p class="note">This list needs JavaScript. The repository itself works without it.</p></noscript>
@@ -196,14 +223,27 @@
             <div class="section-head">
                 <h2 class="section-label" id="h-apps">App tweaks</h2>
             </div>
-            <div class="tw-list" id="listApps"></div>
+            <div id="listApps"></div>
         </section>
 
         <section class="section" data-reveal aria-labelledby="h-util" id="secUtil" hidden>
             <div class="section-head">
                 <h2 class="section-label" id="h-util">Utilities</h2>
             </div>
-            <div class="tw-list" id="listUtil"></div>
+            <div id="listUtil"></div>
+        </section>
+
+        <!-- after the list, the way to get them -->
+        <section class="section" data-reveal id="secInstall" hidden>
+            <div class="rows rows-more">
+                <a href="./" class="row">
+                    <span class="row-ico"><svg class="row-glyph" viewBox="3.1 3.1 17.8 17.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></span>
+                    <span class="row-body">
+                        <span class="row-title">Add the repository</span>
+                    </span>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+                </a>
+            </div>
         </section>
 
         <p class="note" id="failed" hidden>Couldn't load the package list. Try again in a moment.</p>
@@ -222,6 +262,7 @@
         const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent)
             || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
         const ARROW = '<svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+        const EAGER_ICONS = 8;   // roughly the first screen; the rest load as they scroll in
 
         const el = (tag, cls, text) => {
             const n = document.createElement(tag);
@@ -273,36 +314,54 @@
         }
 
         /* depiction links point at this site (or GitHub raw); read the local copy either way */
-        const depictionPath = url => {
-            const name = String(url || '').split('/depictions/')[1];
-            return name ? 'depictions/' + name : null;
-        };
+        async function loadDepiction(p){
+            const name = String(p.sileodepiction || '').split('/depictions/')[1];
+            if(!name) return null;
+            try{
+                const r = await fetch('depictions/' + name, {cache:'no-cache'});   // revalidate: a release changes them in place
+                return r.ok ? await r.json() : null;
+            }catch(_){ return null }
+        }
 
-        async function fillPanel(panel, p){
-            const path = depictionPath(p.sileodepiction);
-            let dep = null;
-            if(path){
-                try{
-                    const r = await fetch(path);
-                    if(r.ok) dep = await r.json();
-                }catch(_){}
-            }
-            panel.textContent = '';
+        const views = (dep, tab) => (dep && dep.tabs && dep.tabs[tab] && dep.tabs[tab].views) || [];
+        const infoRows = dep => views(dep, 0).filter(v => v.class === 'DepictionTableTextView' && v.title !== 'Developer');
 
-            const views = (dep && dep.tabs && dep.tabs[0] && dep.tabs[0].views) || [];
-            const descView = views.find(v => v.class === 'DepictionMarkdownView');
+        /* the value most tweaks share for each info row, e.g. Price -> Free */
+        function sharedFacts(all){
+            const tally = new Map();
+            all.forEach(p => infoRows(p.dep).forEach(v => {
+                if(!tally.has(v.title)) tally.set(v.title, new Map());
+                const t = tally.get(v.title);
+                t.set(v.text, (t.get(v.text) || 0) + 1);
+            }));
+            const shared = new Map();
+            tally.forEach((counts, title) => {
+                const [text, n] = [...counts].sort((a, b) => b[1] - a[1])[0];
+                if(n * 2 > all.length) shared.set(title, text);
+            });
+            return shared;
+        }
+
+        const short = text => text.replace(/\s+or later$/i, '+');
+
+        /* SOOP++ -> "soop", 말해보카++ -> "말해보카": the address to share for one tweak */
+        const slug = p => (p.name || p.package).toLowerCase().replace(/\+/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+
+        function fillPanel(panel, p, shared){
+            const descView = views(p.dep, 0).find(v => v.class === 'DepictionMarkdownView');
             const desc = el('div', 'tw-desc');
             desc.innerHTML = markdown(descView ? descView.markdown : p.description);
             panel.append(desc);
 
-            const rows = views.filter(v => v.class === 'DepictionTableTextView' && v.title !== 'Developer');
-            if(rows.length){
+            // only what differs from the facts in the page header
+            const own = infoRows(p.dep).filter(v => shared.get(v.title) !== v.text);
+            if(own.length){
                 const dl = el('dl', 'tw-info');
-                rows.forEach(v => dl.append(el('dt', null, v.title), el('dd', null, v.text)));
+                own.forEach(v => dl.append(el('dt', null, v.title), el('dd', null, v.text)));
                 panel.append(dl);
             }
 
-            const log = (dep && dep.tabs && dep.tabs[1] && dep.tabs[1].views) || [];
+            const log = views(p.dep, 1);
             const li = log.findIndex(v => v.class === 'DepictionLabelView');
             const notes = li >= 0 && log.slice(li + 1).find(v => v.class === 'DepictionMarkdownView');
             if(notes){
@@ -321,10 +380,7 @@
             }
         }
 
-        /* SOOP++ -> "soop", 말해보카++ -> "말해보카": the address to share for one tweak */
-        const slug = p => (p.name || p.package).toLowerCase().replace(/\+/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
-
-        function item(p){
+        function item(p, index, shared){
             const d = el('details', 'tw');
             d.id = slug(p);
             const sum = el('summary', 'tw-sum');
@@ -333,23 +389,27 @@
             const ico = el('img', 'tw-ico');
             ico.alt = '';
             ico.width = ico.height = 40;
-            ico.loading = 'lazy';
+            ico.loading = index < EAGER_ICONS ? 'eager' : 'lazy';
             ico.decoding = 'async';
             ico.referrerPolicy = 'no-referrer';
             if(/^https:\/\//.test(p.icon || '')) ico.src = p.icon;
             ico.addEventListener('error', () => ico.removeAttribute('src'));
 
-            const name = el('span', 'tw-name');
-            name.append(el('span', 'tw-title', p.name || p.package), el('span', 'tw-ver', p.version));
-            head.append(ico, name);
+            const text = el('span', 'tw-text');
+            const line = el('span', 'tw-line');
+            line.append(el('span', 'tw-title', p.name || p.package), el('span', 'tw-ver', p.version));
+            text.append(line);
+            const tag = (p.dep && p.dep.tagline) || '';
+            if(tag) text.append(el('span', 'tw-tag', tag));
+
+            head.append(ico, text);
             head.insertAdjacentHTML('beforeend', ARROW);
             sum.append(head);
 
             const panel = el('div', 'tw-panel');
-            panel.append(el('p', 'tw-wait', 'Loading…'));
             let filled = false;
             d.addEventListener('toggle', () => {
-                if(d.open && !filled){ filled = true; fillPanel(panel, p) }
+                if(d.open && !filled){ filled = true; fillPanel(panel, p, shared) }
                 // keep the address bar on the open tweak so it can be copied and shared
                 const here = decodeURIComponent(location.hash.slice(1));
                 if(d.open) history.replaceState(null, '', '#' + d.id);
@@ -362,21 +422,39 @@
 
         fetch('Packages', {cache:'no-cache'})
             .then(r => r.ok ? r.text() : Promise.reject(r.status))
-            .then(text => {
+            .then(async text => {
                 const all = parsePackages(text)
                     .sort((a, b) => (a.name || a.package).localeCompare(b.name || b.package, 'en', {sensitivity:'base'}));
                 if(!all.length) throw 0;
+                await Promise.all(all.map(async p => { p.dep = await loadDepiction(p) }));
+
                 document.getElementById('count').textContent = all.length + ' tweaks';
+                const shared = sharedFacts(all);
+                if(shared.size){
+                    // Free · iOS 14.0+ · Rootful · Rootless · RootHide, breaking only between facts
+                    const order = ['Price', 'Compatibility', 'Jailbreak'];
+                    const titles = [...shared.keys()].sort((a, b) =>
+                        ((order.indexOf(a) + 1) || 99) - ((order.indexOf(b) + 1) || 99));
+                    const facts = document.getElementById('facts');
+                    titles.forEach((t, i) => {
+                        facts.append(el('span', null, short(shared.get(t)) + (i < titles.length - 1 ? ' ·' : '')));
+                        if(i < titles.length - 1) facts.append(' ');
+                    });
+                    facts.hidden = false;
+                }
+
                 const groups = [
                     ['secApps', 'listApps', all.filter(p => (p.section || 'Tweaks') === 'Tweaks')],
                     ['secUtil', 'listUtil', all.filter(p => (p.section || 'Tweaks') !== 'Tweaks')],
                 ];
+                let index = 0;
                 groups.forEach(([sec, list, ps]) => {
                     if(!ps.length) return;
-                    const ul = document.getElementById(list);
-                    ps.forEach(p => ul.append(item(p)));
+                    const box = document.getElementById(list);
+                    ps.forEach(p => box.append(item(p, index++, shared)));
                     document.getElementById(sec).hidden = false;
                 });
+                document.getElementById('secInstall').hidden = false;
                 reveal();
                 openFromHash();
             })

@@ -1,6 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
+    "tagline": "Developer options",
     "tintColor": "#D1B06B",
     "tabs": [
         {

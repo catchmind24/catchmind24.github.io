@@ -1,6 +1,7 @@
 {
     "minVersion": "0.4",
     "class": "DepictionTabView",
+    "tagline": "Premium unlocked · no storage limit",
     "tintColor": "#D1B06B",
     "tabs": [
         {
