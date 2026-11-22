@@ -5,10 +5,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1620
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.afreecatv++_1.11.0_iphoneos-arm64.deb
-Size: 477372
-MD5sum: 400ee0455e53caa109180da7081977f6
-SHA1: 2a1779713436db8c5a09930d09a42e336123c306
-SHA256: e473ee35b0e818b92c052f5653dfc5ddedd597e5e1a742027d6dc6920e0b2580
+Size: 479020
+MD5sum: 5a58ea9eab323009e08fc7ea3c7689ee
+SHA1: ccb03ec2b4949659d65985c1bf65d135c711f5d9
+SHA256: b1990774103bd538eec5b6202b9174739c5aedb830222f85ac847fa46920d8f5
 Section: Tweaks
 Description: Removes all ads and unlocks extra features.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -23,10 +23,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1620
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.afreecatv++_1.11.0_iphoneos-arm64e.deb
-Size: 478984
-MD5sum: 62a27a8ef44ae7063dd36f04a55fb2c3
-SHA1: e7f02a326a413922874445774694849e2c6ff44e
-SHA256: 332be38a3ebe48241cef9e205e6b849edf52f1741b5652cb39c7ba2a8c9e37a2
+Size: 477930
+MD5sum: 7e47c7c10cf066e5495439ca65397590
+SHA1: 035d90ac8e8cff77673874a11718673711cdc491
+SHA256: a97182dab246720b1e00a7c5a709c90e4a6e080b3f5cff0a9fcd460583e24670
 Section: Tweaks
 Description: Removes all ads and unlocks extra features.
 Author: catchmind <musicinfacebook@gmail.com>
@@ -41,10 +41,10 @@ Maintainer: catchmind <musicinfacebook@gmail.com>
 Installed-Size: 1620
 Depends: mobilesubstrate
 Filename: debs/com.catchmind.afreecatv++_1.11.0_iphoneos-arm.deb
-Size: 478490
-MD5sum: 35fa433b223046d99f1a85dbd60e9609
-SHA1: 56b80d1a9f11c024193d818ceb3b75aafefba3bd
-SHA256: 669a1f5d3618e12961ee9eb9054298678bcfe4f6a8d15c8465affad8e855e3c3
+Size: 478862
+MD5sum: c84ed5b99eef1eba24bbef71eee2e619
+SHA1: 3d68e0dbc90035ca8a9e11a49495116b28ed7ac2
+SHA256: f2a6da9847de146d9f6626126b937a6a8f664780dfcc74d8f09f835e57b8c45e
 Section: Tweaks
 Description: Removes all ads and unlocks extra features.
 Author: catchmind <musicinfacebook@gmail.com>
