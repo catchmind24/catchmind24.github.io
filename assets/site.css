@@ -122,6 +122,14 @@ body::before{
     user-select:none;
 }
 
+.section-meta{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:.6875rem;
+    color:var(--text-dim);
+    letter-spacing:.02em;
+    white-space:nowrap;
+}
+
 /* ── Rows (repository actions) ── */
 .rows{display:flex;flex-direction:column}
 
