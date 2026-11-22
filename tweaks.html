@@ -308,7 +308,10 @@
                 });
                 if(!f.package) return;
                 const cur = latest.get(f.package);
+                const archs = new Set(cur ? cur.archs : []);
+                if(f.architecture) archs.add(f.architecture);
                 if(!cur || (f.version || '').localeCompare(cur.version || '', undefined, {numeric:true}) > 0) latest.set(f.package, f);
+                latest.get(f.package).archs = archs;
             });
             return [...latest.values()];
         }
@@ -328,6 +331,7 @@
 
         /* the value most tweaks share for each info row, e.g. Price -> Free */
         function sharedFacts(all){
+            const jb = new Set(all.map(schemes));
             const tally = new Map();
             all.forEach(p => infoRows(p.dep).forEach(v => {
                 if(!tally.has(v.title)) tally.set(v.title, new Map());
@@ -339,10 +343,15 @@
                 const [text, n] = [...counts].sort((a, b) => b[1] - a[1])[0];
                 if(n * 2 > all.length) shared.set(title, text);
             });
+            if(jb.size === 1 && [...jb][0]) shared.set('Jailbreak', [...jb][0]);
             return shared;
         }
 
         const short = text => text.replace(/\s+or later$/i, '+');
+
+        /* the three .deb builds per tweak are the three jailbreak types */
+        const SCHEMES = [['iphoneos-arm', 'Rootful'], ['iphoneos-arm64', 'Rootless'], ['iphoneos-arm64e', 'RootHide']];
+        const schemes = p => SCHEMES.filter(([a]) => p.archs && p.archs.has(a)).map(([, n]) => n).join(' · ');
 
         /* released.json days: "today", "3 days ago", "2 weeks ago", then "Nov 2025" */
         const DAY = 864e5;
@@ -368,6 +377,7 @@
 
             // only what differs from the facts in the page header
             const own = infoRows(p.dep).filter(v => shared.get(v.title) !== v.text);
+            if(schemes(p) && schemes(p) !== shared.get('Jailbreak')) own.push({title:'Jailbreak', text:schemes(p)});
             if(own.length){
                 const dl = el('dl', 'tw-info');
                 own.forEach(v => dl.append(el('dt', null, v.title), el('dd', null, v.text)));

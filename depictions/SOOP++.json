@@ -39,14 +39,10 @@
                     "text": "iOS 15.0 or later"
                 },
                 {
-                    "class": "DepictionTableTextView",
-                    "title": "Jailbreak",
-                    "text": "Rootful · Rootless · RootHide"
-                },
-                {
-                    "class": "DepictionTableTextView",
-                    "title": "Price",
-                    "text": "Free"
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Works on rootful, rootless and roothide jailbreaks.",
+                    "useSpacing": true,
+                    "tintColor": "#D1B06B"
                 },
                 {
                     "class": "DepictionSeparatorView"
@@ -59,8 +55,8 @@
                     "tintColor": "#D1B06B"
                 },
                 {
-                    "class": "DepictionButtonView",
-                    "text": "☕️ Buy Me A Coffee",
+                    "class": "DepictionTableButtonView",
+                    "title": "Buy Me a Coffee",
                     "action": "https://buymeacoffee.com/catchmind24",
                     "openExternal": true,
                     "tintColor": "#D1B06B"
