@@ -190,14 +190,20 @@ body::before{
     color:var(--gold);
 }
 
-.row-glyph{display:block;width:16px;height:16px}
+/* Every glyph's viewBox (or mask image) is cropped to its own ink, so this size
+   is the size of the drawing itself. --optical nudges a glyph whose ink is much
+   sparser than the rest (Cydia covers 41% of its box, the others 65–71%). */
+.row-glyph{
+    display:block;
+    width:15px;height:15px;
+    transform:scale(var(--optical,1));
+}
 
 /* brand glyph that only exists as a bitmap: drawn in currentColor through its alpha */
 .glyph-mask{
     background:currentColor;
-    /* 60%: the Sileo, Zebra and Cydia glyphs fill 57–60% of their 16px box */
-    -webkit-mask:var(--glyph) center/60% no-repeat;
-    mask:var(--glyph) center/60% no-repeat;
+    -webkit-mask:var(--glyph) center/contain no-repeat;
+    mask:var(--glyph) center/contain no-repeat;
 }
 
 .row-body{
