@@ -145,10 +145,11 @@ body::before{
     align-items:center;
     gap:14px;
     width:100%;
+    --row-pad:14px;
     min-height:52px;
-    padding:12px 14px;
-    margin:0 -14px;
-    width:calc(100% + 28px);
+    padding:12px var(--row-pad);
+    margin:0 calc(-1 * var(--row-pad));
+    width:calc(100% + 2 * var(--row-pad));
     border:0;
     border-radius:10px;
     background:none;
@@ -164,7 +165,7 @@ body::before{
 .row+.row::before{
     content:'';
     position:absolute;
-    top:0;left:56px;right:14px;
+    top:0;left:calc(var(--row-pad) + 42px);right:var(--row-pad);
     height:1px;
     background:var(--line);
 }
@@ -231,9 +232,10 @@ body::before{
     letter-spacing:.06em;
     text-transform:uppercase;
     color:var(--gold);
-    padding:2px 7px;
+    opacity:.85;
+    padding:1px 6px;
     border-radius:4px;
-    background:var(--gold-08);
+    box-shadow:inset 0 0 0 1px rgba(209,176,107,.28);
     line-height:1.5;
     white-space:nowrap;
 }
@@ -261,17 +263,11 @@ body::before{
     white-space:nowrap;
 }
 
-/* overlapping app icons — a glimpse of what's inside */
-.stack{display:flex;flex-shrink:0}
-.stack img{
-    width:24px;height:24px;
-    border-radius:6px;
-    background:var(--fill-2);
-    box-shadow:0 0 0 2px var(--bg);
-    object-fit:cover;
-    opacity:.82;   /* the only full colour on the page: keep it from outshining the gold */
+.rows-more{
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px solid var(--line);
 }
-.stack img+img{margin-left:-7px}
 
 /* ── Elsewhere ── */
 .links{
@@ -331,11 +327,11 @@ body::before{
 ::-webkit-scrollbar-thumb{background:var(--fill-2);border-radius:2px}
 
 @media(max-width:520px){
-    .ctn{padding:88px max(20px,env(safe-area-inset-left)) calc(56px + env(safe-area-inset-bottom))}
-    .header{margin-bottom:48px}
-    .section{margin-bottom:44px}
-    .row{margin:0 -10px;padding-left:10px;padding-right:10px}
-    .row{width:calc(100% + 20px)}
+    .ctn{padding:64px max(20px,env(safe-area-inset-left)) calc(32px + env(safe-area-inset-bottom))}
+    .header{margin-bottom:36px}
+    .section{margin-bottom:32px}
+    .footer{margin-top:40px}
+    .row{--row-pad:10px}
 }
 
 @media(prefers-reduced-motion:reduce){

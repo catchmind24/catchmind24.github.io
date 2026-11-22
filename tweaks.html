@@ -42,7 +42,7 @@
         .tagline a:hover{color:var(--gold)}
 
         /* ── Catalog ── */
-        .tw{position:relative}
+        .tw{position:relative;scroll-margin-top:24px}
 
         .tw+.tw::before{
             content:'';
@@ -321,8 +321,12 @@
             }
         }
 
+        /* SOOP++ -> "soop", 말해보카++ -> "말해보카": the address to share for one tweak */
+        const slug = p => (p.name || p.package).toLowerCase().replace(/\+/g, '').replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
+
         function item(p){
             const d = el('details', 'tw');
+            d.id = slug(p);
             const sum = el('summary', 'tw-sum');
             const head = el('span', 'tw-head');
 
@@ -346,6 +350,10 @@
             let filled = false;
             d.addEventListener('toggle', () => {
                 if(d.open && !filled){ filled = true; fillPanel(panel, p) }
+                // keep the address bar on the open tweak so it can be copied and shared
+                const here = decodeURIComponent(location.hash.slice(1));
+                if(d.open) history.replaceState(null, '', '#' + d.id);
+                else if(here === d.id) history.replaceState(null, '', location.pathname);
             });
 
             d.append(sum, panel);
@@ -370,11 +378,23 @@
                     document.getElementById(sec).hidden = false;
                 });
                 reveal();
+                openFromHash();
             })
             .catch(() => {
                 document.getElementById('failed').hidden = false;
                 reveal();
             });
+
+        /* ── tweaks.html#soop opens SOOP++ and brings it into view ── */
+        function openFromHash(){
+            const id = decodeURIComponent(location.hash.slice(1));
+            const d = id && document.getElementById(id);
+            if(!d || d.tagName !== 'DETAILS') return;
+            d.open = true;
+            d.closest('[data-reveal]')?.classList.add('shown');
+            requestAnimationFrame(() => d.scrollIntoView({block:'start', behavior: hasMotion ? 'smooth' : 'auto'}));
+        }
+        window.addEventListener('hashchange', openFromHash);
 
         /* ── Reveal — staggered rise ── */
         function reveal(){

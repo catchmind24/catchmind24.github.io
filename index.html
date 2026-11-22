@@ -73,20 +73,13 @@
                     <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
             </div>
-        </section>
-
-        <!-- Tweaks — the full catalog lives on its own page -->
-        <section class="section" data-reveal aria-labelledby="h-tw">
-            <div class="section-head">
-                <h2 class="section-label" id="h-tw">Tweaks</h2>
-            </div>
-            <div class="rows">
+            <!-- what's inside: the catalog lives on its own page -->
+            <div class="rows rows-more">
                 <a href="tweaks.html" class="row">
                     <span class="row-ico"><svg class="row-glyph" viewBox="3.1 3.1 17.8 17.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg></span>
                     <span class="row-body">
                         <span class="row-title">Browse tweaks</span>
                     </span>
-                    <span class="stack" id="stack" aria-hidden="true"></span>
                     <span class="row-aside" id="twCount"></span>
                     <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
@@ -133,27 +126,12 @@
             }, 1500);
         });
 
-        /* ── Tweak count and a few icons for the Browse row ── */
+        /* ── Tweak count for the Browse row ── */
         fetch('Packages', {cache:'no-cache'})
             .then(r => r.ok ? r.text() : Promise.reject(r.status))
             .then(text => {
-                const pkgs = new Map();
-                text.split(/\n\s*\n/).forEach(block => {
-                    const id = (block.match(/^Package:\s*(.+)$/m) || [])[1];
-                    if(id && !pkgs.has(id)) pkgs.set(id, (block.match(/^Icon:\s*(https:\S+)$/m) || [])[1]);
-                });
-                if(!pkgs.size) return;
-                document.getElementById('twCount').textContent = pkgs.size;
-                const stack = document.getElementById('stack');
-                [...pkgs.values()].filter(Boolean).slice(0, 3).forEach(src => {
-                    const img = new Image(24, 24);
-                    img.alt = '';
-                    img.decoding = 'async';
-                    img.referrerPolicy = 'no-referrer';
-                    img.onerror = () => img.remove();
-                    img.src = src;
-                    stack.append(img);
-                });
+                const ids = new Set(text.match(/^Package:\s*.+$/gm) || []);
+                if(ids.size) document.getElementById('twCount').textContent = ids.size;
             })
             .catch(() => {});
 
