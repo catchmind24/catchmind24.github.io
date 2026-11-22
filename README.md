@@ -21,7 +21,7 @@ assets/featured/ Sileo 추천 배너 이미지 (789×444). 지금은 대표 트�
 sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
 .githooks/       커밋할 때 debs/ 가 바뀌었으면 인덱스를 같은 커밋에 다시 만드는 훅
-index.html       저장소 웹페이지 (트윅 목록은 Packages 를 읽어 자동으로 채움)
+index.html       저장소 웹페이지
 CydiaIcon.png    저장소 아이콘
 ```
 

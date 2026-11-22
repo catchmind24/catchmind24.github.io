@@ -18,7 +18,7 @@
     <script>document.documentElement.classList.add('js')</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
     <style>
         :root {
             --gold:      #D1B06B;
@@ -215,17 +215,6 @@
 
         .row-title{font-size:.9rem;font-weight:400}
 
-        .row-aside{
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.6875rem;
-            color:var(--text-dim);
-            white-space:nowrap;
-            overflow:hidden;
-            text-overflow:ellipsis;
-        }
-
-        .row-copy.copied .row-aside{color:var(--gold)}
-
         .badge{
             font-family:'IBM Plex Mono',monospace;
             font-size:.625rem;
@@ -254,107 +243,39 @@
             opacity:.8;
         }
 
-        /* ── Packages (collapsed until asked for) ── */
-        .fold-sum{
-            display:block;
-            list-style:none;
-            cursor:pointer;
-            border-radius:10px;
-        }
-        .fold-sum::-webkit-details-marker{display:none}
-        .fold-sum::marker{content:''}
-
-        .fold-arr{transition:transform .3s var(--ease),color .25s ease,opacity .25s ease}
-        .fold[open] .fold-arr,
-        .fold[open] .row:hover .fold-arr{transform:rotate(90deg);color:var(--gold);opacity:.8}
-        .fold[open] .row-ico{background:var(--gold-08);color:var(--gold)}
-
-        .fold[open] .pkgs{
-            margin-top:6px;
-            padding-top:6px;
-            border-top:1px solid var(--line);
-            animation:unfold .35s var(--ease);
-        }
-
-        @keyframes unfold{
-            from{opacity:0;transform:translateY(-4px)}
-            to{opacity:1;transform:none}
-        }
-
-        .pkgs{list-style:none}
-
-        .pkg{
+        /* ── Source URL — plain text you can read off, with a quiet copy action ── */
+        .src{
             display:flex;
             align-items:center;
-            gap:14px;
-            padding:11px 14px;
-            margin:0 -14px;
-            border-radius:10px;
-            color:inherit;
-            text-decoration:none;
-            position:relative;
-            -webkit-tap-highlight-color:transparent;
-            transition:background .25s ease;
-        }
-
-        .pkgs li+li .pkg::before{
-            content:'';
-            position:absolute;
-            top:0;left:68px;right:14px;
-            height:1px;
-            background:var(--line);
-        }
-
-        a.pkg:hover{background:var(--fill)}
-        a.pkg:active{background:var(--fill-2)}
-
-        .pkg-ico{
-            width:40px;height:40px;
-            flex-shrink:0;
-            border-radius:9px;
-            background:var(--fill-2);
-            box-shadow:0 0 0 .5px rgba(255,255,255,.1);
-            object-fit:cover;
-        }
-
-        .pkg-body{flex:1;min-width:0}
-
-        .pkg-top{
-            display:flex;
-            align-items:baseline;
-            gap:8px;
-        }
-
-        .pkg-name{
-            font-size:.9rem;
-            font-weight:500;
-            letter-spacing:-.005em;
-            white-space:nowrap;
-            overflow:hidden;
-            text-overflow:ellipsis;
-        }
-
-        .pkg-ver{
+            justify-content:space-between;
+            gap:12px;
+            margin-top:14px;
             font-family:'IBM Plex Mono',monospace;
+            font-size:.75rem;
+            color:var(--text-dim);
+        }
+
+        .src-url{user-select:all;-webkit-user-select:all;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+        .src-copy{
+            flex-shrink:0;
+            margin:-8px -10px -8px 0;
+            padding:8px 10px;
+            border:0;
+            border-radius:6px;
+            background:none;
+            font:inherit;
             font-size:.6875rem;
-            color:var(--text-dim);
-            font-variant-numeric:tabular-nums;
+            letter-spacing:.1em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.8;
+            cursor:pointer;
+            transition:opacity .2s ease,background .2s ease;
+            -webkit-tap-highlight-color:transparent;
         }
 
-        .pkg-tag{
-            margin-left:auto;
-            align-self:center;
-        }
-
-        .pkg-desc{
-            font-size:.8rem;
-            color:var(--text-dim);
-            line-height:1.45;
-            display:-webkit-box;
-            -webkit-line-clamp:2;
-            -webkit-box-orient:vertical;
-            overflow:hidden;
-        }
+        .src-copy:hover,.src-copy:active{opacity:1;background:var(--gold-08)}
 
         /* ── Elsewhere ── */
         .links{
@@ -383,10 +304,6 @@
 
         /* ── Footer ── */
         .footer{
-            display:flex;
-            justify-content:space-between;
-            gap:12px;
-            flex-wrap:wrap;
             margin-top:72px;
             padding-top:20px;
             border-top:1px solid rgba(209,176,107,.14);
@@ -413,11 +330,6 @@
             outline-offset:2px;
         }
 
-        .sr-only{
-            position:absolute;width:1px;height:1px;
-            overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;
-        }
-
         ::-webkit-scrollbar{width:4px}
         ::-webkit-scrollbar-track{background:transparent}
         ::-webkit-scrollbar-thumb{background:var(--fill-2);border-radius:2px}
@@ -426,7 +338,7 @@
             .ctn{padding:88px max(20px,env(safe-area-inset-left)) calc(56px + env(safe-area-inset-bottom))}
             .header{margin-bottom:48px}
             .section{margin-bottom:44px}
-            .row,.pkg{margin:0 -10px;padding-left:10px;padding-right:10px}
+            .row{margin:0 -10px;padding-left:10px;padding-right:10px}
             .row{width:calc(100% + 20px)}
         }
 
@@ -481,35 +393,11 @@
                     </span>
                     <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
-                <button type="button" class="row row-copy" id="copy" data-url="https://catchmind24.github.io/">
-                    <span class="row-ico"><svg class="row-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M5 15V6.5A2.5 2.5 0 0 1 7.5 4H15"/></svg></span>
-                    <span class="row-body">
-                        <span class="row-title">Copy source URL</span>
-                    </span>
-                    <span class="row-aside" id="copyState">catchmind24.github.io</span>
-                </button>
             </div>
-            <p class="sr-only" aria-live="polite" id="copyLive"></p>
-        </section>
-
-        <!-- Packages — filled from the repo's own Packages index, hidden without JS -->
-        <section class="section" data-reveal aria-labelledby="h-pkgs" id="pkgSection" hidden>
-            <div class="section-head">
-                <h2 class="section-label" id="h-pkgs">Tweaks</h2>
+            <div class="src">
+                <span class="src-url">catchmind24.github.io</span>
+                <button type="button" class="src-copy" id="copy" data-url="https://catchmind24.github.io/" aria-live="polite">Copy</button>
             </div>
-            <details class="fold">
-                <summary class="fold-sum">
-                    <span class="row">
-                        <span class="row-ico"><svg class="row-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg></span>
-                        <span class="row-body">
-                            <span class="row-title">Browse tweaks</span>
-                        </span>
-                        <span class="row-aside" id="pkgCount"></span>
-                        <svg class="row-arr fold-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
-                    </span>
-                </summary>
-                <ul class="pkgs" id="pkgs"></ul>
-            </details>
         </section>
 
         <!-- Elsewhere -->
@@ -526,7 +414,6 @@
 
         <footer class="footer" data-reveal>
             <p>© 2021–2026 <span>catchmind</span></p>
-            <p id="updated"></p>
         </footer>
 
     </main>
@@ -536,13 +423,8 @@
         'use strict';
 
         const hasMotion = !matchMedia('(prefers-reduced-motion:reduce)').matches;
-        const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent)
-            || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
-
         /* ── Copy source URL ── */
         const copyBtn = document.getElementById('copy');
-        const copyState = document.getElementById('copyState');
-        const copyLive = document.getElementById('copyLive');
         let copyTimer;
 
         async function copyText(text){
@@ -564,100 +446,11 @@
         }
 
         copyBtn.addEventListener('click', async () => {
-            const ok = await copyText(copyBtn.dataset.url);
-            copyState.textContent = ok ? 'Copied' : copyBtn.dataset.url;
-            copyLive.textContent = ok ? 'Source URL copied' : '';
-            copyBtn.classList.toggle('copied', ok);
+            if(!await copyText(copyBtn.dataset.url)) return;
+            copyBtn.textContent = 'Copied';
             clearTimeout(copyTimer);
-            copyTimer = setTimeout(() => {
-                copyState.textContent = 'catchmind24.github.io';
-                copyBtn.classList.remove('copied');
-            }, 1800);
+            copyTimer = setTimeout(() => { copyBtn.textContent = 'Copy' }, 1600);
         });
-
-        /* ── Package list from ./Packages ── */
-        function parseStanzas(text){
-            return text.split(/\n\s*\n/).map(block => {
-                const f = {};
-                let key = null;
-                block.split('\n').forEach(line => {
-                    if(/^\s/.test(line) && key){ f[key] += '\n' + line.trim(); return }
-                    const i = line.indexOf(':');
-                    if(i < 1) return;
-                    key = line.slice(0, i).toLowerCase();
-                    f[key] = line.slice(i + 1).trim();
-                });
-                return f;
-            }).filter(f => f.package);
-        }
-
-        const cmpVer = (a, b) => a.localeCompare(b, undefined, {numeric:true});
-
-        function el(tag, cls, text){
-            const n = document.createElement(tag);
-            if(cls) n.className = cls;
-            if(text != null) n.textContent = text;
-            return n;
-        }
-
-        function renderPackages(list){
-            const ul = document.getElementById('pkgs');
-            list.forEach(p => {
-                const li = document.createElement('li');
-                const item = el(isIOS ? 'a' : 'div', 'pkg');
-                if(isIOS) item.href = 'sileo://package/' + encodeURIComponent(p.package);
-
-                const ico = el('img', 'pkg-ico');
-                ico.alt = '';
-                ico.width = ico.height = 40;
-                ico.loading = 'lazy';
-                ico.decoding = 'async';
-                ico.referrerPolicy = 'no-referrer';
-                if(/^https:\/\//.test(p.icon || '')) ico.src = p.icon;
-                ico.addEventListener('error', () => ico.removeAttribute('src'));
-
-                const body = el('div', 'pkg-body');
-                const top = el('div', 'pkg-top');
-                top.append(el('span', 'pkg-name', p.name || p.package), el('span', 'pkg-ver', p.version));
-                if(p.section && p.section !== 'Tweaks') top.append(el('span', 'badge pkg-tag', p.section));
-                body.append(top);
-                if(p.description) body.append(el('p', 'pkg-desc', p.description));
-
-                item.append(ico, body);
-                li.append(item);
-                ul.append(li);
-            });
-            document.getElementById('pkgCount').textContent = list.length;
-            document.getElementById('pkgSection').hidden = false;
-        }
-
-        fetch('Packages', {cache:'no-cache'})
-            .then(r => r.ok ? r.text() : Promise.reject(r.status))
-            .then(text => {
-                const latest = new Map();
-                parseStanzas(text).forEach(p => {
-                    const cur = latest.get(p.package);
-                    if(!cur || cmpVer(p.version || '', cur.version || '') > 0) latest.set(p.package, p);
-                });
-                const list = [...latest.values()].sort((a, b) =>
-                    ((a.section === 'Tweaks') ? 0 : 1) - ((b.section === 'Tweaks') ? 0 : 1)
-                    || (a.name || a.package).localeCompare(b.name || b.package, 'en', {sensitivity:'base'}));
-                if(list.length) renderPackages(list);
-            })
-            .catch(() => {});
-
-        /* ── Index date from ./Release ── */
-        fetch('Release', {cache:'no-cache'})
-            .then(r => r.ok ? r.text() : Promise.reject(r.status))
-            .then(text => {
-                const m = text.match(/^Date:\s*(.+)$/m);
-                const d = m && new Date(m[1]);
-                if(d && !isNaN(d)){
-                    document.getElementById('updated').textContent = 'Updated ' +
-                        d.toLocaleDateString('en-GB', {day:'numeric', month:'short', year:'numeric'});
-                }
-            })
-            .catch(() => {});
 
         /* ── Reveal — staggered rise ── */
         const reveals = document.querySelectorAll('[data-reveal]');
