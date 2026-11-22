@@ -16,6 +16,8 @@ depictions/      Sileo 네이티브 depiction JSON (패키지별 1개)
 archive/debs/    이전 버전 .deb 보관
 archive/         그 외 지난 depiction·이미지 보관
 assets/          사이트용 이미지
+assets/featured/ Sileo 추천 배너 이미지 (789×444, 시작 카드와 같은 스타일)
+sileo-featured.json  Sileo 저장소 첫 화면 추천 배너 목록 (배너 추가·순서 변경은 여기서)
 scripts/index.sh Packages / Packages.gz / Release 생성 스크립트
 index.html       저장소 웹페이지
 CydiaIcon.png    저장소 아이콘
@@ -23,6 +25,15 @@ CydiaIcon.png    저장소 아이콘
 
 `Packages`, `Packages.gz`, `Release`는 **직접 수정하지 않습니다.** `main`에 push하면
 GitHub Actions(`.github/workflows/build-packages.yml`)가 다시 생성해서 커밋합니다.
+
+## 카테고리 (control 의 Section)
+
+Sileo 가 전용 아이콘을 가진 표준 이름만 씁니다.
+
+| Section | 트윅 |
+| --- | --- |
+| `Tweaks` | 앱 하나를 고치는 트윅 (광고 제거, 기능 추가, 프리미엄 기능) |
+| `Utilities` | 여러 앱에 공통으로 쓰는 트윅 (RevenueCat++) |
 
 ## 새 버전 배포 절차
 
