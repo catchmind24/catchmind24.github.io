@@ -1,0 +1,28 @@
+#!/bin/sh
+# Rebuild Packages / Packages.gz / Release inside the same commit whenever debs/
+# changes. Otherwise GitHub Pages serves the new commit (old debs already moved to
+# archive/) with the old index for the minute CI needs, and installs 404.
+#
+# Enable once per clone:  git config core.hooksPath .githooks
+# Runs scripts/index.sh natively when dpkg-scanpackages exists, else through WSL.
+# If neither is available it only warns; CI still rebuilds the index after push.
+
+git diff --cached --name-only -- debs/ | grep -q . || exit 0
+
+root=$(git rev-parse --show-toplevel)
+cd "$root" || exit 1
+
+if command -v dpkg-scanpackages >/dev/null 2>&1; then
+  ./scripts/index.sh || exit 1
+elif command -v wsl.exe >/dev/null 2>&1; then
+  distro=${CATCHMIND_WSL_DISTRO:-Ubuntu-24.04}
+  MSYS_NO_PATHCONV=1 wsl.exe -d "$distro" --cd "$(pwd -W 2>/dev/null || pwd)" --exec bash scripts/index.sh || {
+    echo "pre-commit: index build in WSL ($distro) failed" >&2
+    exit 1
+  }
+else
+  echo "pre-commit: dpkg-scanpackages not found, leaving the index to CI" >&2
+  exit 0
+fi
+
+git add Packages Packages.gz Release

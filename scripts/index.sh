@@ -83,7 +83,10 @@ trap 'rm -f "$TMP_PACKAGES"' EXIT
 # iphoneos-arm, -arm64 and -arm64e. Without -m, dpkg-scanpackages treats those as
 # duplicates and keeps only one architecture.
 log "dpkg-scanpackages 실행..."
-dpkg-scanpackages -m "$DEB_DIR" /dev/null > "$TMP_PACKAGES"
+# dpkg-scanpackages lists debs in filesystem order, which differs between CI (ext4)
+# and a Windows checkout seen through WSL (NTFS). Sort the stanzas by Filename so
+# both produce byte-identical output and CI has nothing to re-commit.
+dpkg-scanpackages -m "$DEB_DIR" /dev/null   | perl -00 -ne 'push @s, $_; END { print sort { ($a =~ /^Filename: (.*)$/m)[0] cmp ($b =~ /^Filename: (.*)$/m)[0] } @s }'   > "$TMP_PACKAGES"
 
 PKG_COUNT=$(grep -c '^Package:' "$TMP_PACKAGES" || true)
 ok "인덱싱된 패키지: ${PKG_COUNT}개"
