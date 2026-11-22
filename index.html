@@ -19,337 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --gold:      #D1B06B;
-            --gold-45:   rgba(209,176,107,.45);
-            --gold-12:   rgba(209,176,107,.12);
-            --gold-08:   rgba(209,176,107,.08);
-            --bg:        #09090B;
-            --text:      #E4E2DF;
-            /* contrast on --bg: text 15:1, soft 9:1, dim 5.3:1 (WCAG AA ≥ 4.5) */
-            --text-soft: rgba(228,226,223,.74);
-            --text-dim:  rgba(228,226,223,.56);
-            --line:      rgba(255,255,255,.06);
-            --fill:      rgba(255,255,255,.035);
-            --fill-2:    rgba(255,255,255,.06);
-            --ease:      cubic-bezier(.33,1,.68,1);
-        }
-
-        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
-
-        html{
-            -webkit-font-smoothing:antialiased;
-            -moz-osx-font-smoothing:grayscale;
-            text-size-adjust:100%;
-            scrollbar-width:thin;
-            scrollbar-color:var(--fill-2) transparent;
-        }
-
-        ::selection{background:var(--gold-12);color:var(--text)}
-
-        body{
-            font-family:'Inter',-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
-            background:var(--bg);
-            color:var(--text);
-            min-height:100vh;
-            min-height:100dvh;
-            overflow-x:hidden;
-            line-height:1.6;
-        }
-
-        /* ── Atmosphere (static) ── */
-        .atm{
-            position:fixed;inset:0;
-            pointer-events:none;
-            z-index:0;
-            background:
-                radial-gradient(ellipse 55% 38% at 50% 0%,rgba(209,176,107,.05) 0%,transparent 60%),
-                radial-gradient(ellipse at 50% 50%,transparent 40%,var(--bg) 100%);
-        }
-
-        body::before{
-            content:'';
-            position:fixed;
-            top:0;left:0;right:0;
-            height:1px;
-            background:linear-gradient(90deg,transparent 20%,var(--gold) 50%,transparent 80%);
-            opacity:.18;
-            z-index:100;
-        }
-
-        /* ── Container ── */
-        .ctn{
-            position:relative;
-            z-index:2;
-            max-width:460px;
-            margin:0 auto;
-            padding:120px max(24px,env(safe-area-inset-left)) calc(72px + env(safe-area-inset-bottom));
-        }
-
-        /* ── Header ── */
-        .header{margin-bottom:56px}
-
-        .av{
-            width:40px;height:40px;
-            margin-bottom:20px;
-        }
-
-        .av img{
-            display:block;
-            width:100%;height:100%;
-            object-fit:contain;
-            filter:drop-shadow(0 0 18px rgba(209,176,107,.18));
-        }
-
-        .name{
-            font-size:clamp(1.5rem,4vw,1.75rem);
-            font-weight:300;
-            letter-spacing:-.04em;
-            line-height:1.2;
-            margin-bottom:10px;
-        }
-
-        .tagline{
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.8125rem;
-            color:var(--text-dim);
-            letter-spacing:.01em;
-            line-height:1.7;
-        }
-
-        /* ── Section ── */
-        .section{margin-bottom:52px}
-
-        .section-head{
-            display:flex;
-            align-items:baseline;
-            justify-content:space-between;
-            gap:12px;
-            padding-top:20px;
-            border-top:1px solid rgba(209,176,107,.14);
-            margin-bottom:12px;
-        }
-
-        .section-label{
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.6875rem;
-            font-weight:500;
-            letter-spacing:.14em;
-            text-transform:uppercase;
-            color:var(--gold);
-            opacity:.8;
-            user-select:none;
-        }
-
-
-        /* ── Rows (repository actions) ── */
-        .rows{display:flex;flex-direction:column}
-
-        .row{
-            position:relative;
-            display:flex;
-            align-items:center;
-            gap:14px;
-            width:100%;
-            min-height:52px;
-            padding:12px 14px;
-            margin:0 -14px;
-            width:calc(100% + 28px);
-            border:0;
-            border-radius:10px;
-            background:none;
-            font:inherit;
-            text-align:left;
-            color:var(--text);
-            text-decoration:none;
-            cursor:pointer;
-            transition:background .25s ease,transform .25s var(--ease);
-            -webkit-tap-highlight-color:transparent;
-        }
-
-        .row+.row::before{
-            content:'';
-            position:absolute;
-            top:0;left:56px;right:14px;
-            height:1px;
-            background:var(--line);
-        }
-
-        .row:hover{background:var(--fill)}
-        .row:hover::before,.row:hover+.row::before{opacity:0}
-
-        .row:active{
-            background:var(--fill-2);
-            transform:scale(.99);
-            transition-duration:.06s;
-        }
-
-        .row-ico{
-            width:28px;height:28px;
-            border-radius:7px;
-            background:var(--fill-2);
-            color:var(--text-soft);
-            display:flex;
-            align-items:center;
-            justify-content:center;
-            flex-shrink:0;
-            transition:background .25s ease,color .25s ease;
-        }
-
-        .row:hover .row-ico,
-        .row:active .row-ico{
-            background:var(--gold-08);
-            color:var(--gold);
-        }
-
-        .row-glyph{display:block;width:16px;height:16px}
-
-        .row-body{
-            flex:1;
-            min-width:0;
-            display:flex;
-            align-items:center;
-            gap:8px;
-        }
-
-        .row-title{font-size:.9rem;font-weight:400}
-
-        .badge{
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.625rem;
-            font-weight:500;
-            letter-spacing:.06em;
-            text-transform:uppercase;
-            color:var(--gold);
-            padding:2px 7px;
-            border-radius:4px;
-            background:var(--gold-08);
-            line-height:1.5;
-            white-space:nowrap;
-        }
-
-        .row-arr{
-            flex-shrink:0;
-            width:14px;height:14px;
-            color:var(--text);
-            opacity:.35;
-            transition:transform .3s var(--ease),color .25s ease,opacity .25s ease;
-        }
-
-        .row:hover .row-arr{
-            transform:translateX(2px);
-            color:var(--gold);
-            opacity:.8;
-        }
-
-        /* ── Source URL — plain text you can read off, with a quiet copy action ── */
-        .src{
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            gap:12px;
-            margin-top:14px;
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.75rem;
-            color:var(--text-dim);
-        }
-
-        .src-url{user-select:all;-webkit-user-select:all;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-
-        .src-copy{
-            flex-shrink:0;
-            margin:-8px -10px -8px 0;
-            padding:8px 10px;
-            border:0;
-            border-radius:6px;
-            background:none;
-            font:inherit;
-            font-size:.6875rem;
-            letter-spacing:.1em;
-            text-transform:uppercase;
-            color:var(--gold);
-            opacity:.8;
-            cursor:pointer;
-            transition:opacity .2s ease,background .2s ease;
-            -webkit-tap-highlight-color:transparent;
-        }
-
-        .src-copy:hover,.src-copy:active{opacity:1;background:var(--gold-08)}
-
-        /* ── Elsewhere ── */
-        .links{
-            display:flex;
-            align-items:center;
-            font-size:.875rem;
-        }
-
-        .links a{
-            color:var(--text-soft);
-            text-decoration:none;
-            padding:8px 0;
-            transition:color .2s ease;
-            -webkit-tap-highlight-color:transparent;
-        }
-
-        .links a:hover,.links a:active{color:var(--gold)}
-
-        .links-dot{
-            width:3px;height:3px;
-            border-radius:50%;
-            background:var(--text-dim);
-            margin:0 16px;
-            flex-shrink:0;
-        }
-
-        /* ── Footer ── */
-        .footer{
-            margin-top:72px;
-            padding-top:20px;
-            border-top:1px solid rgba(209,176,107,.14);
-            font-family:'IBM Plex Mono',monospace;
-            font-size:.6875rem;
-            font-variant-numeric:tabular-nums;
-            color:var(--text-dim);
-            letter-spacing:.02em;
-        }
-
-        .footer span{color:var(--gold);opacity:.8}
-
-        /* ── Reveal — JS-gated so no-JS still renders ── */
-        .js [data-reveal]{opacity:0;transform:translateY(8px)}
-
-        .js [data-reveal].shown{
-            opacity:1;
-            transform:none;
-            transition:opacity .7s var(--ease),transform .7s var(--ease);
-        }
-
-        :focus-visible{
-            outline:1.5px solid var(--gold-45);
-            outline-offset:2px;
-        }
-
-        ::-webkit-scrollbar{width:4px}
-        ::-webkit-scrollbar-track{background:transparent}
-        ::-webkit-scrollbar-thumb{background:var(--fill-2);border-radius:2px}
-
-        @media(max-width:520px){
-            .ctn{padding:88px max(20px,env(safe-area-inset-left)) calc(56px + env(safe-area-inset-bottom))}
-            .header{margin-bottom:48px}
-            .section{margin-bottom:44px}
-            .row{margin:0 -10px;padding-left:10px;padding-right:10px}
-            .row{width:calc(100% + 20px)}
-        }
-
-        @media(prefers-reduced-motion:reduce){
-            *,*::before,*::after{
-                animation-duration:.01ms!important;
-                transition-duration:.01ms!important;
-            }
-            .js [data-reveal]{opacity:1;transform:none}
-        }
-    </style>
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
 
@@ -394,9 +64,23 @@
                     <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
                 </a>
             </div>
-            <div class="src">
-                <span class="src-url">catchmind24.github.io</span>
-                <button type="button" class="src-copy" id="copy" data-url="https://catchmind24.github.io/" aria-live="polite">Copy</button>
+        </section>
+
+        <!-- Tweaks — the full catalog lives on its own page -->
+        <section class="section" data-reveal aria-labelledby="h-tw">
+            <div class="section-head">
+                <h2 class="section-label" id="h-tw">Tweaks</h2>
+            </div>
+            <div class="rows">
+                <a href="tweaks.html" class="row">
+                    <span class="row-ico"><svg class="row-glyph" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.8"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.8"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.8"/></svg></span>
+                    <span class="row-body">
+                        <span class="row-title">Browse tweaks</span>
+                    </span>
+                    <span class="stack" id="stack" aria-hidden="true"></span>
+                    <span class="row-aside" id="twCount"></span>
+                    <svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+                </a>
             </div>
         </section>
 
@@ -423,34 +107,29 @@
         'use strict';
 
         const hasMotion = !matchMedia('(prefers-reduced-motion:reduce)').matches;
-        /* ── Copy source URL ── */
-        const copyBtn = document.getElementById('copy');
-        let copyTimer;
-
-        async function copyText(text){
-            try{
-                await navigator.clipboard.writeText(text);
-                return true;
-            }catch(_){
-                const ta = document.createElement('textarea');
-                ta.value = text;
-                ta.setAttribute('readonly', '');
-                ta.style.cssText = 'position:fixed;opacity:0';
-                document.body.appendChild(ta);
-                ta.select();
-                let ok = false;
-                try{ ok = document.execCommand('copy') }catch(_){}
-                ta.remove();
-                return ok;
-            }
-        }
-
-        copyBtn.addEventListener('click', async () => {
-            if(!await copyText(copyBtn.dataset.url)) return;
-            copyBtn.textContent = 'Copied';
-            clearTimeout(copyTimer);
-            copyTimer = setTimeout(() => { copyBtn.textContent = 'Copy' }, 1600);
-        });
+        /* ── Tweak count and a few icons for the Browse row ── */
+        fetch('Packages', {cache:'no-cache'})
+            .then(r => r.ok ? r.text() : Promise.reject(r.status))
+            .then(text => {
+                const pkgs = new Map();
+                text.split(/\n\s*\n/).forEach(block => {
+                    const id = (block.match(/^Package:\s*(.+)$/m) || [])[1];
+                    if(id && !pkgs.has(id)) pkgs.set(id, (block.match(/^Icon:\s*(https:\S+)$/m) || [])[1]);
+                });
+                if(!pkgs.size) return;
+                document.getElementById('twCount').textContent = pkgs.size;
+                const stack = document.getElementById('stack');
+                [...pkgs.values()].filter(Boolean).slice(0, 4).forEach(src => {
+                    const img = new Image(24, 24);
+                    img.alt = '';
+                    img.decoding = 'async';
+                    img.referrerPolicy = 'no-referrer';
+                    img.onerror = () => img.remove();
+                    img.src = src;
+                    stack.append(img);
+                });
+            })
+            .catch(() => {});
 
         /* ── Reveal — staggered rise ── */
         const reveals = document.querySelectorAll('[data-reveal]');

@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#09090B">
+    <meta name="color-scheme" content="dark">
+    <title>Tweaks · catchmind</title>
+    <meta name="description" content="Every tweak in the catchmind repository, with what it does, compatibility and the latest changes.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tweaks · catchmind">
+    <meta property="og:description" content="Every tweak in the catchmind repository.">
+    <meta property="og:url" content="https://catchmind24.github.io/tweaks.html">
+    <meta property="og:image" content="https://catchmind24.github.io/assets/profile_nobg.png">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/png" href="assets/profile-80.png">
+    <link rel="apple-touch-icon" href="assets/profile-180.png">
+    <script>document.documentElement.classList.add('js')</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/site.css">
+    <style>
+        .back{
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            margin:-8px 0 28px -8px;
+            padding:8px;
+            border-radius:8px;
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.75rem;
+            color:var(--text-dim);
+            text-decoration:none;
+            transition:color .2s ease;
+            -webkit-tap-highlight-color:transparent;
+        }
+        .back:hover,.back:active{color:var(--gold)}
+        .back svg{width:14px;height:14px}
+
+        .tagline a{color:var(--text-soft);text-decoration:underline;text-decoration-color:var(--gold-45);text-underline-offset:3px}
+        .tagline a:hover{color:var(--gold)}
+
+        /* ── Catalog ── */
+        .tw{position:relative}
+
+        .tw+.tw::before{
+            content:'';
+            position:absolute;
+            top:0;left:54px;right:0;
+            height:1px;
+            background:var(--line);
+        }
+
+        .tw-sum{
+            display:block;
+            list-style:none;
+            cursor:pointer;
+            -webkit-tap-highlight-color:transparent;
+        }
+        .tw-sum::-webkit-details-marker{display:none}
+        .tw-sum::marker{content:''}
+
+        .tw-head{
+            display:flex;
+            align-items:center;
+            gap:14px;
+            padding:10px 14px;
+            margin:0 -14px;
+            border-radius:10px;
+            transition:background .25s ease;
+        }
+        .tw-sum:hover .tw-head{background:var(--fill)}
+        .tw-sum:active .tw-head{background:var(--fill-2)}
+
+        .tw-ico{
+            width:40px;height:40px;
+            flex-shrink:0;
+            border-radius:9px;
+            background:var(--fill-2);
+            box-shadow:0 0 0 .5px rgba(255,255,255,.1);
+            object-fit:cover;
+        }
+
+        .tw-name{
+            flex:1;
+            min-width:0;
+            display:flex;
+            align-items:baseline;
+            gap:8px;
+        }
+
+        .tw-title{
+            font-size:.9rem;
+            font-weight:500;
+            white-space:nowrap;
+            overflow:hidden;
+            text-overflow:ellipsis;
+        }
+
+        .tw-ver{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.6875rem;
+            color:var(--text-dim);
+            font-variant-numeric:tabular-nums;
+        }
+
+        .tw .row-arr{transition:transform .3s var(--ease),color .25s ease,opacity .25s ease}
+        .tw-sum:hover .row-arr{color:var(--gold);opacity:.8}
+        .tw[open] .row-arr{transform:rotate(90deg);color:var(--gold);opacity:.8}
+
+        /* expanded panel, aligned with the name column */
+        .tw-panel{
+            padding:4px 0 20px 54px;
+            font-size:.84rem;
+            line-height:1.6;
+            color:var(--text-soft);
+        }
+        .tw[open] .tw-panel{animation:unfold .3s var(--ease)}
+        @keyframes unfold{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+
+        .tw-panel p+p,.tw-panel p+ul,.tw-panel ul+p{margin-top:8px}
+        .tw-panel ul{padding-left:1.1em}
+        .tw-panel li+li{margin-top:3px}
+        .tw-panel li::marker{color:var(--gold)}
+        .tw-panel strong{color:var(--text);font-weight:500}
+
+        .tw-info{
+            display:grid;
+            grid-template-columns:auto 1fr;
+            gap:4px 16px;
+            margin-top:14px;
+            font-size:.78rem;
+        }
+        .tw-info dt{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.6875rem;
+            color:var(--text-dim);
+            padding-top:1px;
+        }
+        .tw-info dd{color:var(--text-soft)}
+
+        .tw-new{margin-top:16px}
+        .tw-new-h{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.6875rem;
+            letter-spacing:.08em;
+            text-transform:uppercase;
+            color:var(--gold);
+            opacity:.8;
+            margin-bottom:4px;
+        }
+
+        .tw-open{
+            display:inline-flex;
+            align-items:center;
+            gap:6px;
+            margin-top:16px;
+            padding:7px 12px;
+            border-radius:8px;
+            background:var(--gold-08);
+            color:var(--gold);
+            font-size:.8rem;
+            text-decoration:none;
+            -webkit-tap-highlight-color:transparent;
+        }
+        .tw-open:active{background:var(--gold-12)}
+
+        .tw-wait{color:var(--text-dim);font-family:'IBM Plex Mono',monospace;font-size:.75rem}
+
+        .note{
+            font-family:'IBM Plex Mono',monospace;
+            font-size:.75rem;
+            color:var(--text-dim);
+        }
+
+        @media(max-width:520px){
+            .tw-head{margin:0 -10px;padding-left:10px;padding-right:10px}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="atm" aria-hidden="true"></div>
+
+    <main class="ctn">
+
+        <header class="header" data-reveal>
+            <a class="back" href="./"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>catchmind</a>
+            <h1 class="name">Tweaks</h1>
+            <p class="tagline"><span id="count">All tweaks</span> in this repository.<br>Tap one for details. <a href="./">Add the repo</a> to install.</p>
+        </header>
+
+        <noscript><p class="note">This list needs JavaScript. The repository itself works without it.</p></noscript>
+
+        <section class="section" data-reveal aria-labelledby="h-apps" id="secApps" hidden>
+            <div class="section-head">
+                <h2 class="section-label" id="h-apps">App tweaks</h2>
+            </div>
+            <div class="tw-list" id="listApps"></div>
+        </section>
+
+        <section class="section" data-reveal aria-labelledby="h-util" id="secUtil" hidden>
+            <div class="section-head">
+                <h2 class="section-label" id="h-util">Utilities</h2>
+            </div>
+            <div class="tw-list" id="listUtil"></div>
+        </section>
+
+        <p class="note" id="failed" hidden>Couldn't load the package list. Try again in a moment.</p>
+
+        <footer class="footer" data-reveal>
+            <p>© 2021–2026 <span>catchmind</span></p>
+        </footer>
+
+    </main>
+
+    <script>
+    (()=>{
+        'use strict';
+
+        const hasMotion = !matchMedia('(prefers-reduced-motion:reduce)').matches;
+        const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent)
+            || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        const ARROW = '<svg class="row-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>';
+
+        const el = (tag, cls, text) => {
+            const n = document.createElement(tag);
+            if(cls) n.className = cls;
+            if(text != null) n.textContent = text;
+            return n;
+        };
+
+        /* ── Tiny Markdown: paragraphs, "- " lists, **bold**, `code`, two-space line breaks ── */
+        const esc = s => s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+        const inline = s => esc(s)
+            .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+            .replace(/`([^`]+)`/g, '<code>$1</code>');
+
+        function markdown(src){
+            let html = '', para = [], list = [];
+            const flushP = () => { if(para.length){ html += '<p>' + para.join('') + '</p>'; para = [] } };
+            const flushL = () => { if(list.length){ html += '<ul>' + list.map(i => '<li>' + i + '</li>').join('') + '</ul>'; list = [] } };
+            String(src || '').replace(/\r/g, '').split('\n').forEach(line => {
+                if(!line.trim()){ flushP(); flushL(); return }
+                const m = line.match(/^\s*[-*]\s+(.*)$/);
+                if(m){ flushP(); list.push(inline(m[1].trim())); return }
+                flushL();
+                const brk = / {2,}$/.test(line);
+                para.push(inline(line.trim()) + (brk ? '<br>' : ' '));
+            });
+            flushP(); flushL();
+            return html;
+        }
+
+        /* ── Packages index ── */
+        function parsePackages(text){
+            const latest = new Map();
+            text.split(/\n\s*\n/).forEach(block => {
+                const f = {};
+                let key = null;
+                block.split('\n').forEach(line => {
+                    if(/^\s/.test(line) && key){ f[key] += '\n' + line.trim(); return }
+                    const i = line.indexOf(':');
+                    if(i < 1) return;
+                    key = line.slice(0, i).toLowerCase();
+                    f[key] = line.slice(i + 1).trim();
+                });
+                if(!f.package) return;
+                const cur = latest.get(f.package);
+                if(!cur || (f.version || '').localeCompare(cur.version || '', undefined, {numeric:true}) > 0) latest.set(f.package, f);
+            });
+            return [...latest.values()];
+        }
+
+        /* depiction links point at this site (or GitHub raw); read the local copy either way */
+        const depictionPath = url => {
+            const name = String(url || '').split('/depictions/')[1];
+            return name ? 'depictions/' + name : null;
+        };
+
+        async function fillPanel(panel, p){
+            const path = depictionPath(p.sileodepiction);
+            let dep = null;
+            if(path){
+                try{
+                    const r = await fetch(path);
+                    if(r.ok) dep = await r.json();
+                }catch(_){}
+            }
+            panel.textContent = '';
+
+            const views = (dep && dep.tabs && dep.tabs[0] && dep.tabs[0].views) || [];
+            const descView = views.find(v => v.class === 'DepictionMarkdownView');
+            const desc = el('div', 'tw-desc');
+            desc.innerHTML = markdown(descView ? descView.markdown : p.description);
+            panel.append(desc);
+
+            const rows = views.filter(v => v.class === 'DepictionTableTextView' && v.title !== 'Developer');
+            if(rows.length){
+                const dl = el('dl', 'tw-info');
+                rows.forEach(v => dl.append(el('dt', null, v.title), el('dd', null, v.text)));
+                panel.append(dl);
+            }
+
+            const log = (dep && dep.tabs && dep.tabs[1] && dep.tabs[1].views) || [];
+            const li = log.findIndex(v => v.class === 'DepictionLabelView');
+            const notes = li >= 0 && log.slice(li + 1).find(v => v.class === 'DepictionMarkdownView');
+            if(notes){
+                const box = el('div', 'tw-new');
+                box.append(el('p', 'tw-new-h', 'New in ' + log[li].text));
+                const body = el('div');
+                body.innerHTML = markdown(notes.markdown);
+                box.append(body);
+                panel.append(box);
+            }
+
+            if(isIOS){
+                const a = el('a', 'tw-open', 'Open in Sileo');
+                a.href = 'sileo://package/' + encodeURIComponent(p.package);
+                panel.append(a);
+            }
+        }
+
+        function item(p){
+            const d = el('details', 'tw');
+            const sum = el('summary', 'tw-sum');
+            const head = el('span', 'tw-head');
+
+            const ico = el('img', 'tw-ico');
+            ico.alt = '';
+            ico.width = ico.height = 40;
+            ico.loading = 'lazy';
+            ico.decoding = 'async';
+            ico.referrerPolicy = 'no-referrer';
+            if(/^https:\/\//.test(p.icon || '')) ico.src = p.icon;
+            ico.addEventListener('error', () => ico.removeAttribute('src'));
+
+            const name = el('span', 'tw-name');
+            name.append(el('span', 'tw-title', p.name || p.package), el('span', 'tw-ver', p.version));
+            head.append(ico, name);
+            head.insertAdjacentHTML('beforeend', ARROW);
+            sum.append(head);
+
+            const panel = el('div', 'tw-panel');
+            panel.append(el('p', 'tw-wait', 'Loading…'));
+            let filled = false;
+            d.addEventListener('toggle', () => {
+                if(d.open && !filled){ filled = true; fillPanel(panel, p) }
+            });
+
+            d.append(sum, panel);
+            return d;
+        }
+
+        fetch('Packages', {cache:'no-cache'})
+            .then(r => r.ok ? r.text() : Promise.reject(r.status))
+            .then(text => {
+                const all = parsePackages(text)
+                    .sort((a, b) => (a.name || a.package).localeCompare(b.name || b.package, 'en', {sensitivity:'base'}));
+                if(!all.length) throw 0;
+                document.getElementById('count').textContent = all.length + ' tweaks';
+                const groups = [
+                    ['secApps', 'listApps', all.filter(p => (p.section || 'Tweaks') === 'Tweaks')],
+                    ['secUtil', 'listUtil', all.filter(p => (p.section || 'Tweaks') !== 'Tweaks')],
+                ];
+                groups.forEach(([sec, list, ps]) => {
+                    if(!ps.length) return;
+                    const ul = document.getElementById(list);
+                    ps.forEach(p => ul.append(item(p)));
+                    document.getElementById(sec).hidden = false;
+                });
+                reveal();
+            })
+            .catch(() => {
+                document.getElementById('failed').hidden = false;
+                reveal();
+            });
+
+        /* ── Reveal — staggered rise ── */
+        function reveal(){
+            const nodes = [...document.querySelectorAll('[data-reveal]')].filter(n => !n.hidden);
+            if(!hasMotion || !('IntersectionObserver' in window)){
+                nodes.forEach(n => n.classList.add('shown'));
+                return;
+            }
+            const obs = new IntersectionObserver(entries => {
+                entries.forEach(e => {
+                    if(!e.isIntersecting) return;
+                    setTimeout(() => e.target.classList.add('shown'), 80 + nodes.indexOf(e.target) * 100);
+                    obs.unobserve(e.target);
+                });
+            }, {threshold:.05});
+            nodes.forEach(n => obs.observe(n));
+        }
+    })();
+    </script>
+</body>
+</html>
