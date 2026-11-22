@@ -2,7 +2,6 @@
     "minVersion": "0.4",
     "class": "DepictionTabView",
     "tintColor": "#D1B06B",
-    "headerImage": "",
     "tabs": [
         {
             "tabname": "Details",
@@ -10,10 +9,14 @@
             "tintColor": "#D1B06B",
             "views": [
                 {
-                    "class": "DepictionButtonView",
-                    "text": "☕️ Buy Me A Coffee",
-                    "action": "https://buymeacoffee.com/catchmind24",
-                    "openExternal": true,
+                    "class": "DepictionHeaderView",
+                    "title": "Description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Unlocks the premium subscription features in **SNOW**.",
+                    "useSpacing": true,
                     "tintColor": "#D1B06B"
                 },
                 {
@@ -21,16 +24,44 @@
                 },
                 {
                     "class": "DepictionHeaderView",
-                    "title": "Description",
+                    "title": "Information",
                     "useBoldText": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "catchmind"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 14.0 or later"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Jailbreak",
+                    "text": "Rootful · Rootless · RootHide"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Price",
+                    "text": "Free"
                 },
                 {
                     "class": "DepictionSeparatorView"
                 },
                 {
-                    "class": "DepictionMarkdownView",
-                    "markdown": "Premium subscription",
-                    "useSpacing": true,
+                    "class": "DepictionTableButtonView",
+                    "title": "Telegram",
+                    "action": "https://t.me/catchmind",
+                    "openExternal": true,
+                    "tintColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionButtonView",
+                    "text": "☕️ Buy Me A Coffee",
+                    "action": "https://buymeacoffee.com/catchmind24",
+                    "openExternal": true,
                     "tintColor": "#D1B06B"
                 }
             ]
