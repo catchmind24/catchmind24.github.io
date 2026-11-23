@@ -77,7 +77,7 @@
                 },
                 {
                     "class": "DepictionMarkdownView",
-                    "markdown": "- Updated popup design",
+                    "markdown": "- Fixed the popup design update from 1.0.3 not being applied",
                     "useSpacing": true
                 },
                 {
