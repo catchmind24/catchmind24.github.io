@@ -700,6 +700,60 @@ Icon: https://i.postimg.cc/Vkd61xPC/4BB7A3C7-8DC7-4EAD-8FD8-D4D0F6A02220.jpg
 Name: RevenueCat++
 Sileodepiction: https://catchmind24.github.io/depictions/RevenueCat++.json
 
+Package: com.catchmind.shipinfo++
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: catchmind
+Installed-Size: 1092
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.shipinfo++_1.1.0_iphoneos-arm.deb
+Size: 345028
+MD5sum: a684b8000727bdc9f04bda2306a66c17
+SHA1: cda7ad0020ba5b391f3ed774f06228738b1b7bc7
+SHA256: 1b8d80b49c2fa2d67de929238f7ff5b8a131fb861373e0e7bb46888fb0410ce2
+Section: Tweaks
+Description: Premium subscription
+Author: catchmind
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/4d/40/9c4d40ef-c831-27cf-d98f-d568d2ced2a1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+Name: ShipInfo++
+Sileodepiction: https://catchmind24.github.io/depictions/ShipInfo++.json
+
+Package: com.catchmind.shipinfo++
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: catchmind
+Installed-Size: 1092
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.shipinfo++_1.1.0_iphoneos-arm64.deb
+Size: 345156
+MD5sum: 9490f3ff17bffbbeb9fa0436925d27d9
+SHA1: b982e4d82725fc4547d5b1a3e9541af54f16ae4d
+SHA256: d4f7cfb8da63798e33caa573585a22f458b18faafe1ce445ceb1c888420ba795
+Section: Tweaks
+Description: Premium subscription
+Author: catchmind
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/4d/40/9c4d40ef-c831-27cf-d98f-d568d2ced2a1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+Name: ShipInfo++
+Sileodepiction: https://catchmind24.github.io/depictions/ShipInfo++.json
+
+Package: com.catchmind.shipinfo++
+Version: 1.1.0
+Architecture: iphoneos-arm64e
+Maintainer: catchmind
+Installed-Size: 1092
+Depends: mobilesubstrate
+Filename: debs/com.catchmind.shipinfo++_1.1.0_iphoneos-arm64e.deb
+Size: 345100
+MD5sum: fcac7b3a71fcce77269a60693855d2b0
+SHA1: c749772be53592d8de5a0ba37829f7fc82a3287e
+SHA256: db4266d4e352ced1bb123137aed19760eb08f8d5a089c010e961960f52892caf
+Section: Tweaks
+Description: Premium subscription
+Author: catchmind
+Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9c/4d/40/9c4d40ef-c831-27cf-d98f-d568d2ced2a1/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg
+Name: ShipInfo++
+Sileodepiction: https://catchmind24.github.io/depictions/ShipInfo++.json
+
 Package: com.catchmind.snow++
 Version: 1.1.1
 Architecture: iphoneos-arm

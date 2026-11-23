@@ -1,0 +1,86 @@
+{
+    "minVersion": "0.4",
+    "class": "DepictionTabView",
+    "tagline": "Premium unlocked",
+    "tintColor": "#D1B06B",
+    "headerImage": "",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "class": "DepictionStackView",
+            "tintColor": "#D1B06B",
+            "views": [
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Description",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Unlocks the premium subscription features in **ShipInfo**.",
+                    "useSpacing": true,
+                    "tintColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information",
+                    "useBoldText": true
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Developer",
+                    "text": "catchmind"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "title": "Compatibility",
+                    "text": "iOS 15.0 or later"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "Works on rootful, rootless and roothide jailbreaks.",
+                    "useSpacing": true,
+                    "tintColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Telegram",
+                    "action": "https://t.me/catchmind",
+                    "openExternal": true,
+                    "tintColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Buy Me a Coffee",
+                    "action": "https://buymeacoffee.com/catchmind24",
+                    "openExternal": true,
+                    "tintColor": "#D1B06B"
+                }
+            ]
+        },
+        {
+            "class": "DepictionStackView",
+            "tabname": "Changelog",
+            "tintColor": "#D1B06B",
+            "views": [
+                {
+                    "class": "DepictionLabelView",
+                    "text": "1.1.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Initial release",
+                    "useSpacing": true
+                }
+            ]
+        }
+    ]
+}
