@@ -71,6 +71,20 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "2.0.4",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Fixed league participation",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "2.0.3",
                     "useBottomMargin": false,
                     "textColor": "#D1B06B"
