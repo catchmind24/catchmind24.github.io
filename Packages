@@ -269,55 +269,55 @@ Name: CamScanner++
 Sileodepiction: https://github.com/catchmind24/catchmind24.github.io/raw/main/depictions/CamScanner++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1044
+Maintainer: catchmind
+Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm.deb
-Size: 333030
-MD5sum: b7757af7b33321f378f16e86250f1943
-SHA1: 9730ea58083316a725942c0a18cd95f56ade467f
-SHA256: 378a4a195b9f56c91665cf9a10b5ec522e29ad60f9b61a9dba5e4fd7ab2f698c
+Filename: debs/com.catchmind.chzzk++_1.0.4_iphoneos-arm.deb
+Size: 345572
+MD5sum: bb1053ac40ae9d13ee3883cbe505b377
+SHA1: a67f68489f5e01c0cbc2d81fd52100568bf61385
+SHA256: c13180ef8a626111ffaf138feab60523253a039490a756d50e5e41a9e0e9357f
 Section: Tweaks
 Description: Remove ads from CHZZK
-Author: catchmind <musicinfacebook@gmail.com>
+Author: catchmind
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/b9/89/85b98911-4708-82d8-3dcf-5464a420239b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
 Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1044
+Maintainer: catchmind
+Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm64.deb
-Size: 333130
-MD5sum: a2d7f10b63e358df891a797a6de94639
-SHA1: 26128c0e901fd1434abffc3b6c37ad724cbdd10b
-SHA256: 5db92c7e406590f6844b26ba78a7c44bcc09e31c1f98ba16d07e56237cc8f7fd
+Filename: debs/com.catchmind.chzzk++_1.0.4_iphoneos-arm64.deb
+Size: 345668
+MD5sum: e362939fac74b9ba001ac376f1bff159
+SHA1: 650e34fdfd64d28fede78ca38cd543740990c284
+SHA256: 8dea0b0c5f9158877a86425b07ebd01ef9dd22323cea7332e8f9eb7a4631564d
 Section: Tweaks
 Description: Remove ads from CHZZK
-Author: catchmind <musicinfacebook@gmail.com>
+Author: catchmind
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/b9/89/85b98911-4708-82d8-3dcf-5464a420239b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
 Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
 
 Package: com.catchmind.chzzk++
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64e
-Maintainer: catchmind <musicinfacebook@gmail.com>
-Installed-Size: 1044
+Maintainer: catchmind
+Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.chzzk++_1.0.3_iphoneos-arm64e.deb
-Size: 332942
-MD5sum: c12a9c0aeef373af29a359593c17c91b
-SHA1: 04420496e3bcfdf51dca5da8a15aefa8b46a517f
-SHA256: ef9a7631561c9ed4cfd11309686583f8cd2a1af0000c9b76ab7cefe2adedb954
+Filename: debs/com.catchmind.chzzk++_1.0.4_iphoneos-arm64e.deb
+Size: 345520
+MD5sum: affb5096c9e617e1bafc3262a236a227
+SHA1: 1ff32f6cb22294e03276c79bb96160ed0f904cbe
+SHA256: e7a6bbf9d9f433696c95b504738ac315a23da2d3d280d17b65d5f58511de2667
 Section: Tweaks
 Description: Remove ads from CHZZK
-Author: catchmind <musicinfacebook@gmail.com>
+Author: catchmind
 Icon: https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/b9/89/85b98911-4708-82d8-3dcf-5464a420239b/AppIcon-0-0-1x_U007emarketing-0-8-0-sRGB-85-220.png/512x512bb.jpg
 Name: CHZZK++
 Sileodepiction: https://catchmind24.github.io/depictions/CHZZK++.json
