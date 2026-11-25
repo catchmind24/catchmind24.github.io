@@ -431,16 +431,16 @@ Name: EPIK++
 Sileodepiction: https://catchmind24.github.io/depictions/EPIK++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm
 Maintainer: catchmind
 Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.4_iphoneos-arm.deb
-Size: 346730
-MD5sum: b3225db810cafff26eb7549d82b795bf
-SHA1: 46a66024aa54f4027cdd61ba7476cfa94ba4ec68
-SHA256: dc546b2a3b0846556b5765c16cc32086470571a2e770cb459f7ee68b22aca687
+Filename: debs/com.catchmind.epop++_2.0.5_iphoneos-arm.deb
+Size: 343116
+MD5sum: dcec5a846ea54e2bf3a742b8042bd99d
+SHA1: 829ee92c70c564ad9546d6c348dd597e8396f872
+SHA256: 1f3562341ad410974f1b6cb38981612cf76b39a02c7f9c39581d8d0d20f2e973
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind
@@ -449,16 +449,16 @@ Name: 말해보카++
 Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64
 Maintainer: catchmind
 Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.4_iphoneos-arm64.deb
-Size: 346960
-MD5sum: d4e524866ae4615b936bcaa7c6c6a4ac
-SHA1: ebc2bb5d4b8ebc985673a5e2b4c780460e80632c
-SHA256: b413e9bf6578e0fa499216f1678919e7865ac3ddd3a2c65309a817d817bf9b4c
+Filename: debs/com.catchmind.epop++_2.0.5_iphoneos-arm64.deb
+Size: 343452
+MD5sum: a380ef61371398b707deaf6335e8685e
+SHA1: e878e82789082ff127097fea7de1e5b6fb48acc7
+SHA256: 3079b25b5e266669169b3f6dfdf23418dea5ce402cb27dc0a2d961b03df65111
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind
@@ -467,16 +467,16 @@ Name: 말해보카++
 Sileodepiction: https://catchmind24.github.io/depictions/epop++.json
 
 Package: com.catchmind.epop++
-Version: 2.0.4
+Version: 2.0.5
 Architecture: iphoneos-arm64e
 Maintainer: catchmind
 Installed-Size: 1092
 Depends: mobilesubstrate
-Filename: debs/com.catchmind.epop++_2.0.4_iphoneos-arm64e.deb
-Size: 346828
-MD5sum: 9ce958b27dd23354dd7c8c05661a4073
-SHA1: b17a86b902ea009599d5c726b0786f6c549393ca
-SHA256: 6f992cbfe2bb865ac6ed45464cee2bab5ac9ea2028f71812e950881300cfa8aa
+Filename: debs/com.catchmind.epop++_2.0.5_iphoneos-arm64e.deb
+Size: 343082
+MD5sum: b378d84f88ad18a2d2d892cb9d48657a
+SHA1: a6f70b7d9733d0bb7c238558ed65f93d469d4023
+SHA256: 1a86b4e8c83355de16a9653507d54fe3ba1f707ab6377fa63a88987f8f6766da
 Section: Tweaks
 Description: Premium subscription
 Author: catchmind
