@@ -71,6 +71,20 @@
             "views": [
                 {
                     "class": "DepictionLabelView",
+                    "text": "1.2.0",
+                    "useBottomMargin": false,
+                    "textColor": "#D1B06B"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "- Keeps existing purchases intact\n- Fixed paywalls not loading in some apps\n- Improved reliability",
+                    "useSpacing": true
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionLabelView",
                     "text": "1.1.1",
                     "useBottomMargin": false,
                     "textColor": "#D1B06B"
